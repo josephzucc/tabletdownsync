@@ -1,0 +1,15 @@
+m=$(ls *manual*.txt);
+read -p "Nombre manual (${m}) ? " file;
+if [[ "$file" == "" ]];then file=${m};fi;
+set -- "${file}";
+if (( $# > 0 ));then
+  i=1;file=${1};out="";
+  while [[ "$out" == "" ]];do
+    j=$((j+30));
+    cat ${file} | sed -n "${i},${j}p";
+    i=$((i+30));
+    read -p "out (${i}) [vacio] ? " out;
+    if [[ $out =~ ^[0-9]+$ ]];then i=$out;out="";fi;
+  done;
+else echo "no se ha indicado archivo a abrir";
+fi

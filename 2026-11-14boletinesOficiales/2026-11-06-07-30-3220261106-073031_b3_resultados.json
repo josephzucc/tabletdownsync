@@ -1,0 +1,318 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: \"periodo de prueba\" \"mismas funciones\" \"contrato anterior\"",
+  "filtros": {
+   "texto": "\"periodo de prueba\" \"mismas funciones\" \"contrato anterior\"",
+   "desde": "01/01/2020",
+   "jurisdiccion": [
+    "SOCIAL"
+   ],
+   "organo": [
+    "Tribunal Supremo",
+    "Tribunal Superior de Justicia"
+   ]
+  },
+  "fecha": "06/11/2026 07:30",
+  "aplicados_en_web": {
+   "jurisdiccion": [
+    "Social"
+   ],
+   "organo": [
+    "Tribunal Supremo",
+    "Tribunal Superior de Justicia"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "11801226",
+   "db": "AN",
+   "fecha": "20260618",
+   "titulo": "STSJ Madrid, a 18 de junio de 2026 - ROJ: STSJ M 8907/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/dc6f19bd7f87c3fca0a8778d75e36f0d/20260722",
+   "roj": "STSJ M 8907/2026",
+   "ecli": "ECLI:ES:TSJM:2026:8907",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "405/2026",
+    "Municipio": "Madrid",
+    "Ponente": "ELENA BURGOS HERRERA",
+    "Nº Recurso": "67/2026"
+   },
+   "resumen": "al 31 de agosto de 2018, manteniéndose las mismas condiciones de dedicación y retribución (doc. 1 actora y doc. 13 del expediente administrativo). La Universidad tramitó la baja de la demandante el 31 de agosto de 2018 por fin del periodo del contrato (doc. 14 del expediente administrativo). DUODÉCIMO:El 7 de junio de 2018 se formalizó un sexto contrato bajo la modalidad de Profesor Visitante Lector, con vigencia desde el 1 de septiembre de 2018 hasta el 31 de agosto de 2019, establecía una retribución mensual de 1.359,13 euros brutos, manteniéndose el resto de condiciones del contrato anterior (doc. 1 actora y doc. 15 del expediente administrativo). DÉCIMO TERCERO:El contrato anterior fue prorrogado del 1 de septiembre de 2019 al 31 de agosto de 2020, manteniéndose las mismas condiciones de dedicación",
+   "info": []
+  },
+  {
+   "ref": "11765970",
+   "db": "AN",
+   "fecha": "20260608",
+   "titulo": "STSJ Aragón, a 08 de junio de 2026 - ROJ: STSJ AR 942/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/43cd8bad3f526366a0a8778d75e36f0d/20260622",
+   "roj": "STSJ AR 942/2026",
+   "ecli": "ECLI:ES:TSJAR:2026:942",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "449/2026",
+    "Municipio": "Zaragoza",
+    "Ponente": "MARIANO FUSTERO GALVE",
+    "Nº Recurso": "312/2026"
+   },
+   "resumen": "Despido inexistente: válido desistimiento durante el período de prueba. Diferentes funciones asignadas respecto a las que lo fueron bajo la cobertura de contrato anterior. La condición de salud como indicio y su neutralización probatoria.",
+   "info": []
+  },
+  {
+   "ref": "11728280",
+   "db": "AN",
+   "fecha": "20260430",
+   "titulo": "STSJ Castilla y León, a 30 de abril de 2026 - ROJ: STSJ CL 1392/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/0e48ab960aec94efa0a8778d75e36f0d/20260520",
+   "roj": "STSJ CL 1392/2026",
+   "ecli": "ECLI:ES:TSJCL:2026:1392",
+   "sala": "",
+   "datos": {
+    "Municipio": "Valladolid",
+    "Ponente": "CARLOS GARCIA-GIRALDA CASAS",
+    "Nº Recurso": "649/2026"
+   },
+   "resumen": "Extinción de contrato por no superación del período de prueba, impugnado como despido. No discute irregularidad del período de prueba, decisión empresarial correcta, extinción procedente. Incorrecta formulación recurso suplicación.",
+   "info": []
+  },
+  {
+   "ref": "11489993",
+   "db": "AN",
+   "fecha": "20250918",
+   "titulo": "STSJ Andalucía, a 18 de septiembre de 2025 - ROJ: STSJ AND 15158/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/a852ae7f54fe77ffa0a8778d75e36f0d/20251103",
+   "roj": "STSJ AND 15158/2025",
+   "ecli": "ECLI:ES:TSJAND:2025:15158",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2587/2025",
+    "Municipio": "Sevilla",
+    "Ponente": "MARIA ELENA DIAZ ALONSO",
+    "Nº Recurso": "2398/2023"
+   },
+   "resumen": "objetivo debe entenderse lo dispuesto en el número 3 del citado artículo 14, pues, si el período de prueba tiene por fin acreditar la aptitud del trabajador para el puesto de trabajo a desempeñar, es lógico que se vede la posibilidad de pactar un nuevo período de prueba cuando ya se acreditó la idoneidad, durante la vigencia de un contrato anterior. El hecho de que el transcurso del período de prueba pueda suspenderse, durante ciertas situaciones de suspensión del contrato, revela, también que la norma quiere que el período de prueba sea eficaz a sus fines, lo que normalmente requerirá que transcurra por completo. El espíritu de la norma es evitar que, acreditada la idoneidad del operario, la empresa burle sus derechos o las normas que regulan la contratación temporal, estableciendo un período de prueba innecesario que sólo persigue el fraude de",
+   "info": []
+  },
+  {
+   "ref": "11418311",
+   "db": "AN",
+   "fecha": "20250711",
+   "titulo": "STSJ Aragón, a 11 de julio de 2025 - ROJ: STSJ AR 1147/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/b7ce36fb55bf6e8da0a8778d75e36f0d/20250827",
+   "roj": "STSJ AR 1147/2025",
+   "ecli": "ECLI:ES:TSJAR:2025:1147",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "545/2025",
+    "Municipio": "Zaragoza",
+    "Ponente": "MARIA JOSE HERNANDEZ VITORIA",
+    "Nº Recurso": "514/2025"
+   },
+   "resumen": "y, por tanto una única relación laboral, esto nos llevaría a la conclusión de la sentencia que ahora pende en suplicación: \"la rescisión acordada por no superación del período de prueba fue válidamente decidida por la empresa demandada DESARROLLO CUELLAR SAN JOSE SL dentro del plazo pactado por el convenio colectivo aplicable, computando que esta decisión se ha adoptado dentro del plazo previsto para el periodo de prueba, pues el acto venía desarrollando las mismas funciones y para la misma oficina\". DÉCIMO.-En cuanto al argumento de recurso referido a que la empresa no ha acreditado la falta de aptitud para rescindir el contrato por falta de superación del periodo de prueba, recordamos la jurisprudencia sentada en la materia. Dice al respecto la STS de 20/1/14 (RCUD 375/13), citada por el juzgador de instancia:",
+   "info": []
+  },
+  {
+   "ref": "11011012",
+   "db": "AN",
+   "fecha": "20240618",
+   "titulo": "STSJ Comunidad Valenciana, a 18 de junio de 2024 - ROJ: STSJ CV 3855/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/a704471c020d0c0ba0a8778d75e36f0d/20240826",
+   "roj": "STSJ CV 3855/2024",
+   "ecli": "ECLI:ES:TSJCV:2024:3855",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1814/2024",
+    "Municipio": "Valencia",
+    "Ponente": "ENCARNACION LORENZO HERNANDEZ",
+    "Nº Recurso": "804/2024"
+   },
+   "resumen": "Desde el día 7.11.2020 hasta el día 6.11.2021, por medio de prórroga de contrato de trabajo anterior, a jornada completa. 5.- Desde el día 7.11.20211, hasta la fecha de su despido, el día 6.11.2022, sin firmar prórroga alguna, estando trabajando y haciendo las mismas funciones para el consistorio sin suscribir contrato o prórroga alguna, si bien estando de alta en la Seguridad Social.\" Ese texto corresponde literalmente al contenido de su demanda y no viene respaldado por cita de documento concreto para ninguno de los ordinales en cuestión. Particularmente, por lo que se refiere al hecho quinto que postula, no solo sucede, -como en los hechos 1º a 4º-, que no identifica documentalmente los contratos en ellos referidos, sino que la pretensión declaratoria sobre las funciones de la actora en el periodo 7-11-2021 a su cese el 6-11-2022 resulta",
+   "info": []
+  },
+  {
+   "ref": "10856652",
+   "db": "AN",
+   "fecha": "20240209",
+   "titulo": "STSJ Cantabria, a 09 de febrero de 2024 - ROJ: STSJ CANT 50/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/5155926d77f08442a0a8778d75e36f0d/20240408",
+   "roj": "STSJ CANT 50/2024",
+   "ecli": "ECLI:ES:TSJCANT:2024:50",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "80/2024",
+    "Municipio": "Santander",
+    "Ponente": "MARIA JESUS FERNANDEZ GARCIA",
+    "Nº Recurso": "831/2023"
+   },
+   "resumen": "solicitud de proyectos de investigación.... De otra parte, el primer centro de trabajo se situó en Palma de Mallorca, mientras que el segundo sería el mismo, aunque fue autorizada a trabajar en Santander. Es decir, concluye que la demandante viene desempeñando, básicamente, las mismas funciones desde su contratación en 2019. Ahora consolida lo iniciado en la primera fase, pero las funciones son las mismas, semejantes, un desarrollo del periodo anterior. Incurriendo la demandada en fraude contractual porque la situación laboral de la actora fue, en esencia, la misma. Y, frente a la formulación de la actora de tres suplicos (INF, como investigadora; indefinida con cargo al proyecto; y, temporal con rango de investigador en prácticas) subsidiarios, opta por el segundo: indefinida con cargo al proyecto (segundo contrato) con finalización del contrato en 2025.",
+   "info": []
+  },
+  {
+   "ref": "10589328",
+   "db": "AN",
+   "fecha": "20230627",
+   "titulo": "STSJ Asturias, a 27 de junio de 2023 - ROJ: STSJ AS 1663/2023",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/a51580e83ff18b18a0a8778d75e36f0d/20230810",
+   "roj": "STSJ AS 1663/2023",
+   "ecli": "ECLI:ES:TSJAS:2023:1663",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "908/2023",
+    "Municipio": "Oviedo",
+    "Ponente": "MARIA DE LA ALMUDENA VEIGA VAZQUEZ",
+    "Nº Recurso": "693/2023"
+   },
+   "resumen": "DESPIDO OBJETIVO",
+   "info": []
+  },
+  {
+   "ref": "10543718",
+   "db": "AN",
+   "fecha": "20230519",
+   "titulo": "STSJ Madrid, a 19 de mayo de 2023 - ROJ: STSJ M 6360/2023",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/f33366343e894a0ba0a8778d75e36f0d/20230703",
+   "roj": "STSJ M 6360/2023",
+   "ecli": "ECLI:ES:TSJM:2023:6360",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "446/2023",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA OFELIA RUIZ PONTONES",
+    "Nº Recurso": "1353/2022"
+   },
+   "resumen": "resolución de 26 de noviembre de 2021 la Agencia Estatal Consejo Superior de Investigaciones Científicas, BOE 2 de diciembre, se publicó la relación de aspirantes que había superado el proceso selectivo, entre los que estaba la actora que con fecha 1 de febrero de 2022 suscribió contrato de trabajo fijo fuera de Convenio, como Doctora por haber superado la especialidad de \"señalización en cáncer e inflamación\". En el contrato no se estableció periodo de prueba y se fijó una retribución mensual de 2.740,60 €. QUINTO.- Desde 1 de febrero de 2022 la actora pasó de recibir un salario mensual sin pagas extras de 3.262,99 € a otro de 2.740,60 €. SEXTO.- Por resolución del CESIC de 6 de abril de 2016 sobre retribuciones aplicables al personal laboral de investigación y técnico, en relación",
+   "info": []
+  },
+  {
+   "ref": "10510295",
+   "db": "AN",
+   "fecha": "20230421",
+   "titulo": "STSJ Madrid, a 21 de abril de 2023 - ROJ: STSJ M 5043/2023",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/77289afb476b3f30a0a8778d75e36f0d/20230608",
+   "roj": "STSJ M 5043/2023",
+   "ecli": "ECLI:ES:TSJM:2023:5043",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "338/2023",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA OFELIA RUIZ PONTONES",
+    "Nº Recurso": "1238/2022"
+   },
+   "resumen": "fraude. El ET en el art- 14.1 establece: Será nulo el pacto que establezca un periodo de prueba cuando el trabajador haya ya desempeñado las mismas funciones con anterioridad en la empresa, bajo cualquier modalidad de contratación. En el contrato de trabajo celebrado bajo la modalidad de contrato de interinidad para sustituir a la persona que señala en el contrato de trabajo consta que el periodo de prueba es el establecido en el art. 32 del IV Convenio Colectivo. La trabajadora ha prestado servicios con anterioridad como vigilante de museos en el Museo Nacional de Arte Reina Sofía. El último contrato anterior al que ahora se enjuicia tuvo una duración del 18 /17/2019 a 18/05/2020. La parte recurrente sostiene que el periodo de prueba establecido en el contrato de 2022 es nulo y la parte recurrida",
+   "info": []
+  },
+  {
+   "ref": "10141656",
+   "db": "AN",
+   "fecha": "20220928",
+   "titulo": "STSJ Andalucía, a 28 de septiembre de 2022 - ROJ: STSJ AND 10896/2022",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/b352b6c0bcd598bda0a8778d75e36f0d/20221026",
+   "roj": "STSJ AND 10896/2022",
+   "ecli": "ECLI:ES:TSJAND:2022:10896",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2482/2022",
+    "Municipio": "Sevilla",
+    "Ponente": "MARIA ELENA DIAZ ALONSO",
+    "Nº Recurso": "3450/2020"
+   },
+   "resumen": "objetivo debeentenderse lo dispuesto en el número 3 del citado artículo 14, pues, si el período de prueba tiene por fin acreditar la aptitud del trabajador para el puesto de trabajo a desempeñar, es lógico que se vede la posibilidad de pactar un nuevo período de prueba cuando ya se acreditó la idoneidad, durante la vigencia de un contrato anterior. El hecho de que el transcurso del período de prueba pueda suspenderse, durante ciertas situaciones de suspensión del contrato, revela, también que la norma quiere que el período de prueba sea eficaz a sus fines, lo que normalmente requerirá que transcurra por completo. El espíritu de la norma es evitar que, acreditada la idoneidad del operario, la empresa burle sus derechos o las normas que regulan la contratación temporal, estableciendo un período de prueba innecesario que sólo",
+   "info": []
+  },
+  {
+   "ref": "10100790",
+   "db": "AN",
+   "fecha": "20220706",
+   "titulo": "STSJ Andalucía, a 06 de julio de 2022 - ROJ: STSJ AND 8550/2022",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/9f6e031c424def1ca0a8778d75e36f0d/20220916",
+   "roj": "STSJ AND 8550/2022",
+   "ecli": "ECLI:ES:TSJAND:2022:8550",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1290/2022",
+    "Municipio": "Málaga",
+    "Ponente": "JOSE LUIS BARRAGAN MORALES",
+    "Nº Recurso": "609/2022"
+   },
+   "resumen": "de actuación y desplazamiento y de realizar el trabajo con vehículo propio. El período de prueba fijado en el contrato era el de tres meses (doc. n° 31 del ramo del actor). En los posteriores contratos entre el actor y Conurma Ingenieros Consultores y Factoría de Gestión y Consultoría S.L. (que constituyen la UTE que se adjudica el servicio/contrata en el 2015 y en el 2019, con servicios idénticos en su esencia -servicio de apoyo al Instituto Municipal de la Vivienda en cuanto al \"Contrato Servicio de Inspección de las Barriadas, Promociones y Viviendas administradas por el Instituto Municipal de la Vivienda o de Propiedad Municipal\"-) pese a que se apoyan en distintos pliegos (con escasos matices diferenciados), el demandante sigue ejerciendo, en períodos concatenados, las mismas funciones que realizaba para la anterior empresa adjudicataria, Fernando Martí Tárrega, que se detallarán",
+   "info": []
+  },
+  {
+   "ref": "9958813",
+   "db": "AN",
+   "fecha": "20220222",
+   "titulo": "STSJ País Vasco, a 22 de febrero de 2022 - ROJ: STSJ PV 593/2022",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/db2d01a5b653c4b6/20220516",
+   "roj": "STSJ PV 593/2022",
+   "ecli": "ECLI:ES:TSJPV:2022:593",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "374/2022",
+    "Municipio": "Bilbao",
+    "Ponente": "PABLO SESMA DE LUIS",
+    "Nº Recurso": "1632/2021"
+   },
+   "resumen": "PRIMERO.- La demandada propone en el recurso que al apartado segundo del relato de hechos probados de la sentencia de instancia se añada que con la demandante concertó el 15 de Febrero de 2015 (quizá quiso indicar 2020) un contrato de obra o servicio tras la extinción del contrato anterior que la trabajadora tenía con Xupera S.A., anterior adjudicataria del servicio con el ayuntamiento de Baracaldo, abonándole esa empresa el oportuno finiquito.",
+   "info": []
+  },
+  {
+   "ref": "9779221",
+   "db": "AN",
+   "fecha": "20210921",
+   "titulo": "STSJ Comunidad Valenciana, a 21 de septiembre de 2021 - ROJ: STSJ CV 5150/2021",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/654d1e00a9d108ec/20211223",
+   "roj": "STSJ CV 5150/2021",
+   "ecli": "ECLI:ES:TSJCV:2021:5150",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2640/2021",
+    "Municipio": "Valencia",
+    "Ponente": "MARIA ISABEL SAIZ ARESES",
+    "Nº Recurso": "1401/2021"
+   },
+   "resumen": "a un supuesto en el que el trabajador despedido encuentra un trabajo diferente (otras funciones y categoría) que en el contrato anterior y en el presente caso estamos ante un supuesto en el que es despedido y contratado inmediatamente para el mismo trabajo y mismas funciones, por lo que considera que debe mantenerse la antigüedad inicial del trabajador desde el 6/2/2018. En cuanto al artículo 14-3 ET citado por la parte recurrente no resulta de aplicación al presente supuesto pues dicho precepto lo que contempla es que el periodo de prestación de servicios durante el periodo de prueba debe computarse a efectos de antigüedad en el caso de superación de tal periodo continuando el trabajador prestando servicios en la empresa y en este caso lo que debe determinarse es si la antigüedad del trabajador debe computarse como lo hace la Sentencia de instancia",
+   "info": []
+  },
+  {
+   "ref": "9537308",
+   "db": "AN",
+   "fecha": "20210201",
+   "titulo": "STSJ Canarias, a 01 de febrero de 2021 - ROJ: STSJ ICAN 268/2021",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/4c0c8901e929761b/20210524",
+   "roj": "STSJ ICAN 268/2021",
+   "ecli": "ECLI:ES:TSJICAN:2021:268",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "117/2021",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "YOLANDA ALVAREZ DEL VAYO ALONSO",
+    "Nº Recurso": "1054/2020"
+   },
+   "resumen": "título superior de que se trate. d) Salvo lo dispuesto en convenio colectivo, el periodo de prueba no podrá ser superior a un mes para los contratos en prácticas celebrados con trabajadores que estén en posesión de título de grado medio o de certificado de profesionalidad de nivel 1 o 2, ni a dos meses para los contratos en prácticas celebrados con trabajadores que estén en posesión de título de grado superior o de certificado de profesionalidad de nivel 3. e) La retribución del trabajador será la fijada en convenio colectivo para los trabajadores en prácticas, sin que, en su defecto, pueda ser inferior al sesenta o al setenta y cinco por ciento durante el primero o el segundo año de vigencia del contrato, respectivamente, del salario fijado en convenio para un trabajador que desempeñe el mismo o equivalente puesto de trabajo. f) Si al término del contrato",
+   "info": []
+  },
+  {
+   "ref": "9270018",
+   "db": "AN",
+   "fecha": "20200708",
+   "titulo": "STSJ Andalucía, a 08 de julio de 2020 - ROJ: STSJ AND 9190/2020",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/1f82ab9b11097708/20201007",
+   "roj": "STSJ AND 9190/2020",
+   "ecli": "ECLI:ES:TSJAND:2020:9190",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1282/2020",
+    "Municipio": "Málaga",
+    "Ponente": "MANUEL MARTIN HERNANDEZ-CARRILLO",
+    "Nº Recurso": "466/2020"
+   },
+   "resumen": "si el segundo período de prueba pactado en el último contrato temporal era válido pues en el penúltimo contrato, también para tareas de \" atención al cliente\", ya se había incorporado el período de prueba. O dicho con otras palabras, se plantea la cuestión de si es posible pactar más de un período de prueba en sucesivos contrato temporales. Y la respuesta es afirmativa en tanto que en definitiva, la interpretación correcta del último párrafo del art. 14.1 ET es que el pacto probatorio será nulo cuando el desempeño de las mismas funciones bajo cualquier modalidad contractual llegue a superar, singular o acumulativamente, el periodo total convencionalmente establecido para la prueba, siempre, claro está, que no quepa apreciar situaciones de fraude, discriminatorias o vulneradoras de derechos fundamentales. Y como tampoco en el presente caso puede apreciarse",
+   "info": []
+  }
+ ],
+ "extra": {
+  "total_web": "16 resultados paginas: 2"
+ }
+}

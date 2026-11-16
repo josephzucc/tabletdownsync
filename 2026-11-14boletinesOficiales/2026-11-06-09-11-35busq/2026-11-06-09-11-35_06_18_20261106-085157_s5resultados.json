@@ -1,0 +1,50 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: {\"recurso\": \"322/2024\", \"desde\": \"21/11/2024\", \"hasta\": \"21/11/2024\", \"jurisdiccion\": [\"SOCIAL\"], \"organo\": [\"Tribunal Superior de Justicia\"]}",
+  "filtros": {
+   "recurso": "322/2024",
+   "desde": "21/11/2024",
+   "hasta": "21/11/2024",
+   "jurisdiccion": [
+    "SOCIAL"
+   ],
+   "organo": [
+    "Tribunal Superior de Justicia"
+   ]
+  },
+  "fecha": "06/11/2026 08:51",
+  "aplicados_en_web": {
+   "jurisdiccion": [
+    "Social"
+   ],
+   "organo": [
+    "Tribunal Superior de Justicia"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "11147423",
+   "db": "AN",
+   "fecha": "20241121",
+   "titulo": "STSJ Madrid, a 21 de noviembre de 2024 - ROJ: STSJ M 14337/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/efc1a4989a007964a0a8778d75e36f0d/20241230",
+   "roj": "STSJ M 14337/2024",
+   "ecli": "ECLI:ES:TSJM:2024:14337",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "813/2024",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA DEL CARMEN PRIETO FERNANDEZ",
+    "Nº Recurso": "322/2024"
+   },
+   "resumen": "Tribunal Superior de Justicia de Madrid - Sección nº 04 de lo Social Domicilio: C/ General Martínez Campos, 27 , Planta 3 - 28010 Teléfono: 914931953 Fax: 914931959 34001360 NIG:28.079.00.4-2022/0110600 Procedimiento Recurso de Suplicación 322/2024.MH ORIGEN: Juzgado de lo Social nº 28 de Madrid Seguridad social 1013/2022 Materia:Incapacidad permanente Sentencia número: 813/2024 Ilmas. Sras Dña. MARÍA DEL CARMEN PRIETO FERNÁNDEZ Dña. MARÍA DEL AMPARO RODRIGUEZ RIQUELME Dña. MARÍA AURORA DE LA CUEVA ALEU En Madrid, a veintiuno de noviembre de dos mil veinticuatro habiendo visto en recurso de suplicación los presentes autos la Sección 4 de la Sala de lo",
+   "info": [],
+   "pdf": "pdf/STSJ_M_14337_2024.pdf",
+   "txt": "txt/STSJ_M_14337_2024.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

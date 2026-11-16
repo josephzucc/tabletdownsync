@@ -1,0 +1,35 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STS 6045/2025",
+  "filtros": {
+   "roj": "STS 6045/2025"
+  },
+  "fecha": "06/11/2026 08:37",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "11582730",
+   "db": "TS",
+   "fecha": "20251222",
+   "titulo": "STS, a 22 de diciembre de 2025 - ROJ: STS 6045/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/8867d849c75b5beba0a8778d75e36f0d/20260115",
+   "roj": "STS 6045/2025",
+   "ecli": "ECLI:ES:TS:2025:6045",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "1285/2025",
+    "Municipio": "Madrid",
+    "Ponente": "FELIX VICENTE AZON VILAS",
+    "Nº Recurso": "4968/2024"
+   },
+   "resumen": "Despido objetivo por ineptitud sobrevenida de la persona trabajadora. La empresa corre con la carga de la prueba de que no es posible su recolocación o que el coste de adaptación resulta excesivo. Aplica STJUE 18-01-2024, C-631-22. Reitera doctrina.",
+   "info": [],
+   "pdf": "pdf/STS_6045_2025.pdf",
+   "txt": "txt/STS_6045_2025.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

@@ -1,0 +1,923 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: covid \"accidente de trabajo\" persistente",
+  "filtros": {
+   "texto": "covid \"accidente de trabajo\" persistente",
+   "desde": "01/01/2022",
+   "jurisdiccion": [
+    "SOCIAL"
+   ],
+   "organo": [
+    "Tribunal Supremo",
+    "Tribunal Superior de Justicia"
+   ]
+  },
+  "fecha": "06/11/2026 07:36",
+  "aplicados_en_web": {
+   "jurisdiccion": [
+    "Social"
+   ],
+   "organo": [
+    "Tribunal Supremo",
+    "Tribunal Superior de Justicia"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "11911139",
+   "db": "AN",
+   "fecha": "20261020",
+   "titulo": "STSJ Cataluña, a 20 de octubre de 2026 - ROJ: STSJ CAT 8582/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/dc3785cae7a04739a0a8778d75e36f0d/20261103",
+   "roj": "STSJ CAT 8582/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:8582",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "5532/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "EMILIO GARCIA OLLES",
+    "Nº Recurso": "4341/2026"
+   },
+   "resumen": "a efectos de la incapacidad permanente total, absoluta o gran invalidez, por contingencias profesionales, es de 24.253,20 euros. Añade que las lesiones que padece la actora se derivan de accidente de trabajo (expediente administrativo). QUINTO.- La base reguladora anual de la prestación de incapacidad permanente derivada de enfermedad profesional o accidente de trabajo, de ser estimada la demanda, asciende a la cantidad de 24.253,20 euros (resolución del INSS de 4 de mayo de 2023). SEXTO.- La profesión habitual de la actora es la de auxiliar de enfermería (hecho conforme y expediente administrativo). SÉPTIMO.- La actora se infectó por Covid-19 en octubre de 2020, iniciando proceso de incapacidad temporal el día 26. La sintomatología inicial fue de cefaleas y artromialgias, siendo PCR positiva en fecha 24 de octubre",
+   "info": []
+  },
+  {
+   "ref": "11873767",
+   "db": "AN",
+   "fecha": "20260914",
+   "titulo": "STSJ Castilla-La Mancha, a 14 de septiembre de 2026 - ROJ: STSJ CLM 2322/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/5f2ae643a2ed2b76a0a8778d75e36f0d/20261005",
+   "roj": "STSJ CLM 2322/2026",
+   "ecli": "ECLI:ES:TSJCLM:2026:2322",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1529/2026",
+    "Municipio": "Albacete",
+    "Ponente": "ANTONIO CERVERA PELAEZ-CAMPOMANES",
+    "Nº Recurso": "1835/2025"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": []
+  },
+  {
+   "ref": "11893854",
+   "db": "AN",
+   "fecha": "20260914",
+   "titulo": "STSJ Madrid, a 14 de septiembre de 2026 - ROJ: STSJ M 11918/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/d5a8cab7c846d9eea0a8778d75e36f0d/20261021",
+   "roj": "STSJ M 11918/2026",
+   "ecli": "ECLI:ES:TSJM:2026:11918",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "539/2026",
+    "Municipio": "Madrid",
+    "Ponente": "SUSANA MARIA MOLINA GUTIERREZ",
+    "Nº Recurso": "196/2026"
+   },
+   "resumen": "causante de su proceso de incapacidad temporal de fecha 18 de marzo de 2020 como enfermedad profesional o subsidiariamente accidente de trabajo. El INSS requirió el 5 de agosto de 2024 a la demandante para que aportara el informe del servicio de prevención de riesgos laborales y salud laboral, así como el parte de accidente de trabajo. La Inspección Médica de la Comunidad de Madrid alegó el 7 de agosto de 2024 que el proceso de IT de 18 de marzo de 2020 se considera contingencia común y la Mutua Umivale Activa alegó el mismo día que el proceso de baja del 18/03/2020 al 17/11/2021 estaba asumido como accidente de trabajo por covid-19, asimilada la prestación a enfermedad profesional. La médica evaluadora emitió informe médico para determinación de contingencia el 12 de septiembre de 2024. El",
+   "info": []
+  },
+  {
+   "ref": "11836420",
+   "db": "AN",
+   "fecha": "20260728",
+   "titulo": "STSJ Madrid, a 28 de julio de 2026 - ROJ: STSJ M 10426/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/2e5df4b9d30cc41ba0a8778d75e36f0d/20260902",
+   "roj": "STSJ M 10426/2026",
+   "ecli": "ECLI:ES:TSJM:2026:10426",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "633/2026",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA DEL AMPARO RODRIGUEZ RIQUELME",
+    "Nº Recurso": "186/2026"
+   },
+   "resumen": "no consta parte de accidente de trabajo ni informe del Servicio de Prevención de Riesgos Laborales, esa falta de emisión del informe que es obligatorio no puede perjudicar al trabajador ni impedir por ello calificar el periodo de IT como derivado de enfermedad de trabajo ( art. 156 e) LGSS ).» Este pronunciamiento fue íntegramente confirmado por la Sentencia del Tribunal Superior de Justicia de Madrid nº 206/2023, de 20 de octubre , que rechazó la impugnación de la empresa SANITAS afirmando en su Fundamento Jurídico Tercero: «Idéntico signo desestimatorio tiene el motivo 2º en el que se denuncia la vulneración del art. 9 del precitado RDL en cuanto se fundamenta en un dato fáctico -la inexistencia de caso positivo previo por Covid-19",
+   "info": []
+  },
+  {
+   "ref": "11857450",
+   "db": "AN",
+   "fecha": "20260727",
+   "titulo": "STSJ Cataluña, a 27 de julio de 2026 - ROJ: STSJ CAT 7076/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/5d247c4458c2e047a0a8778d75e36f0d/20260922",
+   "roj": "STSJ CAT 7076/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:7076",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "4486/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "GREGORIO RUIZ RUIZ",
+    "Nº Recurso": "1168/2026"
+   },
+   "resumen": "y como se ha visto, se estima la demanda presentada por Mutua Intercomarcal, y se desestima la demanda presentada por la Sª. , para dejar sin efecto la resolución del I.N.S.S. de 16/6/2023 que la había reconocido en situación de incapacidad permanente en grado de total para la profesión habitual de enfermera derivada de accidente de trabajo, y declarar a la Sª. no afecta de una situación de incapacidad permanente en grado alguno de incapacidad. Se dirá en la sentencia, dicho sea en estricto resumen de sus consideraciones, que \"....el INSS reconoció....la incapacidad permanente total considerando que la actora tenía covid persistente con déficits cognitivos leves persistentes en tratamiento rehabilitador con mialgias y artralgias, teniendo en cuenta que su profesión era la de enfermera y que por ello existía una limitación para el desempeño de su profesión; aunque determinó",
+   "info": []
+  },
+  {
+   "ref": "11819808",
+   "db": "AN",
+   "fecha": "20260709",
+   "titulo": "STSJ Castilla y León, a 09 de julio de 2026 - ROJ: STSJ CL 3039/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/42d1498b0c134b9ba0a8778d75e36f0d/20260812",
+   "roj": "STSJ CL 3039/2026",
+   "ecli": "ECLI:ES:TSJCL:2026:3039",
+   "sala": "",
+   "datos": {
+    "Municipio": "Valladolid",
+    "Ponente": "EMILIO ALVAREZ ANLLO",
+    "Nº Recurso": "695/2025"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": []
+  },
+  {
+   "ref": "11837644",
+   "db": "AN",
+   "fecha": "20260706",
+   "titulo": "STSJ Andalucía, a 06 de julio de 2026 - ROJ: STSJ AND 10166/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/db20ce711ba12afba0a8778d75e36f0d/20260903",
+   "roj": "STSJ AND 10166/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:10166",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1733/2026",
+    "Municipio": "Granada",
+    "Ponente": "BEATRIZ PEREZ HEREDIA",
+    "Nº Recurso": "1623/2025"
+   },
+   "resumen": "los siguientes: II.- El actor inició proceso de incapacidad temporal por enfermedad común el 6 de febrero de 2017, con un diagnóstico de trastorno adaptativo mixto, hasta el 27 de abril de 2018, en que se le expidió el alta mediante resolución del INSS, tras informe propuesta del E.V.I. de 25 de abril de 2018 (folio 171). III.- Iniciado expediente de determinación de contingencia de la baja anterior, a instancia del actor el 21 de diciembre de 2017, al nº 2017/0416, que alegaba (folio 120 Vto.) que la contingencia a considerar debía de ser accidente de trabajo, por la situación de estrés laboral propiciada por la sobrecarga de trabajo, se dictó resolución por el INSS el 27 de febrero de 2018 (folio 155), determinándose que el proceso de incapacidad temporal iniciado por el actor el 6 de febrero de 2017 era de etiología común, tras",
+   "info": []
+  },
+  {
+   "ref": "11806528",
+   "db": "AN",
+   "fecha": "20260629",
+   "titulo": "STSJ Castilla y León, a 29 de junio de 2026 - ROJ: STSJ CL 2811/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/d2a213983fafa843a0a8778d75e36f0d/20260727",
+   "roj": "STSJ CL 2811/2026",
+   "ecli": "ECLI:ES:TSJCL:2026:2811",
+   "sala": "",
+   "datos": {
+    "Municipio": "Valladolid",
+    "Ponente": "JOSE MANUEL RIESCO IGLESIAS",
+    "Nº Recurso": "3109/2024"
+   },
+   "resumen": "INCAPACIDAD TEMPORAL",
+   "info": []
+  },
+  {
+   "ref": "11807364",
+   "db": "AN",
+   "fecha": "20260618",
+   "titulo": "STSJ Andalucía, a 18 de junio de 2026 - ROJ: STSJ AND 9451/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/2c645b6d24698ff0a0a8778d75e36f0d/20260728",
+   "roj": "STSJ AND 9451/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:9451",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1509/2026",
+    "Municipio": "Granada",
+    "Ponente": "MARIA DE LAS NIEVES BLANCA SANCHO VILLANOVA",
+    "Nº Recurso": "1703/2025"
+   },
+   "resumen": "estimó la demanda formulada por el demandante en proceso de conflicto colectivo para el abono a los trabajadores de lacesta de Navidad. TERCERO.- D. ha estado en situación de incapacidad temporal en los siguientes periodos: De 15/04/2019 a 06/10/2020. Osteoartrosis de cadera. Contingencia Enfermedad Común. De 31/12/2020 a 08/01/2021. COVID. Contingencia Enfermedad Común. De 07/06/2021 a 16/06/2021. COVID. Contingencia Enfermedad Común. De 23/12/2021 a 09/01/2022. COVID. Contingencia Enfermedad Común. De 26/01/2022 a 28/06/2022. Distimia. Contingencia Enfermedad Común. De 03/11/2022 a 03/02/2023. Dorsalgia. Contingencia Accidente de Trabajo en virtud de sentencia del Juzgado de lo Social nº 3",
+   "info": []
+  },
+  {
+   "ref": "11787853",
+   "db": "AN",
+   "fecha": "20260618",
+   "titulo": "STSJ Galicia, a 18 de junio de 2026 - ROJ: STSJ GAL 3977/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/67e45ee7bd296a59a0a8778d75e36f0d/20260710",
+   "roj": "STSJ GAL 3977/2026",
+   "ecli": "ECLI:ES:TSJGAL:2026:3977",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2877/2026",
+    "Municipio": "Coruña (A)",
+    "Ponente": "RAQUEL MARIA NAVEIRO SANTOS",
+    "Nº Recurso": "4538/2025"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": []
+  },
+  {
+   "ref": "11801079",
+   "db": "AN",
+   "fecha": "20260617",
+   "titulo": "STSJ Madrid, a 17 de junio de 2026 - ROJ: STSJ M 8763/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/3e2c437bbb168902a0a8778d75e36f0d/20260722",
+   "roj": "STSJ M 8763/2026",
+   "ecli": "ECLI:ES:TSJM:2026:8763",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "628/2026",
+    "Municipio": "Madrid",
+    "Ponente": "RAQUEL VICENTE ANDRES",
+    "Nº Recurso": "119/2026"
+   },
+   "resumen": "hombro derecho; policontusiones; cervicalgia-dorsalgia postraumática; gonalgia derecha en accidente de trabajo in itinere por accidente de tráfico sufrido el día 04/10/2010\". Las limitaciones reflejadas fueron \"Limitación de la movilidad de hombro derecho (dominante) en menos del 50%. Cicatrices\" (folio 109/128 Expediente Administrativo). TERCERO.- El 11 de mayo de 2023 la entidad gestora resolvió aprobar pensión de Incapacidad Permanente a la actora, en el grado de Total para el ejercicio de su profesión habitual con fecha de efectos del 7 de marzo de 2023 (folios 57 y 59/128 Expediente Administrativo). Se recogía como cuadro residual en el Dictamen Propuesta del Equipo de Valoración de Incapacidades de 7/3/23: \"HD C4-C5 y C6-C7. Cervicalgia irradiada por el brazo derecho con pares TESIAS. IQ PREVISTA HOY 7-FEBRERO-",
+   "info": []
+  },
+  {
+   "ref": "11793120",
+   "db": "AN",
+   "fecha": "20260615",
+   "titulo": "STSJ Castilla y León, a 15 de junio de 2026 - ROJ: STSJ CL 2505/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/8377a5b92199e84da0a8778d75e36f0d/20260715",
+   "roj": "STSJ CL 2505/2026",
+   "ecli": "ECLI:ES:TSJCL:2026:2505",
+   "sala": "",
+   "datos": {
+    "Municipio": "Valladolid",
+    "Ponente": "JOSE MANUEL MARTINEZ ILLADE",
+    "Nº Recurso": "840/2026"
+   },
+   "resumen": "RESOLUCION CONTRATO",
+   "info": []
+  },
+  {
+   "ref": "11815558",
+   "db": "AN",
+   "fecha": "20260609",
+   "titulo": "STSJ Castilla y León, a 09 de junio de 2026 - ROJ: STSJ CL 2988/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/6e5a24a3263a7268a0a8778d75e36f0d/20260806",
+   "roj": "STSJ CL 2988/2026",
+   "ecli": "ECLI:ES:TSJCL:2026:2988",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "332/2026",
+    "Municipio": "Burgos",
+    "Ponente": "MARIA DEL MAR NAVARRO MENDILUCE",
+    "Nº Recurso": "915/2025"
+   },
+   "resumen": "INCAPACIDAD TEMPORAL",
+   "info": []
+  },
+  {
+   "ref": "11763223",
+   "db": "AN",
+   "fecha": "20260528",
+   "titulo": "STSJ Cataluña, a 28 de mayo de 2026 - ROJ: STSJ CAT 4618/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/f02ba3812ad3b265a0a8778d75e36f0d/20260619",
+   "roj": "STSJ CAT 4618/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:4618",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "3170/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "MIGUEL ANGEL PURCALLA BONILLA",
+    "Nº Recurso": "5650/2025"
+   },
+   "resumen": "especificado confirmado por PCR/TAR positivo el 13 de abril de 2020 derivado de accidente de trabajo . El 6 de julio de 2020 inició nueva incapacidad temporal por gammapatía monoclonal . El 29 de marzo de 2021 el SGAM emitió un informe en el que propuso la continuación de la incapacidad temporal con los diagnósticos de infección covid 19 en seguimiento y GMSI igg kappa sin aparentes signos CRAB en seguimiento . Por Sentencia del Juzgado Social nº 12 de Barcelona se reconoció este proceso de incapacidad temporal como derivado de accidente de trabajo porque la imposibilidad para el trabajo derivada de la infección por el virus sarscov 2 se mantuvo con virtualidad incapacitante durante el mismo tiempo y motivó el diagnóstico de covid persistente . Por Sentencia del Juzgado Social 7 se le denegó una incapacidad permanente total para su profesión habitual por considerar que",
+   "info": []
+  },
+  {
+   "ref": "11762915",
+   "db": "AN",
+   "fecha": "20260521",
+   "titulo": "STSJ Castilla-La Mancha, a 21 de mayo de 2026 - ROJ: STSJ CLM 1399/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/09d64dbe4d4bb38aa0a8778d75e36f0d/20260619",
+   "roj": "STSJ CLM 1399/2026",
+   "ecli": "ECLI:ES:TSJCLM:2026:1399",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "947/2026",
+    "Municipio": "Albacete",
+    "Ponente": "ETHEL HONRUBIA GOMEZ",
+    "Nº Recurso": "462/2025"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": []
+  },
+  {
+   "ref": "11737241",
+   "db": "AN",
+   "fecha": "20260506",
+   "titulo": "STSJ Cataluña, a 06 de mayo de 2026 - ROJ: STSJ CAT 3682/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/720ae2f064cad6a1a0a8778d75e36f0d/20260528",
+   "roj": "STSJ CAT 3682/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:3682",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2637/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "AMPARO ILLAN TEBA",
+    "Nº Recurso": "104/2026"
+   },
+   "resumen": "núm. en Régimen de General, su profesión habitual Auxiliar de enfermería. Por Resolución de fecha 15/10/2021 de contingencia se declaró que el proceso de incapacidad temporal iniciado el 26/10/2020 deriva de accidente de trabajo. (Expediente administrativo). 2.-En fecha 06/09/2022 se le notificó la resolución dictada por la Dirección Provincial del INSS sobre incapacidad permanente por la que se le declaraba no encontrarse en ningún grado de incapacidad permanente. No estando conforme con la resolución, la parte actora interpuso la correspondiente reclamación previa siendo denegada en fecha 25/04/2023 (Expediente administrativo) 3.-El dictamen médico emitido por el ICAM de fecha 0808/2022 le reconoce las siguientes lesiones: SÍNDROME POST COVID SIN LIMITACIÓN FUNCIONAL VALORABLE TRASTORNO ADAPTATIVO SIN LIMITACIÓN",
+   "info": []
+  },
+  {
+   "ref": "11741430",
+   "db": "AN",
+   "fecha": "20260506",
+   "titulo": "STSJ La Rioja, a 06 de mayo de 2026 - ROJ: STSJ LR 168/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/1e5c88b96f9167d8a0a8778d75e36f0d/20260601",
+   "roj": "STSJ LR 168/2026",
+   "ecli": "ECLI:ES:TSJLR:2026:168",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "40/2026",
+    "Municipio": "Logroño",
+    "Ponente": "CARLOS GONZALEZ GONZALEZ",
+    "Nº Recurso": "40/2026"
+   },
+   "resumen": "RECARGO DE ACCIDENTE",
+   "info": []
+  },
+  {
+   "ref": "11728758",
+   "db": "AN",
+   "fecha": "20260423",
+   "titulo": "STSJ Andalucía, a 23 de abril de 2026 - ROJ: STSJ AND 5561/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/c10f6dd5c6b02600a0a8778d75e36f0d/20260521",
+   "roj": "STSJ AND 5561/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:5561",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "969/2026",
+    "Municipio": "Granada",
+    "Ponente": "BEATRIZ PEREZ HEREDIA",
+    "Nº Recurso": "1030/2025"
+   },
+   "resumen": "Recargo de prestaciones: Incumplimiento de normas de prevención de riesgos. Evaluación de riesgos psicosociales. Supuestos de recargo de prestaciones: fijación del porcentaje.",
+   "info": []
+  },
+  {
+   "ref": "11702832",
+   "db": "AN",
+   "fecha": "20260414",
+   "titulo": "STSJ País Vasco, a 14 de abril de 2026 - ROJ: STSJ PV 1271/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/c22db5038cb7f425a0a8778d75e36f0d/20260428",
+   "roj": "STSJ PV 1271/2026",
+   "ecli": "ECLI:ES:TSJPV:2026:1271",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "859/2026",
+    "Municipio": "Bilbao",
+    "Ponente": "JUAN CARLOS BENITO-BUTRON OCHOA",
+    "Nº Recurso": "349/2026"
+   },
+   "resumen": "87, entre otras). La Incapacidad Permanente Absoluta ha sido definida por nuestro ordenamiento jurídico como la situación de quien por accidente o enfermedad, presenta unas alteraciones en su salud de carácter permanente que le inhabilitan para el ejercicio de cualquier oficio profesional, sin que pueda tenerse en cuenta dificultades de obtención de empleo por razón de una falta de conocimientos o preparación, pues las limitaciones para el trabajo han de provenir siempre de esa enfermedad o accidente ( S.T.S. de 23-6-86). Del mismo modo no cabe equiparar la inhabilidad para el trabajo con la imposibilidad material y concreta de efectuar cualquier labor, pues esa ausencia de habilidad ha de entenderse como una pérdida de aptitud psicofísica necesaria para poder desarrollar una profesión en condiciones de rentabilidad empresarial y por tanto",
+   "info": []
+  },
+  {
+   "ref": "11727653",
+   "db": "AN",
+   "fecha": "20260409",
+   "titulo": "STSJ Andalucía, a 09 de abril de 2026 - ROJ: STSJ AND 5531/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/51a6cc9d46231e6da0a8778d75e36f0d/20260520",
+   "roj": "STSJ AND 5531/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:5531",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "885/2026",
+    "Municipio": "Granada",
+    "Ponente": "BENITO RABOSO DEL AMO",
+    "Nº Recurso": "815/2025"
+   },
+   "resumen": "Incapacidad permanente total, parcial. RETA.",
+   "info": []
+  },
+  {
+   "ref": "11701330",
+   "db": "AN",
+   "fecha": "20260406",
+   "titulo": "STSJ Castilla y León, a 06 de abril de 2026 - ROJ: STSJ CL 1224/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/f5156e9256451350a0a8778d75e36f0d/20260427",
+   "roj": "STSJ CL 1224/2026",
+   "ecli": "ECLI:ES:TSJCL:2026:1224",
+   "sala": "",
+   "datos": {
+    "Municipio": "Valladolid",
+    "Ponente": "ALFONSO GONZALEZ GONZALEZ",
+    "Nº Recurso": "2613/2025"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": []
+  },
+  {
+   "ref": "11712127",
+   "db": "AN",
+   "fecha": "20260326",
+   "titulo": "STSJ Andalucía, a 26 de marzo de 2026 - ROJ: STSJ AND 4510/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/a186384c2d503be1a0a8778d75e36f0d/20260507",
+   "roj": "STSJ AND 4510/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:4510",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1011/2026",
+    "Municipio": "Sevilla",
+    "Ponente": "MARIA DEL CARMEN PEREZ SIBON",
+    "Nº Recurso": "617/2024"
+   },
+   "resumen": "de trabajo, y por tanto, siendo recaída del mismo, debe arrastrar su misma contingencia profesional. Para decidirlo debemos tener en cuenta como antecedentes acreditados, que la demandante presta servicios para la Consejería de Educación y Deportes, en el colegio de educación infantil y primaria de Rio Piedras de Lepe, con categoría profesional de personal asistente de restauración. Fue dada de baja médica el 11-1-2021 con diagnóstico de covid-19, derivada de accidente de trabajo, recibiendo alta médica el 25 de febrero de 2021 por curación/mejoría, y cursando nueva baja el 26-2-2021 por enfermedad común con el diagnóstico de \"hígado graso (degeneración grasa) de hígado, no clasificada bajo otro concepto\". La recurrente sostiene que su dolencia deriva de la enfermedad de COVID 19 que padeció y por la que se emitió la primera baja",
+   "info": []
+  },
+  {
+   "ref": "11700604",
+   "db": "AN",
+   "fecha": "20260324",
+   "titulo": "STSJ Galicia, a 24 de marzo de 2026 - ROJ: STSJ GAL 1999/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/e6ab0ab1940b5088a0a8778d75e36f0d/20260427",
+   "roj": "STSJ GAL 1999/2026",
+   "ecli": "ECLI:ES:TSJGAL:2026:1999",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1394/2026",
+    "Municipio": "Coruña (A)",
+    "Ponente": "EMILIO FERNANDEZ DE MATA",
+    "Nº Recurso": "3507/2025"
+   },
+   "resumen": "ACCIDENTE",
+   "info": []
+  },
+  {
+   "ref": "11679563",
+   "db": "AN",
+   "fecha": "20260323",
+   "titulo": "STSJ Cataluña, a 23 de marzo de 2026 - ROJ: STSJ CAT 2236/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/382e39a59e2d0c7da0a8778d75e36f0d/20260409",
+   "roj": "STSJ CAT 2236/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:2236",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1769/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "RAUL URIA FERNANDEZ",
+    "Nº Recurso": "235/2026"
+   },
+   "resumen": "con fecha de nacimiento /1985, sufrió un accidente de trabajo en fecha 20/03/2020. Su profesión habitual es la de Enfermera. Inició un proceso de IT el 20/03/2020 y el 15/09/2021 se le extinguió por agotar el plazo máximo de la prestación. Por resolución del INSS de fecha 08/06/2022 se declaró que el proceso de IT de fecha 20/03/2020 por infección por coronavirus no especificado deriva de accidente de trabajo, (doc nº 23 ramo de prueba actora) SEGUNDO.- El INSS en resolución de fecha 20/01/2022 resolvió \"1. No declarar a en grado alguno de incapacidad permanente, derivada de accidente de trabajo, y denegar el derecho a prestaciones económicas porque no reúne el requisito de incapacidad permanente. 2. Extinguir la situación de incapacidad temporal con efectos desde el día de esta",
+   "info": []
+  },
+  {
+   "ref": "11708376",
+   "db": "AN",
+   "fecha": "20260305",
+   "titulo": "STSJ Andalucía, a 05 de marzo de 2026 - ROJ: STSJ AND 3732/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/8280f2d0fd32af17a0a8778d75e36f0d/20260505",
+   "roj": "STSJ AND 3732/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:3732",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "597/2026",
+    "Municipio": "Granada",
+    "Ponente": "FERNANDO OLIET PALA",
+    "Nº Recurso": "527/2025"
+   },
+   "resumen": "trabajo con derecho al abono de la prestación correspondiente con cargo a la Mutua Fremap sin perjuicio de las responsabilidades legales del INSS y la TGSS se alza en suplicación dicha Mutua, habiendo sido el recurso impugnado de contrario por parte de la inicialmente codemandada Mutua Universal -Mutua Colaboradora con la Seguridad Social número 10, y que en fallo de la sentencia quedo absuelta por desistimiento, y por la trabajadora. El primer motivo, fundamentado en el apartado b) del artículo 193 de la Ley de la Jurisdicción Social, persigue la revisión del hecho probado sexto, con apoyo en el parte DELTA del accidente de trabajo obrante al folio 33 vuelto de las actuaciones, y en el Oficio Informe de la Inspección de Trabajo de fecha 29 de Octubre de 2021, unido a las actuaciones en contestación al requerimiento del Juzgado, en el que se señala que la base de",
+   "info": []
+  },
+  {
+   "ref": "11630776",
+   "db": "AN",
+   "fecha": "20260210",
+   "titulo": "STSJ País Vasco, a 10 de febrero de 2026 - ROJ: STSJ PV 517/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/c4ab9995f0e436b0a0a8778d75e36f0d/20260224",
+   "roj": "STSJ PV 517/2026",
+   "ecli": "ECLI:ES:TSJPV:2026:517",
+   "sala": "",
+   "datos": {
+    "Municipio": "Bilbao",
+    "Ponente": "MAITE ALEJANDRO ARANZAMENDI",
+    "Nº Recurso": "2189/2025"
+   },
+   "resumen": "Dª se reincorporó a su puesto de trabajo, en el que permanecía en el momento de celebrarse el acto de la vista oral, realizando las tareas propias de su profesión de enfermera. CUARTO.-Mientras permanecía en situación de incapacidad temporal, Dª inició un procedimiento administrativo para solicitar que se declarara que el periodo de incapacidad temporal que había iniciado el 21 de Marzo del 2.022 era imputable a la contingencia de accidente de trabajo, siendo resuelto el mismo mediante resolución del Instituto Nacional de la Seguridad Social de 15 de Mayo del 2.024, en la que se declaró que el periodo de incapacidad temporal que Dª inició el 21 de Marzo del 2.022 era imputable a la contingencia de accidente de trabajo. Esta resolución es firme, pues notificada a las partes no fue recurrida por ninguna de ellas. QUINTO.-",
+   "info": []
+  },
+  {
+   "ref": "11670383",
+   "db": "AN",
+   "fecha": "20260205",
+   "titulo": "STSJ Andalucía, a 05 de febrero de 2026 - ROJ: STSJ AND 2120/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/a014871b37540513a0a8778d75e36f0d/20260327",
+   "roj": "STSJ AND 2120/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:2120",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "360/2026",
+    "Municipio": "Sevilla",
+    "Ponente": "AURORA BARRERO RODRIGUEZ",
+    "Nº Recurso": "3574/2023"
+   },
+   "resumen": "36 vuelto y 37) y se incluye parte de investigación de accidente de trabajo, incluyendo como descripción del accidente \"trabajo con exposición laboral frente a COVID+\" , siendo la forma de la lesión \"contacto con sustancias peligrosas -a través de la nariz, la boca, por inhalación\". De igual modo se indica que no consta entrega de EPIS. CUARTO.- La Resolución del INSS de fecha de salida de 14.9.2022 reconoció a la actora la incapacidad permanente total para la profesión habitual, con una base reguladora del 75%, 1135,13 euros (folios 42 y 43). QUINTO.- La actora padece STC bilateral de grado intenso. Rizartrosis derecha. COVID persistente en seguimiento por MI. Cefalea de característica tensional tras infección COVID, en seguimiento por neurología y con indicación de acupuntura por c. dolor. Queratitis herpética OI desde noviembre 21. Sd. Neurasteniforme (Dictamen",
+   "info": []
+  },
+  {
+   "ref": "11614494",
+   "db": "AN",
+   "fecha": "20260203",
+   "titulo": "STSJ País Vasco, a 03 de febrero de 2026 - ROJ: STSJ PV 384/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/f3325ff4e0fa5659a0a8778d75e36f0d/20260211",
+   "roj": "STSJ PV 384/2026",
+   "ecli": "ECLI:ES:TSJPV:2026:384",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "310/2026",
+    "Municipio": "Bilbao",
+    "Ponente": "JUAN CARLOS BENITO-BUTRON OCHOA",
+    "Nº Recurso": "2612/2025"
+   },
+   "resumen": "Doña cursó periodo de incapacidad temporal el 9 de noviembre de 2020 con el diagnóstico de Covid-19, emitiéndose el 19 de abril de 2022 alta médica por el Instituto Nacional de la Seguridad Social, con efectos del 21 de abril de 2022. En virtud de Sentencia 200/2022, de 17 de junio, dictada por el Juzgado de lo social 3 de Donostia en autos 366/2022, con estimación de la demanda se declaró indebida y no ajustada a derecho el alta de 19 de abril de 2022. TERCERO.-FREMAP adoptó el acuerdo por el que se le reconocía el derecho al subsidio económico como derivado de situación asimilada a accidente de trabajo, exclusivamente en relación con la prestación económica de incapacidad temporal iniciada el 9 de noviembre de 2020, en aplicación de lo previsto en el artículo Quinto del Real Decreto-ley 6/2020, de 10 de marzo, emitiéndose",
+   "info": []
+  },
+  {
+   "ref": "11620792",
+   "db": "AN",
+   "fecha": "20260129",
+   "titulo": "STSJ Andalucía, a 29 de enero de 2026 - ROJ: STSJ AND 507/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/60a28ed4f6b83dfca0a8778d75e36f0d/20260217",
+   "roj": "STSJ AND 507/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:507",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "268/2026",
+    "Municipio": "Granada",
+    "Ponente": "FERNANDO OLIET PALA",
+    "Nº Recurso": "207/2025"
+   },
+   "resumen": "siendo la cuestión controvertida si la situación de incapacidad temporal iniciada por la actora el 19 de marzo de 2021 se debe reputar como accidente de trabajo al considerarlo derivado de agresiones e incidentes violentos padecidos por la demandante con ocasión de la realización de su trabajo, como de acuerdo con la doctrina, de que las enfermedades comunes que contraiga el trabajador con motivo de la realización de su trabajo, no incluidas en la lista de enfermedades profesionales, tienen la consideración de accidente de trabajo, siempre que se acredite fehacientemente la relación causa efecto entre la realización del trabajo y que la aparición posterior de la enfermedad tiene como causa exclusiva la ejecución del mismo, la prueba practicada por la parte actora revela que la única o principal causa del deterioro de su salud que dio lugar a la baja de 19 de marzo de 2021 es su",
+   "info": []
+  },
+  {
+   "ref": "11615538",
+   "db": "AN",
+   "fecha": "20260129",
+   "titulo": "STSJ Navarra, a 29 de enero de 2026 - ROJ: STSJ NA 66/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/836757cb3c24328fa0a8778d75e36f0d/20260212",
+   "roj": "STSJ NA 66/2026",
+   "ecli": "ECLI:ES:TSJNA:2026:66",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "48/2026",
+    "Municipio": "Pamplona/Iruña",
+    "Ponente": "CARLOS GONZALEZ GONZALEZ",
+    "Nº Recurso": "413/2025"
+   },
+   "resumen": "inició en fecha 09.12.2021 un proceso de IT derivado de Accidente de trabajo que concluyó con la emisión del alta médica del INSS en fecha 22/12/2022. El trabajador impugnó judicialmente el alta médica expedida por la entidad gestora, dictándose sentencia del Juzgado de lo social nº 1 de Pamplona, declarando indebida el alta médica acordada por la Dirección Provincial del INSS con efectos de 22/12/22 declarando el derecho del actor a continuar en situación de IT derivada de AT, hasta que concurra causa legal de extinción y a la Mutua a continuar con el abono de la prestación. En la indicada sentencia se declara probado que el actor estaba recibiendo tratamiento médico con finalidad curativa y que, según el perito, la situación puede mejorar con la intensificación del tratamiento broncodilatador. TERCERO.- Incoado el indicado expediente de invalidez, el dictamen del Equipo",
+   "info": []
+  },
+  {
+   "ref": "11620906",
+   "db": "AN",
+   "fecha": "20260115",
+   "titulo": "STSJ Andalucía, a 15 de enero de 2026 - ROJ: STSJ AND 744/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/ef40c96e6ff85c8ba0a8778d75e36f0d/20260217",
+   "roj": "STSJ AND 744/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:744",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "87/2026",
+    "Municipio": "Granada",
+    "Ponente": "MARIA MILAGROSA VELASTEGUI GALISTEO",
+    "Nº Recurso": "206/2025"
+   },
+   "resumen": "de Riesgos laborales y Salud Laboral, se considerarán derivadas de accidente de trabajo, al entender cumplidos los requisitos exigidos en el artículo 156.2.e) del texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre. 2. El contagio y padecimiento de la enfermedad se acreditará mediante el correspondiente parte de accidente de trabajo que deberá haberse expedido dentro del mismo periodo de referencia. 3. En los casos de fallecimiento, se considerará que la causa es accidente de trabajo siempre que el fallecimiento se haya producido dentro de los cinco años siguientes al contagio de la enfermedad y derivado de la misma, de conformidad con lo dispuesto en el artículo 217.2 del texto refundido de la Ley General de la Seguridad Social. Finalmente, el Real Decreto Ley 3/21",
+   "info": []
+  },
+  {
+   "ref": "11872922",
+   "db": "AN",
+   "fecha": "20260114",
+   "titulo": "STSJ Andalucía, a 14 de enero de 2026 - ROJ: STSJ AND 11653/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/d4ec6927d633d1b8a0a8778d75e36f0d/20261002",
+   "roj": "STSJ AND 11653/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:11653",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "5/2026",
+    "Municipio": "Sevilla",
+    "Ponente": "MARIA LAURA VEGA PEDRAZA",
+    "Nº Recurso": "258/2024"
+   },
+   "resumen": "de base de datos de los ensayos propuestos · Gestión de contratos de Ensayos · Gestión de citaciones y pruebas en pacientes · Estudio de la documentación de cada ensayo · Registro de entrada y salida del material de envío de cada ensayo, así como archivo del mismo. En la estipulación quinta de dicho contrato se indicaba que la duración prevista del contrato era 12 meses, siendo una duración orientativa, quedando supeditada a la realización de la obra y/o servicio que lo soporta. Durante todos estos contratos el centro de trabajo de la actora radicó en Laboratorios del HU Virgen del Rocío, Avenida Manuel Siurot. De lo anterior cabe deducir que la actora estuvo adscrita como study coordinator a otra serie de proyectos y ensayos distintos de los cinco que se relacionaban en el Anexo de su contrato de trabajo de 2 de enero de 2018,",
+   "info": []
+  },
+  {
+   "ref": "11613991",
+   "db": "AN",
+   "fecha": "20260109",
+   "titulo": "STSJ Madrid, a 09 de enero de 2026 - ROJ: STSJ M 183/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/36ac6e9b3f6c3e45a0a8778d75e36f0d/20260211",
+   "roj": "STSJ M 183/2026",
+   "ecli": "ECLI:ES:TSJM:2026:183",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "9/2026",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA DEL CARMEN LOPEZ HORMEÑO",
+    "Nº Recurso": "930/2025"
+   },
+   "resumen": "por día o a una reducción diaria del tiempo de trabajo para la lactancia de su hijo. 2. El período en que se autorizan las interrupciones para la lactancia o la reducción diaria del tiempo de trabajo, el número y la duración de esas interrupciones y las modalidades relativas a la reducción diaria del tiempo de trabajo serán fijados por la legislación y la práctica nacionales. Estas interrupciones o la reducción diaria del tiempo de trabajo deben contabilizarse como tiempo de trabajo y remunerarse en consecuencia\". Y el artículo 11 del mismo Convenio prescribe: \"Todo Miembro debe examinar periódicamente, en consulta con las organizaciones representativas de empleadores y de trabajadores, la pertinencia de extender la duración de la licencia de maternidad prevista en el artículo 4 o de aumentar el monto o la tasa de las prestaciones pecuniarias que se mencionan en el artículo",
+   "info": []
+  },
+  {
+   "ref": "11620635",
+   "db": "AN",
+   "fecha": "20260107",
+   "titulo": "STSJ Extremadura, a 07 de enero de 2026 - ROJ: STSJ EXT 31/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/f9d47b2a68f2e9ffa0a8778d75e36f0d/20260217",
+   "roj": "STSJ EXT 31/2026",
+   "ecli": "ECLI:ES:TSJEXT:2026:31",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "3/2026",
+    "Municipio": "Cáceres",
+    "Ponente": "MERCENARIO VILLALBA LAVA",
+    "Nº Recurso": "476/2025"
+   },
+   "resumen": "OTROS DCHOS. LABORALES",
+   "info": []
+  },
+  {
+   "ref": "11614015",
+   "db": "AN",
+   "fecha": "20251223",
+   "titulo": "STSJ Madrid, a 23 de diciembre de 2025 - ROJ: STSJ M 16283/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/55f19af45b0e8654a0a8778d75e36f0d/20260211",
+   "roj": "STSJ M 16283/2025",
+   "ecli": "ECLI:ES:TSJM:2025:16283",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "920/2025",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA DEL AMPARO RODRIGUEZ RIQUELME",
+    "Nº Recurso": "695/2025"
+   },
+   "resumen": "En el documento se contempla el riesgo biológico ante la exposición a coronavirus. Décimo.- D. permaneció en situación de incapacidad temporal por contingencia común y diagnóstico de trastornos persistentes del estado de ánimo (afectivos) desde el día 1-8-2019 al 8-11-2019. El día 12-9-2020 inició situación de incapacidad temporal por contingencia común con diagnóstico que no consta, recibiendo el alta el día 6-10-2021. Permaneció en situación en situación de incapacidad temporal por accidente de trabajo y diagnóstico de coronavirus desde el día 1-5-2022 al 20-9-2022. Ha iniciado situación de incapacidad temporal por contingencia común y diagnóstico de trastornos persistentes del estado del ánimo (ansiedad y depresión s. grave) el día 1-8-2024, permaneciendo",
+   "info": []
+  },
+  {
+   "ref": "11642881",
+   "db": "AN",
+   "fecha": "20251222",
+   "titulo": "STSJ Cataluña, a 22 de diciembre de 2025 - ROJ: STSJ CAT 7907/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/79ac600629c6d2c5a0a8778d75e36f0d/20260305",
+   "roj": "STSJ CAT 7907/2025",
+   "ecli": "ECLI:ES:TSJCAT:2025:7907",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "6802/2025",
+    "Municipio": "Barcelona",
+    "Ponente": "AMPARO ILLAN TEBA",
+    "Nº Recurso": "4163/2025"
+   },
+   "resumen": "de 2020 con fecha de alta 29 de abril de 2021, con diagnóstico en ambos casos de \"infección por coronavirus no especificada\". Por resolución del INSS de 29 de julio de 2022, se determinó que ambos procesos de incapacidad permanente eran de carácter profesional -accidente de trabajo, siendo responsable de la prestación económica y de la asistencia sanitaria la Mutua Fraternidad Muprespa. TERCERO.-Se inició la vía administrativa ante la Dirección Provincial del INSS. Según dictamen del ICAM de 22 de noviembre de 2021, que se da íntegramente por reproducido, la parte demandante presenta las siguientes lesiones: Poliartralgias, síndrome post Covid-19,derivado de enfermedad común. En el dictamen se concluye la ausencia de presunción de incapacidad permanente. (Expediente administrativo) CUARTO.-El 29 de diciembre de 2021 la Comisión",
+   "info": []
+  },
+  {
+   "ref": "11606254",
+   "db": "AN",
+   "fecha": "20251215",
+   "titulo": "STSJ Castilla y León, a 15 de diciembre de 2025 - ROJ: STSJ CL 5275/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/abdecb8baee25371a0a8778d75e36f0d/20260204",
+   "roj": "STSJ CL 5275/2025",
+   "ecli": "ECLI:ES:TSJCL:2025:5275",
+   "sala": "",
+   "datos": {
+    "Municipio": "Valladolid",
+    "Ponente": "EMILIO ALVAREZ ANLLO",
+    "Nº Recurso": "2273/2024"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": []
+  },
+  {
+   "ref": "11608937",
+   "db": "AN",
+   "fecha": "20251212",
+   "titulo": "STSJ Madrid, a 12 de diciembre de 2025 - ROJ: STSJ M 16010/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/3378c46663427ad1a0a8778d75e36f0d/20260206",
+   "roj": "STSJ M 16010/2025",
+   "ecli": "ECLI:ES:TSJM:2025:16010",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "866/2025",
+    "Municipio": "Madrid",
+    "Ponente": "LOURDES MELENDEZ MORILLO-VELARDE",
+    "Nº Recurso": "259/2025"
+   },
+   "resumen": "en fecha de 18-3-2020, condenando a los demandados a estar y pasar por tal declaración.\" La Sentencia fue confirmada por el TSJ de Madrid tras el RS 206/23 , Doc. 11 del trabajador, por reproducida, y ya firme tras el Auto de 6 de noviembre del 2024. 4. Con fecha 18 de marzo del 2020, el trabajador inició un periodo de baja por accidente laboral por contagio de SARS-CoV-2 (COVID-19) en el centro de trabajo. Esta contingencia se prorrogó hasta el día 17 de noviembre de 2021, fecha en la que fue notificado de la Resolución del Instituto Nacional de la Seguridad Social - INSS, Dirección Provincial de Madrid, de fecha 15 de noviembre del mismo año, por la que se le denegó la declaración de mi Incapacidad Permanente, conforme al Informe Médico de Evaluación de Incapacidad Laboral de fecha 9 de septiembre",
+   "info": []
+  },
+  {
+   "ref": "11571976",
+   "db": "AN",
+   "fecha": "20251211",
+   "titulo": "STSJ Cataluña, a 11 de diciembre de 2025 - ROJ: STSJ CAT 6873/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/cdf6fdbde34acaeea0a8778d75e36f0d/20260107",
+   "roj": "STSJ CAT 6873/2025",
+   "ecli": "ECLI:ES:TSJCAT:2025:6873",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "6591/2025",
+    "Municipio": "Barcelona",
+    "Ponente": "EMILIO GARCIA OLLES",
+    "Nº Recurso": "5543/2024"
+   },
+   "resumen": "permanente contributiva en su artículo 193.1. SEGUNDO.-En marzo de 2022 la demandante fue declarada afecta de una incapacidad permanente en grado de total para la profesión habitual, que era la de \"cobradora de peaje\", con un cuadro de diagnóstico y limitaciones funcionales consistente en \"Covid persistente: distractabilidad con rendimiento deficitario en tareas atencionales/ejecutivas de memoria de trabajo, fluidez verbal y rigidez cognitiva. Pendiente de valoración Unidad Covid persistente. Trastorno ansioso depresivo\", que se dejó sin efecto en virtud de resolución del 1 de enero de 2023, por mejoría, en expediente de revisión de la incapacidad; aunque, en resolución del 23 de marzo de 2023 se estimó la reclamación previa y se la rehabilitó en la pensión de incapacidad permanente total, con efectos del 1 de enero de 2023. Pues bien, por presentar,",
+   "info": []
+  },
+  {
+   "ref": "11586325",
+   "db": "AN",
+   "fecha": "20251204",
+   "titulo": "STSJ Extremadura, a 04 de diciembre de 2025 - ROJ: STSJ EXT 1336/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/6cbdae2cd16e4aeea0a8778d75e36f0d/20260119",
+   "roj": "STSJ EXT 1336/2025",
+   "ecli": "ECLI:ES:TSJEXT:2025:1336",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "748/2025",
+    "Municipio": "Cáceres",
+    "Ponente": "NURIA SIERRA FERNANDEZ",
+    "Nº Recurso": "584/2025"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": []
+  },
+  {
+   "ref": "11644646",
+   "db": "AN",
+   "fecha": "20251202",
+   "titulo": "STSJ Cataluña, a 02 de diciembre de 2025 - ROJ: STSJ CAT 8666/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/882cd00b76ba3db5a0a8778d75e36f0d/20260306",
+   "roj": "STSJ CAT 8666/2025",
+   "ecli": "ECLI:ES:TSJCAT:2025:8666",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "6415/2025",
+    "Municipio": "Barcelona",
+    "Ponente": "ANA CRISTINA SALAS VELASCO",
+    "Nº Recurso": "2002/2025"
+   },
+   "resumen": "03.2022 (fecha de salida 24.03.2022), denegando la prestación por no alcanzar las lesiones una disminución suficiente de su capacidad laboral. Esta resolución se dictó con base en el dictamen propuesta emitido por la Comisión de Evaluación de Incapacidades de fecha 23.03.2022 que, acogiendo el dictamen del médico inspector de la SGAM, determinó el siguiente cuadro residual por contingencia de accidente de trabajo: \"ASTENIA PER IR AGUDA AMB INGRES I COMPLICACIONS (SEPSIS, INFECCIO ORINA...) PER COVID + RHB FISICA + FIBROSIS LSE + LLC ESTABILITZADA + T. ANSIOS DEPRESSIU REACTIU, ESTABLE + LESIONS HEPATIQUES MULTIPLES EN ESTUDI. SESE REPERCUSIO FUNCIONAL ACTUALMENT\". Previamente, el médico de la SGAM en su dictamen de 11.10.2021 había determinado contingencia común y propuesta de alta para reincorporación laboral. (resolución -página",
+   "info": []
+  },
+  {
+   "ref": "11587253",
+   "db": "AN",
+   "fecha": "20251202",
+   "titulo": "STSJ Comunidad Valenciana, a 02 de diciembre de 2025 - ROJ: STSJ CV 4590/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/35feffad32b09864a0a8778d75e36f0d/20260119",
+   "roj": "STSJ CV 4590/2025",
+   "ecli": "ECLI:ES:TSJCV:2025:4590",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "3230/2025",
+    "Municipio": "Valencia",
+    "Ponente": "GEMA PALOMAR CHALVER",
+    "Nº Recurso": "1992/2025"
+   },
+   "resumen": "la LRJS. El recurso ha sido impugnado de contrario. También se presentó escrito de alegaciones a la impugnación. Comenzando por el primer motivo de revisión fáctica, se solicita la modificación del hecho probado 4º para que quede redactado en los siguientes términos: \"El proceso de IT en que se halló incursa la trabajadora desde el 10/01/2022 hasta el 25/08/2023 por Covid-19 se siguió como enfermedad común. Las prestaciones aparejadas al mismo se vinieron abonando como derivadas de accidente de trabajo al amparo de lo dispuesto en el art. 5 del RD-Ley 6/2020, de 10 de Marzo. En Junio de 2023 la empresa formuló regularización de las nóminas, reclamando diferencias a la trabajadora por considerar que las prestaciones de IT debían abonarse como enfermedad común. Frente a dicha regularización la Sra. formuló",
+   "info": []
+  },
+  {
+   "ref": "11546599",
+   "db": "TS",
+   "fecha": "20251124",
+   "titulo": "STS, a 24 de noviembre de 2025 - ROJ: STS 5338/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/582c7f10955bd524a0a8778d75e36f0d/20251205",
+   "roj": "STS 5338/2025",
+   "ecli": "ECLI:ES:TS:2025:5338",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "1112/2025",
+    "Municipio": "Madrid",
+    "Ponente": "ISABEL OLMOS PARES",
+    "Nº Recurso": "2433/2024"
+   },
+   "resumen": "Incapacidad temporal: Efectos económicos. Se aplica el art. 53.1 TRLGSS y los efectos se retrotraen a tres meses antes de la solicitud de determinación de la contingencia.",
+   "info": []
+  },
+  {
+   "ref": "11549300",
+   "db": "AN",
+   "fecha": "20251112",
+   "titulo": "STSJ Castilla y León, a 12 de noviembre de 2025 - ROJ: STSJ CL 4599/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/3aa8e02221decb45a0a8778d75e36f0d/20251209",
+   "roj": "STSJ CL 4599/2025",
+   "ecli": "ECLI:ES:TSJCL:2025:4599",
+   "sala": "",
+   "datos": {
+    "Municipio": "Valladolid",
+    "Ponente": "CARLA GARCIA DEL CURA",
+    "Nº Recurso": "1778/2024"
+   },
+   "resumen": "OTROS DCHOS. LABORALES",
+   "info": []
+  },
+  {
+   "ref": "11557570",
+   "db": "AN",
+   "fecha": "20251111",
+   "titulo": "STSJ País Vasco, a 11 de noviembre de 2025 - ROJ: STSJ PV 3995/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/a23c254ade6b0943a0a8778d75e36f0d/20251216",
+   "roj": "STSJ PV 3995/2025",
+   "ecli": "ECLI:ES:TSJPV:2025:3995",
+   "sala": "",
+   "datos": {
+    "Municipio": "Bilbao",
+    "Ponente": "RAMON GIMENO LAHOZ",
+    "Nº Recurso": "1978/2025"
+   },
+   "resumen": "en dicha fecha a Fagor Ederland S.Coop., en el área de Suspensión, sección 11212, en el centro de trabajo sito en Eskoriatza (Gipuzkoa), cuyo puesto de trabajo es el de \"Coloca machos\" y con una retribución mensual bruta de 2946,26 €.y de CdC que complementa al arrastrado de la empresa anterior. SEGUNDO.- Que las funciones del puesto de trabajo de la actora se encuentran recogidas en la descripción del puesto, incluida en el informe de Evaluación de riesgos laborales, y son las siguientes: * Colocación de machos y filtros en placa. * Sacar machos de palet a mesa. * Colocación de machos en el Colocamachos (pórtico). * Colocar postinoculante en placa. * Limpieza soplado en placa. * En TPM limpieza de línea o enfriador. TERCERO. - Que en el año 2021 se modificó el sistema de Evaluación del desempeño en el puesto de trabajo, estableciéndose",
+   "info": []
+  },
+  {
+   "ref": "11548494",
+   "db": "AN",
+   "fecha": "20251107",
+   "titulo": "STSJ Galicia, a 07 de noviembre de 2025 - ROJ: STSJ GAL 7350/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/fd9fac908c282d9ea0a8778d75e36f0d/20251209",
+   "roj": "STSJ GAL 7350/2025",
+   "ecli": "ECLI:ES:TSJGAL:2025:7350",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "5020/2025",
+    "Municipio": "Coruña (A)",
+    "Ponente": "RAQUEL MARIA NAVEIRO SANTOS",
+    "Nº Recurso": "825/2025"
+   },
+   "resumen": "ACCIDENTE",
+   "info": []
+  },
+  {
+   "ref": "11564632",
+   "db": "AN",
+   "fecha": "20251107",
+   "titulo": "STSJ Madrid, a 07 de noviembre de 2025 - ROJ: STSJ M 14003/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/e70e2e5ccbfbbf24a0a8778d75e36f0d/20251223",
+   "roj": "STSJ M 14003/2025",
+   "ecli": "ECLI:ES:TSJM:2025:14003",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "841/2025",
+    "Municipio": "Madrid",
+    "Ponente": "RAQUEL VICENTE ANDRES",
+    "Nº Recurso": "382/2025"
+   },
+   "resumen": "para evitar contagios, desde febrero se impartió formación específica. Sobre la alegación en torno a la calificación de la contingencia debe decirse que este este procedimiento versa sobre la imposición del recargo de prestaciones en relación con la situación de la incapacidad absoluta que la STSJ de Madrid de fecha 13 de diciembre de 2023, rec. 801/2023 declaró derivada de accidente de trabajo. Y también puede traerse a colación la STS 15 noviembre de 2022 cuya interpretación sobre la literalidad del RDL aplicable, el artículo 5 del RD Ley 6/2020, de 10 de marzo , referida a la situación asimilada a accidente de trabajo se acotaba a aquellos periodos de aislamiento o contagio de las personas trabajadoras provocados por el virus COVID-19 , señalando que dicha asimilación es exclusivamente para la prestación económica de incapacidad",
+   "info": []
+  },
+  {
+   "ref": "11515112",
+   "db": "AN",
+   "fecha": "20251103",
+   "titulo": "STSJ Aragón, a 03 de noviembre de 2025 - ROJ: STSJ AR 1674/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/e7cefba15b07a98fa0a8778d75e36f0d/20251121",
+   "roj": "STSJ AR 1674/2025",
+   "ecli": "ECLI:ES:TSJAR:2025:1674",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "783/2025",
+    "Municipio": "Zaragoza",
+    "Ponente": "CESAR ARTURO TOMAS FANJUL",
+    "Nº Recurso": "725/2025"
+   },
+   "resumen": "durante la prestación de servicio activo propio de su categoría en el Hospital General de la Defensa en Zaragoza durante la pandemia de la Covid-19. 5º.- Asepeyo acordó, el 04/01/2022, considerar derivados de accidente de trabajo los procesos de IT de 06/04/2020 y 26/08/2020 y el abono de prestaciones económicas que el sistema de la Seguridad Social otorga a las personas que se ven afectadas por una enfermedad profesional, asumiendo el coste económico de la asistencia sanitaria que fuere precisa previa presentación del parte de accidente de trabajo. Respecto al proceso de IT iniciado el 03/11/2021, ASEPEYO anuló, en fecha 08/03/2022, la calificación como contingencia profesional por accidente de trabajo por tratarse de una nueva baja por la misma o similar patología dentro de los 180 días naturales siguientes al alta médica y haber sido",
+   "info": []
+  },
+  {
+   "ref": "11544710",
+   "db": "AN",
+   "fecha": "20251031",
+   "titulo": "STSJ Cataluña, a 31 de octubre de 2025 - ROJ: STSJ CAT 6241/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/26486f2ef475520fa0a8778d75e36f0d/20251204",
+   "roj": "STSJ CAT 6241/2025",
+   "ecli": "ECLI:ES:TSJCAT:2025:6241",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "5680/2025",
+    "Municipio": "Barcelona",
+    "Ponente": "MARIA DEL MAR SERNA CALVO",
+    "Nº Recurso": "1608/2025"
+   },
+   "resumen": "Indemnización de daños y perjuicios, accidente de trabajo, responsabilidad empresarial, pandemia Covid.",
+   "info": []
+  },
+  {
+   "ref": "11567735",
+   "db": "AN",
+   "fecha": "20251030",
+   "titulo": "STSJ Canarias, a 30 de octubre de 2025 - ROJ: STSJ ICAN 4191/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/c35f5fca6b329795a0a8778d75e36f0d/20251229",
+   "roj": "STSJ ICAN 4191/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:4191",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1470/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "JAVIER RAMON DIEZ MORO",
+    "Nº Recurso": "963/2025"
+   },
+   "resumen": "Por ello, a la luz de la aquí resumida jurisprudencia social, de la Sala IV, y de la doctrina judicial de la sala, ninguna duda existe, hoy, de la prevalencia de la tutela preventiva de los riesgos psicosociales, entre los que se encuentra la violencia y el acoso en los entornos de trabajo. Esta línea ha sido ya seguida por esta misma Sala en nuestras sentencias de 16 de octubre de 2020 ( Rec. 673/2020), de 17 de mayo de 2019 ( Rec. 1647/2018), de 17 de febrero de 2017 ( Recurso 1128/2016) y sentencia de 10 de junio de 2016 (recurso 350/2016). También por otras Salas sociales como la del País Vasco, en sus sentencias de 22 de marzo de 2016 (Recurso 392/2016) (Rec. 392/20016) o la Sentencia del TSJ de Catalunya de 20 de noviembre de 2017(Resolución nº 7055/2017). Piénsese que, si fuese correcta la posición defendida por",
+   "info": []
+  }
+ ],
+ "extra": {
+  "total_web": "187 resultados paginas: 19"
+ }
+}

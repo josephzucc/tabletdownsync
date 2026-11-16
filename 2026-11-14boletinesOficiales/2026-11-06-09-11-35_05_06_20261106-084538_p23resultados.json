@@ -1,0 +1,35 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STS 4160/2025",
+  "filtros": {
+   "roj": "STS 4160/2025"
+  },
+  "fecha": "06/11/2026 08:45",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "11464192",
+   "db": "TS",
+   "fecha": "20250923",
+   "titulo": "STS, a 23 de septiembre de 2025 - ROJ: STS 4160/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/98efa6e9cd3a71a4a0a8778d75e36f0d/20251009",
+   "roj": "STS 4160/2025",
+   "ecli": "ECLI:ES:TS:2025:4160",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "809/2025",
+    "Municipio": "Madrid",
+    "Ponente": "FELIX VICENTE AZON VILAS",
+    "Nº Recurso": "1821/2024"
+   },
+   "resumen": "Incapacidad permanente total. Determinación de la profesión habitual cuando se han desempeñado varias. Falta de contradicción.",
+   "info": [],
+   "pdf": "pdf/STS_4160_2025.pdf",
+   "txt": "txt/STS_4160_2025.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

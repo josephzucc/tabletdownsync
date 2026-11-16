@@ -1,0 +1,76 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: covid persistente Canal de Isabel II",
+  "filtros": {
+   "texto": "covid persistente Canal de Isabel II",
+   "jurisdiccion": [
+    "SOCIAL"
+   ]
+  },
+  "fecha": "06/11/2026 08:56",
+  "aplicados_en_web": {
+   "jurisdiccion": [
+    "Social"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "11707421",
+   "db": "AN",
+   "fecha": "20260326",
+   "titulo": "STSJ Madrid, a 26 de marzo de 2026 - ROJ: STSJ M 4139/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/5e4b90a03d8bfd5ba0a8778d75e36f0d/20260504",
+   "roj": "STSJ M 4139/2026",
+   "ecli": "ECLI:ES:TSJM:2026:4139",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "333/2026",
+    "Municipio": "Madrid",
+    "Ponente": "SUSANA MARIA MOLINA GUTIERREZ",
+    "Nº Recurso": "799/2025"
+   },
+   "resumen": "temblor interno sobre todo en MMII. CA Basocelular hace 1 año extirpado. Prurito crónico sinemateria en estudio. Nódulo tiroide derecho de 18.5 x 11x 10.2 mm(T1-RADS 3) Bethesda II (2021). En seguimiento por MIN por COVID persistente y posible SD. FATIGA CRÓNICA. ORL por Ramsay Hunt derecho con recuperación total del facial con brote de EM y vértigo secundario y secuelas neuorlógicas, Neuralgia de trigémino derecho, VPPB de canal anterior dcho e INESTABILIDAD SEVERA CRÓNICA post Esclerosis múltiple y mareos posicionales. Persiste incontinencia de gases. Incontinencia urinaria. Debilidad de MSP. OASIS. Esclerosis múltiple. (documento nº 78). b) En fecha 23 de febrero de 2023, se constata posible brote sensitivo leve en Enero de 2023. Contaba: Cuadro de sensación distérmica sin fiebre y cefalea hemicraneal derecha. Desde dos días antes de acudir a la Urgencia,",
+   "info": []
+  },
+  {
+   "ref": "11104311",
+   "db": "AN",
+   "fecha": "20240918",
+   "titulo": "STSJ Galicia, a 18 de septiembre de 2024 - ROJ: STSJ GAL 6382/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/86789215cc162aefa0a8778d75e36f0d/20241118",
+   "roj": "STSJ GAL 6382/2024",
+   "ecli": "ECLI:ES:TSJGAL:2024:6382",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "4096/2024",
+    "Municipio": "Coruña (A)",
+    "Ponente": "MANUEL DOMINGUEZ LOPEZ",
+    "Nº Recurso": "2806/2024"
+   },
+   "resumen": "DESPIDO DISCIPLINARIO",
+   "info": []
+  },
+  {
+   "ref": "9878705",
+   "db": "AN",
+   "fecha": "20220210",
+   "titulo": "STSJ Galicia, a 10 de febrero de 2022 - ROJ: STSJ GAL 887/2022",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/12d8e5e5671922e8/20220302",
+   "roj": "STSJ GAL 887/2022",
+   "ecli": "ECLI:ES:TSJGAL:2022:887",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "656/2022",
+    "Municipio": "Coruña (A)",
+    "Ponente": "MANUEL DOMINGUEZ LOPEZ",
+    "Nº Recurso": "5190/2021"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": []
+  }
+ ],
+ "extra": {
+  "total_web": "3 resultados"
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: {\"recurso\": \"1770/2024\", \"jurisdiccion\": [\"SOCIAL\"], \"organo\": [\"Tribunal Superior de Justicia\"]}",
+  "filtros": {
+   "recurso": "1770/2024",
+   "jurisdiccion": [
+    "SOCIAL"
+   ],
+   "organo": [
+    "Tribunal Superior de Justicia"
+   ]
+  },
+  "fecha": "06/11/2026 10:19",
+  "aplicados_en_web": {
+   "jurisdiccion": [
+    "Social"
+   ],
+   "organo": [
+    "Tribunal Superior de Justicia"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "11701067",
+   "db": "AN",
+   "fecha": "20260115",
+   "titulo": "STSJ Canarias, a 15 de enero de 2026 - ROJ: STSJ ICAN 87/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/34e39c404d1fd896a0a8778d75e36f0d/20260427",
+   "roj": "STSJ ICAN 87/2026",
+   "ecli": "ECLI:ES:TSJICAN:2026:87",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "4/2026",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "JAVIER RAMON DIEZ MORO",
+    "Nº Recurso": "1770/2024"
+   },
+   "resumen": "Sección: MAR TRIBUNAL SUPERIOR DE JUSTICIA. SALA DE LO SOCIAL Plaza de San Agustín Nº6 Las Palmas de Gran Canaria Teléfono: 928 30 64 00 Fax.: 928 30 64 08 Email: socialtsj.lpa@justiciaencanarias.org Rollo: Recursos de Suplicación Nº Rollo: 0001770/2024 NIG: 3501644420240001568 Materia: Cantidad Proc. origen: Procedimiento ordinario Nº proc. origen: 0000146/2024-00 Órgano origen: Juzgado de lo Social Nº 4 de Las Palmas de Gran Canaria Recurrente: ; Abogado: Gustavo Adolfo Tarajano Mesa Recurrido: Avoris Retail Division Sl; Abogado: Xavier Pera Coral Recurrido: MAFRE VIDA S.A DE SEGUROS Y REASEGUROS; Abogado: Jose Avila Cava Recurrido: Vida Caixa S.a De Seguros Y Reaseguros; Abogado: Segundo Ruiz Rodriguez En Las Palmas de Gran Canaria, a 15 de enero de 2026.",
+   "info": [],
+   "pdf": "pdf/STSJ_ICAN_87_2026.pdf",
+   "txt": "txt/STSJ_ICAN_87_2026.txt"
+  },
+  {
+   "ref": "11549326",
+   "db": "AN",
+   "fecha": "20251111",
+   "titulo": "STSJ Castilla y León, a 11 de noviembre de 2025 - ROJ: STSJ CL 4626/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/c5a242a49f99395fa0a8778d75e36f0d/20251209",
+   "roj": "STSJ CL 4626/2025",
+   "ecli": "ECLI:ES:TSJCL:2025:4626",
+   "sala": "",
+   "datos": {
+    "Municipio": "Valladolid",
+    "Ponente": "CARLA GARCIA DEL CURA",
+    "Nº Recurso": "1770/2024"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": [],
+   "pdf": "pdf/STSJ_CL_4626_2025.pdf",
+   "txt": "txt/STSJ_CL_4626_2025.txt"
+  },
+  {
+   "ref": "11534339",
+   "db": "AN",
+   "fecha": "20251031",
+   "titulo": "STSJ Castilla-La Mancha, a 31 de octubre de 2025 - ROJ: STSJ CLM 2381/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/bd1f2f36c2d488cba0a8778d75e36f0d/20251128",
+   "roj": "STSJ CLM 2381/2025",
+   "ecli": "ECLI:ES:TSJCLM:2025:2381",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1483/2025",
+    "Municipio": "Albacete",
+    "Ponente": "MARIA ISABEL SERRANO NIETO",
+    "Nº Recurso": "1770/2024"
+   },
+   "resumen": "MATERNIDAD",
+   "info": []
+  },
+  {
+   "ref": "11403031",
+   "db": "AN",
+   "fecha": "20250612",
+   "titulo": "STSJ Andalucía, a 12 de junio de 2025 - ROJ: STSJ AND 10433/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/4d8aa33bbd2fd6d3a0a8778d75e36f0d/20250811",
+   "roj": "STSJ AND 10433/2025",
+   "ecli": "ECLI:ES:TSJAND:2025:10433",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1580/2025",
+    "Municipio": "Granada",
+    "Ponente": "BENITO RABOSO DEL AMO",
+    "Nº Recurso": "1770/2024"
+   },
+   "resumen": "TRIBUNAL SUPERIOR DE JUSTICIA DE ANDALUCÍA CON SEDE EN GRANADA SALA DE LO SOCIAL CL SENT. NÚM. 1580 ILTMA. SRA. Dª. BEATRIZ PÉREZ HEREDIA PRESIDENTE ILTMO. SR. D. FERNANDO OLIET PALÁ ILTMO. SR. D. BENITO RABOSO DEL AMO MAGISTRADOS En Granada, a doce de junio de dos mil veinticinco. La Sala de lo Social del Tribunal Superior de Justicia de Andalucía con sede en Granada, compuesta por los Iltmos. Sres. Magistrados que al margen se indican, ha pronunciado EN NOMBRE DEL REY la siguiente S E N T E N C I A En el recurso de Suplicación núm. 1770/2024,interpuesto por Dª. contra la Sentencia dictada por el Juzgado de lo Social núm. 4 de Jaén, en fecha 17/04/24,",
+   "info": []
+  },
+  {
+   "ref": "11400562",
+   "db": "AN",
+   "fecha": "20250130",
+   "titulo": "STSJ Comunidad Valenciana, a 30 de enero de 2025 - ROJ: STSJ CV 1477/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/c02d70db2420b2c0a0a8778d75e36f0d/20250807",
+   "roj": "STSJ CV 1477/2025",
+   "ecli": "ECLI:ES:TSJCV:2025:1477",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "290/2025",
+    "Municipio": "Valencia",
+    "Ponente": "MARIA ESPERANZA MONTESINOS LLORENS",
+    "Nº Recurso": "1770/2024"
+   },
+   "resumen": "Sala de lo Social del Tribunal Superior de Justicia de la Comunidad Valenciana N.I.G.: 4625044420190005124 Procedimiento: Recursos de suplicación 1770/2024. Materia:contrato trabajo Ilmas. Sras. Dª. Inmaculda C. Linares Bosch, presidenta Dª. Mª Esperanza Montesinos Llorens Dª. Encarnación Lorenzo Hernández En València, a treinta de enero de dos mil veinticinco. La Sala de lo Social del Tribunal Superior de Justicia de la Comunidad Valenciana ha dictado la siguiente, SENTENCIA NÚMERO 290/2025 En el recurso de suplicación 1770/24 , interpuesto contra la sentencia de fecha 5 de marzo de 2024 dictada por el JUZGADO DE LO SOCIAL Nº 18 de Valencia, en los autos 539/19, seguidos sobre contrato de trabajo a instancia",
+   "info": []
+  }
+ ],
+ "extra": {
+  "total_web": "9 resultados"
+ }
+}

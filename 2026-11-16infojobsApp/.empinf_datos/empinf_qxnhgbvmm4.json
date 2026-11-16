@@ -1,0 +1,352 @@
+{
+ "tipo": "linkedin_lista",
+ "modo": "buscar",
+ "pagina": 1,
+ "total": "30 resultados",
+ "ofertas": [
+  {
+   "id": "4455708968",
+   "titulo": "Automation & AI Specialist",
+   "empresa": "Allianz España",
+   "ubicacion": "Madrid (Híbrido)",
+   "modalidad": "Híbrido",
+   "publicada": "hace 1 mes",
+   "red": "2 antiguos empleados trabajan aquí",
+   "marcas": [],
+   "seccion": "",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4455708968&keywords=vb6&origin=JOBS_HOME_SEARCH_BUTTON"
+  },
+  {
+   "id": "4463398590",
+   "titulo": "Analista Programador VB.Net (con nivel avanzado de inglés)",
+   "empresa": "Marsh",
+   "ubicacion": "Madrid (Híbrido)",
+   "modalidad": "Híbrido",
+   "publicada": "hace 1 semana",
+   "red": "1 antiguo empleado trabaja aquí",
+   "marcas": [
+    "promocionado"
+   ],
+   "seccion": "",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4463398590&keywords=vb6&origin=JOBS_HOME_SEARCH_BUTTON"
+  },
+  {
+   "id": "4432434551",
+   "titulo": "Técnico/a de Inteligencia Artificial y Automatización",
+   "empresa": "ARQUIMEA",
+   "ubicacion": "Torrejón de Ardoz (Presencial)",
+   "modalidad": "Presencial",
+   "publicada": "hace 2 semanas",
+   "red": "",
+   "marcas": [
+    "promocionado"
+   ],
+   "seccion": "",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4432434551&keywords=vb6&origin=JOBS_HOME_SEARCH_BUTTON"
+  },
+  {
+   "id": "4469766152",
+   "titulo": "Técnico/a de Aplicaciones, BBDD y Automatización",
+   "empresa": "Aubay Spain",
+   "ubicacion": "Torres de la Alameda (Presencial)",
+   "modalidad": "Presencial",
+   "publicada": "hace 1 semana",
+   "red": "",
+   "marcas": [
+    "promocionado",
+    "solicitud sencilla",
+    "evaluando activamente"
+   ],
+   "seccion": "",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4469766152&keywords=vb6&origin=JOBS_HOME_SEARCH_BUTTON"
+  },
+  {
+   "id": "4470277290",
+   "titulo": "Programador/a Access – VBA",
+   "empresa": "Inmunotek",
+   "ubicacion": "Alcalá de Henares (Presencial)",
+   "modalidad": "Presencial",
+   "publicada": "hace 2 semanas",
+   "red": "",
+   "marcas": [
+    "promocionado",
+    "solicitud sencilla",
+    "evaluando activamente"
+   ],
+   "seccion": "",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4470277290&keywords=vb6&origin=JOBS_HOME_SEARCH_BUTTON"
+  },
+  {
+   "id": "4469846455",
+   "titulo": "Ingeniero de software",
+   "empresa": "QUASAR Informatica",
+   "ubicacion": "Moncloa-Aravaca (Híbrido)",
+   "modalidad": "Híbrido",
+   "publicada": "hace 2 semanas",
+   "red": "",
+   "marcas": [
+    "promocionado",
+    "solicitud sencilla",
+    "evaluando activamente"
+   ],
+   "seccion": "",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4469846455&keywords=vb6&origin=JOBS_HOME_SEARCH_BUTTON"
+  },
+  {
+   "id": "4473644112",
+   "titulo": "Programador",
+   "empresa": "EM&E Group",
+   "ubicacion": "Alcalá de Henares (Presencial)",
+   "modalidad": "Presencial",
+   "publicada": "hace 2 días",
+   "red": "1 antiguo empleado trabaja aquí",
+   "marcas": [
+    "promocionado",
+    "solicitud sencilla"
+   ],
+   "seccion": "",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4473644112&keywords=vb6&origin=JOBS_HOME_SEARCH_BUTTON"
+  },
+  {
+   "id": "4471369738",
+   "titulo": "Desarrollador/a de Microservicios",
+   "empresa": "IT Partner",
+   "ubicacion": "Madrid (Híbrido)",
+   "modalidad": "Híbrido",
+   "publicada": "hace 1 semana",
+   "red": "",
+   "marcas": [],
+   "seccion": "",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4471369738&keywords=vb6&origin=JOBS_HOME_SEARCH_BUTTON"
+  },
+  {
+   "id": "4474755969",
+   "titulo": "¿Te apasiona la programación y quieres llevar tus conocimientos al mundo de la ingeniería?",
+   "empresa": "CT3 Ingeniería",
+   "ubicacion": "Madrid (Presencial)",
+   "modalidad": "Presencial",
+   "publicada": "hace 5 días",
+   "red": "",
+   "marcas": [],
+   "seccion": "",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4474755969&keywords=vb6&origin=JOBS_HOME_SEARCH_BUTTON"
+  },
+  {
+   "id": "4467623086",
+   "titulo": "Developer",
+   "empresa": "BNP Paribas Personal Finance",
+   "ubicacion": "Madrid",
+   "modalidad": "",
+   "publicada": "hace 1 semana",
+   "red": "1 antiguo alumno trabaja aquí",
+   "marcas": [],
+   "seccion": "",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4467623086&keywords=vb6&origin=JOBS_HOME_SEARCH_BUTTON"
+  },
+  {
+   "id": "4460396305",
+   "titulo": "Junior Robotic Process Automation (RPA) Developer (m/f/d)",
+   "empresa": "Deutsche Pfandbriefbank AG",
+   "ubicacion": "Madrid",
+   "modalidad": "",
+   "publicada": "hace 1 mes",
+   "red": "",
+   "marcas": [],
+   "seccion": "",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4460396305&keywords=vb6&origin=JOBS_HOME_SEARCH_BUTTON"
+  },
+  {
+   "id": "4445056257",
+   "titulo": "Software Developer (Military Derivatives)",
+   "empresa": "Airbus Defence and Space",
+   "ubicacion": "Getafe (Híbrido)",
+   "modalidad": "Híbrido",
+   "publicada": "hace 2 días",
+   "red": "",
+   "marcas": [
+    "promocionado"
+   ],
+   "seccion": "",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4445056257&keywords=vb6&origin=JOBS_HOME_SEARCH_BUTTON"
+  },
+  {
+   "id": "4466698008",
+   "titulo": "Desarrollador/a web",
+   "empresa": "Exceltic",
+   "ubicacion": "Madrid y alrededores (Híbrido)",
+   "modalidad": "Híbrido",
+   "publicada": "hace 2 semanas",
+   "red": "",
+   "marcas": [
+    "promocionado",
+    "solicitud sencilla",
+    "evaluando activamente"
+   ],
+   "seccion": "",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4466698008&keywords=vb6&origin=JOBS_HOME_SEARCH_BUTTON"
+  },
+  {
+   "id": "4467563053",
+   "titulo": "Desarrollador Backend . NET - 100% REMOTO",
+   "empresa": "METRICA",
+   "ubicacion": "San Fernando de Henares (En remoto)",
+   "modalidad": "En remoto",
+   "publicada": "hace 2 semanas",
+   "red": "1 antiguo empleado trabaja aquí",
+   "marcas": [],
+   "seccion": "",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4467563053&keywords=vb6&origin=JOBS_HOME_SEARCH_BUTTON"
+  },
+  {
+   "id": "4315296183",
+   "titulo": "Desarrollador/a SW Back-End Alto Nivel",
+   "empresa": "Sener",
+   "ubicacion": "Tres Cantos (Híbrido)",
+   "modalidad": "Híbrido",
+   "publicada": "1 hace un año",
+   "red": "",
+   "marcas": [],
+   "seccion": "",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4315296183&keywords=vb6&origin=JOBS_HOME_SEARCH_BUTTON"
+  },
+  {
+   "id": "4463983533",
+   "titulo": "Analista / Programador",
+   "empresa": "EM&E Group",
+   "ubicacion": "Alcalá de Henares (Presencial)",
+   "modalidad": "Presencial",
+   "publicada": "hace 3 semanas",
+   "red": "",
+   "marcas": [
+    "promocionado",
+    "solicitud sencilla",
+    "evaluando activamente"
+   ],
+   "seccion": "",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4463983533&keywords=vb6&origin=JOBS_HOME_SEARCH_BUTTON"
+  },
+  {
+   "id": "4474988006",
+   "titulo": "Puestos vacantes: RPA & Agent Tech Specialist (9905)",
+   "empresa": "SEIDOR",
+   "ubicacion": "Madrid",
+   "modalidad": "",
+   "publicada": "hace 1 día",
+   "red": "1 antiguo empleado trabaja aquí",
+   "marcas": [
+    "pocos solicitantes"
+   ],
+   "seccion": "",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4474988006&keywords=vb6&origin=JOBS_HOME_SEARCH_BUTTON"
+  },
+  {
+   "id": "4466175697",
+   "titulo": "Analista Programador Cobol / AS400",
+   "empresa": "Devoteam",
+   "ubicacion": "Madrid (Presencial)",
+   "modalidad": "Presencial",
+   "publicada": "hace 1 día",
+   "red": "1 antiguo empleado trabaja aquí",
+   "marcas": [
+    "promocionado",
+    "solicitud sencilla"
+   ],
+   "seccion": "",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4466175697&keywords=vb6&origin=JOBS_HOME_SEARCH_BUTTON"
+  },
+  {
+   "id": "3900331251",
+   "titulo": "Consultor/Analista Programador/Ingeniero Software Altitude",
+   "empresa": "Kapres Technology",
+   "ubicacion": "Madrid (En remoto)",
+   "modalidad": "En remoto",
+   "publicada": "2 hace años",
+   "red": "",
+   "marcas": [],
+   "seccion": "",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=3900331251&keywords=vb6&origin=JOBS_HOME_SEARCH_BUTTON"
+  },
+  {
+   "id": "4383364403",
+   "titulo": "Analista Programador/a Powerbuilder - Inglés B2",
+   "empresa": "Sopra Steria",
+   "ubicacion": "Madrid (Presencial)",
+   "modalidad": "Presencial",
+   "publicada": "hace 7 meses",
+   "red": "5 antiguos alumnos trabajan aquí",
+   "marcas": [],
+   "seccion": "",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4383364403&keywords=vb6&origin=JOBS_HOME_SEARCH_BUTTON"
+  },
+  {
+   "id": "4468796627",
+   "titulo": "AS400 RPG Developer",
+   "empresa": "knowmad mood",
+   "ubicacion": "Madrid (En remoto)",
+   "modalidad": "En remoto",
+   "publicada": "hace 2 semanas",
+   "red": "",
+   "marcas": [
+    "pocos solicitantes"
+   ],
+   "seccion": "",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4468796627&keywords=vb6&origin=JOBS_HOME_SEARCH_BUTTON"
+  },
+  {
+   "id": "4432244711",
+   "titulo": ".NET Developer (VB.NET, WebForms, SQL Server, Azure)",
+   "empresa": "SGS",
+   "ubicacion": "Madrid (Híbrido)",
+   "modalidad": "Híbrido",
+   "publicada": "hace 3 meses",
+   "red": "",
+   "marcas": [
+    "solicitud sencilla"
+   ],
+   "seccion": "",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4432244711&keywords=vb6&origin=JOBS_HOME_SEARCH_BUTTON"
+  },
+  {
+   "id": "4448889668",
+   "titulo": "Analista Programador AS/400 - Híbrido (Madrid)",
+   "empresa": "eXperience IT Solutions",
+   "ubicacion": "Madrid (Híbrido)",
+   "modalidad": "Híbrido",
+   "publicada": "hace 2 meses",
+   "red": "",
+   "marcas": [],
+   "seccion": "",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4448889668&keywords=vb6&origin=JOBS_HOME_SEARCH_BUTTON"
+  },
+  {
+   "id": "4470877812",
+   "titulo": "Analista Programador Dynamics 365",
+   "empresa": "serem. Consultoría empresarial",
+   "ubicacion": "Madrid (En remoto)",
+   "modalidad": "En remoto",
+   "publicada": "hace 1 semana",
+   "red": "",
+   "marcas": [],
+   "seccion": "",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4470877812&keywords=vb6&origin=JOBS_HOME_SEARCH_BUTTON"
+  },
+  {
+   "id": "4470121830",
+   "titulo": "Engineering Integrated Planning Management WL/WF analysis",
+   "empresa": "Airbus Defence and Space",
+   "ubicacion": "Getafe (Híbrido)",
+   "modalidad": "Híbrido",
+   "publicada": "hace 1 semana",
+   "red": "",
+   "marcas": [
+    "promocionado",
+    "pocos solicitantes"
+   ],
+   "seccion": "",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4470121830&keywords=vb6&origin=JOBS_HOME_SEARCH_BUTTON"
+  }
+ ],
+ "url": "https://www.linkedin.com/jobs/search-results/?currentJobId=4455708968&keywords=vb6&origin=JOBS_HOME_SEARCH_BUTTON",
+ "token": "qxnhgbvmm4",
+ "guardado": "2026-10-08T07:52:53.231Z"
+}

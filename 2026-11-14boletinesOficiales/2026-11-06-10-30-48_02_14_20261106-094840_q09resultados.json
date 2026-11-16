@@ -1,0 +1,35 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STSJ ICAN 731/2026",
+  "filtros": {
+   "roj": "STSJ ICAN 731/2026"
+  },
+  "fecha": "06/11/2026 09:48",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "11736744",
+   "db": "AN",
+   "fecha": "20260326",
+   "titulo": "STSJ Canarias, a 26 de marzo de 2026 - ROJ: STSJ ICAN 731/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/c0f55d9cd9969e07a0a8778d75e36f0d/20260527",
+   "roj": "STSJ ICAN 731/2026",
+   "ecli": "ECLI:ES:TSJICAN:2026:731",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "245/2026",
+    "Municipio": "Santa Cruz de Tenerife",
+    "Ponente": "EDUARDO JESUS RAMOS REAL",
+    "Nº Recurso": "536/2025"
+   },
+   "resumen": "Sección: JM TRIBUNAL SUPERIOR DE JUSTICIA. SALA DE LO SOCIAL Plaza San Francisco nº 15 Santa Cruz de Tenerife Teléfono: 922 479 373 Fax.: Email: socialtsjtf@justiciaencanarias.org Rollo: Recursos de Suplicación Nº Rollo: 0000536/2025 NIG: 3803844420240006766 Materia: Despido Resolución:Sentencia 000245/2026 Proc. origen: Despidos / Ceses en general Nº proc. origen: 0000749/2024-00 Órgano origen: Plaza Nº 4 del Tribunal de Instancia (Sección Social) de Santa Cruz de Tenerife Fiscal: MINISTERIO FISCAL Recurrente: ; Abogado: Francisco De Borja Dominguez-Salavarria Rufino Recurrido: REVYROD S.L.; Abogado: Jose Adalberto Luis Bethencourt FOGASA: FOGASA; Abogado: Abogacía del Estado de FOGASA Santa Cruz de TNF En Santa Cruz de Tenerife, a 26 de marzo de 2026.",
+   "info": [],
+   "pdf": "pdf/STSJ_ICAN_731_2026.pdf",
+   "txt": "txt/STSJ_ICAN_731_2026.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

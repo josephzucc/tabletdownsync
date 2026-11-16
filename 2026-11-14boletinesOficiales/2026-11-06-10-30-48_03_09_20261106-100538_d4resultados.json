@@ -1,0 +1,747 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: covid accidente de trabajo contagio centro de trabajo",
+  "filtros": {
+   "texto": "covid accidente de trabajo contagio centro de trabajo",
+   "desde": "01/01/2021",
+   "jurisdiccion": [
+    "SOCIAL"
+   ],
+   "organo": [
+    "Tribunal Superior de Justicia"
+   ]
+  },
+  "fecha": "06/11/2026 10:05",
+  "aplicados_en_web": {
+   "jurisdiccion": [
+    "Social"
+   ],
+   "organo": [
+    "Tribunal Superior de Justicia"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "11909032",
+   "db": "AN",
+   "fecha": "20261020",
+   "titulo": "STSJ País Vasco, a 20 de octubre de 2026 - ROJ: STSJ PV 3505/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/df76d6597a6f0037a0a8778d75e36f0d/20261030",
+   "roj": "STSJ PV 3505/2026",
+   "ecli": "ECLI:ES:TSJPV:2026:3505",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2371/2026",
+    "Municipio": "Bilbao",
+    "Ponente": "JOSE FELIX LAJO GONZALEZ",
+    "Nº Recurso": "1424/2026"
+   },
+   "resumen": "de 30 de octubre. 2. Esta previsión se aplicará a los contagios del virus SARS-CoV2 producidos hasta el mes posterior a la finalización del estado de alarma, acreditando este extremo mediante el correspondiente parte de accidente de trabajo que deberá haberse expedido dentro del mismo periodo de referencia. 3. En los casos de fallecimiento, se considerará que la causa es accidente de trabajo siempre que el fallecimiento se haya producido dentro de los cinco años siguientes al contagio de la enfermedad y derivado de la misma, de conformidad con lo dispuesto en el artículo 217.2 del texto refundido de la Ley General de la Seguridad Social . [...] Disposición transitoria tercera. Efectos de la calificación como contingencia profesional derivada de accidente de trabajo de las enfermedades",
+   "info": []
+  },
+  {
+   "ref": "11896723",
+   "db": "AN",
+   "fecha": "20261006",
+   "titulo": "STSJ Cataluña, a 06 de octubre de 2026 - ROJ: STSJ CAT 8067/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/cfec5c97bc8c986fa0a8778d75e36f0d/20261022",
+   "roj": "STSJ CAT 8067/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:8067",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "5178/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "ADOLFO MATIAS COLINO REY",
+    "Nº Recurso": "4885/2025"
+   },
+   "resumen": "una profesión con actividades en las que se está expuesto a dicho riesgo causante de la enfermedad. Consta informe de la inspección de trabajo de 25/11/2021 (folio 189 reverso) constató que había suficientes indicios para considerar el contagio covid-19 de la Sra. (en la misma residencia y con el mismo lugar de trabajo) como derivado de contingencia profesional pues existen \"suficientes indicios para poder considerar que hay un vínculo directo entre la afectación sufrida por la trabajadora derivada del contagio de covid-19 y su prestación laboral en otro momento\" ya que hubo otros trabajadores infectados por covid-19, era el momento del inicio de la pandemia y dado el caos los trabajadores hacían de todo, y el centro debió de ser intervenido por la Generalitat, que abrió un expediente sancionador en el momento en que la empresa Bertrán i Oriola era gestionada por Eulen",
+   "info": []
+  },
+  {
+   "ref": "11899441",
+   "db": "AN",
+   "fecha": "20260930",
+   "titulo": "STSJ Madrid, a 30 de septiembre de 2026 - ROJ: STSJ M 12095/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/521671e923aa9637a0a8778d75e36f0d/20261023",
+   "roj": "STSJ M 12095/2026",
+   "ecli": "ECLI:ES:TSJM:2026:12095",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "820/2026",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA ISABEL SAIZ ARESES",
+    "Nº Recurso": "337/2026"
+   },
+   "resumen": "a la crisis sanitaria ocasionada por el Covid-19, que se requiriera «a la Administración demandada (el Ministerio de Sanidad) a fin que en cumplimiento de las recomendaciones de la Organización Mundial de la Salud, de lo establecido en el Real Decreto 463/2020, de 14 de marzo, por el que se declara el estado de alarma, y en atención a la directa aplicación de la (LPRL) y Reglamento de Desarrollo, se provea con carácter urgente e inmediato, en el término de 24 horas, en todos los Centros hospitalarios, Centros asistenciales de Atención Primaria, Servicios de Emergencias, Servicios de Asistencial Rural, centros con pacientes institucionalizados así como todos los demás centros asistenciales del territorio nacional ya sean públicos o privados y cualesquiera otras dependencias habilitadas para uso sanitario, BATAS IMPERMEABLES, MASCARILLAS FPP2, FPP3, GAFAS DE PROTECCIÓN y CONTENDEROS",
+   "info": []
+  },
+  {
+   "ref": "11900308",
+   "db": "AN",
+   "fecha": "20260928",
+   "titulo": "STSJ Castilla-La Mancha, a 28 de septiembre de 2026 - ROJ: STSJ CLM 2527/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/d7953fe5d8315471a0a8778d75e36f0d/20261026",
+   "roj": "STSJ CLM 2527/2026",
+   "ecli": "ECLI:ES:TSJCLM:2026:2527",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1630/2026",
+    "Municipio": "Albacete",
+    "Ponente": "ELENA CARDENAS RUIZ-VALDEPEÑAS",
+    "Nº Recurso": "590/2025"
+   },
+   "resumen": "OTROS DCHOS. SEG.SOCIAL",
+   "info": []
+  },
+  {
+   "ref": "11889356",
+   "db": "AN",
+   "fecha": "20260924",
+   "titulo": "STSJ Andalucía, a 24 de septiembre de 2026 - ROJ: STSJ AND 12665/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/8dd6c297ca9dda06a0a8778d75e36f0d/20261016",
+   "roj": "STSJ AND 12665/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:12665",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2583/2026",
+    "Municipio": "Sevilla",
+    "Ponente": "MARIA INMACULADA LIÑAN ROJO",
+    "Nº Recurso": "2147/2024"
+   },
+   "resumen": "8/2015, de 30 de octubre. 2. Esta previsión se aplicará a los contagios del virus SARS-CoV2 producidos hasta el mes posterior a la finalización del estado de alarma, acreditando este extremo mediante el correspondiente parte de accidente de trabajo que deberá haberse expedido dentro del mismo periodo de referencia. 3. En los casos de fallecimiento, se considerará que la causa es accidente de trabajo siempre que el fallecimiento se haya producido dentro de los cinco años siguientes al contagio de la enfermedad y derivado de la misma, de conformidad con lo dispuesto en el artículo 217.2 del texto refundido de la Ley General de la Seguridad Social \". Por su parte, la Disposición Transitoria Tercera de dicho Real Decreto-ley estableció los efectos de la calificación como contingencia profesional derivada de accidente de trabajo de las enfermedades padecidas por el personal",
+   "info": []
+  },
+  {
+   "ref": "11889293",
+   "db": "AN",
+   "fecha": "20260917",
+   "titulo": "STSJ Andalucía, a 17 de septiembre de 2026 - ROJ: STSJ AND 12600/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/ce99950b7d93d84fa0a8778d75e36f0d/20261016",
+   "roj": "STSJ AND 12600/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:12600",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2525/2026",
+    "Municipio": "Sevilla",
+    "Ponente": "AURORA BARRERO RODRIGUEZ",
+    "Nº Recurso": "1862/2024"
+   },
+   "resumen": "la consideración de accidentes de trabajo las enfermedades, no incluidas en el artículo siguiente, que contraiga el trabajador con motivo de la realización de su trabajo, siempre que se pruebe que la enfermedad tuvo por causa exclusiva la ejecución del mismo. El Real Decreto Ley 6/20 de 10 de marzo, que entró en vigor el 12/3/2020, por el que se adoptan determinadas medidas urgentes en el ámbito económico y para la protección de la salud pública, en su artículo quinto, bajo la rúbrica consideración excepcional como situación asimilada a accidente de trabajo de los periodos de aislamiento o contagio de las personas trabajadoras como consecuencia del virus covid 19 dispuso lo siguiente «1. Al objeto de proteger la salud pública, se considerarán, con carácter excepcional, situación asimilada a accidente de trabajo, exclusivamente para la prestación económica de incapacidad",
+   "info": []
+  },
+  {
+   "ref": "11873767",
+   "db": "AN",
+   "fecha": "20260914",
+   "titulo": "STSJ Castilla-La Mancha, a 14 de septiembre de 2026 - ROJ: STSJ CLM 2322/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/5f2ae643a2ed2b76a0a8778d75e36f0d/20261005",
+   "roj": "STSJ CLM 2322/2026",
+   "ecli": "ECLI:ES:TSJCLM:2026:2322",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1529/2026",
+    "Municipio": "Albacete",
+    "Ponente": "ANTONIO CERVERA PELAEZ-CAMPOMANES",
+    "Nº Recurso": "1835/2025"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": []
+  },
+  {
+   "ref": "11893854",
+   "db": "AN",
+   "fecha": "20260914",
+   "titulo": "STSJ Madrid, a 14 de septiembre de 2026 - ROJ: STSJ M 11918/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/d5a8cab7c846d9eea0a8778d75e36f0d/20261021",
+   "roj": "STSJ M 11918/2026",
+   "ecli": "ECLI:ES:TSJM:2026:11918",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "539/2026",
+    "Municipio": "Madrid",
+    "Ponente": "SUSANA MARIA MOLINA GUTIERREZ",
+    "Nº Recurso": "196/2026"
+   },
+   "resumen": "evolucionar, en lo que al personal que presta servicios en centros sanitarios, hacia la declaración de EP. En estos casos no es necesario probar el contagio exacto en el trabajo, pues al darse la concurrencia de enfermedad (COVID-19) y entorno de trabajo incluido en el listado (centro sanitario con riesgo biológico), opera la presunción legal de \"profesionalidad\". 3. Sentada esta doctrina consta probado en el caso que nos ocupa que el 18 de marzo de 2020 la actora, auxiliar de enfermería en una Fundación destinada a la atención de personas con discapacidad, cursó un proceso de incapacidad temporal con el diagnóstico de \"coronavirus asociado a Sars Cov2\". Si bien resulta constatada la presencia de un contagio por coronavirus de personal sanitario una vez declarada por RD 463/2020 de 14 de marzo la situación de estado de alarma como consecuencia de la pandemia mundial",
+   "info": []
+  },
+  {
+   "ref": "11836424",
+   "db": "AN",
+   "fecha": "20260729",
+   "titulo": "STSJ Madrid, a 29 de julio de 2026 - ROJ: STSJ M 10430/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/ec7622f8bde4a264a0a8778d75e36f0d/20260902",
+   "roj": "STSJ M 10430/2026",
+   "ecli": "ECLI:ES:TSJM:2026:10430",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "640/2026",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA DEL AMPARO RODRIGUEZ RIQUELME",
+    "Nº Recurso": "269/2026"
+   },
+   "resumen": "Recargo de las prestaciones económicas derivadas de accidente de trabajo o enfermedad profesional 1. Todas las prestaciones económicas que tengan su causa en accidente de trabajo o enfermedad profesional se aumentarán, según la gravedad de la falta, de un 30 a un 50 por ciento, cuando la lesión se produzca por equipos de trabajo o en instalaciones, centros o lugares de trabajo que carezcan de los medios de protección reglamentarios, los tengan inutilizados o en malas condiciones, o cuando no se hayan observado las medidas generales o particulares de seguridad y salud en el trabajo, o las de adecuación personal a cada trabajo, habida cuenta de sus características y de la edad, sexo y demás condiciones del trabajador...\" ...La sentencia del Tribunal Supremo de 8 de octubre de 2001 , también coincide en poner",
+   "info": []
+  },
+  {
+   "ref": "11836420",
+   "db": "AN",
+   "fecha": "20260728",
+   "titulo": "STSJ Madrid, a 28 de julio de 2026 - ROJ: STSJ M 10426/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/2e5df4b9d30cc41ba0a8778d75e36f0d/20260902",
+   "roj": "STSJ M 10426/2026",
+   "ecli": "ECLI:ES:TSJM:2026:10426",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "633/2026",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA DEL AMPARO RODRIGUEZ RIQUELME",
+    "Nº Recurso": "186/2026"
+   },
+   "resumen": "individual adecuados a su puesto de trabajo previo a su contagio de Covid 19 el día 18 de marzo de 2020. Que el señor remitió un correo electrónico a la Dirección del centro de Jardines de Sabatini, con fecha 16 de marzo, indicando que al no proporcionarle Epis y al haber tenido contacto con un residente con síntomas de coronavirus no acude a su centro de trabajo. Que la demandada no realizó pruebas PRC ni de orina a los dos residentes que se encontraban aislados por sospechas de Covid 19 al momento del contagio del actor. Que, la demandada no realizó pruebas PRC a los residentes sino hasta el día 30 de marzo de 2020, esto es con carácter posterior a la baja por Covid del actor. Que, la demandada no ha acreditado haber realizado pruebas PRC a su personal. Que",
+   "info": []
+  },
+  {
+   "ref": "11825731",
+   "db": "AN",
+   "fecha": "20260721",
+   "titulo": "STSJ Madrid, a 21 de julio de 2026 - ROJ: STSJ M 10240/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/7036144f2ae8c86aa0a8778d75e36f0d/20260820",
+   "roj": "STSJ M 10240/2026",
+   "ecli": "ECLI:ES:TSJM:2026:10240",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "630/2026",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA AURORA DE LA CUEVA ALEU",
+    "Nº Recurso": "294/2026"
+   },
+   "resumen": "implicado directamente en la lucha contra el COVID-19 en el desarrollo de su actividad laboral, estatutaria o profesional, habiendo mantenido contacto físico con personas infectadas por el COVID 19 falleciendo por coronavirus el 5 DE ABRIL DE 2020 a las 04,05 horas ( doc. 6 y 7 de la parte actora).\" Se diga \"D. inició sintomatología respiratoria con tos seca el 15 de marzo de 2020, causó baja por incapacidad laboral y fue emitido parte de baja por ACCIDENTE DE TRABAJO con fecha 17 de marzo de 2020, requirió ingreso en un centro hospitalario público, y estuvo implicado directamente en la lucha contra el COVID-19 en el desarrollo de su actividad laboral estatutaria habiendo mantenido contacto físico con personas infectadas por el COVID 19 falleciendo por coronavirus el 5 DE ABRIL DE 2020 a las 04,05 horas ( doc. 6 y 7 de la parte actora)\".",
+   "info": []
+  },
+  {
+   "ref": "11839669",
+   "db": "AN",
+   "fecha": "20260716",
+   "titulo": "STSJ Andalucía, a 16 de julio de 2026 - ROJ: STSJ AND 11512/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/0995d4dc67958f49a0a8778d75e36f0d/20260904",
+   "roj": "STSJ AND 11512/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:11512",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2264/2026",
+    "Municipio": "Sevilla",
+    "Ponente": "TERESA ORELLANA CARRASCO",
+    "Nº Recurso": "1647/2024"
+   },
+   "resumen": "de 1 paciente. Con estas circunstancias, el simple desarrollo del trabajo debe considerarse ya riesgo suficiente de contagio del virus SARS-CoV2 para los trabajadores sanitarios y no es necesario probar el contagio exacto en el trabajo, pues al darse la concurrencia de enfermedad (COVID-19) y entorno de trabajo incluido en el listado (centro sanitario con riesgo biológico), opera la presunción legal de \"profesionalidad\". En cuanto a la alegación de la recurrente relativa a la fecha de inicio de la situación del proceso de Incapacidad Temporal discutido y objeto de la presente litis, el cual tiene lugar desde el 5 de abril hasta el 9 de abril de 2022, resultando tal proceso de Incapacidad Temporal claramente excluido del marco temporal ya descrito, es decir, contagios del virus SARS-CoV2 hasta el mes posterior a la finalización del estado de alarma .. Señalamos",
+   "info": []
+  },
+  {
+   "ref": "11839570",
+   "db": "AN",
+   "fecha": "20260709",
+   "titulo": "STSJ Andalucía, a 09 de julio de 2026 - ROJ: STSJ AND 11349/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/367956929da9084ca0a8778d75e36f0d/20260904",
+   "roj": "STSJ AND 11349/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:11349",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2159/2026",
+    "Municipio": "Sevilla",
+    "Ponente": "AURORA BARRERO RODRIGUEZ",
+    "Nº Recurso": "1612/2024"
+   },
+   "resumen": "28/2020; que hasta ese momento los contagios por Covid del personal sanitario sólo podían tener la calificación de accidente de trabajo por aplicación del artículo 156.2.e) LGSS; que aunque no se entendiera así, es claro que a diferencia de la presunción de enfermedad profesional del artículo 6 del RDL 3/21, la disposición adicional 4ª del RDL 28/2020 no establece una presunción de accidente de trabajo, exigiendo la exposición a un riesgo específico y que por esa exposición se contrajera la enfermedad, debiéndose acreditar, por tanto, que el contagio Covid se produjo en el ejercicio de la profesión; que en el caso de autos hay una absoluta falta de prueba de que el contagio se produjera en el desarrollo del trabajo de la actora; que no hay en la sentencia dato alguno que permita inferir la relación entre el trabajo y la enfermedad; que la sentencia recurrida ha invertido la",
+   "info": []
+  },
+  {
+   "ref": "11816105",
+   "db": "AN",
+   "fecha": "20260703",
+   "titulo": "STSJ Castilla-La Mancha, a 03 de julio de 2026 - ROJ: STSJ CLM 1974/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/feb85f2243ac621fa0a8778d75e36f0d/20260807",
+   "roj": "STSJ CLM 1974/2026",
+   "ecli": "ECLI:ES:TSJCLM:2026:1974",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1307/2026",
+    "Municipio": "Albacete",
+    "Ponente": "ETHEL HONRUBIA GOMEZ",
+    "Nº Recurso": "450/2025"
+   },
+   "resumen": "RECLAMACIÓN CANTIDAD",
+   "info": []
+  },
+  {
+   "ref": "11838302",
+   "db": "AN",
+   "fecha": "20260702",
+   "titulo": "STSJ Andalucía, a 02 de julio de 2026 - ROJ: STSJ AND 10313/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/48df2ff1a336f9a8a0a8778d75e36f0d/20260903",
+   "roj": "STSJ AND 10313/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:10313",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2079/2026",
+    "Municipio": "Sevilla",
+    "Ponente": "MARIA DEL CARMEN PEREZ SIBON",
+    "Nº Recurso": "1604/2024"
+   },
+   "resumen": "sanitaria ocasionada por el COVID-19, las prestaciones de Seguridad Social que cause el personal que presta servicios en centros sanitarios o socio-sanitarios, inscritos en los registros correspondientes, y que en el ejercicio de su profesión, hayan contraído el virus SARS-CoV2 por haber estado expuesto a ese riesgo específico durante la prestación de servicios sanitarios y socio-sanitarios, cuando así se acredite por los servicios de Prevención de Riesgos laborales y Salud Laboral, se considerarán derivadas de accidente de trabajo, al entender cumplidos los requisitos exigidos en el artículo 156.2.e) del texto refundido de la Ley General de la Seguridad Social , aprobado por el Real Decreto Legislativo 8/2015, de 30 de octubre. 2. El contagio y padecimiento de la enfermedad se acreditará mediante el correspondiente parte de accidente de trabajo que deberá haberse",
+   "info": []
+  },
+  {
+   "ref": "11806528",
+   "db": "AN",
+   "fecha": "20260629",
+   "titulo": "STSJ Castilla y León, a 29 de junio de 2026 - ROJ: STSJ CL 2811/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/d2a213983fafa843a0a8778d75e36f0d/20260727",
+   "roj": "STSJ CL 2811/2026",
+   "ecli": "ECLI:ES:TSJCL:2026:2811",
+   "sala": "",
+   "datos": {
+    "Municipio": "Valladolid",
+    "Ponente": "JOSE MANUEL RIESCO IGLESIAS",
+    "Nº Recurso": "3109/2024"
+   },
+   "resumen": "INCAPACIDAD TEMPORAL",
+   "info": []
+  },
+  {
+   "ref": "11802765",
+   "db": "AN",
+   "fecha": "20260622",
+   "titulo": "STSJ Andalucía, a 22 de junio de 2026 - ROJ: STSJ AND 9231/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/432569d4efde21eca0a8778d75e36f0d/20260723",
+   "roj": "STSJ AND 9231/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:9231",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1157/2026",
+    "Municipio": "Málaga",
+    "Ponente": "ERNESTO UTRERA MARTIN",
+    "Nº Recurso": "2198/2025"
+   },
+   "resumen": "que por razón de la realización de obras en las dependencias, comían en un contenedor de 20 metros cuadrados; que realizó tres turnos en las fechas previas al 14 de marzo de 2020; que realizó en ese tiempo una salida en la ambulancia; que no dispusieron de mascarillas; y que una compañera tuvo Covid-19; que el 14 de marzo de 2022 inició un proceso de incapacidad temporal por contagio de Covid-19, considerado como situación asimilada a accidente de trabajo; que el 13 de marzo de 2021 fue dado de alta; que solicitó el cambio de contingencia por la de accidente de trabajo, denegándose por la entidad gestora, que archivó la petición por haber considerado la baja como asimilada a dicha contingencia; y que presentó la demanda que dio lugar al proceso en el que se ha dictado la sentencia objeto de este recurso. NOVENO.-El magistrado de instancia, que termina",
+   "info": []
+  },
+  {
+   "ref": "11787488",
+   "db": "AN",
+   "fecha": "20260618",
+   "titulo": "STSJ Castilla-La Mancha, a 18 de junio de 2026 - ROJ: STSJ CLM 1652/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/b32ecae971b70aa2a0a8778d75e36f0d/20260710",
+   "roj": "STSJ CLM 1652/2026",
+   "ecli": "ECLI:ES:TSJCLM:2026:1652",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1190/2026",
+    "Municipio": "Albacete",
+    "Ponente": "ANTONIO CERVERA PELAEZ-CAMPOMANES",
+    "Nº Recurso": "2466/2024"
+   },
+   "resumen": "OTROS DCHOS. SEG.SOCIAL",
+   "info": []
+  },
+  {
+   "ref": "11820140",
+   "db": "AN",
+   "fecha": "20260618",
+   "titulo": "STSJ Castilla-La Mancha, a 18 de junio de 2026 - ROJ: STSJ CLM 2050/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/56ed268767211a74a0a8778d75e36f0d/20260813",
+   "roj": "STSJ CLM 2050/2026",
+   "ecli": "ECLI:ES:TSJCLM:2026:2050",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1194/2026",
+    "Municipio": "Albacete",
+    "Ponente": "ANTONIO CERVERA PELAEZ-CAMPOMANES",
+    "Nº Recurso": "228/2025"
+   },
+   "resumen": "RECARGO DE ACCIDENTE",
+   "info": []
+  },
+  {
+   "ref": "11796888",
+   "db": "AN",
+   "fecha": "20260609",
+   "titulo": "STSJ Asturias, a 09 de junio de 2026 - ROJ: STSJ AS 1595/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/2a607665a4becb9da0a8778d75e36f0d/20260717",
+   "roj": "STSJ AS 1595/2026",
+   "ecli": "ECLI:ES:TSJAS:2026:1595",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "987/2026",
+    "Municipio": "Oviedo",
+    "Ponente": "JOSE LUIS NIÑO ROMERO",
+    "Nº Recurso": "2151/2025"
+   },
+   "resumen": "RECARGO DE ACCIDENTE",
+   "info": []
+  },
+  {
+   "ref": "11795974",
+   "db": "AN",
+   "fecha": "20260608",
+   "titulo": "STSJ Castilla-La Mancha, a 08 de junio de 2026 - ROJ: STSJ CLM 1746/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/ed673c547e9d5990a0a8778d75e36f0d/20260717",
+   "roj": "STSJ CLM 1746/2026",
+   "ecli": "ECLI:ES:TSJCLM:2026:1746",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1109/2026",
+    "Municipio": "Albacete",
+    "Ponente": "ETHEL HONRUBIA GOMEZ",
+    "Nº Recurso": "333/2025"
+   },
+   "resumen": "RECLAMACIÓN CANTIDAD",
+   "info": []
+  },
+  {
+   "ref": "11793069",
+   "db": "AN",
+   "fecha": "20260608",
+   "titulo": "STSJ Castilla y León, a 08 de junio de 2026 - ROJ: STSJ CL 2452/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/01d1c84519a75f25a0a8778d75e36f0d/20260715",
+   "roj": "STSJ CL 2452/2026",
+   "ecli": "ECLI:ES:TSJCL:2026:2452",
+   "sala": "",
+   "datos": {
+    "Municipio": "Valladolid",
+    "Ponente": "CARLOS GARCIA-GIRALDA CASAS",
+    "Nº Recurso": "2899/2024"
+   },
+   "resumen": "INCAPACIDAD TEMPORAL",
+   "info": []
+  },
+  {
+   "ref": "11779511",
+   "db": "AN",
+   "fecha": "20260604",
+   "titulo": "STSJ Comunidad Valenciana, a 04 de junio de 2026 - ROJ: STSJ CV 2280/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/729cf9225d6e74d6a0a8778d75e36f0d/20260702",
+   "roj": "STSJ CV 2280/2026",
+   "ecli": "ECLI:ES:TSJCV:2026:2280",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1733/2026",
+    "Municipio": "Valencia",
+    "Ponente": "ISABEL MORENO DE VIANA-CARDENAS",
+    "Nº Recurso": "2155/2025"
+   },
+   "resumen": "Extinción de la prestación de incapacidad temporal por inasistencia injustificada al reconocimiento médico.",
+   "info": []
+  },
+  {
+   "ref": "11803273",
+   "db": "AN",
+   "fecha": "20260603",
+   "titulo": "STSJ Andalucía, a 03 de junio de 2026 - ROJ: STSJ AND 9060/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/45100e8866195d9ea0a8778d75e36f0d/20260723",
+   "roj": "STSJ AND 9060/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:9060",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1703/2026",
+    "Municipio": "Sevilla",
+    "Ponente": "MARIA LAURA VEGA PEDRAZA",
+    "Nº Recurso": "1276/2024"
+   },
+   "resumen": "que se ven afectadas por una enfermedad profesional». 3.-Las normas de urgencia ofrecieron, pues, una solución específica para esta infección considerándola AT en un inicio, como vía de respuesta ante la lógica falta de su descripción en el RDL 6/2020, para finalmente evolucionar, en lo que al personal que presta servicios en centros sanitarios, hacia la declaración de EP. En estos casos no es necesario probar el contagio exacto en el trabajo, pues al darse la concurrencia de enfermedad (COVID-19) y entorno de trabajo incluido en el listado (centro sanitario con riesgo biológico), opera la presunción legal de \"profesionalidad\". Vista la legislación aplicable, así como atendida la doctrina de esta sala que acabamos de resumir y la que aquí exponemos, hemos de concluir que la tesis correcta es la que considera la COVID-19 como contingencia profesional",
+   "info": []
+  },
+  {
+   "ref": "11763225",
+   "db": "AN",
+   "fecha": "20260527",
+   "titulo": "STSJ Cataluña, a 27 de mayo de 2026 - ROJ: STSJ CAT 4620/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/06a0cef1ce505f74a0a8778d75e36f0d/20260619",
+   "roj": "STSJ CAT 4620/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:4620",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "3129/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "MARIA DEL MAR SERNA CALVO",
+    "Nº Recurso": "2695/2025"
+   },
+   "resumen": "de suplicación. TERCERO. Motivo examen de las infracciones de normas sustantivas o de la jurisprudencia 1. Como segundo motivo de suplicación, al amparo del artículo 193 apartado c) de la Ley Reguladora de la Jurisdicción Social, formula censura jurídica por infracción o interpretación errónea de los artículos 156, 157 y 158 sobre el accidente de trabajo, el accidente no laboral y la enfermedad común. La empresa recurrente alega que únicamente puede considerarse que el COVID-19 es enfermedad profesional cuando se pueda demostrar que se contrajera exclusivamente durante la realización del trabajo. Por lo que, salvo que se acredite que el contagio de Covid-19 ocurrió exclusivamente debidamente al trabajo, debe calificarse como una enfermedad común a efectos de las prestaciones. La parte",
+   "info": []
+  },
+  {
+   "ref": "11790208",
+   "db": "AN",
+   "fecha": "20260521",
+   "titulo": "STSJ Andalucía, a 21 de mayo de 2026 - ROJ: STSJ AND 8042/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/7b36f12ba8aaedffa0a8778d75e36f0d/20260713",
+   "roj": "STSJ AND 8042/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:8042",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1549/2026",
+    "Municipio": "Sevilla",
+    "Ponente": "RAFAEL FERNANDEZ LOPEZ",
+    "Nº Recurso": "1059/2024"
+   },
+   "resumen": "en el RDL 6/2020, para finalmente evolucionar, en lo que al personal que presta servicios en centros sanitarios, hacia la declaración de EP. En estos casos no es necesario probar el contagio exacto en el trabajo, pues al darse la concurrencia de enfermedad (COVID-19) y entorno de trabajo incluido en el listado (centro sanitario con riesgo biológico), opera la presunción legal de \"profesionalidad\". 3. Pues bien, atendida la doctrina jurisprudencial que se acaba de exponer, hemos de concluir que la tesis correcta es la que considera la COVID-19 como contingencia profesional incluida en el cuadro de enfermedades profesionales, y por ello, que la actora en el caso que nos ocupa tuvo sendos procesos de baja por IT derivados de EP, tanto el primero iniciado el 6/4/20 y que se prolongó hasta el 12/5/20 por infección por COVID-19, como el segundo que",
+   "info": []
+  },
+  {
+   "ref": "11762915",
+   "db": "AN",
+   "fecha": "20260521",
+   "titulo": "STSJ Castilla-La Mancha, a 21 de mayo de 2026 - ROJ: STSJ CLM 1399/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/09d64dbe4d4bb38aa0a8778d75e36f0d/20260619",
+   "roj": "STSJ CLM 1399/2026",
+   "ecli": "ECLI:ES:TSJCLM:2026:1399",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "947/2026",
+    "Municipio": "Albacete",
+    "Ponente": "ETHEL HONRUBIA GOMEZ",
+    "Nº Recurso": "462/2025"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": []
+  },
+  {
+   "ref": "11738864",
+   "db": "AN",
+   "fecha": "20260508",
+   "titulo": "STSJ Cataluña, a 08 de mayo de 2026 - ROJ: STSJ CAT 3747/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/9b05270f61b1ccf3a0a8778d75e36f0d/20260529",
+   "roj": "STSJ CAT 3747/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:3747",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2681/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "CARLOS ESCRIBANO VINDEL",
+    "Nº Recurso": "449/2025"
+   },
+   "resumen": "la responsable del departamento de relaciones laborales de la empresa certificó las bajas existentes en el centro, iniciadas de enero a marzo de 2020, de gerocultores, lavanderos, médicos, trabajador social, fisioterapeuta, terapeuta ocupacional, distinguiendo: enfermedad común, Covid, accidente de trabajo, ausencia no justificada, y fechas respectivas, con observaciones sobre quiénes eran de turno de tarde o no compartieron espacio o tuvieron distinta planta o ubicación que la actora (documento 8 de ésta). Decimosexto. Se da por reproducido listado de residentes fallecidos por Covid, en marzo y abril de 2020 (documento 9 de la demandante). Decimoséptimo. La empresa (documento 2 suyo) comunicó a la actora la finalización de su contrato de trabajo temporal con efectos desde el 11 de julio de 2020. Decimoctavo. La Tesorería",
+   "info": []
+  },
+  {
+   "ref": "11790074",
+   "db": "AN",
+   "fecha": "20260506",
+   "titulo": "STSJ Andalucía, a 06 de mayo de 2026 - ROJ: STSJ AND 7883/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/97c402e987672352a0a8778d75e36f0d/20260713",
+   "roj": "STSJ AND 7883/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:7883",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1339/2026",
+    "Municipio": "Sevilla",
+    "Ponente": "RAFAEL FERNANDEZ LOPEZ",
+    "Nº Recurso": "925/2024"
+   },
+   "resumen": "ofrecieron, pues, una solución específica para esta infección considerándola AT en un inicio, como vía de respuesta ante la lógica falta de su descripción en el RDL 6/2020, para finalmente evolucionar, en lo que al personal que presta servicios en centros sanitarios, hacia la declaración de EP. En estos casos no es necesario probar el contagio exacto en el trabajo, pues al darse la concurrencia de enfermedad (COVID-19) y entorno de trabajo incluido en el listado (centro sanitario con riesgo biológico), opera la presunción legal de \"profesionalidad\". 3. Pues bien, vista la legislación aplicable, así como atendida la doctrina jurisprudencial que se acaba de exponer, hemos de concluir que la tesis correcta es la que considera la COVID-19 como contingencia profesional incluida en el cuadro de enfermedades profesionales, siendo atribuible",
+   "info": []
+  },
+  {
+   "ref": "11790083",
+   "db": "AN",
+   "fecha": "20260506",
+   "titulo": "STSJ Andalucía, a 06 de mayo de 2026 - ROJ: STSJ AND 7892/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/dface35b1cff5754a0a8778d75e36f0d/20260713",
+   "roj": "STSJ AND 7892/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:7892",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1338/2026",
+    "Municipio": "Sevilla",
+    "Ponente": "RAFAEL FERNANDEZ LOPEZ",
+    "Nº Recurso": "904/2024"
+   },
+   "resumen": "la prestación de los servicios sanitarios, pues por el contrario el informe de prevención aportado por el SAS al caso de autos establece el riesgo de contagio del covid por parte del demandante, tratándose de un medio de prueba cualificado que resulta exigido por ley y su contenido en este caso no permite poder calificar la contingencia como profesional. 2. Al respecto, debemos partir de la regulación general prevista en artículo 156.2.e) de la LGSS, al que se remitía expresamente el artículo 5.1 del Real Decreto-Ley 6/2020, de 10 de marzo, en relación con la atribución de la contingencia de accidente de trabajo a aquellas enfermedades que no estando consideradas enfermedad profesional, hayan sido contraídas por el trabajador con motivo de la realización de su trabajo, siempre que se pruebe que la enfermedad tuvo por causa exclusiva la ejecución",
+   "info": []
+  },
+  {
+   "ref": "11775069",
+   "db": "AN",
+   "fecha": "20260505",
+   "titulo": "STSJ Comunidad Valenciana, a 05 de mayo de 2026 - ROJ: STSJ CV 2240/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/a2ba58010d19d735a0a8778d75e36f0d/20260629",
+   "roj": "STSJ CV 2240/2026",
+   "ecli": "ECLI:ES:TSJCV:2026:2240",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1299/2026",
+    "Municipio": "Valencia",
+    "Ponente": "MARIA ESPERANZA MONTESINOS LLORENS",
+    "Nº Recurso": "1839/2025"
+   },
+   "resumen": "otro lado, el ámbito objetivo se circunscribió a \"centros sanitarios o sociosanitarios, inscritos en los registros correspondientes\".....De la normativa expuesta no cabe concluir que la prestación de incapacidad temporal asimilada al accidente de trabajo por contagio, aislamiento o limitación de movilidad COVID 19 siga el régimen de responsabilidad establecido para la prestación de incapacidad temporal derivada de accidente de trabajo, porque si no el legislador hubiera declarado que la baja médica por COVID 19 deriva de accidente de trabajo y no es esto lo que ha hecho sino que ha asimilado la prestación de incapacidad temporal derivada de enfermedad común por COVID a la prestación por accidente de trabajo en cuanto a su cuantía, forma de devengo y carencia lo que determina que la responsabilidad en cuanto a su abono haya de recaer no en el Corte Inglés S.A., ni tampoco en el",
+   "info": []
+  },
+  {
+   "ref": "11765777",
+   "db": "AN",
+   "fecha": "20260416",
+   "titulo": "STSJ Andalucía, a 16 de abril de 2026 - ROJ: STSJ AND 6617/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/4f8a64185d08b7fca0a8778d75e36f0d/20260622",
+   "roj": "STSJ AND 6617/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:6617",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1213/2026",
+    "Municipio": "Sevilla",
+    "Ponente": "CARLOS MANCHO SANCHEZ",
+    "Nº Recurso": "3021/2022"
+   },
+   "resumen": "trabajo. Se argumenta también que el personal del servicio doméstico no se ve afectado por un riesgo significativo en el desempeño de su trabajo y que la realización de sus funciones no entraña una especial penosidad en comparación con otros trabajadores que ostentan su misma categoría profesional, por haberse adoptado en el centro de trabajo las medidas preventivas necesarias para evitar cualquier riesgo, incluso se han realizado reconocimientos médicos y se han adaptado los puestos de trabajo del personal especialmente sensible que lo ha solicitado. A lo hasta aquí expuesto debemos añadir que no consta que se haya producido ningún incidente en materia de protección de riesgos laborales o haya acaecido algún accidente de trabajo, lo que revela la eficacia de las medidas preventivas adoptadas por la empleadora para evitar contagios o agresiones físicas de los",
+   "info": []
+  },
+  {
+   "ref": "11727056",
+   "db": "AN",
+   "fecha": "20260416",
+   "titulo": "STSJ Castilla-La Mancha, a 16 de abril de 2026 - ROJ: STSJ CLM 954/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/af7bbbe04bc88d62a0a8778d75e36f0d/20260520",
+   "roj": "STSJ CLM 954/2026",
+   "ecli": "ECLI:ES:TSJCLM:2026:954",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "665/2026",
+    "Municipio": "Albacete",
+    "Ponente": "ETHEL HONRUBIA GOMEZ",
+    "Nº Recurso": "2451/2024"
+   },
+   "resumen": "OTROS DCHOS. SEG.SOCIAL",
+   "info": []
+  },
+  {
+   "ref": "11737487",
+   "db": "AN",
+   "fecha": "20260416",
+   "titulo": "STSJ Andalucía, a 16 de abril de 2026 - ROJ: STSJ AND 5930/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/fc80b685d1ab35f6a0a8778d75e36f0d/20260528",
+   "roj": "STSJ AND 5930/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:5930",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "910/2026",
+    "Municipio": "Granada",
+    "Ponente": "MARIA DE LAS NIEVES BLANCA SANCHO VILLANOVA",
+    "Nº Recurso": "893/2025"
+   },
+   "resumen": "a NEX CONTINENTAL HOLDINGS S.L.U. y frente a MUTUA IBERMUTUA y, en consecuencia, declaro que el proceso de incapacidad temporal iniciado por el demandante el 16/06/2022 se corresponde con la contingencia de accidente de trabajo, debiendo las demandadas estar y pasar por la presente declaración\". Segundo.-En la sentencia aludida se declararon como hechos probados los siguientes: \"Primero.-D. , nacido el /1971, con DNI , viene prestando servicios por cuenta de NEX CONTINENTAL HOLDINGS S.L.U. con categoría profesional de agente único (conductor de autobús) y antigüedad desde 22/06/1992. El demandante viene adscrito al centro de trabajo de la demandada en Motril. Segundo.-Entre los días 14 a 17/06/2022, 20/06/2022, 23 y 24/06/2022, 30/06/2022 y 01/07/2022 se había convocado una huelga para los trabajadores",
+   "info": []
+  },
+  {
+   "ref": "11727626",
+   "db": "AN",
+   "fecha": "20260409",
+   "titulo": "STSJ Andalucía, a 09 de abril de 2026 - ROJ: STSJ AND 5500/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/9241581d5ba86e50a0a8778d75e36f0d/20260520",
+   "roj": "STSJ AND 5500/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:5500",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "849/2026",
+    "Municipio": "Granada",
+    "Ponente": "FRANCISCO MANUEL ALVAREZ DOMINGUEZ",
+    "Nº Recurso": "871/2025"
+   },
+   "resumen": "prorrogado por la Disposición Adicional Octava del Real Decreto-ley 27/2020, de 4 de agosto, de medidas financieras, de carácter extraordinario y urgente, aplicables a las entidades locales: \"La consideración como contingencia profesional derivada de accidente de trabajo de las enfermedades padecidas por el personal que presta servicio en centros sanitarios o socio-sanitarios como consecuencia del contagio del virus SARS-CoV2, se aplicará, a los contagios del virus SARS-CoV2 producidos desde el 1 de agosto de 2020 hasta que las autoridades sanitarias levanten todas las medidas de prevención adoptadas para hacer frente a la crisis sanitaria ocasionada por el COVID-19, acreditando el contagio mediante el correspondiente parte de accidente de trabajo que deberá haberse expedido dentro del mismo periodo de referencia.\". Aunque el anterior Real Decreto",
+   "info": []
+  },
+  {
+   "ref": "11694789",
+   "db": "AN",
+   "fecha": "20260330",
+   "titulo": "STSJ Cataluña, a 30 de marzo de 2026 - ROJ: STSJ CAT 2601/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/6ff4522747e0f9c3a0a8778d75e36f0d/20260422",
+   "roj": "STSJ CAT 2601/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:2601",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1910/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "NURIA BONO ROMERA",
+    "Nº Recurso": "4177/2025"
+   },
+   "resumen": "del artículo 5 del Real Decreto-ley 6/2020 (que ha sido objeto de hasta seis redacciones diversas a los efectos de determinar la contingencia del proceso de incapacidad temporal como derivado de accidente de trabajo. Dicho precepto establecía, en su redacción inicial a la que se refiere la sentencia, que: \"Al objeto de proteger la salud pública, se considerarán, con carácter excepcional, situación asimilada a accidente de trabajo, exclusivamente para la prestación económica de incapacidad temporal del sistema de Seguridad Social, aquellos periodos de aislamiento o contagio de las personas trabajadoras provocado por el virus COVID-19.(..)\".Contempla la norma como situación de asimilada a accidente de trabajo los períodos de aislamiento o contagio de los trabajadores provocados por el Covid-19, pero dicha asimilación fue la de garantizar la protección social",
+   "info": []
+  },
+  {
+   "ref": "11708717",
+   "db": "AN",
+   "fecha": "20260326",
+   "titulo": "STSJ Madrid, a 26 de marzo de 2026 - ROJ: STSJ M 4317/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/524f9249a51b65e6a0a8778d75e36f0d/20260505",
+   "roj": "STSJ M 4317/2026",
+   "ecli": "ECLI:ES:TSJM:2026:4317",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "182/2026",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA BEGOÑA GARCIA ALVAREZ",
+    "Nº Recurso": "407/2025"
+   },
+   "resumen": "condiciones del mismo (desorganización en relación a los turnos de trabajo, aumento de los días de trabajo adicionales al año), sin que existan agentes externos (familiares...) que incidan en su estado. Además, añade, todos los síntomas de su cuadro ansioso depresivo se presentaron en el centro de trabajo de forma sobrevenida, como se indica en el Informe de seguimiento de consulta externa del 17-05-21,por lo que gozaría de la presunción de laboralidad. Invoca la STSJ de Cantabria de 12-05-23 (S.353/2023). La cuestión objeto de debate en el presente recurso, a la vista del motivo expuesto, es la determinación de cuál sea la contingencia determinante de la incapacidad temporal del actor, en los períodos de 3-03-20 a 5-04-21; y del 3-07-23 al 28-12-24; que éste pretende sea reconocida como accidente de trabajo, al amparo del art. 156.2 e)",
+   "info": []
+  },
+  {
+   "ref": "11712127",
+   "db": "AN",
+   "fecha": "20260326",
+   "titulo": "STSJ Andalucía, a 26 de marzo de 2026 - ROJ: STSJ AND 4510/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/a186384c2d503be1a0a8778d75e36f0d/20260507",
+   "roj": "STSJ AND 4510/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:4510",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1011/2026",
+    "Municipio": "Sevilla",
+    "Ponente": "MARIA DEL CARMEN PEREZ SIBON",
+    "Nº Recurso": "617/2024"
+   },
+   "resumen": "de las lesiones previas ... se produce tras un accidente acaecido realizando su trabajo y en el centro de trabajo, \"y como ha señalado también el Tribunal Supremo en sentencias de 22 de marzo de 1.985 , 25 y 29 de septiembre de 1.986 , 4 de noviembre de 1.988 y 18 de octubre de 1.996 , se precisa, para excluir la presunción, prueba en contrario que evidencie de forma inequívoca la ruptura de la relación de causalidad entre el trabajo y la enfermedad, y para ello es preciso que se trate de enfermedades que no sean susceptibles de una etiología laboral, y aunque en el presente caso se trata de una enfermedad que puede tener el carácter de degenerativa, y que no se causa por un agente extraño o súbito, sin embargo, como se dijo, la enfermedad, aun manifestada anteriormente, se agudiza",
+   "info": []
+  },
+  {
+   "ref": "11690819",
+   "db": "AN",
+   "fecha": "20260326",
+   "titulo": "STSJ Aragón, a 26 de marzo de 2026 - ROJ: STSJ AR 527/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/8b1c05e090e097faa0a8778d75e36f0d/20260417",
+   "roj": "STSJ AR 527/2026",
+   "ecli": "ECLI:ES:TSJAR:2026:527",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "244/2026",
+    "Municipio": "Zaragoza",
+    "Ponente": "CESAR ARTURO TOMAS FANJUL",
+    "Nº Recurso": "133/2026"
+   },
+   "resumen": "Tutela de DDFF por vulneración del Derecho a la Integridad Fisica. Contagio por COVID y prevención del riesgo. Legitimación activa (RLT) y conflicto colectivo: supuestos de apreciación en el contexto de riesgo inminente. Nulidad e indefensión.",
+   "info": []
+  },
+  {
+   "ref": "11708515",
+   "db": "AN",
+   "fecha": "20260326",
+   "titulo": "STSJ Andalucía, a 26 de marzo de 2026 - ROJ: STSJ AND 4071/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/e67e24aa30d41fc4a0a8778d75e36f0d/20260505",
+   "roj": "STSJ AND 4071/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:4071",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "815/2026",
+    "Municipio": "Granada",
+    "Ponente": "FRANCISCO MANUEL ALVAREZ DOMINGUEZ",
+    "Nº Recurso": "759/2025"
+   },
+   "resumen": "que \"El artículo 5 del RD Ley 6/2020, de 10 de marzo, contempla como situación asimilada a accidente de trabajo aquellos periodos de aislamiento o contagio de las personas trabajadoras provocados por el virus COVID-19, señalando que dicha asimilación es exclusivamente para la prestación económica de incapacidad temporal del sistema de Seguridad Social. Desde su primera redacción la norma ha advertido que la asimilación al accidente de trabajo era \"exclusivamente para la prestación económica de incapacidad temporal del sistema de Seguridad Social. Las versiones vigentes tanto al momento de presentarse la demanda como de dictarse la sentencia recurrida (y en la actualidad) no han alterado esa restricción. Por tanto, de la literalidad de la norma equiparadora no puede desprenderse que la misma sea operativa para algo diverso de lo en ella indicado.",
+   "info": []
+  }
+ ],
+ "extra": {
+  "total_web": "566 resultados ( máximo documentos a recuperar 200) paginas: 20"
+ }
+}

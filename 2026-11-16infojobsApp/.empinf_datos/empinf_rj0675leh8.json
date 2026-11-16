@@ -1,0 +1,215 @@
+{
+ "tipo": "ineco_listado",
+ "url": "https://ineco.epreselec.com/Ofertas/Ofertas.aspx",
+ "total": 28,
+ "filtro": {
+  "pais": "España",
+  "provincia": "Provincia",
+  "oficina": "CONSULTORÍA"
+ },
+ "ofertas": [
+  {
+   "id": "3362557",
+   "titulo": "28951 Técnico/a de Apoyo a la subdirección de Estrategia de Negocio",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "9 de octubre, 2026"
+  },
+  {
+   "id": "3366865",
+   "titulo": "TRE26-ECE-085 Consultor/a de Diseño Gráfico y Comunicación",
+   "tipo": "TASA REPOSICIÓN",
+   "lugar": "Madrid, España",
+   "fecha": "2 de octubre, 2026"
+  },
+  {
+   "id": "3366834",
+   "titulo": "TRE26-ECE-083 Consultor/a en Transporte Ferroviario de mercancías",
+   "tipo": "TASA REPOSICIÓN",
+   "lugar": "Madrid, España",
+   "fecha": "2 de octubre, 2026"
+  },
+  {
+   "id": "3366819",
+   "titulo": "TRE26-EXO-118- Delineante especializado/a en carreteras",
+   "tipo": "TASA REPOSICIÓN",
+   "lugar": "Barcelona, España",
+   "fecha": "2 de octubre, 2026"
+  },
+  {
+   "id": "3366743",
+   "titulo": "TRE26-EXO-105- Apoyo administrativo y/o de secretariado en el sector ferroviario",
+   "tipo": "TASA REPOSICIÓN",
+   "lugar": "Madrid, España",
+   "fecha": "2 de octubre, 2026"
+  },
+  {
+   "id": "3366721",
+   "titulo": "TRE26-ECE-082 Técnico/a de apoyo jurídico en seguimiento de expedientes de contratación",
+   "tipo": "TASA REPOSICIÓN",
+   "lugar": "Madrid, España",
+   "fecha": "2 de octubre, 2026"
+  },
+  {
+   "id": "3366700",
+   "titulo": "TRE26-EXO-121- Administrativo/a en A.T. en ministerios u organismos públicos no ferroviarios",
+   "tipo": "TASA REPOSICIÓN",
+   "lugar": "Madrid, España",
+   "fecha": "2 de octubre, 2026"
+  },
+  {
+   "id": "3366698",
+   "titulo": "TRE26-ECE-074 - Técnico/a de apoyo para monitorización de gases de efecto invernadero",
+   "tipo": "TASA REPOSICIÓN",
+   "lugar": "Santa Cruz de Tenerife, España",
+   "fecha": "2 de octubre, 2026"
+  },
+  {
+   "id": "3366690",
+   "titulo": "TRE26-EXO-153- Técnico/a de Compliance y Protección de Datos",
+   "tipo": "TASA REPOSICIÓN",
+   "lugar": "Madrid, España",
+   "fecha": "2 de octubre, 2026"
+  },
+  {
+   "id": "3366687",
+   "titulo": "TRE26-ECE-096 - Técnico/a en explotación y capacidad ferroviaria",
+   "tipo": "TASA REPOSICIÓN",
+   "lugar": "Madrid, España",
+   "fecha": "2 de octubre, 2026"
+  },
+  {
+   "id": "3366685",
+   "titulo": "TRE26-ECE-095 Técnico/a consultor en transformación organizativa y reingeniería de procesos.",
+   "tipo": "TASA REPOSICIÓN",
+   "lugar": "Madrid, España",
+   "fecha": "2 de octubre, 2026"
+  },
+  {
+   "id": "3366684",
+   "titulo": "TRE26-ECE-098 Consultor/a técnico/a en planificación aeroportuaria.",
+   "tipo": "TASA REPOSICIÓN",
+   "lugar": "Madrid, España",
+   "fecha": "2 de octubre, 2026"
+  },
+  {
+   "id": "3366857",
+   "titulo": "TRE26-ECE-084 Consultor/a Planificación Portuaria",
+   "tipo": "TASA REPOSICIÓN",
+   "lugar": "Madrid, España",
+   "fecha": "2 de octubre, 2026"
+  },
+  {
+   "id": "3366627",
+   "titulo": "TRE26-ECE-097 Consultor/a técnico en modelización de demanda y movilidad terrestre.",
+   "tipo": "TASA REPOSICIÓN",
+   "lugar": "Madrid, España",
+   "fecha": "1 de octubre, 2026"
+  },
+  {
+   "id": "3359872",
+   "titulo": "28866 - Técnico/a Políticas Públicas",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "30 de septiembre, 2026"
+  },
+  {
+   "id": "3365874",
+   "titulo": "28843 Vigilante de campo para control de vegetación",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "León, España",
+   "fecha": "30 de septiembre, 2026"
+  },
+  {
+   "id": "3365875",
+   "titulo": "28842 Vigilante de campo para control de vegetación",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Ourense, España",
+   "fecha": "30 de septiembre, 2026"
+  },
+  {
+   "id": "3313707",
+   "titulo": "28467 - Vigilante de campo para control de vegetación",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3234480",
+   "titulo": "27164 - Técnico/a para supervisión ambiental de proyectos",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3364044",
+   "titulo": "28914 - Analista de Adquisiciones Costa Rica",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Costa Rica",
+   "fecha": "25 de septiembre, 2026"
+  },
+  {
+   "id": "3362430",
+   "titulo": "28943 Becario/a de Planificación Aeroportuaria",
+   "tipo": "BECA",
+   "lugar": "Madrid, España",
+   "fecha": "21 de septiembre, 2026"
+  },
+  {
+   "id": "3360846",
+   "titulo": "28910 - Beca de Ingeniería Aeronáutica",
+   "tipo": "BECA",
+   "lugar": "Madrid, España",
+   "fecha": "17 de septiembre, 2026"
+  },
+  {
+   "id": "3234962",
+   "titulo": "27258 - Beca de explotación ferroviaria",
+   "tipo": "BECA",
+   "lugar": "Madrid, España",
+   "fecha": "12 de agosto, 2026"
+  },
+  {
+   "id": "3329883",
+   "titulo": "28686 - Beca de Planificación Estratégica del Transporte",
+   "tipo": "BECA",
+   "lugar": "Madrid, España",
+   "fecha": "25 de junio, 2026"
+  },
+  {
+   "id": "3307671",
+   "titulo": "28429 - Beca en Proyectos de Ingeniería Civil",
+   "tipo": "BECA",
+   "lugar": "Madrid, España",
+   "fecha": "5 de mayo, 2026"
+  },
+  {
+   "id": "3296948",
+   "titulo": "28296 - Técnico/a en Consultoría de Transporte Terrestre, Modelización y Estudios de Demanda y Tráfico - Deslocalizable toda España",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "10 de abril, 2026"
+  },
+  {
+   "id": "3295644",
+   "titulo": "28233 - Consultor/a técnico/a en Fondos Europeos",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "8 de abril, 2026"
+  },
+  {
+   "id": "3234478",
+   "titulo": "27163 - Técnico/a para supervisión ambiental de proyectos",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "27 de octubre, 2025"
+  }
+ ],
+ "pedido": {
+  "pais": "Espana",
+  "provincia": "Madrid",
+  "oficina": "CONSULTORIA"
+ },
+ "token": "rj0675leh8",
+ "guardado": "2026-10-09T14:15:06.743Z"
+}

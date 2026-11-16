@@ -1,0 +1,70 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: {\"numres\": \"984/2024\", \"desde\": \"01/01/2024\", \"hasta\": \"31/03/2024\", \"jurisdiccion\": [\"SOCIAL\"], \"organo\": [\"Tribunal Superior de Justicia\"]}",
+  "filtros": {
+   "numres": "984/2024",
+   "desde": "01/01/2024",
+   "hasta": "31/03/2024",
+   "jurisdiccion": [
+    "SOCIAL"
+   ],
+   "organo": [
+    "Tribunal Superior de Justicia"
+   ]
+  },
+  "fecha": "06/11/2026 07:27",
+  "aplicados_en_web": {
+   "jurisdiccion": [
+    "Social"
+   ],
+   "organo": [
+    "Tribunal Superior de Justicia"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "10863928",
+   "db": "AN",
+   "fecha": "20240222",
+   "titulo": "STSJ Galicia, a 22 de febrero de 2024 - ROJ: STSJ GAL 1553/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/912018e06d847f3aa0a8778d75e36f0d/20240415",
+   "roj": "STSJ GAL 1553/2024",
+   "ecli": "ECLI:ES:TSJGAL:2024:1553",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "984/2024",
+    "Municipio": "Coruña (A)",
+    "Ponente": "BEATRIZ RAMA INSUA",
+    "Nº Recurso": "2325/2022"
+   },
+   "resumen": "OTROS DCHOS. LABORALES",
+   "info": [],
+   "pdf": "pdf/STSJ_GAL_1553_2024.pdf",
+   "txt": "txt/STSJ_GAL_1553_2024.txt"
+  },
+  {
+   "ref": "10849142",
+   "db": "AN",
+   "fecha": "20240221",
+   "titulo": "STSJ Cataluña, a 21 de febrero de 2024 - ROJ: STSJ CAT 921/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/17960de4e2147544a0a8778d75e36f0d/20240402",
+   "roj": "STSJ CAT 921/2024",
+   "ecli": "ECLI:ES:TSJCAT:2024:921",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "984/2024",
+    "Municipio": "Barcelona",
+    "Ponente": "MARIA DEL MAR MIRON HERNANDEZ",
+    "Nº Recurso": "5035/2023"
+   },
+   "resumen": "Despido: acumulación de acción de tutela de DDFF con reclamación de daños y perjuicios. Prescripción y caudidad de las acciones respectivas y sus efectos sobre la congruencia de la decisión judicial. Nulidad de actuaciones sin indefensión.",
+   "info": [],
+   "pdf": "pdf/STSJ_CAT_921_2024.pdf",
+   "txt": "txt/STSJ_CAT_921_2024.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "2 resultados"
+ }
+}

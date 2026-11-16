@@ -1,0 +1,35 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STSJ AND 12414/2026",
+  "filtros": {
+   "roj": "STSJ AND 12414/2026"
+  },
+  "fecha": "06/11/2026 09:46",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "11888225",
+   "db": "AN",
+   "fecha": "20260917",
+   "titulo": "STSJ Andalucía, a 17 de septiembre de 2026 - ROJ: STSJ AND 12414/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/2beeb8566d3b2473a0a8778d75e36f0d/20261016",
+   "roj": "STSJ AND 12414/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:12414",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2027/2026",
+    "Municipio": "Granada",
+    "Ponente": "RAFAELA HORCAS BALLESTEROS",
+    "Nº Recurso": "2950/2025"
+   },
+   "resumen": "0 TRIBUNAL SUPERIOR DE JUSTICIA DE ANDALUCÍA CON SEDE EN GRANADA SALA DE LO SOCIAL LS SENT. NÚM.2027/26 ILMO. SR. D. FERNANDO OLIET PALÁ ILMO. SR. D. FRANCISCO JOSÉ VILLAR DEL MORAL ILMA. SRª. Dª. RAFAELA HORCAS BALLESTEROS MAGISTRADOS En la ciudad de Granada, a diecisiete de septiembre de dos mil veintiséis. La Sala de lo Social del Tribunal Superior de Justicia de Andalucía con sede en Granada, compuesta por los Ilmos. Sres. Magistrados que al margen se indican, ha pronunciado EN NOMBRE DEL REY la siguiente S E N T E N C I A En el Recurso de Suplicación núm. 2950/25, interpuesto por Dª contra la Sentencia dictada por el Juzgado de lo Social",
+   "info": [],
+   "pdf": "pdf/STSJ_AND_12414_2026.pdf",
+   "txt": "txt/STSJ_AND_12414_2026.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

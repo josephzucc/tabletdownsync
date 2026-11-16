@@ -1,0 +1,516 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: covid accidente de trabajo brote compañeros",
+  "filtros": {
+   "texto": "covid accidente de trabajo brote compañeros",
+   "desde": "01/01/2021",
+   "jurisdiccion": [
+    "SOCIAL"
+   ],
+   "organo": [
+    "Tribunal Supremo",
+    "Tribunal Superior de Justicia"
+   ]
+  },
+  "fecha": "06/11/2026 10:05",
+  "aplicados_en_web": {
+   "jurisdiccion": [
+    "Social"
+   ],
+   "organo": [
+    "Tribunal Supremo",
+    "Tribunal Superior de Justicia"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "11873767",
+   "db": "AN",
+   "fecha": "20260914",
+   "titulo": "STSJ Castilla-La Mancha, a 14 de septiembre de 2026 - ROJ: STSJ CLM 2322/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/5f2ae643a2ed2b76a0a8778d75e36f0d/20261005",
+   "roj": "STSJ CLM 2322/2026",
+   "ecli": "ECLI:ES:TSJCLM:2026:2322",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1529/2026",
+    "Municipio": "Albacete",
+    "Ponente": "ANTONIO CERVERA PELAEZ-CAMPOMANES",
+    "Nº Recurso": "1835/2025"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": []
+  },
+  {
+   "ref": "11836339",
+   "db": "AN",
+   "fecha": "20260728",
+   "titulo": "STSJ La Rioja, a 28 de julio de 2026 - ROJ: STSJ LR 325/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/229f38b5547dba10a0a8778d75e36f0d/20260902",
+   "roj": "STSJ LR 325/2026",
+   "ecli": "ECLI:ES:TSJLR:2026:325",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "101/2026",
+    "Municipio": "Logroño",
+    "Ponente": "MARIA JOSE MUÑOZ HURTADO",
+    "Nº Recurso": "106/2026"
+   },
+   "resumen": "OTROS DCHOS. SEG.SOCIAL",
+   "info": []
+  },
+  {
+   "ref": "11762915",
+   "db": "AN",
+   "fecha": "20260521",
+   "titulo": "STSJ Castilla-La Mancha, a 21 de mayo de 2026 - ROJ: STSJ CLM 1399/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/09d64dbe4d4bb38aa0a8778d75e36f0d/20260619",
+   "roj": "STSJ CLM 1399/2026",
+   "ecli": "ECLI:ES:TSJCLM:2026:1399",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "947/2026",
+    "Municipio": "Albacete",
+    "Ponente": "ETHEL HONRUBIA GOMEZ",
+    "Nº Recurso": "462/2025"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": []
+  },
+  {
+   "ref": "11694789",
+   "db": "AN",
+   "fecha": "20260330",
+   "titulo": "STSJ Cataluña, a 30 de marzo de 2026 - ROJ: STSJ CAT 2601/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/6ff4522747e0f9c3a0a8778d75e36f0d/20260422",
+   "roj": "STSJ CAT 2601/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:2601",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1910/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "NURIA BONO ROMERA",
+    "Nº Recurso": "4177/2025"
+   },
+   "resumen": "Accidente de Trabajo y así era la Mutua quien se hacía cargo del abono de la prestación. Pero que no regula expresamente los efectos secundarios de las vacunas de Covid 19 y/o su consideración de accidente de trabajo. Destacando que decretado el estado de alarma en 10.03.2020 cesaron las clases y comenzó el aislamiento, sin que las clases presenciales se retomaran ese curso, y que el siguiente las clases fueron \"on line\", por lo que la vacunación del actor el 24 de febrero de 2021 no vino dada por el riesgo de contagiar a compañeros y alumnos, sino por la orden de vacunación del Gobierno en el plan estratégico de vacunación contemplando un orden de prioridades en el acceso a la vacuna y que por ello la inclusión como personal docente y por ello en el grupo preferente de vacunación, no convierte en accidente de trabajo los efectos secundarios de la vacuna sufridos por el actor que",
+   "info": []
+  },
+  {
+   "ref": "11712085",
+   "db": "AN",
+   "fecha": "20260319",
+   "titulo": "STSJ Andalucía, a 19 de marzo de 2026 - ROJ: STSJ AND 4468/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/1cc5fd3ccc3fe7a9a0a8778d75e36f0d/20260507",
+   "roj": "STSJ AND 4468/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:4468",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "908/2026",
+    "Municipio": "Sevilla",
+    "Ponente": "TERESA ORELLANA CARRASCO",
+    "Nº Recurso": "521/2024"
+   },
+   "resumen": "miembros desde principios de 2020. En este contexto, la Comisión, en su Comunicación «Marco estratégico de la UE en materia de salud y seguridad en el trabajo 2021-2027. La seguridad y la salud en el trabajo en un mundo laboral en constante transformación» anunció que actualizaría su Recomendación 2003/670/CE para incluir la COVID-19, con el fin de fomentar que los Estados miembros la reconozcan como EP. Perfila, por otra parte, qué debe entenderse por \"contexto de pandemia\": la situación en la que los organismos internacionales competentes, como la Organización Mundial de la Salud (OMS), declaran una pandemia mundial como consecuencia de los brotes de una enfermedad determinada, circunstancia que se produjo en enero de 2020. Los Estados miembros deben definir \"brote\" en el sentido de la nueva disposición de la Recomendación de conformidad con la legislación o las prácticas",
+   "info": []
+  },
+  {
+   "ref": "11678940",
+   "db": "AN",
+   "fecha": "20260121",
+   "titulo": "STSJ Canarias, a 21 de enero de 2026 - ROJ: STSJ ICAN 69/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/563462a172f1db66a0a8778d75e36f0d/20260408",
+   "roj": "STSJ ICAN 69/2026",
+   "ecli": "ECLI:ES:TSJICAN:2026:69",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "50/2026",
+    "Municipio": "Santa Cruz de Tenerife",
+    "Ponente": "EDUARDO JESUS RAMOS REAL",
+    "Nº Recurso": "483/2024"
+   },
+   "resumen": "Transitoria Quinta bis del referido Texto Refundido, introducida por la Ley 24/1997, de 15 de julio, de Consolidación y Racionalización del Sistema de la Seguridad Social) como el que impide al trabajador para la realización de todas o las fundamentales tareas de dicha profesión, siempre que pueda dedicarse a otra distinta. Conforme al párrafo 2º del mismo artículo en su antigua redacción, por profesión habitual debe entenderse, en caso de accidente, sea o no de trabajo, la desempeñada normalmente por el trabajador al tiempo de sufrirlo y en caso de enfermedad común o profesional, aquélla a la que el trabajador dedica su actividad fundamental durante los doce meses anteriores a la iniciación de la incapacidad temporal. La jurisprudencia ha tenido en cuenta para cada caso concreto las peculiares circunstancias de mayor o menor dureza de la profesión, así",
+   "info": []
+  },
+  {
+   "ref": "11643080",
+   "db": "AN",
+   "fecha": "20251127",
+   "titulo": "STSJ Cataluña, a 27 de noviembre de 2025 - ROJ: STSJ CAT 8107/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/afb80d36488a88fba0a8778d75e36f0d/20260305",
+   "roj": "STSJ CAT 8107/2025",
+   "ecli": "ECLI:ES:TSJCAT:2025:8107",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "6330/2025",
+    "Municipio": "Barcelona",
+    "Ponente": "NURIA BONO ROMERA",
+    "Nº Recurso": "5317/2024"
+   },
+   "resumen": "que la lesión, trauma o defecto no se produjo a consecuencia de la realización de la tarea. Aun siendo de aplicación tal presunción no solo a los accidentes propiamente, sino también a las enfermedades, la misma exige un doble requisito: que la lesión que sufra el trabajador o enfermedad -aun de etiología común- se produzca/manifieste durante el tiempo y en el lugar de trabajo. Solo consta que recibe comentarios de que sus compañeros se posicionan en su contra en la reunión de equipo, se siente mal recoge sus pertenencias, se va del despacho al médico. Pero ello no da la medida ni dato alguno que permita establecer la \"producción o manifestación\" durante el tiempo o lugar de trabajo, cosa por lo demás difícil en el caso de una enfermedad psiquiátrica salvo que se valorara la existencia de un brote agudo y desestabilizador en ese momento y lugar que no consta. En",
+   "info": []
+  },
+  {
+   "ref": "11395164",
+   "db": "AN",
+   "fecha": "20250620",
+   "titulo": "STSJ Castilla-La Mancha, a 20 de junio de 2025 - ROJ: STSJ CLM 1405/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/290f9dd5169426a0a0a8778d75e36f0d/20250804",
+   "roj": "STSJ CLM 1405/2025",
+   "ecli": "ECLI:ES:TSJCLM:2025:1405",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "926/2025",
+    "Municipio": "Albacete",
+    "Ponente": "MARIA DEL CARMEN RODRIGO SAIZ",
+    "Nº Recurso": "947/2024"
+   },
+   "resumen": "RECLAMACIÓN CANTIDAD",
+   "info": []
+  },
+  {
+   "ref": "11424787",
+   "db": "AN",
+   "fecha": "20250522",
+   "titulo": "STSJ Comunidad Valenciana, a 22 de mayo de 2025 - ROJ: STSJ CV 2043/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/a4697a898c8093f8a0a8778d75e36f0d/20250902",
+   "roj": "STSJ CV 2043/2025",
+   "ecli": "ECLI:ES:TSJCV:2025:2043",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1527/2025",
+    "Municipio": "Valencia",
+    "Ponente": "TERESA PILAR BLANCO PERTEGAZ",
+    "Nº Recurso": "2113/2024"
+   },
+   "resumen": "Tras esta relación solo ha mantenido una relación esporádica. En la actualidad quisiera tener pareja pero explica que no sale, no tiene amigos y no tiene ocasión de iniciar relaciones. Además refiere ser reservado. En 2010 refiere haber trabajado en un hotel bajo economía sumergida pero terminó porque su trato con los clientes no era el adecuado. Refiere que ha terminado mal en todos 'sus trabajos por problemas interpersonales, que los demás se meten con él, que hacen que las cosas le salgan mal... además piensa que trabaja mejor que el resto y que merece más porque se esfuerza, lo que le lleva a adoptar una postura demandante y le genera situaciones de confrontación con sus iguales. En julio de 2021 trabajó como soldador. Refiere que tuvo un accidente, según justifica, por culpa de un compañero al seguir sus indicaciones con la finalidad de perjudicarle para que le despidieran.",
+   "info": []
+  },
+  {
+   "ref": "11207594",
+   "db": "AN",
+   "fecha": "20241202",
+   "titulo": "STSJ Canarias, a 02 de diciembre de 2024 - ROJ: STSJ ICAN 3967/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/6136992110f20b6ca0a8778d75e36f0d/20250220",
+   "roj": "STSJ ICAN 3967/2024",
+   "ecli": "ECLI:ES:TSJICAN:2024:3967",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "952/2024",
+    "Municipio": "Santa Cruz de Tenerife",
+    "Ponente": "EDUARDO JESUS RAMOS REAL",
+    "Nº Recurso": "490/2023"
+   },
+   "resumen": "exige ( sentencia del Tribunal Supremo de 12 de febrero de 1987) o cuando, sin producir tales efectos, generan para el trabajador o sus compañeros riegos adicionales o superpuestos a los normales de la profesión ( sentencias del Tribunal Supremo de 12 de julio de 1985 y 6 de marzo de 1986) o cuando comportan una continua situación de sufrimiento en el trabajo cotidiano (sentencia del Tribunal Supremo de 7 de junio de de 1985). Del inalterado relato de hechos probados de la sentencia recurrida se desprende que la actora padece: TVP femoropoplítea secundaria a trombofilia, insuficiencia venosa en las piernas, desprendimiento vítreo posterior con retina aplicada y buena agudeza visual con corrección y crisis de ansiedad reactiva al COVID en 2019 (hechos probados tercero, cuarto y quinto). Dichos padecimientos producen las siguientes",
+   "info": []
+  },
+  {
+   "ref": "11083640",
+   "db": "AN",
+   "fecha": "20240711",
+   "titulo": "STSJ Andalucía, a 11 de julio de 2024 - ROJ: STSJ AND 12575/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/899362958e17fac1a0a8778d75e36f0d/20241029",
+   "roj": "STSJ AND 12575/2024",
+   "ecli": "ECLI:ES:TSJAND:2024:12575",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1584/2024",
+    "Municipio": "Granada",
+    "Ponente": "BEATRIZ PEREZ HEREDIA",
+    "Nº Recurso": "1125/2023"
+   },
+   "resumen": "revisión. *Juicio Clínico: ESCLEROSIS MÚLTIPLE R-R. BROTE. -El 11/01/2021 comenzó con ocrelizumab. -Neurologia 17/06/2021: E. Multiple R-R en tratamiento con Ocrelizumab desde Enero 2021; anteriormente tomó Fingolimod, con reinicio en Abril 2018 tras embarazo. Previamente, NTZ (2006-2009) (virus JC positivo) y Rebiff 22 y 44 (desde 2006). *Se mantiene sin brotes, con vida plenamente activa aunque con cansancio vespertino. Ha recibido la vacuna Pfizer del Covid. *Exploración Física: AV: OD 0,5 y OI 1. Hipopalestesia en pies; resto, normal. EDSS: 2. *JC: ESCLEROSIS MULTIPLE R-R. *TTO: El que realiza. EXPLORACION UMEVI 06/07/2021: Deambulación autónoma sin ayudas. Debilidad en ambos MMII y MMSS. Mano izda con funcionalidad conservada. Refiere cansancio generalizado. Que va a aumentando a lo largo del día. Refiere recientemente",
+   "info": []
+  },
+  {
+   "ref": "11079238",
+   "db": "AN",
+   "fecha": "20240708",
+   "titulo": "STSJ Andalucía, a 08 de julio de 2024 - ROJ: STSJ AND 12140/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/e7fc1e3606573eeca0a8778d75e36f0d/20241024",
+   "roj": "STSJ AND 12140/2024",
+   "ecli": "ECLI:ES:TSJAND:2024:12140",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1154/2024",
+    "Municipio": "Málaga",
+    "Ponente": "RAUL PAEZ ESCAMEZ",
+    "Nº Recurso": "408/2024"
+   },
+   "resumen": "personal del hospital Costa del Sol en el que se informa que la actora no ha realizado actividad formativa en dicha entidad. F 301. DÉCIMO.-La actora igualmente ha recibido información el 4 de mayo de 2022 del grupo servicio móvil el cuatro de mayo de 2022 en materia de prevención de riesgos laborales, sobre seguridad vial, motocicleta, transporte colectivo, peatones y actuación en caso de accidente, y sobre plan de prevención, con manual de instrucciones para uso y manejo de escáner, PVD, y cúter, así como en emergencia y de extinción con extintores, riesgos generales en las instalaciones, para el personal de centralita y administrativo, circular COVID, protocolo de actuación ante brotes de coronavirus. Ff141 UNDÉCIMO.-Ha recibido ofrecimiento para reconocimiento médico de vigilancia y salud como trabajadora de Fidelis servicios integrales SL por parte del",
+   "info": []
+  },
+  {
+   "ref": "10997289",
+   "db": "AN",
+   "fecha": "20240604",
+   "titulo": "STSJ Comunidad Valenciana, a 04 de junio de 2024 - ROJ: STSJ CV 3519/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/fde545424de958f6a0a8778d75e36f0d/20240812",
+   "roj": "STSJ CV 3519/2024",
+   "ecli": "ECLI:ES:TSJCV:2024:3519",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1626/2024",
+    "Municipio": "Valencia",
+    "Ponente": "MARIA ESPERANZA MONTESINOS LLORENS",
+    "Nº Recurso": "2533/2023"
+   },
+   "resumen": "Incapacidad temporal por accidente de trabajo derivado de causa Covid; baja médica desvinculada del contagio; periodo de long-covid concurrente.",
+   "info": []
+  },
+  {
+   "ref": "10934323",
+   "db": "AN",
+   "fecha": "20240418",
+   "titulo": "STSJ Castilla-La Mancha, a 18 de abril de 2024 - ROJ: STSJ CLM 1110/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/3e591049aa912701a0a8778d75e36f0d/20240618",
+   "roj": "STSJ CLM 1110/2024",
+   "ecli": "ECLI:ES:TSJCLM:2024:1110",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "668/2024",
+    "Municipio": "Albacete",
+    "Ponente": "JOSE MONTIEL GONZALEZ",
+    "Nº Recurso": "146/2023"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": []
+  },
+  {
+   "ref": "10974228",
+   "db": "AN",
+   "fecha": "20240129",
+   "titulo": "STSJ Andalucía, a 29 de enero de 2024 - ROJ: STSJ AND 3977/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/3f3f63df29b43d02a0a8778d75e36f0d/20240718",
+   "roj": "STSJ AND 3977/2024",
+   "ecli": "ECLI:ES:TSJAND:2024:3977",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "153/2024",
+    "Municipio": "Málaga",
+    "Ponente": "JOSE LUIS BARRAGAN MORALES",
+    "Nº Recurso": "1292/2023"
+   },
+   "resumen": "del SAS, le informa que sobre el hecho ocurrido y que ha trasladado en el CATI, no queda acreditado el nexo causal entre el trabajo y la lesión, ya que no ha sido incluido en ningún estudio de contacto estrecho, por lo que no puede ser validado como accidente de trabajo. La validación negativa del accidente de trabajo tiene su fundamento en el informe del médico del trabajo de vigilancia de la salud que señala: respecto a la investigación realizada el 8-6-21, del comunicado de accidentes e incidentes de trabajo prestado por el actor, vigilancia de la salud informa que no ha sido incluido en estudios de contactos estrechos, ni tampoco en listado de brotes. Quinto.- D. causó baja por covid el 20-1-21.D. causó baja por covid el 2-2-21. Sexto.- Por el SAS había suministrado calzado de trabajo, parka anorak, guantes y mascarilla autofiltrante FFP2.",
+   "info": []
+  },
+  {
+   "ref": "10763392",
+   "db": "AN",
+   "fecha": "20231103",
+   "titulo": "STSJ Castilla-La Mancha, a 03 de noviembre de 2023 - ROJ: STSJ CLM 2597/2023",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/fbb98cae4646d5ffa0a8778d75e36f0d/20240118",
+   "roj": "STSJ CLM 2597/2023",
+   "ecli": "ECLI:ES:TSJCLM:2023:2597",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1540/2023",
+    "Municipio": "Albacete",
+    "Ponente": "MARIA ISABEL SERRANO NIETO",
+    "Nº Recurso": "1550/2022"
+   },
+   "resumen": "RECLAMACIÓN CANTIDAD",
+   "info": []
+  },
+  {
+   "ref": "10661939",
+   "db": "AN",
+   "fecha": "20230928",
+   "titulo": "STSJ Castilla-La Mancha, a 28 de septiembre de 2023 - ROJ: STSJ CLM 2182/2023",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/87b25e791f155ac5a0a8778d75e36f0d/20231019",
+   "roj": "STSJ CLM 2182/2023",
+   "ecli": "ECLI:ES:TSJCLM:2023:2182",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1320/2023",
+    "Municipio": "Albacete",
+    "Ponente": "LUISA MARIA GOMEZ GARRIDO",
+    "Nº Recurso": "1354/2022"
+   },
+   "resumen": "INdemnización de daños y perjuicios por vulneración del Derecho Fudamental a la Integridad Fisica asociada al contacto COVID. Sentencia firme dictada en procedimiento especial y su concreción indemnizatoria: particularidades del caso de litis.",
+   "info": []
+  },
+  {
+   "ref": "10594095",
+   "db": "AN",
+   "fecha": "20230525",
+   "titulo": "STSJ Cataluña, a 25 de mayo de 2023 - ROJ: STSJ CAT 5856/2023",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/762ae27c848cfccaa0a8778d75e36f0d/20230818",
+   "roj": "STSJ CAT 5856/2023",
+   "ecli": "ECLI:ES:TSJCAT:2023:5856",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "3383/2023",
+    "Municipio": "Barcelona",
+    "Ponente": "RAUL URIA FERNANDEZ",
+    "Nº Recurso": "8277/2022"
+   },
+   "resumen": "por cuanto de concurrir aquellos presupuestos fácticos entraría en juego la previsión contenida en el precitado artículo 5.1 del RDL 6/2020 , que dispone que en este caso la situación será calificada como accidente de trabajo ( STS/4ª de 20 de enero de 2022 -recurso 269/2021 -). Ahora bien, en el supuesto que nos ocupa no ha sido así acreditado, resultando inmodificada en esta sede la conclusión fáctica sobre la exposición al virus de la Covid-19 en su puesto de trabajo, dadas las circunstancias concurrentes, particularmente de detección de nueve casos (contando a la actora) entre el 27 de marzo y 1 de abril de 2020. Ciertamente, esta exposición no equivale a la exclusividad de la realización del trabajo en el origen de la patología, lo que, dada la situación pandemia del momento en que",
+   "info": []
+  },
+  {
+   "ref": "10419539",
+   "db": "AN",
+   "fecha": "20230221",
+   "titulo": "STSJ Castilla y León, a 21 de febrero de 2023 - ROJ: STSJ CL 779/2023",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/7d5a11805d65377ea0a8778d75e36f0d/20230411",
+   "roj": "STSJ CL 779/2023",
+   "ecli": "ECLI:ES:TSJCL:2023:779",
+   "sala": "",
+   "datos": {
+    "Municipio": "Valladolid",
+    "Ponente": "MANUEL MARIA BENITO LOPEZ",
+    "Nº Recurso": "2654/2021"
+   },
+   "resumen": "OTROS DCHOS. LABORALES",
+   "info": []
+  },
+  {
+   "ref": "10489900",
+   "db": "AN",
+   "fecha": "20230203",
+   "titulo": "STSJ Aragón, a 03 de febrero de 2023 - ROJ: STSJ AR 370/2023",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/18ef02d5d882b2cda0a8778d75e36f0d/20230524",
+   "roj": "STSJ AR 370/2023",
+   "ecli": "ECLI:ES:TSJAR:2023:370",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "73/2023",
+    "Municipio": "Zaragoza",
+    "Ponente": "MARIA JOSE HERNANDEZ VITORIA",
+    "Nº Recurso": "986/2022"
+   },
+   "resumen": "que en la planta 2º de ginecología donde prestó servicios la actora hubo compañeros de trabajo diagnosticados de COVID-19, si bien no fueran considerados infectados en el centro de trabajo en razón a las circunstancias indicadas. Ahora bien, una cosa es que en los compañeros de trabajo de la actora no se considerase que su patología había sido contraída en el centro de trabajo y otra distinta que esos compañeros contagiados no transmitieran su afección a la Sra. durante el curso de su actividad laboral. La distinción es importante: el Servicio de Prevención manifiesta que los compañeros de la Sra. sí estaban afectados por COVID, lo que entendemos que no se corresponde con la apreciación de la sentencia de instancia referida a que no se ha acreditado brote alguno de COVID entre el personal sanitario de la planta de ginecología ni los días en que la",
+   "info": []
+  },
+  {
+   "ref": "10407635",
+   "db": "AN",
+   "fecha": "20230125",
+   "titulo": "STSJ Andalucía, a 25 de enero de 2023 - ROJ: STSJ AND 1444/2023",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/e2e0bab6322679c4a0a8778d75e36f0d/20230331",
+   "roj": "STSJ AND 1444/2023",
+   "ecli": "ECLI:ES:TSJAND:2023:1444",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "176/2023",
+    "Municipio": "Málaga",
+    "Ponente": "ERNESTO UTRERA MARTIN",
+    "Nº Recurso": "1344/2022"
+   },
+   "resumen": "la situación de crisis sanitaria ocasionada por el COVID-19. SEXTO.- La magistrada de instancia, en la parte argumental de la sentencia, tras justificar el relato de hechos probados con carácter general -luego se detiene con detalle en la abundante prueba practicada-, dejar constancia del marco normativo aplicable y de la doctrina jurisprudencial sobre la responsabilidad empresarial en materia de accidentes de trabajo, y, en particular, sobre el requisito de la culpa, sintetiza de este modo, tras una extensa argumentación y valoración contenida en el fundamento cuarto, la desestimación de la demanda: [...] En consecuencia, la parte actora no acredita relación de causalidad entre la enfermedad del Covid-19 que produjo la muerte del Sr. y la ejecución de su trabajo de Vigilante de seguridad, tratándose de",
+   "info": []
+  },
+  {
+   "ref": "10204037",
+   "db": "AN",
+   "fecha": "20221129",
+   "titulo": "STSJ Castilla-La Mancha, a 29 de noviembre de 2022 - ROJ: STSJ CLM 3195/2022",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/f320c6e81f4ded67a0a8778d75e36f0d/20221223",
+   "roj": "STSJ CLM 3195/2022",
+   "ecli": "ECLI:ES:TSJCLM:2022:3195",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1876/2022",
+    "Municipio": "Albacete",
+    "Ponente": "LUISA MARIA GOMEZ GARRIDO",
+    "Nº Recurso": "1556/2022"
+   },
+   "resumen": "Indemnización de daños y perjuicios vinculados al Covid vinculada a sentencia firme anterior en proceso de tutela del derecho fundamental a la integridad fisica: criterio de la probabilidad suficiente del daño. Rechazo de la indemnización pretendida.",
+   "info": []
+  },
+  {
+   "ref": "10518056",
+   "db": "AN",
+   "fecha": "20221102",
+   "titulo": "STSJ País Vasco, a 02 de noviembre de 2022 - ROJ: STSJ PV 3611/2022",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/484339a935a3b739a0a8778d75e36f0d/20230614",
+   "roj": "STSJ PV 3611/2022",
+   "ecli": "ECLI:ES:TSJPV:2022:3611",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2218/2022",
+    "Municipio": "Bilbao",
+    "Ponente": "FERNANDO MARIA BREÑOSA ALVAREZ DE MIRANDA",
+    "Nº Recurso": "1058/2022"
+   },
+   "resumen": "filiar eventos. Explico la lista de espera habitual y la situación actual de unidad cerrada por el covis. consulta telefónica con el paciente (confinamiento por pandemia covid) desde que no toma el vimpat mejoría con reducción de la frecuencia de los episodios <1/semanas tb refiere que son más breves y leves semiológicamente igual de abigarrados plan mantener LEV 1500x2 se nula cita presencial se recitara UMEVI 30.07.2020 No presencial. Covid 19. -Episodio de paresia de EID a los 25 años que se interpretó como posible brote de EM, con RMN y multitest repetidos normales. - En 2013 ingresado en NLG por alteración de la marcha transitoria, de origen no filiado. Se le realizó RMcraneal, AS con autoinmunidad y trombofilias negativo y RM de columna con cambios degenerativos. Posteriormente valorado en consultas con DTSA normal y dado de alta",
+   "info": []
+  },
+  {
+   "ref": "10073152",
+   "db": "AN",
+   "fecha": "20220627",
+   "titulo": "STSJ Madrid, a 27 de junio de 2022 - ROJ: STSJ M 8939/2022",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/e9afc0ef01e2ca7da0a8778d75e36f0d/20220816",
+   "roj": "STSJ M 8939/2022",
+   "ecli": "ECLI:ES:TSJM:2022:8939",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "401/2022",
+    "Municipio": "Madrid",
+    "Ponente": "ANA MARIA ORELLANA CANO",
+    "Nº Recurso": "324/2022"
+   },
+   "resumen": "Se plantea si el demandante ha venido sufriendo acoso laboral por el Delegado de Medio Ambiente , Parques y Jardines del Ayuntamiento demandando .",
+   "info": []
+  },
+  {
+   "ref": "10118307",
+   "db": "AN",
+   "fecha": "20220613",
+   "titulo": "STSJ Aragón, a 13 de junio de 2022 - ROJ: STSJ AR 1032/2022",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/1ccb8e6b42ec959ba0a8778d75e36f0d/20221004",
+   "roj": "STSJ AR 1032/2022",
+   "ecli": "ECLI:ES:TSJAR:2022:1032",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "459/2022",
+    "Municipio": "Zaragoza",
+    "Ponente": "ELENA LUMBRERAS LACARRA",
+    "Nº Recurso": "410/2022"
+   },
+   "resumen": "CLECE elaborado el 11 de marzo de 2020 y revisado el 18 de ese mes se les califica como Exposición de Bajo Riesgo. El trabajador fallecido en el período 01/20 hasta la baja médica por IT el 25 de marzo de 2020 no tuvo asignada ninguna zona de trabajo en la zona COVID donde se trataba a pacientes COVID y sospechosos de infección o en estudio en zona de aislamiento y la hospitalización de los pacientes COVID era derivada a Edificio General o Unidad Crítica de cuidados Intensivos. No consta tampoco que existiera brote de contagio del virus en la zona de trabajo del Sr. que afectara a posibles compañeros con los que sí tuvo contacto. Tampoco la posibilidad de que pudiera haber coincidido con personal sanitario en los vestuarios sirve para dar por acreditado el contagio en el Hospital, pues no se ha probado que estuviera en contacto con persona alguna contagiada",
+   "info": []
+  },
+  {
+   "ref": "9868406",
+   "db": "AN",
+   "fecha": "20211019",
+   "titulo": "STSJ País Vasco, a 19 de octubre de 2021 - ROJ: STSJ PV 2857/2021",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/365e868295460774/20220222",
+   "roj": "STSJ PV 2857/2021",
+   "ecli": "ECLI:ES:TSJPV:2021:2857",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1586/2021",
+    "Municipio": "Bilbao",
+    "Ponente": "FLORENTINO EGUARAS MENDIRI",
+    "Nº Recurso": "1662/2021"
+   },
+   "resumen": "PRIMERO.- El Juzgado de lo Social nº 9 de los de Bilbao dictó sentencia el 27-4-2021 en la que desestimó la demanda interpuesta por la trabajadora, relativa a despido, y ello por entender que el cese practicado se acomodaba a la facultad empresarial de extinguir el contrato de trabajo en el período de prueba. En cuanto que la empresa había actuado la cláusula prevista en el contrato de trabajo de interinidad otorgado el 8-9-2020, por la que se establecía un período de cuatro meses de prueba, sin que la situación de Incapacidad Temporal interrumpiese el mismo, se argumenta en la instancia que la empresa, procediendo al despido de la actora el 14-9-2020, había actuado correctamente, sin que del cese practicado se derivase consecuencia anómala alguna.",
+   "info": []
+  },
+  {
+   "ref": "9752643",
+   "db": "AN",
+   "fecha": "20210930",
+   "titulo": "STSJ Madrid, a 30 de septiembre de 2021 - ROJ: STSJ M 10292/2021",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/98ff455e6228887f/20211207",
+   "roj": "STSJ M 10292/2021",
+   "ecli": "ECLI:ES:TSJM:2021:10292",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "852/2021",
+    "Municipio": "Madrid",
+    "Ponente": "IGNACIO MORENO GONZALEZ-ALLER",
+    "Nº Recurso": "618/2021"
+   },
+   "resumen": "y sueldo, con efectos desde el día 4 al 7 de abril de 2019. El contenido del documento por el cual se imponía la indicada sanción al trabajador obra en autos como documento nº 3 de los aportados por la parte demandada en el acto de la vista (folio 204 de las actuaciones, el cual se da por reproducido) y contiene el siguiente tenor literal: \" [...] Madrid, 02 de abril de 2019 Muy Señor nuestro: La empresa tiene conocimiento de su ausencia los pasados días 30 y 31 de marzo, así como la mañana del día 1 de abril de 2019. Estas ausencias a su puesto de trabajo se han producido de forma injustificada, sin que preavisara de tal circunstancia y sin que se le pudiera localizar. Este hecho supuso que se repartiese su trabajo entre el resto de sus compañeros que asistieron y que el domingo 31 se tuviera que llamar a un compañero",
+   "info": []
+  }
+ ],
+ "extra": {
+  "total_web": "27 resultados paginas: 3"
+ }
+}

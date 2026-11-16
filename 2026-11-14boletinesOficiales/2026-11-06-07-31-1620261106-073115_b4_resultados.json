@@ -1,0 +1,748 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: \"periodo de prueba\" discapacidad nulidad \"ajustes razonables\"",
+  "filtros": {
+   "texto": "\"periodo de prueba\" discapacidad nulidad \"ajustes razonables\"",
+   "desde": "01/01/2023",
+   "jurisdiccion": [
+    "SOCIAL"
+   ],
+   "organo": [
+    "Tribunal Supremo",
+    "Tribunal Superior de Justicia"
+   ]
+  },
+  "fecha": "06/11/2026 07:31",
+  "aplicados_en_web": {
+   "jurisdiccion": [
+    "Social"
+   ],
+   "organo": [
+    "Tribunal Supremo",
+    "Tribunal Superior de Justicia"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "11901277",
+   "db": "AN",
+   "fecha": "20261006",
+   "titulo": "STSJ Asturias, a 06 de octubre de 2026 - ROJ: STSJ AS 2420/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/10c7646e542fc7ada0a8778d75e36f0d/20261026",
+   "roj": "STSJ AS 2420/2026",
+   "ecli": "ECLI:ES:TSJAS:2026:2420",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1623/2026",
+    "Municipio": "Oviedo",
+    "Ponente": "JOSE LUIS NIÑO ROMERO",
+    "Nº Recurso": "779/2026"
+   },
+   "resumen": "DESPIDO OBJETIVO",
+   "info": []
+  },
+  {
+   "ref": "11838959",
+   "db": "AN",
+   "fecha": "20260716",
+   "titulo": "STSJ Andalucía, a 16 de julio de 2026 - ROJ: STSJ AND 11067/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/d17cb492e218074ea0a8778d75e36f0d/20260904",
+   "roj": "STSJ AND 11067/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:11067",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1857/2026",
+    "Municipio": "Granada",
+    "Ponente": "FERNANDO OLIET PALA",
+    "Nº Recurso": "2651/2025"
+   },
+   "resumen": "y como conculcación del derecho a la indemnidad. Y se entiende infringido el art 55.5 del ET porque en el presente caso la empresa procedió a la extinción automática del contrato del demandante tras la declaración de incapacidad permanente, sin valorar en ningún momento la realización de adaptaciones o ajustes razonables que hubieran permitido su continuidad laboral, lo que constituye una discriminación directa por motivo de discapacidad. No hubo ni un período formativo, ni un período de prueba en otros puestos de trabajo, ni una oportunidad de adaptación, ni la más mínima posibilidad, incluso de adverso se aportó como novedoso la contratación de un auxiliar administrativo con posterioridad a la extinción del contrato de mi mandante, puesto que pudo ocuparse. La justificación fue la imposibilidad de manejar el programa de gestión o software de la empresa, cuando con un curso",
+   "info": []
+  },
+  {
+   "ref": "11822535",
+   "db": "AN",
+   "fecha": "20260716",
+   "titulo": "STSJ Madrid, a 16 de julio de 2026 - ROJ: STSJ M 9886/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/b9b5ec8666d4f7f5a0a8778d75e36f0d/20260817",
+   "roj": "STSJ M 9886/2026",
+   "ecli": "ECLI:ES:TSJM:2026:9886",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "727/2026",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA ISABEL SAIZ ARESES",
+    "Nº Recurso": "205/2026"
+   },
+   "resumen": "probatoria de la FEB, que admitió en el juicio el uso de una \"carta de despido genérica\". Señala que por ello conforme a la STS 94/2025, de 4 de febrero, y la STS 1152/2025, de 27 de noviembre, rec. 3356/2024, el despido es nulo de pleno derecho cuando la empresa, conociendo la necesidad de ajustes -como los descansos de 5 min/ hora admitidos por el Sr. -, opta por la extinción en lugar de la adaptación. Se refiere a la cercanía temporal entre la ausencia al último evento por la crisis de salud y el cese y a ello añade que las alegaciones del testigo y del letrado de la FEB sobre un supuesto bajo rendimiento y falta de perfil técnico constituyen un mero pretexto para ocultar un móvil discriminatorio por condición de salud. Destaca que no cabe alegar ese bajo rendimiento cuando la trabajadora superó el periodo de prueba inicial de tres meses establecido",
+   "info": []
+  },
+  {
+   "ref": "11801014",
+   "db": "AN",
+   "fecha": "20260626",
+   "titulo": "STSJ Madrid, a 26 de junio de 2026 - ROJ: STSJ M 8696/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/5557683ad0f0b169a0a8778d75e36f0d/20260722",
+   "roj": "STSJ M 8696/2026",
+   "ecli": "ECLI:ES:TSJM:2026:8696",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "627/2026",
+    "Municipio": "Madrid",
+    "Ponente": "ANGELA MOSTAJO VEIGA",
+    "Nº Recurso": "292/2026"
+   },
+   "resumen": "que se trate en la vida profesional en igualdad de condiciones con los demás trabajadores, y si esta limitación es de larga duración...\". Por tanto la regulación expuesta daba como consecuencia: 1.- Despido durante período de IT motivado en causas disciplinarias acreditadas: Despido procedente. 2.- Despido por causas disciplinarias u otras (p. ejemplo durante período de prueba) no acreditadas durante IT de corta duración. Despido improcedente. 3.- Despido por causas disciplinarias u otras (p. ejemplo durante período de prueba) no acreditadas durante IT de larga duración (asimilable a discapacidad): está protegido por la Directiva como causa de discriminación y por tanto es NULO. En el momento en el que entra en vigor la LEY 15/22 de 12 de julio, integral para la igualdad de trato y la no discriminación, se introduce en",
+   "info": []
+  },
+  {
+   "ref": "11808019",
+   "db": "AN",
+   "fecha": "20260616",
+   "titulo": "STSJ Asturias, a 16 de junio de 2026 - ROJ: STSJ AS 1782/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/b38e4716e9b27ff1a0a8778d75e36f0d/20260728",
+   "roj": "STSJ AS 1782/2026",
+   "ecli": "ECLI:ES:TSJAS:2026:1782",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1035/2026",
+    "Municipio": "Oviedo",
+    "Ponente": "JOSE LUIS NIÑO ROMERO",
+    "Nº Recurso": "253/2026"
+   },
+   "resumen": "DESPIDO OBJETIVO",
+   "info": []
+  },
+  {
+   "ref": "11775048",
+   "db": "AN",
+   "fecha": "20260526",
+   "titulo": "STSJ Comunidad Valenciana, a 26 de mayo de 2026 - ROJ: STSJ CV 2208/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/8b291c25229b046ea0a8778d75e36f0d/20260629",
+   "roj": "STSJ CV 2208/2026",
+   "ecli": "ECLI:ES:TSJCV:2026:2208",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1595/2026",
+    "Municipio": "Valencia",
+    "Ponente": "INMACULADA CONCEPCION LINARES BOSCH",
+    "Nº Recurso": "3608/2025"
+   },
+   "resumen": "libremente y sin preaviso\"; b) que el \" período de prueba es de aplicación solamente cuando hubiera sido acordada como pacto \" escrito\" en el momento de la celebración del contrato ( art. 14.1 ET)\"; c) que \"la libertad de desistimiento durante el período de prueba supone que ni el empresario ni el trabajador tienen, en principio, que especificar los motivos del cese, ni acreditar los hechos o circunstancias determinantes del mismo, ni tampoco expresar la decisión extintiva mediante una forma preestablecida\"; d) que \"la finalidad o razón de ser del instituto del período de prueba del contrato de trabajo es facilitar un medio o mecanismo ágil y eficaz de verificación tanto de las concretas condiciones de la ejecución del trabajo, como de la aptitud y de la adaptación del trabajador al trabajo contratado\"; e) que, \"en términos de gestión de recursos humanos, la función",
+   "info": []
+  },
+  {
+   "ref": "11692419",
+   "db": "AN",
+   "fecha": "20260316",
+   "titulo": "STSJ Castilla y León, a 16 de marzo de 2026 - ROJ: STSJ CL 1061/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/a3d21cba60435291a0a8778d75e36f0d/20260420",
+   "roj": "STSJ CL 1061/2026",
+   "ecli": "ECLI:ES:TSJCL:2026:1061",
+   "sala": "",
+   "datos": {
+    "Municipio": "Valladolid",
+    "Ponente": "MANUEL MARIA BENITO LOPEZ",
+    "Nº Recurso": "2770/2025"
+   },
+   "resumen": "DESPIDO OBJETIVO",
+   "info": []
+  },
+  {
+   "ref": "11736698",
+   "db": "AN",
+   "fecha": "20260312",
+   "titulo": "STSJ Canarias, a 12 de marzo de 2026 - ROJ: STSJ ICAN 682/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/1b679f1ade70610ea0a8778d75e36f0d/20260527",
+   "roj": "STSJ ICAN 682/2026",
+   "ecli": "ECLI:ES:TSJICAN:2026:682",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "180/2026",
+    "Municipio": "Santa Cruz de Tenerife",
+    "Ponente": "RAMON JESUS TOUBES TORRES",
+    "Nº Recurso": "620/2025"
+   },
+   "resumen": "a introducir ajustes razonables que permitan el mantenimiento del empleo. Literalmente: «El articulo 5 de la Directiva 2000/78/CE del Consejo, de 27 de noviembre de 2000 (EDL 2000/90175), relativa al establecimiento de un marco general para la igualdad de trato en el empleo y la ocupación, interpretado a la luz de los artículos 21 y 26 de la Carta de los Derechos Fundamentales de la Unión Europea y de los artículos 2 y 27 de la Convención de las Naciones Unidas sobre los Derechos de las Personas con Discapacidad, hecha en Nueva York el 13 de diciembre de 2006 y aprobada en nombre de la Comunidad Europea mediante la Decisión 2010/48/CE del Consejo, de 26 de noviembre de 2009 (EDL 2009/306752), debe interpretarse en el sentido de que se opone a una normativa nacional que establece que el empresario puede poner fin al contrato de trabajo",
+   "info": []
+  },
+  {
+   "ref": "11678795",
+   "db": "AN",
+   "fecha": "20260303",
+   "titulo": "STSJ Asturias, a 03 de marzo de 2026 - ROJ: STSJ AS 543/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/66ed795a7cffdff3a0a8778d75e36f0d/20260408",
+   "roj": "STSJ AS 543/2026",
+   "ecli": "ECLI:ES:TSJAS:2026:543",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "356/2026",
+    "Municipio": "Oviedo",
+    "Ponente": "MARIA DE LA ALMUDENA VEIGA VAZQUEZ",
+    "Nº Recurso": "2020/2025"
+   },
+   "resumen": "DESPIDO DISCIPLINARIO",
+   "info": []
+  },
+  {
+   "ref": "11631610",
+   "db": "AN",
+   "fecha": "20260129",
+   "titulo": "STSJ Galicia, a 29 de enero de 2026 - ROJ: STSJ GAL 494/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/66bc144660f03b11a0a8778d75e36f0d/20260225",
+   "roj": "STSJ GAL 494/2026",
+   "ecli": "ECLI:ES:TSJGAL:2026:494",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "400/2026",
+    "Municipio": "Coruña (A)",
+    "Ponente": "JOSE ANTONIO MERINO PALAZUELO",
+    "Nº Recurso": "4352/2025"
+   },
+   "resumen": "DESPIDO DISCIPLINARIO",
+   "info": []
+  },
+  {
+   "ref": "11629018",
+   "db": "AN",
+   "fecha": "20260116",
+   "titulo": "STSJ Andalucía, a 16 de enero de 2026 - ROJ: STSJ AND 1374/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/ed42bb5e166b27b1a0a8778d75e36f0d/20260223",
+   "roj": "STSJ AND 1374/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:1374",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "90/2026",
+    "Municipio": "Sevilla",
+    "Ponente": "MARIA CARMEN CUMBRE CASTRO",
+    "Nº Recurso": "70/2024"
+   },
+   "resumen": "trabajaba para la empresa como conductor en base a un contrato de naturaleza temporal por obra o servicio determinado desde el 30 de junio de 2020, habiéndose estipulado un periodo de dos meses de prueba, e iniciando baja laboral el 27 de agosto de 2020, que según consta en el parte de baja es de corta duración, con previsibilidad de 14 días, siendo cesado en la empresa el día 28 de agosto de 2020 por no superar el periodo de prueba, estando constatado que se le remitió carta a su domicilio particular dada la circunstancia de su baja médica. Existe sin embargo una motivación por la empresa para cesar al trabajador que justifica en no haber superado dicho periodo de prueba de dos meses. La sentencia de instancia recuerda la doctrina contenida en la sentencia del TJUE de 1 de diciembre de 2016, asunto Mohamed Daouidi c.",
+   "info": []
+  },
+  {
+   "ref": "11633674",
+   "db": "AN",
+   "fecha": "20260116",
+   "titulo": "STSJ Madrid, a 16 de enero de 2026 - ROJ: STSJ M 792/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/c804c787210b1896a0a8778d75e36f0d/20260226",
+   "roj": "STSJ M 792/2026",
+   "ecli": "ECLI:ES:TSJM:2026:792",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "26/2026",
+    "Municipio": "Madrid",
+    "Ponente": "JOSE IGNACIO DE ORO-PULIDO SANZ",
+    "Nº Recurso": "566/2025"
+   },
+   "resumen": "ya sea realizando ajustes razonables en su puesto de trabajo o demostrando que estas opciones suponen una carga desproporcionada o excesiva para la empresa, ni tampoco que no se le haya podido proporcionar un puesto en otras empresas del GRUPO ILUNION, siendo absolutamente imposible que en todas las empresas del grupo ILUNION, no exista un puesto de trabajo adaptado a las limitaciones del demandante. El artículo 52 a) del Estatuto de los Trabajadores dispone que el contrato de trabajo podrá extinguirse \"Por ineptitud del trabajador conocida o sobrevenida con posterioridad a su colocación efectiva en la empresa. La ineptitud existente con anterioridad al cumplimiento de un periodo de prueba no podrá alegarse con posterioridad a dicho cumplimiento.\" Por su parte la sentencia del TJUE, de 18 de enero de 2024 (Recurso: C-631/22) recoge: \"40 Para responder a las cuestiones",
+   "info": []
+  },
+  {
+   "ref": "11582730",
+   "db": "TS",
+   "fecha": "20251222",
+   "titulo": "STS, a 22 de diciembre de 2025 - ROJ: STS 6045/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/8867d849c75b5beba0a8778d75e36f0d/20260115",
+   "roj": "STS 6045/2025",
+   "ecli": "ECLI:ES:TS:2025:6045",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "1285/2025",
+    "Municipio": "Madrid",
+    "Ponente": "FELIX VICENTE AZON VILAS",
+    "Nº Recurso": "4968/2024"
+   },
+   "resumen": "Despido objetivo por ineptitud sobrevenida de la persona trabajadora. La empresa corre con la carga de la prueba de que no es posible su recolocación o que el coste de adaptación resulta excesivo. Aplica STJUE 18-01-2024, C-631-22. Reitera doctrina.",
+   "info": []
+  },
+  {
+   "ref": "11608868",
+   "db": "AN",
+   "fecha": "20251218",
+   "titulo": "STSJ Madrid, a 18 de diciembre de 2025 - ROJ: STSJ M 15939/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/0b2daf2ae2dde943a0a8778d75e36f0d/20260206",
+   "roj": "STSJ M 15939/2025",
+   "ecli": "ECLI:ES:TSJM:2025:15939",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "965/2025",
+    "Municipio": "Madrid",
+    "Ponente": "JOSE IGNACIO DE ORO-PULIDO SANZ",
+    "Nº Recurso": "368/2025"
+   },
+   "resumen": "incapacidad permanente para ejecutar las tareas que le incumben en virtud de dicho contrato debido a una discapacidad sobrevenida durante la relación laboral, sin que el empresario esté obligado, con carácter previo, a prever o mantener ajustes razonables con el fin de permitir a dicho trabajador conservar su empleo, ni a demostrar, en su caso, que tales ajustes constituirían una carga excesiva.\" En el presente caso la actora que ha venido prestando servicios por cuenta de ARES CAPITAL SA, desde el día 10-11-2021 con la categoría profesional de conductora a tiempo completo, inició situación de incapacidad temporal por contingencia común el día 4 de mayo de 2022, habiendo la dirección Provincial del INSS dictado resolución el día 23 de enero de2024 denegando la prestación de incapacidad permanente, por no reunir el periodo mínimo de cotización exigido para causar pensión",
+   "info": []
+  },
+  {
+   "ref": "11603796",
+   "db": "AN",
+   "fecha": "20251210",
+   "titulo": "STSJ Galicia, a 10 de diciembre de 2025 - ROJ: STSJ GAL 8045/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/566ddbea2740b7fba0a8778d75e36f0d/20260203",
+   "roj": "STSJ GAL 8045/2025",
+   "ecli": "ECLI:ES:TSJGAL:2025:8045",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "5567/2025",
+    "Municipio": "Coruña (A)",
+    "Ponente": "PILAR YEBRA-PIMENTEL VILAR",
+    "Nº Recurso": "2683/2025"
+   },
+   "resumen": "Despido discriminatorio por razón de sexo. Trabajadora que reclama el derecho al percibo de un bonus ante la empresa y a los pocos días es despedida por causa objetiva justificándose en la necesidad de dotar de un perfil distinto el puesto ocupado por ésta, siendo sustituida por otro trabajador de la empresa que promociona. La sentencia declara el despido nulo por vulneración de la garantía de indemnidad. La sala considera que también se trata de un despido discriminatorio por razón de sexo, en la medida que la empresa, sin dar ninguna justificación objetiva, más allá de su libre criterio de elección, decide despedir a una mujer para darle su puesto a un hombre en un puesto de dirección que es asumido, en la empresa de manera principal por hombres. También se considera razonable la indemnización solicitada de 20.000 euros, prevista en el artículo 49 la ley 15/22, tanto la discriminación directa como indirecta, por acción u omisión como la conducta de represalia, valorando asimismo el tamaño de la empresa, así como la ausencia de rentas que provoca la falta de salario.",
+   "info": []
+  },
+  {
+   "ref": "11587797",
+   "db": "AN",
+   "fecha": "20251128",
+   "titulo": "STSJ Galicia, a 28 de noviembre de 2025 - ROJ: STSJ GAL 7929/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/5a0cfe8a09846953a0a8778d75e36f0d/20260121",
+   "roj": "STSJ GAL 7929/2025",
+   "ecli": "ECLI:ES:TSJGAL:2025:7929",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "5347/2025",
+    "Municipio": "Coruña (A)",
+    "Ponente": "BEATRIZ RAMA INSUA",
+    "Nº Recurso": "3170/2025"
+   },
+   "resumen": "DESPIDO DISCIPLINARIO",
+   "info": []
+  },
+  {
+   "ref": "11548777",
+   "db": "AN",
+   "fecha": "20251114",
+   "titulo": "STSJ Madrid, a 14 de noviembre de 2025 - ROJ: STSJ M 13357/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/e1bbf1df45a38103a0a8778d75e36f0d/20251209",
+   "roj": "STSJ M 13357/2025",
+   "ecli": "ECLI:ES:TSJM:2025:13357",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "976/2025",
+    "Municipio": "Madrid",
+    "Ponente": "ANGELA MOSTAJO VEIGA",
+    "Nº Recurso": "720/2025"
+   },
+   "resumen": "mentales o psíquicas que, al interactuar con diversas barreras, puede impedir la participación plena y efectiva de la persona de que se trate en la vida profesional en igualdad de condiciones con los demás trabajadores, y si esta limitación es de larga duración...\". Por tanto la regulación expuesta daba como consecuencia: 1.- Despido durante período de IT motivado en causas disciplinarias acreditadas: Despido procedente. 2.- Despido por causas disciplinarias u otras (p. ejemplo durante período de prueba) no acreditadas durante IT de corta duración. Despido improcedente. 3.- Despido por causas disciplinarias u otras (p. ejemplo durante período de prueba) no acreditadas durante IT de larga duración (asimilable a discapacidad): está protegido por la Directiva como causa de discriminación y por tanto es NULO. Sin embargo, y como hemos",
+   "info": []
+  },
+  {
+   "ref": "11585159",
+   "db": "AN",
+   "fecha": "20251111",
+   "titulo": "STSJ Madrid, a 11 de noviembre de 2025 - ROJ: STSJ M 14749/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/c2b911e4eb0e7a8ca0a8778d75e36f0d/20260116",
+   "roj": "STSJ M 14749/2025",
+   "ecli": "ECLI:ES:TSJM:2025:14749",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "693/2025",
+    "Municipio": "Madrid",
+    "Ponente": "ALICIA CATALA PELLON",
+    "Nº Recurso": "702/2025"
+   },
+   "resumen": "partimos del dato de que tan solo son hechos constatados que la actora fue contratada como técnico de sala el día 14-08-23, en virtud de un contrato indefinido, estipulándose un período de prueba de 30 días naturales. Que causó baja médica por malestar y fatiga el día 4-09-23, y que la empresa le comunicó el 13-09-23, vigente dicha baja, la rescisión de su contrato con esa misma fecha, al no haber superado el período de prueba. Y ninguna prueba aporta la empresa, que no compareció al plenario, para justificar su decisión extintiva. Así las cosas, partiendo de la antedicha inversión de la carga de la prueba, resulta que acreditado por la parte actora el indicio de discriminación alegado, con la situación de incapacidad temporal de la trabajadora, a los pocos días de iniciarse su contrato, ninguna prueba aportó la empresa demandada, que ni siquiera compareció a juicio,",
+   "info": []
+  },
+  {
+   "ref": "11511584",
+   "db": "AN",
+   "fecha": "20251031",
+   "titulo": "STSJ Cantabria, a 31 de octubre de 2025 - ROJ: STSJ CANT 1081/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/a49b1d9c96354b08a0a8778d75e36f0d/20251119",
+   "roj": "STSJ CANT 1081/2025",
+   "ecli": "ECLI:ES:TSJCANT:2025:1081",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "752/2025",
+    "Municipio": "Santander",
+    "Ponente": "MARIA JESUS FERNANDEZ GARCIA",
+    "Nº Recurso": "692/2025"
+   },
+   "resumen": "Despido disciplinario por bajo rendimiento en el contexto de IT. Vulneración de DDFF e inversión probatoria: los indicios, la condición de salud y su neutralización. Haber regulador: valoración de la prueba documental.",
+   "info": []
+  },
+  {
+   "ref": "11512383",
+   "db": "AN",
+   "fecha": "20251017",
+   "titulo": "STSJ Galicia, a 17 de octubre de 2025 - ROJ: STSJ GAL 6829/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/981d9a52098814daa0a8778d75e36f0d/20251120",
+   "roj": "STSJ GAL 6829/2025",
+   "ecli": "ECLI:ES:TSJGAL:2025:6829",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "4700/2025",
+    "Municipio": "Coruña (A)",
+    "Ponente": "MARTA MARIA LOPEZ-ARIAS TESTA",
+    "Nº Recurso": "2648/2025"
+   },
+   "resumen": "DESPIDO DISCIPLINARIO",
+   "info": []
+  },
+  {
+   "ref": "11455103",
+   "db": "AN",
+   "fecha": "20250724",
+   "titulo": "STSJ Cataluña, a 24 de julio de 2025 - ROJ: STSJ CAT 4726/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/a85691d56efa4526a0a8778d75e36f0d/20251001",
+   "roj": "STSJ CAT 4726/2025",
+   "ecli": "ECLI:ES:TSJCAT:2025:4726",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "4347/2025",
+    "Municipio": "Barcelona",
+    "Ponente": "JAUME GONZALEZ CALVET",
+    "Nº Recurso": "5972/2024"
+   },
+   "resumen": "la empresa ha intentado y ha acreditado la imposibilidad de introducir ajustes razonables. Pues bien, precisamente porque la corporación empleadora intentó y agotó la posibilidad de ajustes razonables al puesto de trabajo de la empleadora, no puede sostenerse que la decisión extintiva amparada en el art. 52, a) ET infringe los preceptos invocados del RD Legislativo 1/2013, de 29 de noviembre,por el que se aprueba el Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social. CUARTO.-En el apartado 2 del segundo motivo de recurso, que se formula al amparo del apartado c) del art. 193 LRJS, subsidiariamente se postula la improcedencia del despido. La recurrente argumenta para sostener esta tesis que: ...entendemos que no ha quedado por la parte demandada que concurra en",
+   "info": []
+  },
+  {
+   "ref": "11454619",
+   "db": "AN",
+   "fecha": "20250709",
+   "titulo": "STSJ Comunidad Valenciana, a 09 de julio de 2025 - ROJ: STSJ CV 2499/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/91adfe8c955e26c1a0a8778d75e36f0d/20250930",
+   "roj": "STSJ CV 2499/2025",
+   "ecli": "ECLI:ES:TSJCV:2025:2499",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2049/2025",
+    "Municipio": "Valencia",
+    "Ponente": "MARIA DEL CARMEN TORREGROSA MAICAS",
+    "Nº Recurso": "870/2025"
+   },
+   "resumen": "lo que proscribe es que el acto discriminatorio se produzca como única y exclusiva reacción ante la situación del trabajador , contemplando la obligación de la empresa de llevar a cabo los ajustes razonables que adapten las condiciones del trabajo a las necesidades de la persona en cuestión; y recuerda la doctrina del TJUE a cuyo tenor\" la Directiva 2000/78 no obliga a contratar, ascender o mantener en un puesto de trabajo a una persona que no sea competente o no esté capacitada o disponible para desempeñar las tareas fundamentales del puesto de que se trate, sin perjuicio de la obligación de realizar los ajustes razonables para las personas con discapacidad, entre los que figura una eventual reducción de su tiempo de trabajo\". Con lo que para declarar la nulidad del despido por vulneración del derecho a la no discriminación, incluyendo dentro de esta, la situación de",
+   "info": []
+  },
+  {
+   "ref": "11335036",
+   "db": "AN",
+   "fecha": "20250428",
+   "titulo": "STSJ Madrid, a 28 de abril de 2025 - ROJ: STSJ M 6139/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/cb6bdf61a933cd1ba0a8778d75e36f0d/20250610",
+   "roj": "STSJ M 6139/2025",
+   "ecli": "ECLI:ES:TSJM:2025:6139",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "417/2025",
+    "Municipio": "Madrid",
+    "Ponente": "ALICIA CATALA PELLON",
+    "Nº Recurso": "1197/2024"
+   },
+   "resumen": "técnico de sala el día 14-08-23, en virtud de un contrato indefinido, estipulándose un período de prueba de 30 días naturales. Que causó baja médica por malestar y fatiga el día 4-09-23, y que la empresa le comunicó el 13-09-23, vigente dicha baja, la rescisión de su contrato con esa misma fecha, al no haber superado el período de prueba. Y ninguna prueba aporta la empresa, que no compareció al plenario, para justificar su decisión extintiva. Así las cosas, partiendo de la antedicha inversión de la carga de la prueba, resulta que acreditado por la parte actora el indicio de discriminación alegado, con la situación de incapacidad temporal de la trabajadora, a los pocos días de iniciarse su contrato, ninguna prueba aportó la empresa demandada, que ni siquiera compareció a juicio, para acreditar la justificación objetiva y razonable, suficientemente probada de la",
+   "info": []
+  },
+  {
+   "ref": "11335034",
+   "db": "AN",
+   "fecha": "20250425",
+   "titulo": "STSJ Madrid, a 25 de abril de 2025 - ROJ: STSJ M 6137/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/06f10cd2c14f3beda0a8778d75e36f0d/20250610",
+   "roj": "STSJ M 6137/2025",
+   "ecli": "ECLI:ES:TSJM:2025:6137",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "415/2025",
+    "Municipio": "Madrid",
+    "Ponente": "ALICIA CATALA PELLON",
+    "Nº Recurso": "1190/2024"
+   },
+   "resumen": "de prueba de 30 días naturales. Que causó baja médica por malestar y fatiga el día 4-09-23, y que la empresa le comunicó el 13-09-23, vigente dicha baja, la rescisión de su contrato con esa misma fecha, al no haber superado el período de prueba. Y ninguna prueba aporta la empresa, que no compareció al plenario, para justificar su decisión extintiva. Así las cosas, partiendo de la antedicha inversión de la carga de la prueba, resulta que acreditado por la parte actora el indicio de discriminación alegado, con la situación de incapacidad temporal de la trabajadora, a los pocos días de iniciarse su contrato, ninguna prueba aportó la empresa demandada, que ni siquiera compareció a juicio, para acreditar la justificación objetiva y razonable, suficientemente probada de la extinción acordada, ex art. 96.1 y 181.2 de la LRJS en relación con el art.",
+   "info": []
+  },
+  {
+   "ref": "11285363",
+   "db": "AN",
+   "fecha": "20250331",
+   "titulo": "STSJ Castilla y León, a 31 de marzo de 2025 - ROJ: STSJ CL 1409/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/5d37ce8596e6476fa0a8778d75e36f0d/20250428",
+   "roj": "STSJ CL 1409/2025",
+   "ecli": "ECLI:ES:TSJCL:2025:1409",
+   "sala": "",
+   "datos": {
+    "Municipio": "Valladolid",
+    "Ponente": "MANUEL MARIA BENITO LOPEZ",
+    "Nº Recurso": "188/2025"
+   },
+   "resumen": "DESPIDO OBJETIVO",
+   "info": []
+  },
+  {
+   "ref": "11279290",
+   "db": "AN",
+   "fecha": "20250321",
+   "titulo": "STSJ Madrid, a 21 de marzo de 2025 - ROJ: STSJ M 3659/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/60880430474db9e5a0a8778d75e36f0d/20250423",
+   "roj": "STSJ M 3659/2025",
+   "ecli": "ECLI:ES:TSJM:2025:3659",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "292/2025",
+    "Municipio": "Madrid",
+    "Ponente": "ANGELA MOSTAJO VEIGA",
+    "Nº Recurso": "1253/2024"
+   },
+   "resumen": "Despido objetivo por causas organizativas y productivas. Concurrencia de la causa. Calificación del despido. Cumplimiento de los requisitos formales. posible discriminación por razón de enfermedad",
+   "info": []
+  },
+  {
+   "ref": "11356543",
+   "db": "AN",
+   "fecha": "20250320",
+   "titulo": "STSJ Andalucía, a 20 de marzo de 2025 - ROJ: STSJ AND 6067/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/141ec0ed4fb92564a0a8778d75e36f0d/20250626",
+   "roj": "STSJ AND 6067/2025",
+   "ecli": "ECLI:ES:TSJAND:2025:6067",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "979/2025",
+    "Municipio": "Sevilla",
+    "Ponente": "AURORA BARRERO RODRIGUEZ",
+    "Nº Recurso": "945/2023"
+   },
+   "resumen": "La doctrina del TS en materia de extinción de la relación laboral en periodo de prueba, regulado en el artículo 14 ET, y recogida entre muchas en la sentencia 112 de 12/7//14, o en la de 20 de enero de 2014, dictada en el recurso 375/13, se puede sintetizar así: a) durante el periodo de prueba cualquiera de las partes puede desistir de la relación laboral, libremente y sin preaviso b) el período de prueba es de aplicación solamente cuando hubiera sido acordado como pacto \"escrito\"en el momento de la celebración del contrato; c) la libertad de desistimiento durante el período de prueba supone que ni el empresario ni el trabajador tienen, en principio, que especificar los motivos del cese, ni acreditar los hechos o circunstancias determinantes del mismo, ni tampoco expresar la decisión extintiva mediante una forma preestablecida; d) \"la finalidad o",
+   "info": []
+  },
+  {
+   "ref": "11413916",
+   "db": "AN",
+   "fecha": "20250228",
+   "titulo": "STSJ Cataluña, a 28 de febrero de 2025 - ROJ: STSJ CAT 4125/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/374c1a8ae5dbb8d1a0a8778d75e36f0d/20250825",
+   "roj": "STSJ CAT 4125/2025",
+   "ecli": "ECLI:ES:TSJCAT:2025:4125",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1033/2025",
+    "Municipio": "Barcelona",
+    "Ponente": "FRANCISCO JAVIER SANZ MARCOS",
+    "Nº Recurso": "4421/2024"
+   },
+   "resumen": "con contrato de trabajo indefinido de 2 de mayo de 2022, como empleada, incluida en el grupo profesional NIVEL V BIS, para la realización de funciones de ayudante de camarera, a tiempo parcial de 31 horas pactadas, con exclusión de realización de horas complementarias y con un periodo de prueba de 45 días, en el centro de trabajo situado en el puerto de Badalona, restaurante \"Fusión Grill\", calle Eduard Maristany, 227; con alta en la empresa de 1 de mayo de 2022 (contrato de trabajo e informe de vida laboral de la Tesorería General de la Seguridad Social, de documentos 1 y 6 de la demandante; certificado de empresa, de documento 15 de la sociedad). SEGUNDO. El salario (con inclusión de prorrata de pagas extraordinarias) asciende a 1142,47 euros mensuales (base de cotización de julio de 2022, según el certificado de empresa). TERCERO. La persona física demandada es autónoma",
+   "info": []
+  },
+  {
+   "ref": "11245968",
+   "db": "AN",
+   "fecha": "20250123",
+   "titulo": "STSJ Andalucía, a 23 de enero de 2025 - ROJ: STSJ AND 1328/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/e680f413f7759159a0a8778d75e36f0d/20250324",
+   "roj": "STSJ AND 1328/2025",
+   "ecli": "ECLI:ES:TSJAND:2025:1328",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "213/2025",
+    "Municipio": "Sevilla",
+    "Ponente": "MARIA DEL CARMEN PEREZ SIBON",
+    "Nº Recurso": "4350/2022"
+   },
+   "resumen": "de salud pública ( artículo 2.3 de la Ley 15/2022 ). En el presente caso no se dan tales excepciones. Ciertamente ha de reconocerse que el actor prácticamente no ha trabajado para la empresa, con lo cual a ésta -partiendo de que el periodo de prueba no admite interrupciones- no le es posible conocer las aptitudes del empleado en relación con su puesto de trabajo, máxime cuando éste, aunque haya prestado servicios con anterioridad, no lo fue para la actual demandada y en todo caso en categoría profesional que nada tiene que ver con la actual. Y es así mismo cierto que, con carácter general, la finalidad del establecimiento del periodo de prueba es facilitar el conocimiento mutuo de las partes del contrato de trabajo y la experimentación de una prestación de servicios, y más concretamente, respecto a la empresa, el periodo de prueba responde a la necesidad",
+   "info": []
+  },
+  {
+   "ref": "11238380",
+   "db": "AN",
+   "fecha": "20241204",
+   "titulo": "STSJ Galicia, a 04 de diciembre de 2024 - ROJ: STSJ GAL 9061/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/29667c6c1c95bcf8a0a8778d75e36f0d/20250318",
+   "roj": "STSJ GAL 9061/2024",
+   "ecli": "ECLI:ES:TSJGAL:2024:9061",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "5577/2024",
+    "Municipio": "Coruña (A)",
+    "Ponente": "HUMBERTO MARTIN MARTIN",
+    "Nº Recurso": "4822/2024"
+   },
+   "resumen": "DESPIDO DISCIPLINARIO",
+   "info": []
+  },
+  {
+   "ref": "11178800",
+   "db": "AN",
+   "fecha": "20241125",
+   "titulo": "STSJ Madrid, a 25 de noviembre de 2024 - ROJ: STSJ M 15095/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/5ca430baac420550a0a8778d75e36f0d/20250129",
+   "roj": "STSJ M 15095/2024",
+   "ecli": "ECLI:ES:TSJM:2024:15095",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "752/2024",
+    "Municipio": "Madrid",
+    "Ponente": "ALICIA CATALA PELLON",
+    "Nº Recurso": "647/2024"
+   },
+   "resumen": "técnico de sala el día 14-08-23, en virtud de un contrato indefinido, estipulándose un período de prueba de 30 días naturales. Que causó baja médica por malestar y fatiga el día 4-09-23, y que la empresa le comunicó el 13-09-23, vigente dicha baja, la rescisión de su contrato con esa misma fecha, al no haber superado el período de prueba. Y ninguna prueba aporta la empresa, que no compareció al plenario, para justificar su decisión extintiva. Así las cosas, partiendo de la antedicha inversión de la carga de la prueba, resulta que acreditado por la parte actora el indicio de discriminación alegado, con la situación de incapacidad temporal de la trabajadora, a los pocos días de iniciarse su contrato, ninguna prueba aportó la empresa demandada, que ni siquiera compareció a juicio, para acreditar la justificación objetiva y razonable, suficientemente probada de la",
+   "info": []
+  },
+  {
+   "ref": "11147376",
+   "db": "AN",
+   "fecha": "20241121",
+   "titulo": "STSJ Madrid, a 21 de noviembre de 2024 - ROJ: STSJ M 14300/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/6a9390033990527ca0a8778d75e36f0d/20241230",
+   "roj": "STSJ M 14300/2024",
+   "ecli": "ECLI:ES:TSJM:2024:14300",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "932/2024",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA CONCEPCION DEL BRIO CARRETERO",
+    "Nº Recurso": "514/2024"
+   },
+   "resumen": "Se plantea si el desistimiento empresarial de la relación laboral de la actora durante el periodo de prueba constituye un despido y en su caso este debe de calificarse de nulo por discriminación por razón de enfermedad.",
+   "info": []
+  },
+  {
+   "ref": "11207285",
+   "db": "AN",
+   "fecha": "20241121",
+   "titulo": "STSJ Canarias, a 21 de noviembre de 2024 - ROJ: STSJ ICAN 3842/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/b49e74c8e65525cda0a8778d75e36f0d/20250220",
+   "roj": "STSJ ICAN 3842/2024",
+   "ecli": "ECLI:ES:TSJICAN:2024:3842",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1600/2024",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "GLORIA POYATOS MATAS",
+    "Nº Recurso": "1109/2024"
+   },
+   "resumen": "facilitado existiendo posibilidades reales para ello genera la vulneración del artículo 14 de la Constitución Española y, como consecuencia, la declaración de nulidad del despido. Y pese al inexistente desarrollo argumental del recurrente sobre cuestiones esenciales para la prosperabilidad del recurso, la afectación de derechos fundamentales exige que esta Sala supla tal carencia, adentrándonos en los conceptos de \"discapacidad\", \"discriminación\" y \"ajustes razonables\", anticipando ya que compartimos el criterio emanado de la instancia. A raíz de la aprobación de la Convención de la ONU por la Unión Europea (Decisión 2010/48, el Tribunal de Justicia ha considerado que el concepto de «discapacidad», en el sentido de la Directiva 2000/78, (artículo 2) debe entenderse referido a una limitación de la capacidad derivada, en particular,",
+   "info": []
+  },
+  {
+   "ref": "11144367",
+   "db": "AN",
+   "fecha": "20241115",
+   "titulo": "STSJ Madrid, a 15 de noviembre de 2024 - ROJ: STSJ M 14044/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/db7270b980eebf21a0a8778d75e36f0d/20241226",
+   "roj": "STSJ M 14044/2024",
+   "ecli": "ECLI:ES:TSJM:2024:14044",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1060/2024",
+    "Municipio": "Madrid",
+    "Ponente": "ANGELA MOSTAJO VEIGA",
+    "Nº Recurso": "814/2024"
+   },
+   "resumen": "los años 2022, 2023 y hasta el año en curso en que se programe el juicio del presente procedimiento, así como la duración de dichos trabajadores en alta, en todos los Códigos de Cuenta de Cotización de la empresa en España\". El Auto de 8 de mayo de 2.023 vino a estimar la aportación de ambas pruebas. Por escrito de 7 de diciembre de 2.023 se solicitó: 1.Que, con el fin de acreditar la existencia de una práctica fraudulenta en la utilización del periodo de prueba por parte de la mercantil demandada; solicitamos que ésta aporte el Certificado de Empresa que debió haber remitido al SEPE por todas aquellas extinciones que tienen como causa baja en periodo de prueba, para los años 2022 y 2023. Se solicita esta información bajo apercibimiento de tenerse por cierta la utilización fraudulenta del periodo de prueba. 2.",
+   "info": []
+  },
+  {
+   "ref": "11314747",
+   "db": "AN",
+   "fecha": "20241106",
+   "titulo": "STSJ Comunidad Valenciana, a 06 de noviembre de 2024 - ROJ: STSJ CV 5973/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/63723154537ce717a0a8778d75e36f0d/20250523",
+   "roj": "STSJ CV 5973/2024",
+   "ecli": "ECLI:ES:TSJCV:2024:5973",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2868/2024",
+    "Municipio": "Valencia",
+    "Ponente": "NURIA NAVARRO FERRANDIZ",
+    "Nº Recurso": "1866/2024"
+   },
+   "resumen": "adaptación. Razona el TC lo siguiente: \" La adopción de los \"ajustes razonables\" en el empleo desempeña un papel fundamental a la hora de combatir la discriminación por razón de discapacidad prohibida por el art. 14 CE . Dichos ajustes se integran en el derecho a la igualdad de trato y a la no discriminación de las personas con discapacidad allí donde sean necesarios para garantizar el ejercicio, en igualdad de condiciones, de sus derechos en el ámbito laboral ... Teniendo en cuenta el contexto expuesto, actualmente puede llegar a concluirse que el derecho a no ser discriminado por razón de discapacidad que consagra el art. 14 CE comprende el derecho a los ajustes razonables, que no impongan una carga desproporcionada o indebida, que son necesarios para garantizar el derecho de las personas con discapacidad a trabajar en igualdad de condiciones",
+   "info": []
+  },
+  {
+   "ref": "11151285",
+   "db": "AN",
+   "fecha": "20241105",
+   "titulo": "STSJ Asturias, a 05 de noviembre de 2024 - ROJ: STSJ AS 2904/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/6720684ee3b7360da0a8778d75e36f0d/20250103",
+   "roj": "STSJ AS 2904/2024",
+   "ecli": "ECLI:ES:TSJAS:2024:2904",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1784/2024",
+    "Municipio": "Oviedo",
+    "Ponente": "MARIA PAZ FERNANDEZ FERNANDEZ",
+    "Nº Recurso": "1422/2024"
+   },
+   "resumen": "DESPIDO OBJETIVO",
+   "info": []
+  },
+  {
+   "ref": "11086711",
+   "db": "AN",
+   "fecha": "20240925",
+   "titulo": "STSJ Madrid, a 25 de septiembre de 2024 - ROJ: STSJ M 11014/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/f86a74dbbbf38055a0a8778d75e36f0d/20241031",
+   "roj": "STSJ M 11014/2024",
+   "ecli": "ECLI:ES:TSJM:2024:11014",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "751/2024",
+    "Municipio": "Madrid",
+    "Ponente": "RAFAEL ANTONIO LOPEZ PARADA",
+    "Nº Recurso": "397/2024"
+   },
+   "resumen": "Despido. Se le imputa al trabajador , disminución voluntaria y continuada en el trabajo. El actor ha estado en situación de Incapacidad Temporal. Se plantea la calificación del despido. Posible discriminación por razón de enfermedad.",
+   "info": []
+  },
+  {
+   "ref": "11035423",
+   "db": "AN",
+   "fecha": "20240722",
+   "titulo": "STSJ Castilla y León, a 22 de julio de 2024 - ROJ: STSJ CL 3285/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/edf058161996b5bca0a8778d75e36f0d/20240917",
+   "roj": "STSJ CL 3285/2024",
+   "ecli": "ECLI:ES:TSJCL:2024:3285",
+   "sala": "",
+   "datos": {
+    "Municipio": "Valladolid",
+    "Ponente": "MARIA BELMONTE SALDAÑA",
+    "Nº Recurso": "1492/2024"
+   },
+   "resumen": "Despido en período de prueba",
+   "info": []
+  },
+  {
+   "ref": "11062271",
+   "db": "AN",
+   "fecha": "20240712",
+   "titulo": "STSJ Canarias, a 12 de julio de 2024 - ROJ: STSJ ICAN 2099/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/eb45e5ad8116f00ca0a8778d75e36f0d/20241009",
+   "roj": "STSJ ICAN 2099/2024",
+   "ecli": "ECLI:ES:TSJICAN:2024:2099",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "643/2024",
+    "Municipio": "Santa Cruz de Tenerife",
+    "Ponente": "MARIA CARMEN GARCIA MARRERO",
+    "Nº Recurso": "849/2023"
+   },
+   "resumen": "o dejar sin efecto el reconocimiento, goce o ejercicio, en igualdad de condiciones, de todos los derechos humanos y libertades fundamentales en los ámbitos político, económico, social, cultural, civil o de otro tipo. Incluye todas las formas de discriminación, entre ellas, la denegación de ajustes razonables\". Destaca que la relevancia de los ajustes razonables como herramienta para garantizar a las personas con discapacidad el goce o ejercicio de sus derechos en igualdad de condiciones ha sido subrayada por la Convención de la ONU, que incluye en su art. 2 como forma de discriminación por motivos de discapacidad la \"denegación de ajustes razonables\"; por el Tribunal Europeo de Derechos Humanos que se ha hecho eco de tal disposición en su sentencia de 30 de enero de 2018, asunto Enver Sahin c. Turquía, declarando expresamente, en el marco de la aplicación del art. 14",
+   "info": []
+  },
+  {
+   "ref": "11000854",
+   "db": "AN",
+   "fecha": "20240617",
+   "titulo": "STSJ Andalucía, a 17 de junio de 2024 - ROJ: STSJ AND 5736/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/3d260f79c94c876ba0a8778d75e36f0d/20240816",
+   "roj": "STSJ AND 5736/2024",
+   "ecli": "ECLI:ES:TSJAND:2024:5736",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1039/2024",
+    "Municipio": "Málaga",
+    "Ponente": "ERNESTO UTRERA MARTIN",
+    "Nº Recurso": "737/2024"
+   },
+   "resumen": "efectiva en la empresa. La ineptitud existente con anterioridad al cumplimiento de un periodo de prueba no podrá alegarse con posterioridad a dicho cumplimiento. [...] De la Directiva 2000/78: Artículo 5. Ajustes razonables para las personas con discapacidad. A fin de garantizar la observancia del principio de igualdad de trato en relación con las personas con discapacidades, se realizarán ajustes razonables. Esto significa que los empresarios tomarán las medidas adecuadas, en función de las necesidades de cada situación concreta, para permitir a las personas con discapacidades acceder al empleo, tomar parte en el mismo o progresar profesionalmente, o para que se les ofrezca formación, salvo que esas medidas supongan una carga excesiva para el empresario. La carga no se considerará excesiva",
+   "info": []
+  }
+ ],
+ "extra": {
+  "total_web": "72 resultados paginas: 8"
+ }
+}

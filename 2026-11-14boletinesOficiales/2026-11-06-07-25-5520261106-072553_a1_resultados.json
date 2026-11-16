@@ -1,0 +1,43 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: {\"numres\": \"648/2024\", \"recurso\": \"379/2024\", \"jurisdiccion\": [\"SOCIAL\"]}",
+  "filtros": {
+   "numres": "648/2024",
+   "recurso": "379/2024",
+   "jurisdiccion": [
+    "SOCIAL"
+   ]
+  },
+  "fecha": "06/11/2026 07:25",
+  "aplicados_en_web": {
+   "jurisdiccion": [
+    "Social"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "11030698",
+   "db": "AN",
+   "fecha": "20240724",
+   "titulo": "STSJ Castilla y León, a 24 de julio de 2024 - ROJ: STSJ CL 3067/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/0cedbffaf356773ca0a8778d75e36f0d/20240913",
+   "roj": "STSJ CL 3067/2024",
+   "ecli": "ECLI:ES:TSJCL:2024:3067",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "648/2024",
+    "Municipio": "Burgos",
+    "Ponente": "JESUS CARLOS GALAN PARADA",
+    "Nº Recurso": "379/2024"
+   },
+   "resumen": "Incapacidad absoluta. Cefalea crónica postcovid de perfil tensional y frecuencia diaria, refractaria a cualquier tratamiento. Además, trastorno adaptativo mixto reactivo y déficit cognitivo tras la infección por COVID.",
+   "info": [],
+   "pdf": "pdf/STSJ_CL_3067_2024.pdf",
+   "txt": "txt/STSJ_CL_3067_2024.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

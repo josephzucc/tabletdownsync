@@ -1,0 +1,4 @@
+gn;while read -r term;do term2=$(echo "$term" | sed "s/ //g" );d="${now}boletinAvilaBusqMigracionvb_${term2}.txt";echo $d;python3 bop.py buscar -c "${term}" --ultimos 365 --guardar ${d} >/dev/null 2>&1;done < <(cat *terminosMigracionvb.txt)
+gn;while read -r term;do term2=$(echo "$term" | sed "s/ //g" );d="${now}boletinAvilaBusqMigracionvb_${term2}.txt";echo $d;python3 bop.py buscar -c "${term}" --ultimos 365 --guardar ${d} >/dev/null 2>&1;done < <( echo -e "informatica\nofimatica" )
+t="python3 bop.py web boe -c '\"\${term}\"' --ultimos 365 --guardar \${d};python3 bop.py web bocyl -c '\"\${term}\"' --12meses --guardar \${d};python3 bop.py web bocm -c '\"\${term}\"' --12meses --guardar \${d};python3 subv.py buscar -c '\"\${term}\"' --12meses --detalle --modo alguna --guardar \${d};"
+gn;while read -r term;do term2=$(echo "$term" | sed "s/ //g" );d="${now}boletinOtrosBusqMigracionvb_${term2}.txt";echo $d;eval "${t}" >> ${d} 2>&1;done < <(cat *terminosMigracionvb.txt)

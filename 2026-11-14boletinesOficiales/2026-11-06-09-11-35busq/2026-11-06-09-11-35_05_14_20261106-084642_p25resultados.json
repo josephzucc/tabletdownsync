@@ -1,0 +1,35 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STSJ CAT 6873/2025",
+  "filtros": {
+   "roj": "STSJ CAT 6873/2025"
+  },
+  "fecha": "06/11/2026 08:46",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "11571976",
+   "db": "AN",
+   "fecha": "20251211",
+   "titulo": "STSJ Cataluña, a 11 de diciembre de 2025 - ROJ: STSJ CAT 6873/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/cdf6fdbde34acaeea0a8778d75e36f0d/20260107",
+   "roj": "STSJ CAT 6873/2025",
+   "ecli": "ECLI:ES:TSJCAT:2025:6873",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "6591/2025",
+    "Municipio": "Barcelona",
+    "Ponente": "EMILIO GARCIA OLLES",
+    "Nº Recurso": "5543/2024"
+   },
+   "resumen": "- Sala de lo Social del Tribunal Superior de Justicia de Cataluña Paseo Lluís Companys, 14-16, No informado - Barcelona - C.P.: 08018 TEL.: 934866159 FAX: 933096846 EMAIL:salasocial.tsjcat@xij.gencat.cat N.I.G.: 4314844420228034890 Recurso de suplicación 5543/2024 -T1 Materia: Incapacidad general Órgano de origen:Juzgado de lo Social nº 3 de Tarragona Procedimiento de origen:Seguridad Social en materia prestacional 733/2022 Parte recurrente/Solicitante: INSTITUT NACIONAL DE LA SEGURETAT SOCIAL (INSS), Servei Públic d'Ocupació Estatal (SPEE) Abogado/a: Graduado/a Social: Parte recurrida: , TRESORERIA GENERAL DE LA SEGURETAT SOCIAL Abogado/a: Pilar Casas Villodre Graduado/a Social:",
+   "info": [],
+   "pdf": "pdf/STSJ_CAT_6873_2025.pdf",
+   "txt": "txt/STSJ_CAT_6873_2025.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

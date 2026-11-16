@@ -1,0 +1,21 @@
+source "$functest";
+gn;
+if (( $# > 0 ));then imail=${1};fi;
+stop="${today}mailstop.txt";
+stopf=$(pwd);echo -e "Si deseas parar\ncrea archivo ${stop} en\n${stopf}";
+todas="yahoo gmx consdigg busqp rbrtmichun josech jjzu12 ciberseguridadconsultor ciberseguridadmadridnorte govsif2";
+a=$(pwd);
+b=$(dirname "$mailapp");
+cd "$b";
+echo "imail $imail";
+case $imail in
+  "" | 1) cuentas=" gmx ";export imail=2;;
+  2) cuentas=" gmx yahoo ";export imail=3;;
+  3) cuentas=" ${todas} ";export imail=1;;
+esac;
+ex="python3 ${mailapp} -acc ${cuentas} -solo-nuevos -ver";
+echo $ex;
+eval "$ex";
+pwd;
+cd "$a";
+echo "imail $imail";

@@ -1,0 +1,747 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: covid persistente contingencia profesional determinación de contingencia",
+  "filtros": {
+   "texto": "covid persistente contingencia profesional determinación de contingencia",
+   "desde": "01/01/2022",
+   "jurisdiccion": [
+    "SOCIAL"
+   ],
+   "organo": [
+    "Tribunal Superior de Justicia"
+   ]
+  },
+  "fecha": "06/11/2026 10:05",
+  "aplicados_en_web": {
+   "jurisdiccion": [
+    "Social"
+   ],
+   "organo": [
+    "Tribunal Superior de Justicia"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "11911139",
+   "db": "AN",
+   "fecha": "20261020",
+   "titulo": "STSJ Cataluña, a 20 de octubre de 2026 - ROJ: STSJ CAT 8582/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/dc3785cae7a04739a0a8778d75e36f0d/20261103",
+   "roj": "STSJ CAT 8582/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:8582",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "5532/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "EMILIO GARCIA OLLES",
+    "Nº Recurso": "4341/2026"
+   },
+   "resumen": "a efectos de la incapacidad permanente total, absoluta o gran invalidez, por contingencias profesionales, es de 24.253,20 euros. Añade que las lesiones que padece la actora se derivan de accidente de trabajo (expediente administrativo). QUINTO.- La base reguladora anual de la prestación de incapacidad permanente derivada de enfermedad profesional o accidente de trabajo, de ser estimada la demanda, asciende a la cantidad de 24.253,20 euros (resolución del INSS de 4 de mayo de 2023). SEXTO.- La profesión habitual de la actora es la de auxiliar de enfermería (hecho conforme y expediente administrativo). SÉPTIMO.- La actora se infectó por Covid-19 en octubre de 2020, iniciando proceso de incapacidad temporal el día 26. La sintomatología inicial fue de cefaleas y artromialgias, siendo PCR positiva en fecha 24 de octubre",
+   "info": []
+  },
+  {
+   "ref": "11898810",
+   "db": "AN",
+   "fecha": "20261005",
+   "titulo": "STSJ Cataluña, a 05 de octubre de 2026 - ROJ: STSJ CAT 8131/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/7469b0a3c77c31c3a0a8778d75e36f0d/20261023",
+   "roj": "STSJ CAT 8131/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:8131",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "5144/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "ANA CONSUELO CASTAN HERNANDEZ",
+    "Nº Recurso": "3794/2026"
+   },
+   "resumen": "la puesta en relación de las patologías y secuelas que aquejan a la parte trabajadora con su actividad profesional , consistentes , según el inalterado relato de hechos probados, en : \"Disnea, artralgias, insomnio y síntomas post-covid en seguimiento\". Las referidas patologías deben ponerse en relación con las exigencias de su profesión habitual de oficial mecánico de aviones. Pues bien , en el caso que nos ocupa si bien el actor presenta síntomas post covid no se ha acreditado limitación funcional significativa y persistente en el tiempo que impidan el desarrollo total o parcial de su actividad laboral en el momento actual . Y si bien es cierto que hay disnea, artralgias e insomnio el funcionalismo se encuentra conservado , mas allá de episodios de reagudización que precisen de un periodo de IT para su trabajo habitual. En consecuencia, el recurso deberá",
+   "info": []
+  },
+  {
+   "ref": "11883586",
+   "db": "AN",
+   "fecha": "20261005",
+   "titulo": "STSJ Aragón, a 05 de octubre de 2026 - ROJ: STSJ AR 1474/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/f1ce3af5c63bcb4da0a8778d75e36f0d/20261013",
+   "roj": "STSJ AR 1474/2026",
+   "ecli": "ECLI:ES:TSJAR:2026:1474",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "677/2026",
+    "Municipio": "Zaragoza",
+    "Ponente": "ELENA LUMBRERAS LACARRA",
+    "Nº Recurso": "526/2026"
+   },
+   "resumen": "disminución o anulación de su capacidad laboral en una escala gradual que prevé el mismo artículo 137 LGSS. Y todo ello con independencia de las circunstancias personales, familiares y socio-laborales que son objeto de valoración en las prestaciones de minusvalías (S.T.S. 15-7-85, 10-2-86 y 29-9-87, entre otras). La situación de Incapacidad Permanente Absoluta es aquella que \"inhabilita por completo a un trabajador para toda profesión u oficio\", lo que supone la previa concurrencia de la situación genérica de Invalidez Permanente del artículo 193 del mismo Texto Legal , esto es, aquella en que se halla el trabajador que, bien por contingencias comunes, bien por contingencias profesionales, sufre secuelas que le dejen reducciones anatómicas o funcionales graves, susceptibles de determinación objetiva y previsiblemente definitivas, con una determinada merma en su capacidad",
+   "info": []
+  },
+  {
+   "ref": "11873767",
+   "db": "AN",
+   "fecha": "20260914",
+   "titulo": "STSJ Castilla-La Mancha, a 14 de septiembre de 2026 - ROJ: STSJ CLM 2322/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/5f2ae643a2ed2b76a0a8778d75e36f0d/20261005",
+   "roj": "STSJ CLM 2322/2026",
+   "ecli": "ECLI:ES:TSJCLM:2026:2322",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1529/2026",
+    "Municipio": "Albacete",
+    "Ponente": "ANTONIO CERVERA PELAEZ-CAMPOMANES",
+    "Nº Recurso": "1835/2025"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": []
+  },
+  {
+   "ref": "11893854",
+   "db": "AN",
+   "fecha": "20260914",
+   "titulo": "STSJ Madrid, a 14 de septiembre de 2026 - ROJ: STSJ M 11918/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/d5a8cab7c846d9eea0a8778d75e36f0d/20261021",
+   "roj": "STSJ M 11918/2026",
+   "ecli": "ECLI:ES:TSJM:2026:11918",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "539/2026",
+    "Municipio": "Madrid",
+    "Ponente": "SUSANA MARIA MOLINA GUTIERREZ",
+    "Nº Recurso": "196/2026"
+   },
+   "resumen": "accidente de trabajo. La Dirección Provincial del INSS determinó el 20-10-2023 a propuesta del Equipo de Valoración de Incapacidades por el juicio diagnóstico COVID 19, que la contingencia por la baja del 09-12-2021 derivaba de enfermedad común, a pesar de que la solicitud de determinación de contingencia de la baja del 18-03-2020 por el mismo juicio diagnóstico resolvió ésta como derivada de contingencia profesional. El informe médico del Hospital de Fuenlabrada de 24-07-2021, determinó que la trabajadora, entre otras patologías, a raíz de ingreso COVID en marzo 2020 desarrolla síntomas persistentes con disnea como principal\". 3. Como recuerda la Sentencia de la Sala Cuarta del Tribunal Supremo de 29 de noviembre de 2022 (Recurso 219/2021) \"reiterada jurisprudencia como la reseñada",
+   "info": []
+  },
+  {
+   "ref": "11877477",
+   "db": "AN",
+   "fecha": "20260908",
+   "titulo": "STSJ Cataluña, a 08 de septiembre de 2026 - ROJ: STSJ CAT 7581/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/b4c9f79c8be93fd2a0a8778d75e36f0d/20261007",
+   "roj": "STSJ CAT 7581/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:7581",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "4635/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "JAVIER NUÑEZ VARGAS",
+    "Nº Recurso": "2774/2026"
+   },
+   "resumen": "La profesión habitual de la actora es de ingeniera industrial. 5º.- El INSS declara que para el negado supuesto de estimación de la demanda la base reguladora de la prestación derivada de enfermedad común, asciende a 2369,17 euros y efectos 10.10.23. 6º. En demanda se aporta la Guía de Valoración Profesional del INSS. Se aporta el profesiograma, doc nº 19 p.actora. 7º. La actora tenía reconocida por la empresa reducción de jornada período 21.10.24 a 21.07.25, manteniendo el 80% de jornada ordinaria habitual, doc nº 4 p.actora. 8º. En fecha 17.07.25 la trabajadora inicio situación de IT y continua en la misma. 9º. Las patologías que presenta la actora son:\" Fibromialgia. Fatiga crónica. Sd covid persistente. Disautonomia con ortostatismo en control y tto. Con",
+   "info": []
+  },
+  {
+   "ref": "11875662",
+   "db": "AN",
+   "fecha": "20260730",
+   "titulo": "STSJ Cataluña, a 30 de julio de 2026 - ROJ: STSJ CAT 7522/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/d071a6ff0714747ea0a8778d75e36f0d/20261006",
+   "roj": "STSJ CAT 7522/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:7522",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "4553/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "JAVIER NUÑEZ VARGAS",
+    "Nº Recurso": "2118/2026"
+   },
+   "resumen": "la sentencia recurrida al declarar que no ha existido ninguna mejora que autorice a la retirada del grado de incapacidad permanente absoluta previamente reconocido. Para determinar si ha existido una mejoría que justifique la revisión acordada por el INSS, debe compararse el cuadro de dolencias que presentaba el recurrente al ser declarado en incapacidad permanente absoluta, con el posterior al ser declarado en grado de incapacidad permanente total, y así poder dirimir la incidencia de estas patologías en la capacidad profesional del trabajador (SSTS de 31 de octubre de 2005, rec.3383/2004; de 23 de abril de 2009, rec.2512/2008; y de 22 de diciembre de 2009, rec.2066/2009). Comparando las dolencias iniciales con las actuales nos encontramos con que, cuando fue declarado en incapacidad permanente absoluta, el beneficiario padecía Covid persistente con disnea a moderados",
+   "info": []
+  },
+  {
+   "ref": "11836420",
+   "db": "AN",
+   "fecha": "20260728",
+   "titulo": "STSJ Madrid, a 28 de julio de 2026 - ROJ: STSJ M 10426/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/2e5df4b9d30cc41ba0a8778d75e36f0d/20260902",
+   "roj": "STSJ M 10426/2026",
+   "ecli": "ECLI:ES:TSJM:2026:10426",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "633/2026",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA DEL AMPARO RODRIGUEZ RIQUELME",
+    "Nº Recurso": "186/2026"
+   },
+   "resumen": "en especial, en el hecho probado tercero, y además haber rechazado previamente la concurrencia de la infracción de la cosa juzgada positiva, debiendo entenderse todos los fundamentos jurídicos referidos en la propuesta fáctica contenida en este motivo de suplicación al tipo de acción ejercitada, que, ya se ha expuesto, era la de determinación de la contingencia del proceso de incapacidad temporal iniciada por el Sr. , y en consonancia con el mismo, el fallo lo que determina es que la mencionada contingencia es enfermedad del trabajo-contingencia profesional. MOTIVO SEPTIMO. - AL AMPARO DEL APARTADO C) DEL ARTÍCULO 193 DE LA LEY REGULADORA DE LA JURISDICCIÓN SOCIAL: DEBER DE PREVENCIÓN DEL EMPLEADOR. Se indica que la sentencia recurrida infringe los artículos 14.2, 15.1, 16, 17.1, 18 y 19 de la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales (LPRL),",
+   "info": []
+  },
+  {
+   "ref": "11822180",
+   "db": "AN",
+   "fecha": "20260716",
+   "titulo": "STSJ Cataluña, a 16 de julio de 2026 - ROJ: STSJ CAT 6646/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/fec6110f167fbff1a0a8778d75e36f0d/20260817",
+   "roj": "STSJ CAT 6646/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:6646",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "4288/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "AMPARO ILLAN TEBA",
+    "Nº Recurso": "1735/2026"
+   },
+   "resumen": "de 2023. QUINTO.El 18 de mayo de 2022, la actora inició un período de incapacidad temporal, y agotó el subsidio el 13 de noviembre de 2023, por haber transcurrido el plazo máximo de 545 días, si bien se prorrogó hasta la fecha de la notificación de la resolución de incapacidad permanente. SEXTO.Según el dictamen médico emitido el 9 de mayo de 2024 por la SGAM, presenta las lesiones siguientes (página 24 del expediente administrativo): SÍNDROME DE COVID PERSISTENTE CON FUNCIONALISMO GLOBAL CONSERVADO. SÉPTIMO.Por resolución del INSTITUTO NACIONAL DE LA SEGURIDAD SOCIAL, de 6 de junio de 2024, se denegó la pensión de incapacidad permanente, por las siguientes causas: \"Por no alcanzar, las lesiones que padece, un grado suficiente de disminución de su capacidad laboral, para ser constitutivas de una incapacidad permanente,",
+   "info": []
+  },
+  {
+   "ref": "11853885",
+   "db": "AN",
+   "fecha": "20260714",
+   "titulo": "STSJ Comunidad Valenciana, a 14 de julio de 2026 - ROJ: STSJ CV 3470/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/7bbf6ad5da9d9854a0a8778d75e36f0d/20260917",
+   "roj": "STSJ CV 3470/2026",
+   "ecli": "ECLI:ES:TSJCV:2026:3470",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2221/2026",
+    "Municipio": "Valencia",
+    "Ponente": "FRANCISCO JAVIER LLUCH CORELL",
+    "Nº Recurso": "3507/2025"
+   },
+   "resumen": "Trastorno distímico y de estré port traumático. Síndrome covid persistente con severas limitaciones por dolor generalizado. Artrosis, lumbalgia crónica y síndrome de espalda fallida; cervicalgia, gonalgias en hombros, caderas y rodillas. No puede permanecer en bipedestación, sedestación continua o posturas mantenidas. No puede desarrollar una vida normal, no surtiendo efecto la medicación. Unidad del dolor como medida paliativa no existiendo tratamiento específico.CUARTO.- La base reguladora de la invalidez permanente absoluta y total derivada de contingencia común asciende a 1.371,47 euros mensuales, con fecha de efectos desde el cese de la interesada en RETA. La base reguladora de la invalidez permanente absoluta y toal derivada de contingencia profesional asciende a 4.034,04 euros. Dª se encuentra al corriente en el pago de cuotas exigibles a la Seguridad Social.\". TERCERO.-",
+   "info": []
+  },
+  {
+   "ref": "11837644",
+   "db": "AN",
+   "fecha": "20260706",
+   "titulo": "STSJ Andalucía, a 06 de julio de 2026 - ROJ: STSJ AND 10166/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/db20ce711ba12afba0a8778d75e36f0d/20260903",
+   "roj": "STSJ AND 10166/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:10166",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1733/2026",
+    "Municipio": "Granada",
+    "Ponente": "BEATRIZ PEREZ HEREDIA",
+    "Nº Recurso": "1623/2025"
+   },
+   "resumen": "ramo de FRATERNIDAD. Con fecha 29-11-18 recayó Resolución de Alcaldía aceptando la renuncia del actor al puesto de coordinador de SS.SS., función que fue atribuída por las resoluciones de fecha 20-11-14 docs. 1 y 2 del ramo del Ayto. El actor formuló ante el Ayto las reclamaciones económicas que constan a los docs. 6 y 7 del Ayto., de fechas 3-6-16 y 24-5-18. Las contingencias profesionales se hallan cubiertas por FRATERNIDAD MUPRESPA, sin que consten descubiertos de cotización. CUARTO.- Iniciado expediente de determinación de contingencia, recayó resolución del INSS de fecha 10-7-23 declarando el proceso iniciado el 25-10-21 como contingencia común. La demanda ha tenido entrada en Decanato el 26-9-23\". CUARTO.- Notificada la Sentencia a las partes, se anunció recurso de suplicación contra la misma por la parte demandante, recurso que posteriormente",
+   "info": []
+  },
+  {
+   "ref": "11806528",
+   "db": "AN",
+   "fecha": "20260629",
+   "titulo": "STSJ Castilla y León, a 29 de junio de 2026 - ROJ: STSJ CL 2811/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/d2a213983fafa843a0a8778d75e36f0d/20260727",
+   "roj": "STSJ CL 2811/2026",
+   "ecli": "ECLI:ES:TSJCL:2026:2811",
+   "sala": "",
+   "datos": {
+    "Municipio": "Valladolid",
+    "Ponente": "JOSE MANUEL RIESCO IGLESIAS",
+    "Nº Recurso": "3109/2024"
+   },
+   "resumen": "INCAPACIDAD TEMPORAL",
+   "info": []
+  },
+  {
+   "ref": "11791896",
+   "db": "AN",
+   "fecha": "20260629",
+   "titulo": "STSJ Aragón, a 29 de junio de 2026 - ROJ: STSJ AR 1065/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/1fd1d26241657600a0a8778d75e36f0d/20260714",
+   "roj": "STSJ AR 1065/2026",
+   "ecli": "ECLI:ES:TSJAR:2026:1065",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "496/2026",
+    "Municipio": "Zaragoza",
+    "Ponente": "ELENA LUMBRERAS LACARRA",
+    "Nº Recurso": "346/2026"
+   },
+   "resumen": "que prevé el mismo artículo 137 LGSS. Y todo ello con independencia de las circunstancias personales, familiares y socio-laborales que son objeto de valoración en las prestaciones de minusvalías ( S.T.S. 15-7-85, 10-2-86 y 29-9-87, entre otras). La situación de Incapacidad Permanente Absoluta es aquella que \"inhabilita por completo a un trabajador para toda profesión u oficio\", lo que supone la previa concurrencia de la situación genérica de Invalidez Permanente del artículo 193 del mismo Texto Legal, esto es, aquella en que se halla el trabajador que, bien por contingencias comunes, bien por contingencias profesionales, sufre secuelas que le dejen reducciones anatómicas o funcionales graves, susceptibles de determinación objetiva y previsiblemente definitivas, con una determinada merma en su capacidad de trabajo. Para",
+   "info": []
+  },
+  {
+   "ref": "11805165",
+   "db": "AN",
+   "fecha": "20260625",
+   "titulo": "STSJ Castilla-La Mancha, a 25 de junio de 2026 - ROJ: STSJ CLM 1879/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/d69e7287210de475a0a8778d75e36f0d/20260727",
+   "roj": "STSJ CLM 1879/2026",
+   "ecli": "ECLI:ES:TSJCLM:2026:1879",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1269/2026",
+    "Municipio": "Albacete",
+    "Ponente": "MARIA ISABEL SERRANO NIETO",
+    "Nº Recurso": "1374/2025"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": []
+  },
+  {
+   "ref": "11804679",
+   "db": "AN",
+   "fecha": "20260624",
+   "titulo": "STSJ Andalucía, a 24 de junio de 2026 - ROJ: STSJ AND 9377/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/6a0af4e399ef45e1a0a8778d75e36f0d/20260724",
+   "roj": "STSJ AND 9377/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:9377",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1959/2026",
+    "Municipio": "Sevilla",
+    "Ponente": "MARIA LAURA VEGA PEDRAZA",
+    "Nº Recurso": "4621/2025"
+   },
+   "resumen": "o actividad laboral productiva, porescasos, livianos y sedentarios que sean sus requerimientos, incluso de carácter intermitente o con bajo nivel de exigencia, al menos con el mínimo de eficacia, constancia, asiduidad, seguridad y responsabilidad debidas, suponiendo cualquier pretensión de incorporación al mercado del trabajo, en cualquiera de sus vertientes, un factor de riesgo añadido para su salud que favorecería un agravamiento mayor de su enfermedad. La paciente no se encuentra en condiciones físicas ni emocionales de desempeñar actividad laboral alguna. Su capacidad funcional global se encuentra gravemente comprometida, tanto por la afectación orgánica como por la sintomatología psicológica, el dolor persistente, la fatiga crónica y la repercusión emocional, todo lo cual impide el cumplimiento de los requisitos básicos de cualquier actividad profesional reglada:",
+   "info": []
+  },
+  {
+   "ref": "11787853",
+   "db": "AN",
+   "fecha": "20260618",
+   "titulo": "STSJ Galicia, a 18 de junio de 2026 - ROJ: STSJ GAL 3977/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/67e45ee7bd296a59a0a8778d75e36f0d/20260710",
+   "roj": "STSJ GAL 3977/2026",
+   "ecli": "ECLI:ES:TSJGAL:2026:3977",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2877/2026",
+    "Municipio": "Coruña (A)",
+    "Ponente": "RAQUEL MARIA NAVEIRO SANTOS",
+    "Nº Recurso": "4538/2025"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": []
+  },
+  {
+   "ref": "11795968",
+   "db": "AN",
+   "fecha": "20260615",
+   "titulo": "STSJ Castilla-La Mancha, a 15 de junio de 2026 - ROJ: STSJ CLM 1753/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/1f3a95d4faf6dd7ba0a8778d75e36f0d/20260717",
+   "roj": "STSJ CLM 1753/2026",
+   "ecli": "ECLI:ES:TSJCLM:2026:1753",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1172/2026",
+    "Municipio": "Albacete",
+    "Ponente": "MONTSERRAT CONTENTO ASENSIO",
+    "Nº Recurso": "950/2025"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": []
+  },
+  {
+   "ref": "11803215",
+   "db": "AN",
+   "fecha": "20260611",
+   "titulo": "STSJ Andalucía, a 11 de junio de 2026 - ROJ: STSJ AND 8939/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/bef4001d61e006d6a0a8778d75e36f0d/20260723",
+   "roj": "STSJ AND 8939/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:8939",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1776/2026",
+    "Municipio": "Sevilla",
+    "Ponente": "MARIA LAURA VEGA PEDRAZA",
+    "Nº Recurso": "4428/2025"
+   },
+   "resumen": "el concepto legal de la invalidez permanente, a saber: 1) Alteración grave de la salud, lo que hace referencia a que las diversas enfermedades deben ser intelectualmente integradas y valorarse la totalidad de ellas en su conjunto, de tal modo, que aunque los diversos padecimientos que integren su estado patológico, considerados aisladamente, no determinen un grado de incapacidad, sí pueden llevar a tal conclusión, si se ponderan y valoran conjuntamente, con independencia de la contingencia, común o profesional, que las haya originado; exige también la norma un tratamiento médico previo y el alta en dicho tratamiento, cuya no finalización impide, temporalmente, la valoración. 2) El carácter objetivable de las reducciones anatómicas o funcionales (\"susceptibles de determinación objetiva\"), lo que implica la exigencia de que se pueda fijar un diagnóstico médico,",
+   "info": []
+  },
+  {
+   "ref": "11815558",
+   "db": "AN",
+   "fecha": "20260609",
+   "titulo": "STSJ Castilla y León, a 09 de junio de 2026 - ROJ: STSJ CL 2988/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/6e5a24a3263a7268a0a8778d75e36f0d/20260806",
+   "roj": "STSJ CL 2988/2026",
+   "ecli": "ECLI:ES:TSJCL:2026:2988",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "332/2026",
+    "Municipio": "Burgos",
+    "Ponente": "MARIA DEL MAR NAVARRO MENDILUCE",
+    "Nº Recurso": "915/2025"
+   },
+   "resumen": "INCAPACIDAD TEMPORAL",
+   "info": []
+  },
+  {
+   "ref": "11796869",
+   "db": "AN",
+   "fecha": "20260602",
+   "titulo": "STSJ Asturias, a 02 de junio de 2026 - ROJ: STSJ AS 1576/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/9332fc9eba5e0863a0a8778d75e36f0d/20260717",
+   "roj": "STSJ AS 1576/2026",
+   "ecli": "ECLI:ES:TSJAS:2026:1576",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "968/2026",
+    "Municipio": "Oviedo",
+    "Ponente": "MARIA DEL PILAR MUIÑA VALLEDOR",
+    "Nº Recurso": "78/2026"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": []
+  },
+  {
+   "ref": "11751811",
+   "db": "AN",
+   "fecha": "20260601",
+   "titulo": "STSJ Aragón, a 01 de junio de 2026 - ROJ: STSJ AR 834/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/dbcece1cfb3e1c9da0a8778d75e36f0d/20260609",
+   "roj": "STSJ AR 834/2026",
+   "ecli": "ECLI:ES:TSJAR:2026:834",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "428/2026",
+    "Municipio": "Zaragoza",
+    "Ponente": "CESAR ARTURO TOMAS FANJUL",
+    "Nº Recurso": "262/2026"
+   },
+   "resumen": "dio lugar al procedimiento de Impugnación de Alta Médica 47/2022 en el que se dictó Sentencia nº120/2022 de 6 de abril de 2022 del Juzgado de lo Social Único de Huesca que estima la demanda. TERCERO.- Tras la estimación de la demanda el INSS inicia procedimiento de IP. El informe propuesta del EVI de fecha 26/10/2022 determinó el siguiente cuadro residual: Covid persistente. Y las siguientes limitaciones orgánicas y funcionales: Disnea y cansancio ante moderados esfuerzos, debilidad muscular con claudicación a la bipedestación y deambulación. Dolor en extremidades inferiores. Síntomas de disautonomía (hipotensión), en contexto de Covid persistente. En la resolución del INSS de fecha 04/11/2022 se reconoce al trabajador afecto a incapacidad permanente en el grado de total para la profesión habitual de Operario metalúrgico derivado de contingencia común;",
+   "info": []
+  },
+  {
+   "ref": "11763223",
+   "db": "AN",
+   "fecha": "20260528",
+   "titulo": "STSJ Cataluña, a 28 de mayo de 2026 - ROJ: STSJ CAT 4618/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/f02ba3812ad3b265a0a8778d75e36f0d/20260619",
+   "roj": "STSJ CAT 4618/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:4618",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "3170/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "MIGUEL ANGEL PURCALLA BONILLA",
+    "Nº Recurso": "5650/2025"
+   },
+   "resumen": "no precisando oxigenoterapia y siendo tratada con broncodilatadores y corticoterapia oral . Presenta covid persistente con espirometría dentro de la normalidad, siendo normales las pruebas cardiológicas realizadas. Ha sido dada de alta en cardiología , no presenta dolor torácico. Ha recuperado el olfato y gusto , tiene una mínima disfunción fronto subcortical que podría ser compatible con cambios cognitivos asociados al síndrome de covid persistente habiendo sido dada de alta por neuropsicología , artralgias intermitentes que mejoran con paracetamol . ( Informe médico ) 7º .-Presentada por la parte actora papeleta de conciliación fue celebrado el acto con el resultado de \"sin avenencia\". (Hecho no controvertido)» TERCERO.-Contra dicha sentencia anunció recurso de suplicación la parte actora, Dª , que formalizó dentro",
+   "info": []
+  },
+  {
+   "ref": "11763106",
+   "db": "AN",
+   "fecha": "20260521",
+   "titulo": "STSJ Cataluña, a 21 de mayo de 2026 - ROJ: STSJ CAT 4449/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/1593131623bd277aa0a8778d75e36f0d/20260619",
+   "roj": "STSJ CAT 4449/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:4449",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "3020/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "AMPARO ILLAN TEBA",
+    "Nº Recurso": "701/2026"
+   },
+   "resumen": "la Subdirecció General d?Avaluacions Mèdiques emitió dictamen en fecha de 10 de abril de 2024. Mediante resolución de 15 de mayo de 2024, el INSS declaró a la parte actora no afecta de incapacidad permanente en ningún grado de invalidez permanente, derivada de enfermedad común, en base a las lesiones siguientes: Síndrome de COVID persistente tipo fibromialgia / síndrome de fatiga crónica, mareo e inestabilidad cefálica. Síndrome desadaptativo. Actualmente con funcionalismo conservado. 4.- Interpuesta reclamación previa, fue desestimada mediante resolución expresa. 5.- La base reguladora de la pensión asciende a 3.467,56 euros. La fecha de efectos es la de 3 de octubre de 2023 para la IPA y la de 16 de mayo de 2024 para la IPT. 6.- La paciente presenta las siguientes lesiones: - Síndrome de COVID persistente tipo fibromialgia / síndrome de fatiga",
+   "info": []
+  },
+  {
+   "ref": "11754607",
+   "db": "AN",
+   "fecha": "20260518",
+   "titulo": "STSJ Aragón, a 18 de mayo de 2026 - ROJ: STSJ AR 852/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/15fe5fccaf32b7eca0a8778d75e36f0d/20260611",
+   "roj": "STSJ AR 852/2026",
+   "ecli": "ECLI:ES:TSJAR:2026:852",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "389/2026",
+    "Municipio": "Zaragoza",
+    "Ponente": "ELENA LUMBRERAS LACARRA",
+    "Nº Recurso": "228/2026"
+   },
+   "resumen": "artículo 194-4 LGSS define la Incapacidad Permanente Total, como aquélla \"que inhabilita al trabajador para todas o las fundamentales tareas de su profesión habitual, siempre que pueda dedicarse a otra distinta\", lo que supone la previa concurrencia de la situación genérica de Invalidez Permanente prevista en el artículo 193 de mismo Texto Legal, esto es, aquélla en que se halle el trabajador que, bien por contingencias comunes, bien por contingencias profesionales, sufre secuelas definitivas que le dejen reducciones anatómicas o funcionales graves, susceptibles de determinación objetiva y previsiblemente definitivas, con una determinada merma de su capacidad de trabajo. Tiene la Jurisprudencia señalado que este grado de incapacidad concurre cuando, no pudiendo el trabajador desempeñar su profesión habitual, puede realizar otra más liviana o sedentaria",
+   "info": []
+  },
+  {
+   "ref": "11748049",
+   "db": "AN",
+   "fecha": "20260512",
+   "titulo": "STSJ País Vasco, a 12 de mayo de 2026 - ROJ: STSJ PV 1685/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/6b5685d17b1048eaa0a8778d75e36f0d/20260605",
+   "roj": "STSJ PV 1685/2026",
+   "ecli": "ECLI:ES:TSJPV:2026:1685",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1109/2026",
+    "Municipio": "Bilbao",
+    "Ponente": "ANA ISABEL MOLINA CASTIELLA",
+    "Nº Recurso": "239/2026"
+   },
+   "resumen": "que refleja. En suma, no goza de preferencia el informe médico que apoya la variación, que ha sido descartado por la Juzgadora por emitirse a petición de la demandante y reflejando lo que la misma refiere, sin apoyo en informes concretos emitidos por especialistas que puedan desvirtuar lo plasmado por el médico evaluador. TERCEROEl segundo y último de los motivos, con amparo formal en el artículo 193 c) LRJS, denuncia la infracción por indebida aplicación de los artículos 193 y siguientes del TRLGSS, e indebida valoración e interpretación de la prueba practicada. Razona la recurrente que aqueja una afección post COVID persistente desde febrero de 2021, con una clínica florida e incapacitante que le provoca una limitación para realizar los quehaceres de su vida cotidiana, precisando incluso reposo en cama durante",
+   "info": []
+  },
+  {
+   "ref": "11737241",
+   "db": "AN",
+   "fecha": "20260506",
+   "titulo": "STSJ Cataluña, a 06 de mayo de 2026 - ROJ: STSJ CAT 3682/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/720ae2f064cad6a1a0a8778d75e36f0d/20260528",
+   "roj": "STSJ CAT 3682/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:3682",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2637/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "AMPARO ILLAN TEBA",
+    "Nº Recurso": "104/2026"
+   },
+   "resumen": "193 y 194 de la Ley General de la Seguridad Social, y del artículo 25 de la Ley de Prevención de Riesgos Laborales. 1.Alegaciones de las partes. La parte recurrente argumenta, en síntesis, que debe darse valor al informe pericial emitido por la Dra. , y que las dolencias que padece la actora le impiden realizar cualquier tipo actividad laboral con las exigencias de continuidad, dedicación y eficacia, señalando que la enfermedad de Covid persistente, causante del resto de dolencias, puede ser causa de incapacidad permanente absoluta cuando las secuelas derivadas de la enfermedad, como el deterioro cognitivo, fatiga crónica o limitaciones funcionales impiden al trabajador realizar cualquier profesión y oficio con un mínimo de profesionalidad, rendimiento y eficacia exigibles. La impugnante",
+   "info": []
+  },
+  {
+   "ref": "11736918",
+   "db": "AN",
+   "fecha": "20260505",
+   "titulo": "STSJ País Vasco, a 05 de mayo de 2026 - ROJ: STSJ PV 1596/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/8ba16c917a608196a0a8778d75e36f0d/20260527",
+   "roj": "STSJ PV 1596/2026",
+   "ecli": "ECLI:ES:TSJPV:2026:1596",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1001/2026",
+    "Municipio": "Bilbao",
+    "Ponente": "JUAN CARLOS BENITO-BUTRON OCHOA",
+    "Nº Recurso": "2619/2025"
+   },
+   "resumen": "profesional en la correspondiente ordenanza, en su convenio colectivo, incluso, en su momento, en el contrato de trabajo y no las que conforman su puesto concreto de trabajo, en una empresa y con una actividad muy puntual. Por todo lo mencionado, se puede concluir en la valoración global del cuadro patológico en conexión con la categoría profesional de limpiadora, nacida en 1968, que, ciertamente, las reducciones funcionales que presenta la trabajadora no pueden ser determinantes del reconocimiento del grado principal de incapacidad permanente absoluta por enfermedad común, aunque sí lo vayan a hacer en el grado subsidiario de total cualificada. Piénsese que estamos ante unos diagnósticos sin patrón claro respecto a un cansancio y labilidad que concuerdan con un síndrome de fatiga crónica, además de un síndrome de COVID persistente grave con dolores generalizados,",
+   "info": []
+  },
+  {
+   "ref": "11760790",
+   "db": "AN",
+   "fecha": "20260428",
+   "titulo": "STSJ Madrid, a 28 de abril de 2026 - ROJ: STSJ M 6478/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/56b895451c629f17a0a8778d75e36f0d/20260617",
+   "roj": "STSJ M 6478/2026",
+   "ecli": "ECLI:ES:TSJM:2026:6478",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "247/2026",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA BEGOÑA GARCIA ALVAREZ",
+    "Nº Recurso": "637/2025"
+   },
+   "resumen": "en la actualidad (expediente administrativo). CUARTO.- En el Informe Médico de Síntesis de incapacidad permanente de fecha 3-10-2023 se establece como diagnóstico: \"obesidad, trastorno adaptativo mixto, SD postcovid, migraña crónica, bruxismo, lesión microhemorrágica mesencefálica anterior derecha, relación temporal con vacunación covid, cefalea crónica post-covid, déficit de ácido fólico y vit D anemia a estudio, fibromialgia, SD de fatiga crónica, disautonomía, colon irritable. En cuanto a las conclusiones se dice: covid persistente, fibromialgia severa, síndrome de fatiga crónica severa, deterioro cognitivo 2ª a encefalomielitis miálgica y secuelas de ictus en estudio según se describe, migraña crónica, persistencia de algia facial y bruxismo, disautonomía, colon irritable, en estudio anemia Pte colonoscopia, a criterio EVI (expediente administrativo).",
+   "info": []
+  },
+  {
+   "ref": "11743210",
+   "db": "AN",
+   "fecha": "20260428",
+   "titulo": "STSJ Asturias, a 28 de abril de 2026 - ROJ: STSJ AS 1180/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/d13cad6b903f2a59a0a8778d75e36f0d/20260602",
+   "roj": "STSJ AS 1180/2026",
+   "ecli": "ECLI:ES:TSJAS:2026:1180",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "708/2026",
+    "Municipio": "Oviedo",
+    "Ponente": "JOSE LUIS NIÑO ROMERO",
+    "Nº Recurso": "2242/2025"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": []
+  },
+  {
+   "ref": "11728758",
+   "db": "AN",
+   "fecha": "20260423",
+   "titulo": "STSJ Andalucía, a 23 de abril de 2026 - ROJ: STSJ AND 5561/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/c10f6dd5c6b02600a0a8778d75e36f0d/20260521",
+   "roj": "STSJ AND 5561/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:5561",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "969/2026",
+    "Municipio": "Granada",
+    "Ponente": "BEATRIZ PEREZ HEREDIA",
+    "Nº Recurso": "1030/2025"
+   },
+   "resumen": "Recargo de prestaciones: Incumplimiento de normas de prevención de riesgos. Evaluación de riesgos psicosociales. Supuestos de recargo de prestaciones: fijación del porcentaje.",
+   "info": []
+  },
+  {
+   "ref": "11714791",
+   "db": "AN",
+   "fecha": "20260420",
+   "titulo": "STSJ Cataluña, a 20 de abril de 2026 - ROJ: STSJ CAT 3196/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/865d3bbe60d3f143a0a8778d75e36f0d/20260511",
+   "roj": "STSJ CAT 3196/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:3196",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2312/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "LUIS REVILLA PEREZ",
+    "Nº Recurso": "18/2026"
+   },
+   "resumen": "Catalunya, además de las patologías citadas, la actora sufre de: Covid 19 persistente, fatiga crónica, fibromialgia: imsomnio no causado por sustancia o factor fisiológico conocido, síndrome del túnel carpiano, aplastamiento vertebral no especificado, sinusitis crónica, trastorno del metabolismo de las lipoproteínas\". También pretende la adición al hecho probado sexto de un nuevo párrafo en el que podamos leer: \"Según resolución del grado de discapacidad de fecha 21 de noviembre de 2024 por parte del Departament de Drets Socials de la Generalitat de Catalunya, la actora presenta las siguientes patologías: Covid 19 persistente no identificado. Fatiga crónica no especificada. Fibromialgia. Trastorno por estrés postraumático no especificado. Imsomnio no causado por una sustancia o factor fisiológico conocido. Síndrome del túnel carpiano. Aplastamiento vertebral",
+   "info": []
+  },
+  {
+   "ref": "11714768",
+   "db": "AN",
+   "fecha": "20260414",
+   "titulo": "STSJ Cataluña, a 14 de abril de 2026 - ROJ: STSJ CAT 3155/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/0354867862d0457ba0a8778d75e36f0d/20260511",
+   "roj": "STSJ CAT 3155/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:3155",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2173/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "GREGORIO RUIZ RUIZ",
+    "Nº Recurso": "6198/2025"
+   },
+   "resumen": "que declara probado el juzgador de instancia es totalmente incompatible con la realización de cualquier actividad reglada.....(que) dicho cuadro secuelar que consta en el hecho probado sexto, acredita la gravedad del estado de la Sra. , que tal como se hace referencia expresa, es el de una fibromialgia grado III o severo y una fatiga crónica grado III o severa, las cuales condicionan una incapacidad para cualquier actividad, incluso la que suponga un mínimo de exigencia....comporta dolor osteomuscular generalizado, fatiga extrema e incluso disnea....(que) se ha agravado a raíz de la infección por covid-19, originando un síndrome de covid persistente sobreañadido, así como nuevos diagnósticos dentro del síndrome de sensibilización central (SSC), como el síndrome seco de mucosas o Sd. Sjögren y el Síndrome de Sensibilización Química Múltiple (SSQM).....también en",
+   "info": []
+  },
+  {
+   "ref": "11702832",
+   "db": "AN",
+   "fecha": "20260414",
+   "titulo": "STSJ País Vasco, a 14 de abril de 2026 - ROJ: STSJ PV 1271/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/c22db5038cb7f425a0a8778d75e36f0d/20260428",
+   "roj": "STSJ PV 1271/2026",
+   "ecli": "ECLI:ES:TSJPV:2026:1271",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "859/2026",
+    "Municipio": "Bilbao",
+    "Ponente": "JUAN CARLOS BENITO-BUTRON OCHOA",
+    "Nº Recurso": "349/2026"
+   },
+   "resumen": "siguiente: \"PRIMERO.- La actora, DOÑA , dada de alta en el RETA , siendo su profesión habitual dependienta de una tienda de su propiedad . SEGUNDO.- Por resolución del INSS de fecha 19 de julio del 2024 se resolvió no conceder al actora la incapacidad permanente por no alcanzar las lesiones que padece un grado suficiente de disminución de su capacidad laboral. TERCERO.- El cuadro clínico según el informe médico de síntesis es el siguiente; Fecha de emisión del informe médico de síntesis: 25-05-2024 Determinado el cuadro clínico residual: Covid persistente. Fibromialgia. Cefaleas. Trastorno depresivo recurre nte, episodio actual moderado. Y las limitaciones orgánicas y funcionales siguientes: Trastorno adaptativo reactivo a patología física y estresores ambient ales . Disnea multifactorial sin",
+   "info": []
+  },
+  {
+   "ref": "11728766",
+   "db": "AN",
+   "fecha": "20260414",
+   "titulo": "STSJ La Rioja, a 14 de abril de 2026 - ROJ: STSJ LR 158/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/d5f61ce5977ebf40a0a8778d75e36f0d/20260521",
+   "roj": "STSJ LR 158/2026",
+   "ecli": "ECLI:ES:TSJLR:2026:158",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "26/2026",
+    "Municipio": "Logroño",
+    "Ponente": "MARIA DE LAS MERCEDES OLIVER ALBUERNE",
+    "Nº Recurso": "35/2026"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": []
+  },
+  {
+   "ref": "11727653",
+   "db": "AN",
+   "fecha": "20260409",
+   "titulo": "STSJ Andalucía, a 09 de abril de 2026 - ROJ: STSJ AND 5531/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/51a6cc9d46231e6da0a8778d75e36f0d/20260520",
+   "roj": "STSJ AND 5531/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:5531",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "885/2026",
+    "Municipio": "Granada",
+    "Ponente": "BENITO RABOSO DEL AMO",
+    "Nº Recurso": "815/2025"
+   },
+   "resumen": "Incapacidad permanente total, parcial. RETA.",
+   "info": []
+  },
+  {
+   "ref": "11701330",
+   "db": "AN",
+   "fecha": "20260406",
+   "titulo": "STSJ Castilla y León, a 06 de abril de 2026 - ROJ: STSJ CL 1224/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/f5156e9256451350a0a8778d75e36f0d/20260427",
+   "roj": "STSJ CL 1224/2026",
+   "ecli": "ECLI:ES:TSJCL:2026:1224",
+   "sala": "",
+   "datos": {
+    "Municipio": "Valladolid",
+    "Ponente": "ALFONSO GONZALEZ GONZALEZ",
+    "Nº Recurso": "2613/2025"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": []
+  },
+  {
+   "ref": "11712127",
+   "db": "AN",
+   "fecha": "20260326",
+   "titulo": "STSJ Andalucía, a 26 de marzo de 2026 - ROJ: STSJ AND 4510/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/a186384c2d503be1a0a8778d75e36f0d/20260507",
+   "roj": "STSJ AND 4510/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:4510",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1011/2026",
+    "Municipio": "Sevilla",
+    "Ponente": "MARIA DEL CARMEN PEREZ SIBON",
+    "Nº Recurso": "617/2024"
+   },
+   "resumen": "Determinación de la Contingencia de IT de fecha 22/03/2022: .Contingencia Profesional: Accidente de Trabajo de la primera baja médica. .Contingencia Común: Enfermedad Común de la segunda baja médica. -Resolución del INSS, del 06/10/2022: Denegar prestación de IP. -Prestación de IP, del 05/10/2022: .Fecha de emisión del informe médico de síntesis: 30/09/2022. .Determinación del cuadro clínico residual: COVID persistente con astenia o miopatía como alteraciones destacables. Cefalea tensional. Déficit atencional. Sin alteraciones significativas en pruebas complementarias. .Y las limitaciones orgánicas y funcionales siguientes: Astenia, dolor poliarticular, parestesias en extremidades",
+   "info": []
+  },
+  {
+   "ref": "11700604",
+   "db": "AN",
+   "fecha": "20260324",
+   "titulo": "STSJ Galicia, a 24 de marzo de 2026 - ROJ: STSJ GAL 1999/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/e6ab0ab1940b5088a0a8778d75e36f0d/20260427",
+   "roj": "STSJ GAL 1999/2026",
+   "ecli": "ECLI:ES:TSJGAL:2026:1999",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1394/2026",
+    "Municipio": "Coruña (A)",
+    "Ponente": "EMILIO FERNANDEZ DE MATA",
+    "Nº Recurso": "3507/2025"
+   },
+   "resumen": "ACCIDENTE",
+   "info": []
+  },
+  {
+   "ref": "11708367",
+   "db": "AN",
+   "fecha": "20260312",
+   "titulo": "STSJ Andalucía, a 12 de marzo de 2026 - ROJ: STSJ AND 3723/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/1a7c904fa1d17ddea0a8778d75e36f0d/20260505",
+   "roj": "STSJ AND 3723/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:3723",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "672/2026",
+    "Municipio": "Granada",
+    "Ponente": "FERNANDO OLIET PALA",
+    "Nº Recurso": "545/2025"
+   },
+   "resumen": "que integren su estado patológico, considerados aisladamente, no determinen un grado de incapacidad sí pueden llevar a tal conclusión, si se ponderan y valoran conjuntamente, con independencia de la contingencia, común o profesional, que las haya originado; exige también la norma un tratamiento médico previo y el alta en dicho tratamiento, cuya no finalización impide, temporalmente, la valoración. 2) El carácter objetivable de las reducciones anatómicas o funcionales (\"susceptibles de determinación objetiva\"), lo que implica la exigencia de que se pueda fijar un diagnostico médico, de forma indudable de acuerdo con los criterios comúnmente aceptados de la ciencia médica, y huyendo de las meras especulaciones subjetivas, o de las vaguedades, inconcreciones o descripciones carentes de base científica. 3) La condición permanente y previsiblemente definitivas de",
+   "info": []
+  },
+  {
+   "ref": "11671139",
+   "db": "AN",
+   "fecha": "20260311",
+   "titulo": "STSJ Cataluña, a 11 de marzo de 2026 - ROJ: STSJ CAT 1579/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/7837e20e1aea53bfa0a8778d75e36f0d/20260330",
+   "roj": "STSJ CAT 1579/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:1579",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1509/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "AMPARO ILLAN TEBA",
+    "Nº Recurso": "6038/2025"
+   },
+   "resumen": "en el acto de juicio por el representante legal de la empresa. DECIMOTERCERO.La actora presenta las lesiones siguientes: PATOLOGÍA MUSCULOESQUELÉTICA DIVERSA EN FORMA DE PATRÓN DEGENERATIVO A NIVEL CERVICAL, LUMBAR, AFECTACIÓN DEL HOMBRO DERECHO POR TENDINOPATÍA DEL SUPRAESPINOSO, POLIARTRALGIAS GENERALIZADAS EN SEGUIMIENTO POR REUMATOLOGÍA. ENFERMEDAD PULMONAR OBSTRUCTIVA CRÓNICA GRAVE CON ENFISEMA CENTROLOBULILLAR, BRONQUIECTASIAS Y CAMBIOS CICATRICIALES PULMONARES. DISNEA A PEQUEÑOS ESFUERZOS, TOS PERSISTENTE, SIBILANCIAS FRECUENTES Y MÚLTIPLES EXACERBACIONES TRATADAS CON ANTIBIÓTICOS Y CORTICOIDES. SATURACIÓN DE OXÍGENO AL 95% EN REPOSO.» TERCERO.-En fecha 4-7-2025 se dictó auto de aclaración de la anterior sentencia, cuya parte dispositiva es del tenor literal siguiente: «Que, estimando el recurso de aclaración",
+   "info": []
+  }
+ ],
+ "extra": {
+  "total_web": "230 resultados ( máximo documentos a recuperar 200) paginas: 20"
+ }
+}

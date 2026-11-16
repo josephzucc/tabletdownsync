@@ -1,0 +1,35 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STSJ CAT 8476/2026",
+  "filtros": {
+   "roj": "STSJ CAT 8476/2026"
+  },
+  "fecha": "06/11/2026 08:41",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "11907890",
+   "db": "AN",
+   "fecha": "20261020",
+   "titulo": "STSJ Cataluña, a 20 de octubre de 2026 - ROJ: STSJ CAT 8476/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/78f83561ad505814a0a8778d75e36f0d/20261030",
+   "roj": "STSJ CAT 8476/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:8476",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "5523/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "CARLOS ESCRIBANO VINDEL",
+    "Nº Recurso": "1528/2026"
+   },
+   "resumen": "el efecto liberatorio de la suscripción sin reservas de un documento de saldo y finiquito. La STS nº 612/2026 también se pronuncia al respecto. Pero sus consideraciones no son trasladables a nuestro caso. Lo que la STS nº 612/2026 analiza respecto a la excepción de falta de acción es, simplemente, si la STSJ recurrida ante el TS pudo haber incurrido en incongruencia omisiva al no contener un pronunciamiento expreso, a pesar de haber sido articulada por la empresa en el escrito de impugnación del recurso de suplicación que presentó el trabajador. Lo que analiza y considera el TS en la STS nº 612/2026 es que la STSJ de Andalucía no incurrió en incongruencia omisiva, pues cabe entender tácitamente desestimada la excepción de falta de acción opuesta por la empresa. Y aquí acaba el análisis del TS. Se limita a rechazar la denunciada incongruencia",
+   "info": [],
+   "pdf": "pdf/STSJ_CAT_8476_2026.pdf",
+   "txt": "txt/STSJ_CAT_8476_2026.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

@@ -1,0 +1,547 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: \"profesión habitual\" \"incapacidad permanente total\" \"doce meses\" \"enfermedad común\"",
+  "filtros": {
+   "texto": "\"profesión habitual\" \"incapacidad permanente total\" \"doce meses\" \"enfermedad común\"",
+   "jurisdiccion": [
+    "SOCIAL"
+   ],
+   "organo": [
+    "Tribunal Supremo"
+   ]
+  },
+  "fecha": "06/11/2026 07:35",
+  "aplicados_en_web": {
+   "jurisdiccion": [
+    "Social"
+   ],
+   "organo": [
+    "Tribunal Supremo"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "11907030",
+   "db": "TS",
+   "fecha": "20261006",
+   "titulo": "STS, a 06 de octubre de 2026 - ROJ: STS 4294/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/d0a577a7f5449c7ea0a8778d75e36f0d/20261029",
+   "roj": "STS 4294/2026",
+   "ecli": "ECLI:ES:TS:2026:4294",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "778/2026",
+    "Municipio": "Madrid",
+    "Ponente": "JUAN MOLINS GARCIA-ATANCE",
+    "Nº Recurso": "726/2025"
+   },
+   "resumen": "Grado de incapacidad permanente. Soldador. Corresponde la incapacidad permanente total cuando, en la profesión de soldador, se sufre una disminución de la agudeza visual de un ojo, en el que solo se ve movimiento en mano, y se conserva la del otro, en el que la visión es normal",
+   "info": []
+  },
+  {
+   "ref": "11779046",
+   "db": "TS",
+   "fecha": "20260616",
+   "titulo": "STS, a 16 de junio de 2026 - ROJ: STS 2733/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/64dd5c2f9fb79e02a0a8778d75e36f0d/20260702",
+   "roj": "STS 2733/2026",
+   "ecli": "ECLI:ES:TS:2026:2733",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "542/2026",
+    "Municipio": "Madrid",
+    "Ponente": "RAFAEL ANTONIO LOPEZ PARADA",
+    "Nº Recurso": "4192/2024"
+   },
+   "resumen": "RCUD. Trabajadora diagnosticada de silicosis simple sin enfermedades interconcurrentes y en situación de desempleo. Procede el reconocimiento de la incapacidad permanente total por la exposición a la inhalación de polvo de sílice. Reitera doctrina.",
+   "info": []
+  },
+  {
+   "ref": "11464192",
+   "db": "TS",
+   "fecha": "20250923",
+   "titulo": "STS, a 23 de septiembre de 2025 - ROJ: STS 4160/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/98efa6e9cd3a71a4a0a8778d75e36f0d/20251009",
+   "roj": "STS 4160/2025",
+   "ecli": "ECLI:ES:TS:2025:4160",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "809/2025",
+    "Municipio": "Madrid",
+    "Ponente": "FELIX VICENTE AZON VILAS",
+    "Nº Recurso": "1821/2024"
+   },
+   "resumen": "Incapacidad permanente total. Determinación de la profesión habitual cuando se han desempeñado varias. Falta de contradicción.",
+   "info": []
+  },
+  {
+   "ref": "11250719",
+   "db": "TS",
+   "fecha": "20250304",
+   "titulo": "ATS, a 04 de marzo de 2025 - ROJ: ATS 2644/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/7a7e9b753fe8706da0a8778d75e36f0d/20250327",
+   "roj": "ATS 2644/2025",
+   "ecli": "ECLI:ES:TS:2025:2644A",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "IGNACIO GARCIA-PERROTE ESCARTIN",
+    "Nº Recurso": "2787/2024"
+   },
+   "resumen": "TRANSPORTES ANTONIO DÍAZ HERNÁNDEZ SL . Procedimiento ordinario. Diferencias salariales. Pagas extraordinarias",
+   "info": []
+  },
+  {
+   "ref": "11250699",
+   "db": "TS",
+   "fecha": "20250226",
+   "titulo": "STS, a 26 de febrero de 2025 - ROJ: STS 1053/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/121e9805fb790fdaa0a8778d75e36f0d/20250327",
+   "roj": "STS 1053/2025",
+   "ecli": "ECLI:ES:TS:2025:1053",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "135/2025",
+    "Municipio": "Madrid",
+    "Ponente": "ANTONIO VICENTE SEMPERE NAVARRO",
+    "Nº Recurso": "2109/2022"
+   },
+   "resumen": "Fecha de devengo de los intereses del art.20 de la Ley de Contrato de Seguros. Falta de contradicción.",
+   "info": []
+  },
+  {
+   "ref": "10129076",
+   "db": "TS",
+   "fecha": "20220920",
+   "titulo": "STS, a 20 de septiembre de 2022 - ROJ: STS 3526/2022",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/5d6fa84fd07b33fea0a8778d75e36f0d/20221014",
+   "roj": "STS 3526/2022",
+   "ecli": "ECLI:ES:TS:2022:3526",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "748/2022",
+    "Municipio": "Madrid",
+    "Ponente": "SEBASTIAN MORALO GALLEGO",
+    "Nº Recurso": "3861/2019"
+   },
+   "resumen": "Determinar si para la calificación de la IP han de considerarse las tareas de la profesión habitual o las tareas realizadas en el momento del accidente de trabajo que provoca la solicitud de IPT. Reitera doctrina entre otras STS con la misma de contraste.",
+   "info": []
+  },
+  {
+   "ref": "10061876",
+   "db": "TS",
+   "fecha": "20220713",
+   "titulo": "STS, a 13 de julio de 2022 - ROJ: STS 3089/2022",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/312830442219090fa0a8778d75e36f0d/20220802",
+   "roj": "STS 3089/2022",
+   "ecli": "ECLI:ES:TS:2022:3089",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "658/2022",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA LUZ GARCIA PAREDES",
+    "Nº Recurso": "2828/2019"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE:RETA. Reclama una Incapacidad permanente total (IPT).Profesión la de coreógrafo/bailarín.Sentencia firme en proceso anterior que le reconoce la IPT. Carencia sobrevenida del objeto en este proceso.",
+   "info": []
+  },
+  {
+   "ref": "9737976",
+   "db": "TS",
+   "fecha": "20211110",
+   "titulo": "ATS, a 10 de noviembre de 2021 - ROJ: ATS 14813/2021",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/073675f926cda8da/20211129",
+   "roj": "ATS 14813/2021",
+   "ecli": "ECLI:ES:TS:2021:14813A",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "CONCEPCION ROSARIO URESTE GARCIA",
+    "Nº Recurso": "370/2021"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE TOTAL PARA LA PROFESIÓN HABITUAL. DETERMINACIÓN DE LA CONTINGENCIA COMO ENFERMEDAD PROFESIONAL. Prueba que destruye la presunción legal. Falta contradicción.",
+   "info": []
+  },
+  {
+   "ref": "9441369",
+   "db": "TS",
+   "fecha": "20210223",
+   "titulo": "ATS, a 23 de febrero de 2021 - ROJ: ATS 1944/2021",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/ce20feb26a7d25e7/20210308",
+   "roj": "ATS 1944/2021",
+   "ecli": "ECLI:ES:TS:2021:1944A",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "ANTONIO VICENTE SEMPERE NAVARRO",
+    "Nº Recurso": "1350/2020"
+   },
+   "resumen": "RECLAMACIÓN DE CANTIDAD. MEJORA VOLUNTARIA DE LA SEGURIDAD SOCIAL. HECHO CAUSANTE. DETERMINACIÓN DEL MOMENTO DEL NACIMIENTO DEL DERECHO A LA MEJORA VOLUNTARIA. FALTA DE CONTRADICCIÓN.",
+   "info": []
+  },
+  {
+   "ref": "9267169",
+   "db": "TS",
+   "fecha": "20200923",
+   "titulo": "STS, a 23 de septiembre de 2020 - ROJ: STS 2985/2020",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/7895eeee786290c4/20201005",
+   "roj": "STS 2985/2020",
+   "ecli": "ECLI:ES:TS:2020:2985",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "792/2020",
+    "Municipio": "Madrid",
+    "Ponente": "ROSA MARIA VIROLES PIÑOL",
+    "Nº Recurso": "2800/2018"
+   },
+   "resumen": "IPT. Ertzaina. Situación de segunda actividad. Determinación de si procede la declaración de IPT, estando capacitado para el ejercicio de la segunda actividad.",
+   "info": []
+  },
+  {
+   "ref": "9040766",
+   "db": "TS",
+   "fecha": "20200128",
+   "titulo": "STS, a 28 de enero de 2020 - ROJ: STS 592/2020",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/72b64a790374c1b5/20200303",
+   "roj": "STS 592/2020",
+   "ecli": "ECLI:ES:TS:2020:592",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "68/2020",
+    "Municipio": "Madrid",
+    "Ponente": "ANTONIO VICENTE SEMPERE NAVARRO",
+    "Nº Recurso": "2301/2017"
+   },
+   "resumen": "Mejora voluntaria de la seguridad social. Indemnización por incapacidad permanente derivada de accidente impuesta en el Convenio. Negativa de la compañía aseguradora al abono por no ser irreversible la incapacidad. Pleno.",
+   "info": []
+  },
+  {
+   "ref": "8602505",
+   "db": "TS",
+   "fecha": "20181121",
+   "titulo": "ATS, a 21 de noviembre de 2018 - ROJ: ATS 13507/2018",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/8e416f8e092d2517/20181227",
+   "roj": "ATS 13507/2018",
+   "ecli": "ECLI:ES:TS:2018:13507A",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "MARIA LOURDES ARASTEY SAHUN",
+    "Nº Recurso": "2063/2018"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE. VALORACIÓN DE LAS LESIONES Y MOMENTO EN QUE PUEDEN SER REALIZADAS TALES VALORACIONES. FALTA DE CONTRADICCIÓN.",
+   "info": []
+  },
+  {
+   "ref": "8088144",
+   "db": "TS",
+   "fecha": "20170621",
+   "titulo": "ATS, a 21 de junio de 2017 - ROJ: ATS 6330/2017",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/4a91ff942cbcf285/20170707",
+   "roj": "ATS 6330/2017",
+   "ecli": "ECLI:ES:TS:2017:6330A",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "ROSA MARIA VIROLES PIÑOL",
+    "Nº Recurso": "3290/2016"
+   },
+   "resumen": "Incapacidad permanente absoluta o, subsidiariamente, total. Profesión habitual. Falta de relación precisa y circunstanciada y falta de contradicción.",
+   "info": []
+  },
+  {
+   "ref": "8048380",
+   "db": "TS",
+   "fecha": "20170426",
+   "titulo": "STS, a 26 de abril de 2017 - ROJ: STS 2141/2017",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/b06f16c46fe64344/20170607",
+   "roj": "STS 2141/2017",
+   "ecli": "ECLI:ES:TS:2017:2141",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "356/2017",
+    "Municipio": "Madrid",
+    "Ponente": "LUIS FERNANDO DE CASTRO FERNANDEZ",
+    "Nº Recurso": "3050/2015"
+   },
+   "resumen": "IPT en Policía Municipal. Fecha inicial de efectos, en relación con el posible ejercicio de la segunda actividad. El devengo de la pensión se produce cuando se cesa como Policía, sea primera o segunda, por incompatibilidad entre salario y pensión.",
+   "info": []
+  },
+  {
+   "ref": "7696442",
+   "db": "TS",
+   "fecha": "20160419",
+   "titulo": "ATS, a 19 de abril de 2016 - ROJ: ATS 5116/2016",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/e03250546f96e780/20160613",
+   "roj": "ATS 5116/2016",
+   "ecli": "ECLI:ES:TS:2016:5116A",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "JOSE MANUEL LOPEZ GARCIA DE LA SERRANA",
+    "Nº Recurso": "3706/2015"
+   },
+   "resumen": "Demanda de incapacidad permanente total. Se desestima. Profesión habitual. Falta de contradicción.",
+   "info": []
+  },
+  {
+   "ref": "7655869",
+   "db": "TS",
+   "fecha": "20160407",
+   "titulo": "ATS, a 07 de abril de 2016 - ROJ: ATS 3428/2016",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/f4ae2ccf0f655c43/20160502",
+   "roj": "ATS 3428/2016",
+   "ecli": "ECLI:ES:TS:2016:3428A",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "FERNANDO SALINAS MOLINA",
+    "Nº Recurso": "2770/2015"
+   },
+   "resumen": "Incapacidad permanente total derivada de enfermedad común. Profesión habitual a tener en cuenta cuando el interesado ha desempeñado dos profesiones sucesivas en distintos regímenes de la Seguridad Social. Falta de contradicción.",
+   "info": []
+  },
+  {
+   "ref": "7451129",
+   "db": "TS",
+   "fecha": "20150623",
+   "titulo": "ATS, a 23 de junio de 2015 - ROJ: ATS 6330/2015",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/77e96dc77cd4f216/20150818",
+   "roj": "ATS 6330/2015",
+   "ecli": "ECLI:ES:TS:2015:6330A",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "FERNANDO SALINAS MOLINA",
+    "Nº Recurso": "3428/2014"
+   },
+   "resumen": "Incapacidad permanente total y, subsidiariamente, parcial por contingencia común. Profesión habitual. Reconocimiento del derecho. Falta de contradicción y falta de contenido casacional.",
+   "info": []
+  },
+  {
+   "ref": "7250908",
+   "db": "TS",
+   "fecha": "20141111",
+   "titulo": "STS, a 11 de noviembre de 2014 - ROJ: STS 5410/2014",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/564a44037e46caf0/20150115",
+   "roj": "STS 5410/2014",
+   "ecli": "ECLI:ES:TS:2014:5410",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "JOSE LUIS GILOLMO LOPEZ",
+    "Nº Recurso": "384/2014"
+   },
+   "resumen": "Recurso de suplicación. Determinación de la cuantía. Reclamaciones de Seguridad Social. Cabe recurso cuando el objeto inicial de la pretensión iba dirigido al reconocimiento de la prestación de IP, y no diferencias económicas.",
+   "info": []
+  },
+  {
+   "ref": "7195964",
+   "db": "TS",
+   "fecha": "20140916",
+   "titulo": "STS, a 16 de septiembre de 2014 - ROJ: STS 3930/2014",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/3e5832991b684caf/20141024",
+   "roj": "STS 3930/2014",
+   "ecli": "ECLI:ES:TS:2014:3930",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "JOSE LUIS GILOLMO LOPEZ",
+    "Nº Recurso": "2431/2013"
+   },
+   "resumen": "Incapacidad permanente. Determinación del grado. Estimación parcial del recurso por apreciar incongruencia omisiva.",
+   "info": []
+  },
+  {
+   "ref": "7160097",
+   "db": "TS",
+   "fecha": "20140702",
+   "titulo": "STS, a 02 de julio de 2014 - ROJ: STS 3466/2014",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/3e3c55f117b25cdd/20140912",
+   "roj": "STS 3466/2014",
+   "ecli": "ECLI:ES:TS:2014:3466",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "MILAGROS CALVO IBARLUCEA",
+    "Nº Recurso": "269/2013"
+   },
+   "resumen": "RCUD en defensa de la legalidad. IP absoluta derivada de Enfermedad Común. Cálculo de la base reguladora y porcentaje. Exclusión de los días cuota. Posible modificación de la doctrina jurisprudencial por ley 40/2007. Mantenimiento de la misma doctrina.",
+   "info": []
+  },
+  {
+   "ref": "7123631",
+   "db": "TS",
+   "fecha": "20140603",
+   "titulo": "ATS, a 03 de junio de 2014 - ROJ: ATS 5807/2014",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/2aafd12466d0d806/20140714",
+   "roj": "ATS 5807/2014",
+   "ecli": "ECLI:ES:TS:2014:5807A",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "FERNANDO SALINAS MOLINA",
+    "Nº Recurso": "3060/2013"
+   },
+   "resumen": "Acuerdo laboral por prejubilación. Compatibilidad de las cuantías satisfechas derivadas del acuerdo laboral con las abonadas por el Instituto Nacional de la Seguridad Social tras la declaración de incapacidad permanente total. Plan de Pensiones Cajasol Empleados. Falta de Contradicción.",
+   "info": []
+  },
+  {
+   "ref": "7084875",
+   "db": "TS",
+   "fecha": "20140325",
+   "titulo": "STS, a 25 de marzo de 2014 - ROJ: STS 1965/2014",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/b5d11b18d1ed4367/20140602",
+   "roj": "STS 1965/2014",
+   "ecli": "ECLI:ES:TS:2014:1965",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "MARIA LUISA SEGOVIANO ASTABURUAGA",
+    "Nº Recurso": "150/2013"
+   },
+   "resumen": "RC. Interés de ley. Incapacidad Permanente. Cómputo de los días cuota para calcular el periodo de carencia. Supuesto posterior a la ley 40/2007. Inclusión de dichos días para calcular la IP. Exclusión para computar la jubilación. Reitera doctrina.",
+   "info": []
+  },
+  {
+   "ref": "7019786",
+   "db": "TS",
+   "fecha": "20140311",
+   "titulo": "STS, a 11 de marzo de 2014 - ROJ: STS 1268/2014",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/69d74e80d15a56a8/20140411",
+   "roj": "STS 1268/2014",
+   "ecli": "ECLI:ES:TS:2014:1268",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "MARIA LOURDES ARASTEY SAHUN",
+    "Nº Recurso": "3130/2012"
+   },
+   "resumen": "RCUD. Seguridad Social. Recurso Ministerio Fiscal en defensa legalidad (art. 219.3 LRJS). Incapacidad permanente derivada enfermedad común. Base reguladora: días-cuota, no son computables para incrementar aquélla. Reitera doctrina.",
+   "info": []
+  },
+  {
+   "ref": "6983974",
+   "db": "TS",
+   "fecha": "20140128",
+   "titulo": "ATS, a 28 de enero de 2014 - ROJ: ATS 1315/2014",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/d6ae302ac69cb538/20140307",
+   "roj": "ATS 1315/2014",
+   "ecli": "ECLI:ES:TS:2014:1315A",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "MIGUEL ANGEL LUELMO MILLAN",
+    "Nº Recurso": "2024/2013"
+   },
+   "resumen": "Incapacidad permanente total. Se desestima. Profesión habitual. Error en la apreciación de la prueba. Falta de contenido casacional y falta de contradicción.",
+   "info": []
+  },
+  {
+   "ref": "6931677",
+   "db": "TS",
+   "fecha": "20131205",
+   "titulo": "STS, a 05 de diciembre de 2013 - ROJ: STS 6183/2013",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/4818b0c3fd99a623/20140117",
+   "roj": "STS 6183/2013",
+   "ecli": "ECLI:ES:TS:2013:6183",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "JOSE LUIS GILOLMO LOPEZ",
+    "Nº Recurso": "210/2013"
+   },
+   "resumen": "RCUD en defensa de la legalidad. IPT derivada de enfermedad común. Cálculo de la base reguladora y porcentaje. Exclusión de los días cuota. Posible modificación de la doctrina jurisprudencial por ley 40/2007. Mantenimiento de la misma doctrina.",
+   "info": []
+  },
+  {
+   "ref": "6918936",
+   "db": "TS",
+   "fecha": "20131104",
+   "titulo": "STS, a 04 de noviembre de 2013 - ROJ: STS 5888/2013",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/c5b7c336861cc380/20131230",
+   "roj": "STS 5888/2013",
+   "ecli": "ECLI:ES:TS:2013:5888",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "FERNANDO SALINAS MOLINA",
+    "Nº Recurso": "271/2013"
+   },
+   "resumen": "RCUD. Seguridad Social. Recurso Ministerio Fiscal en defensa legalidad (art. 219.3 LRJS). Incapacidad permanente derivada enfermedad común. Base reguladora: días-cuota: no son computables para incrementar aquélla. Reitera doctrina.",
+   "info": []
+  },
+  {
+   "ref": "6862001",
+   "db": "TS",
+   "fecha": "20130923",
+   "titulo": "STS, a 23 de septiembre de 2013 - ROJ: STS 4804/2013",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/a8ac1e4768b194bd/20131021",
+   "roj": "STS 4804/2013",
+   "ecli": "ECLI:ES:TS:2013:4804",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "FERNANDO SALINAS MOLINA",
+    "Nº Recurso": "3039/2012"
+   },
+   "resumen": "RCUD en defensa de la legalidad. IPA derivada de enfermedad común. Cálculo de la base reguladora y porcentaje. Exclusión de los días cuota. Posible modificación de la doctrina jurisprudencial por ley40/2007. Mantenimiento de la misma doctrina.",
+   "info": []
+  },
+  {
+   "ref": "6838540",
+   "db": "TS",
+   "fecha": "20130716",
+   "titulo": "STS, a 16 de julio de 2013 - ROJ: STS 4402/2013",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/44ddf4d2d6a0033d/20130913",
+   "roj": "STS 4402/2013",
+   "ecli": "ECLI:ES:TS:2013:4402",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "MARIA LOURDES ARASTEY SAHUN",
+    "Nº Recurso": "2720/2012"
+   },
+   "resumen": "Recurso del Ministerio Fiscal (art. 219.3 LRJS). Incapacidad Permanente derivada de Enfermedad Común. Base reguladora. Los días cuota se excluyen a efectos del cálculo de la base reguladora o porcentaje aplicable a ella por años de cotización.",
+   "info": []
+  },
+  {
+   "ref": "6807622",
+   "db": "TS",
+   "fecha": "20130618",
+   "titulo": "ATS, a 18 de junio de 2013 - ROJ: ATS 6717/2013",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/d2a03a390d25a0cc/20130722",
+   "roj": "ATS 6717/2013",
+   "ecli": "ECLI:ES:TS:2013:6717A",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "JOSE LUIS GILOLMO LOPEZ",
+    "Nº Recurso": "2979/2012"
+   },
+   "resumen": "Incapacidad permanente total. Se deniega. Modificación fáctica. Profesión habitual. Falta de contradicción y falta de aportación de sentencia.",
+   "info": []
+  },
+  {
+   "ref": "6812943",
+   "db": "TS",
+   "fecha": "20130605",
+   "titulo": "STS, a 05 de junio de 2013 - ROJ: STS 4042/2013",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/caae988964485b3e/20130730",
+   "roj": "STS 4042/2013",
+   "ecli": "ECLI:ES:TS:2013:4042",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "FERNANDO SALINAS MOLINA",
+    "Nº Recurso": "1630/2012"
+   },
+   "resumen": "Incapacidad permanente. Cálculo de la base reguladora. Días cuotas por pagas extraordinarias. Inclusión de dichos días para completar el periodo de carencia. Exclusión para el cálculo de la base reguladora, tras la nueva regulación por ley 40/2007.",
+   "info": []
+  }
+ ],
+ "extra": {
+  "total_web": "63 resultados paginas: 7"
+ }
+}

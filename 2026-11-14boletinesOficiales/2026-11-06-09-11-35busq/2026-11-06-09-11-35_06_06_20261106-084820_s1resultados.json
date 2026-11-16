@@ -1,0 +1,50 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: {\"numres\": \"94/2025\", \"desde\": \"01/02/2025\", \"hasta\": \"28/02/2025\", \"jurisdiccion\": [\"SOCIAL\"], \"organo\": [\"Tribunal Supremo\"]}",
+  "filtros": {
+   "numres": "94/2025",
+   "desde": "01/02/2025",
+   "hasta": "28/02/2025",
+   "jurisdiccion": [
+    "SOCIAL"
+   ],
+   "organo": [
+    "Tribunal Supremo"
+   ]
+  },
+  "fecha": "06/11/2026 08:48",
+  "aplicados_en_web": {
+   "jurisdiccion": [
+    "Social"
+   ],
+   "organo": [
+    "Tribunal Supremo"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "11206710",
+   "db": "TS",
+   "fecha": "20250204",
+   "titulo": "STS, a 04 de febrero de 2025 - ROJ: STS 509/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/d564ad93f1d6e5fda0a8778d75e36f0d/20250220",
+   "roj": "STS 509/2025",
+   "ecli": "ECLI:ES:TS:2025:509",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "94/2025",
+    "Municipio": "Madrid",
+    "Ponente": "SEBASTIAN MORALO GALLEGO",
+    "Nº Recurso": "2725/2024"
+   },
+   "resumen": "Despido por causas objetivas: ineptitud sobrevenida acordada por la empresa al amparo del art. 52. a) TRLET, con base en el informe elaborado por el servicio de prevención, que la califica como no apta para el desempeño de su puesto de trabajo.",
+   "info": [],
+   "pdf": "pdf/STS_509_2025.pdf",
+   "txt": "txt/STS_509_2025.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

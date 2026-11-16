@@ -1,0 +1,35 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STSJ M 14749/2025",
+  "filtros": {
+   "roj": "STSJ M 14749/2025"
+  },
+  "fecha": "06/11/2026 08:38",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "11585159",
+   "db": "AN",
+   "fecha": "20251111",
+   "titulo": "STSJ Madrid, a 11 de noviembre de 2025 - ROJ: STSJ M 14749/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/c2b911e4eb0e7a8ca0a8778d75e36f0d/20260116",
+   "roj": "STSJ M 14749/2025",
+   "ecli": "ECLI:ES:TSJM:2025:14749",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "693/2025",
+    "Municipio": "Madrid",
+    "Ponente": "ALICIA CATALA PELLON",
+    "Nº Recurso": "702/2025"
+   },
+   "resumen": "Despido Sentencia número: 693/2025 Ilmas. Sras.: Dña. MARÍA AURORA DE LA CUEVA ALEU PRESIDENTE Dña. MARÍA BEGOÑA GARCÍA ÁLVAREZ Dña. ALICIA CATALÁ PELLÓN En Madrid, a once de noviembre de dos mil veinticinco, habiendo visto en recurso de suplicación los presentes autos la Sección 5 de la Sala de lo Social de este Tribunal Superior de Justicia, compuesta por las Ilmas. Sras. citadas, de acuerdo con lo prevenido en el artículo 117.1 de la Constitución Española, EN NOMBRE DE S.M. EL REY Y POR LA AUTORIDAD QUE LE CONFIERE EL PUEBLO ESPAÑOL ha dictado la siguiente",
+   "info": [],
+   "pdf": "pdf/STSJ_M_14749_2025.pdf",
+   "txt": "txt/STSJ_M_14749_2025.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

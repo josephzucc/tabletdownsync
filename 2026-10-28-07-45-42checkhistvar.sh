@@ -1,0 +1,1 @@
+istoday () { while read -r v;do b=$(basename "$v");gn;if [[ "${b:0:10}" == "$today" ]];then echo "$b hoy";else i=1;while (( i < 100 ));do getYes ${i};if [[ "${b:0:10}" == "$yes" ]];then echo "$b ${i}";i=100;fi;i=$((i+1));done;fi;done };find $shar -type f -iname "*histvar.txt" 2>/dev/null | istoday

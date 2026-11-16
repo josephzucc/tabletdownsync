@@ -1,0 +1,31 @@
+{
+ "tipo": "ineco_oferta",
+ "url": "https://ineco.epreselec.com/Ofertas/Ofertas.aspx?Id_Oferta=3374395",
+ "id": "3374395",
+ "titulo": "28985 - Administración y Mantenimiento de servidores de aplicaciones y Servicio de asistencia de Oficina Técnica",
+ "provincia": "Madrid",
+ "pais": "España",
+ "vacantes": "1",
+ "oficina": "IT",
+ "tipo_oferta": "PLANTILLA / OFERTA",
+ "secciones": [
+  [
+   "Descripción",
+   "Ingeniería y consultoría de referencia en el ámbito de la movilidad sostenible y la transformación digital\n\nIneco lleva 55 años diseñando soluciones integrales, innovadoras y tecnológicas que han permitido avanzar hacia un nuevo modelo de movilidad más sostenible y más segura. Soluciones que contribuyen de manera directa en la mejora de la calidad de vida de millones de personas.\n\nCon un equipo multidisciplinar de más de 6.000 profesionales, la empresa está presente en todos los continentes donde despliega su experiencia y capacidad para afrontar trabajos técnicamente complejos gracias a su conocimiento especializado y a la aplicación de la tecnología más avanzada y vanguardista."
+  ],
+  [
+   "Funciones",
+   "Administración y Mantenimiento de servidores de aplicaciones y Servicio de asistencia de Oficina Técnica.\n1. Administración y optimización de plataformas: Administración, gestión y optimización avanzada de servidores de aplicaciones en entornos Java y .NET, sistemas Windows y Linux, y bases de datos, garantizando rendimiento y estabilidad.\n2. Operación de infraestructura cloud-native: instalación, administración y despliegue de VMware Tanzu Kubernetes para ejecutar aplicaciones en contenedores.\n3. Automatización de migraciones: uso de scripting para optimizar y repetir migraciones de sistemas con menor riesgo.\n4. Seguridad, arquitectura y control: hardening según guías y el ENS, diseño de arquitecturas con balanceadores F5 y monitorización de la capacidad técnica de los tenants."
+  ],
+  [
+   "Requisitos",
+   "Experiencia en: -Administración, gestión y optimización avanzada de servidores de aplicaciones en entornos Java y .NET.\n- Administración de sistemas: Windows, Linux y bases de datos\n- Instalación, administración y despliegue de VMware Tanzu Kubernetes\n- Optimización de migraciones de sistemas mediante scripting y automatización\n- Hardening y adaptación de guías de seguridad y normativa basada en el ENS\n-Conocimientos en definición de arquitecturas con balanceadores F5\n-Monitorización de las capacidades técnicas de los tenants.\nAños de experiencia en el puesto: Más de 5 años.\nTitulación: Informática - Formación Profesional - Informática y Redes, Grado en Ingeniería Informática, Master en Desarrollo, Informática Máster en Ingeniería del Software."
+  ],
+  [
+   "Se ofrece",
+   "¿Qué te podemos ofrecer?\n- Incorporarte a una compañía pública referente en la ingeniería y consultoría del transporte con más de 6.000 profesionales.\n- Contamos con beneficios flexibles adaptables a cada persona.\n- Formación continua. En INECO aportamos la formación en idiomas y la formación en las disciplinas técnicas que se requieran para desarrollar tu carrera profesional.\n- Conciliación entre la vida personal y profesional. Disponemos de múltiples medidas de conciliación.\n- Acceso a numerosos descuentos y promociones exclusivos para nuestros profesionales.\nFormar parte de una empresa como INECO se traduce en oportunidad: la diversidad de oferta con la que contamos significa que puedes desarrollar tu trayectoria profesional en el ámbito que mejor responda a tus intereses, así como ir aprendiendo en las distintas áreas de la compañía.\nEn Ineco apostamos por el talento que tiene como base entornos de trabajo retadores y estimulantes que promuevan el desarrollo personal y profesional de nuestros empleados, garantizando el cumplimiento de los principios de igualdad, mérito y capacidad, así como la trasparencia, objetividad y la igualdad de oportunidades.\nEn Ineco estamos comprometidos con la protección del medio ambiente y con la mitigación de los efectos del cambio climático y nos sumamos al reto de la Agenda 2030 y los 17 ODS.\nMantenemos desde el año 2008 la adhesión a los Diez Principios del Pacto Mundial de Naciones Unidas, basados en el respeto y promoción de los derechos humanos, laborales, medioambientales y de lucha contra la corrupción."
+  ]
+ ],
+ "token": "fvwbwy1gh8",
+ "guardado": "2026-11-06T11:24:54.073Z"
+}

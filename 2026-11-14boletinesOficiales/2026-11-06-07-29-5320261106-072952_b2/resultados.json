@@ -1,0 +1,59 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: \"periodo de prueba\" \"reducirán a la mitad\" \"duración determinada\"",
+  "filtros": {
+   "texto": "\"periodo de prueba\" \"reducirán a la mitad\" \"duración determinada\"",
+   "desde": "01/01/2022",
+   "jurisdiccion": [
+    "SOCIAL"
+   ]
+  },
+  "fecha": "06/11/2026 07:29",
+  "aplicados_en_web": {
+   "jurisdiccion": [
+    "Social"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "10031393",
+   "db": "AN",
+   "fecha": "20220530",
+   "titulo": "STSJ Madrid, a 30 de mayo de 2022 - ROJ: STSJ M 7243/2022",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/923b311c164f9cd1a0a8778d75e36f0d/20220705",
+   "roj": "STSJ M 7243/2022",
+   "ecli": "ECLI:ES:TSJM:2022:7243",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "313/2022",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA BEGOÑA GARCIA ALVAREZ",
+    "Nº Recurso": "259/2022"
+   },
+   "resumen": "un periodo de prueba, con sujeción a los límites de duración que, en su caso, se establezcan en los convenios colectivos. En defecto de pacto en convenio, la duración del periodo de prueba no podrá exceder de seis meses para los técnicos titulados, ni de dos meses para los demás trabajadores. En las empresas de menos de veinticinco trabajadores el periodo de prueba no podrá exceder de tres meses para los trabajadores que no sean técnicos titulados. En el supuesto de los contratos temporales de duración determinada del artículo 15 concertados por tiempo no superior a seis meses, el periodo de prueba no podrá exceder de un mes, salvo que se disponga otra cosa en convenio colectivo...\". A propósito de esta institución, razonaba la STS de 18-04-11 \"Puede afirmarse que el periodo de prueba supone una excepción al",
+   "info": []
+  },
+  {
+   "ref": "9923795",
+   "db": "AN",
+   "fecha": "20220303",
+   "titulo": "STSJ Galicia, a 03 de marzo de 2022 - ROJ: STSJ GAL 1659/2022",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/ff81d421001b9024/20220412",
+   "roj": "STSJ GAL 1659/2022",
+   "ecli": "ECLI:ES:TSJGAL:2022:1659",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1026/2022",
+    "Municipio": "Coruña (A)",
+    "Ponente": "EMILIO FERNANDEZ DE MATA",
+    "Nº Recurso": "6060/2021"
+   },
+   "resumen": "DESPIDO DISCIPLINARIO",
+   "info": []
+  }
+ ],
+ "extra": {
+  "total_web": "2 resultados"
+ }
+}

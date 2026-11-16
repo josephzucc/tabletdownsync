@@ -1,0 +1,1 @@
+paso=0;gn;while read -r line;do case $paso in 0) if [[ "${line:0:19}" == "Buscar foros Reddit" ]];then paso=1;fi;; 1) if [[ "${line}" == "" ]];then break;else busq=${line:2};python3 foroleer.py reddit "${busq}" --subreddit Switzerland --subreddit askswitzerland;fi;;esac;done < <( cat *notasMigracionVBA.txt )

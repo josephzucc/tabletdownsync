@@ -1,0 +1,35 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STSJ M 10981/2026",
+  "filtros": {
+   "roj": "STSJ M 10981/2026"
+  },
+  "fecha": "06/11/2026 08:34",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "11866912",
+   "db": "AN",
+   "fecha": "20260910",
+   "titulo": "STSJ Madrid, a 10 de septiembre de 2026 - ROJ: STSJ M 10981/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/3b8858b58a238cffa0a8778d75e36f0d/20260929",
+   "roj": "STSJ M 10981/2026",
+   "ecli": "ECLI:ES:TSJM:2026:10981",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "767/2026",
+    "Municipio": "Madrid",
+    "Ponente": "RAQUEL VICENTE ANDRES",
+    "Nº Recurso": "301/2026"
+   },
+   "resumen": "Fundamentales 1146/2025 Materia: Derechos Fundamentales Sentencia número: 767/2026 Ilmas. Sras D./Dña. CONCEPCIÓN DEL BRIO CARRETERO D./Dña. MARIA ISABEL SAIZ ARESES D./Dña. RAQUEL VICENTE ANDRES En Madrid a diez de septiembre de dos mil veintiséis habiendo visto en recurso de suplicación los presentes autos la Sección 2 de la Sala de lo Social de este Tribunal Superior de Justicia, compuesta por las Ilmas. Sras. citadas, de acuerdo con lo prevenido en el artículo 117.1 de la Constitución Española, EN NOMBRE DE S.M. EL REY Y POR LA AUTORIDAD QUE LE CONFIERE EL PUEBLO ESPAÑOL ha dictado la siguiente S E N T E N C I A",
+   "info": [],
+   "pdf": "pdf/STSJ_M_10981_2026.pdf",
+   "txt": "txt/STSJ_M_10981_2026.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

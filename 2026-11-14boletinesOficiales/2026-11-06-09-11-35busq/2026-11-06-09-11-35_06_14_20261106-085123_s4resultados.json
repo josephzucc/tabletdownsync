@@ -1,0 +1,50 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: {\"recurso\": \"2035/2024\", \"desde\": \"03/12/2024\", \"hasta\": \"03/12/2024\", \"jurisdiccion\": [\"SOCIAL\"], \"organo\": [\"Tribunal Superior de Justicia\"]}",
+  "filtros": {
+   "recurso": "2035/2024",
+   "desde": "03/12/2024",
+   "hasta": "03/12/2024",
+   "jurisdiccion": [
+    "SOCIAL"
+   ],
+   "organo": [
+    "Tribunal Superior de Justicia"
+   ]
+  },
+  "fecha": "06/11/2026 08:51",
+  "aplicados_en_web": {
+   "jurisdiccion": [
+    "Social"
+   ],
+   "organo": [
+    "Tribunal Superior de Justicia"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "11156569",
+   "db": "AN",
+   "fecha": "20241203",
+   "titulo": "STSJ Asturias, a 03 de diciembre de 2024 - ROJ: STSJ AS 3051/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/e0bd8f695f0792f8a0a8778d75e36f0d/20250109",
+   "roj": "STSJ AS 3051/2024",
+   "ecli": "ECLI:ES:TSJAS:2024:3051",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2027/2024",
+    "Municipio": "Oviedo",
+    "Ponente": "ISOLINA PALOMA GUTIERREZ CAMPOS",
+    "Nº Recurso": "2035/2024"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": [],
+   "pdf": "pdf/STSJ_AS_3051_2024.pdf",
+   "txt": "txt/STSJ_AS_3051_2024.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

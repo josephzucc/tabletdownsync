@@ -1,0 +1,35 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STSJ M 2295/2026",
+  "filtros": {
+   "roj": "STSJ M 2295/2026"
+  },
+  "fecha": "06/11/2026 09:47",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "11669820",
+   "db": "AN",
+   "fecha": "20260220",
+   "titulo": "STSJ Madrid, a 20 de febrero de 2026 - ROJ: STSJ M 2295/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/e8066f70c186def9a0a8778d75e36f0d/20260327",
+   "roj": "STSJ M 2295/2026",
+   "ecli": "ECLI:ES:TSJM:2026:2295",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "190/2026",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA DE LA SOLEDAD ORTEGA UGENA",
+    "Nº Recurso": "718/2025"
+   },
+   "resumen": "de clínica basal, de complicado manejo por problemas de intolerancia severa a tratamientos antidepresivos. Persiste sintomatología ansiosa, la elevada reactividad vegetativa y las dificultades de abordaje debidas a las limitaciones físicas que impiden una adecuación de hábitos de actividad y sociales. Juicio clínico: Trastorno depresivo mayor, crónico, de carácter grave. Tratamiento: Brillentix 10.\" Insiste la recurrente en las limitaciones: · Incapacidad para las actividades que requieran posturas mantenidas de sedestación y/o bipedestación superior a 20-30 m, · Incapacidad para las actividades que requieran posturas mantenidas de deambulación superior a 10-15 m, con dolor que aumenta con el tiempo de deambulación con uso de muletas. El desplazamiento fuera de su domicilio está muy limitado para uso de trasporte público, para conducir... · Imposibilidad",
+   "info": [],
+   "pdf": "pdf/STSJ_M_2295_2026.pdf",
+   "txt": "txt/STSJ_M_2295_2026.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

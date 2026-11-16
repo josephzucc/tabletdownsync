@@ -1,0 +1,35 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STSJ CAT 7005/2026",
+  "filtros": {
+   "roj": "STSJ CAT 7005/2026"
+  },
+  "fecha": "06/11/2026 08:45",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "11850960",
+   "db": "AN",
+   "fecha": "20260723",
+   "titulo": "STSJ Cataluña, a 23 de julio de 2026 - ROJ: STSJ CAT 7005/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/d7850203f9136271a0a8778d75e36f0d/20260916",
+   "roj": "STSJ CAT 7005/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:7005",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "4426/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "DANIEL MARTINEZ FONS",
+    "Nº Recurso": "2055/2026"
+   },
+   "resumen": "- Sala Social del Tribunal Superior de Justícia de Catalunya Passeig Lluís Companys, 14-16, No informat - Barcelona 08018 Barcelona Tel. 934866159 Fax: 933096846 A/e: salasocial.tsjcat@xij.gencat.cat NIG 0801944420240027788 Recurs de suplicació 2055/2026 T5 Matèria: Grau d'incapacitat Òrgan d'origen: Secció Social del TI de Barcelona. Plaça núm. 20 Procediment d'origen: Seguretat social en matèria de prestacions 550/2024 Part recurrent / Sol·licitant: INSTITUT NACIONAL DE LA SEGURETAT SOCIAL (INSS) Advocat/ada: Graduat/ada social: Part contra la qual s'interposa el recurs: Advocat/ada: Jéssica Cid Ros Graduat/ada social: SENTÈNCIA NÚM. 4426/2026 Magistrats/Magistrades: Ilmo.",
+   "info": [],
+   "pdf": "pdf/STSJ_CAT_7005_2026.pdf",
+   "txt": "txt/STSJ_CAT_7005_2026.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "tipo": "oferta",
+ "url": "https://www.infojobs.net/madrid/desarrollador-aplicaciones/of-i46ec233dc846e4af9ce70874a5a11e",
+ "id": "46ec233dc846e4af9ce70874a5a11e",
+ "titulo": "Desarrollador/a de Aplicaciones",
+ "empresa": "TRS STAFFING IT",
+ "detalles": [
+  "Madrid (Madrid)",
+  "Híbrido",
+  "Salario no disponible",
+  "Experiencia mínima: Al menos 3 años",
+  "Contrato indefinido, jornada completa"
+ ],
+ "publicada": "Publicada Hace 1h",
+ "datos": [
+  [
+   "Estudios mínimos",
+   "Grado"
+  ],
+  [
+   "Experiencia mínima",
+   "Al menos 3 años"
+  ],
+  [
+   "Conocimientos necesarios",
+   "ReactJS, Angular, Vue, Desarrollo front-end, User interface design (UID), Figma, Programas de diseño, Git"
+  ],
+  [
+   "Sector",
+   "Programación, Consultoria y otras Activ. informaticas"
+  ],
+  [
+   "Categoría",
+   "Informática y telecomunicaciones - Programación"
+  ],
+  [
+   "Nivel",
+   "Empleado/a"
+  ],
+  [
+   "Personas a cargo",
+   "0"
+  ],
+  [
+   "Vacantes",
+   "1"
+  ],
+  [
+   "Salario",
+   "Salario no disponible"
+  ]
+ ],
+ "descripcion": "¿Te gustaría participar en proyectos tecnológicos del sector salud con impacto directo en la interoperabilidad de sistemas sanitarios?\nBuscamos un/a Desarrollador/a de Aplicaciones e Integración con experiencia en entornos sanitarios, estándares de interoperabilidad y desarrollo de soluciones de integración para incorporarse a un proyecto de larga duración.\nFunciones principales:\nDesarrollo y mantenimiento de soluciones de integración entre sistemas sanitarios.\nDiseño e implementación de interfaces basadas en estándares HL7 y FHIR.\nDesarrollo de servicios de comunicación mediante XML, Web Services, HTTP y sockets.\nAnálisis, resolución de incidencias y optimización de integraciones entre aplicaciones.\nDesarrollo y mantenimiento de componentes en Java y JavaScript.\nGestión y explotación de información en bases de datos SQL.\nParticipación en proyectos de interoperabilidad dentro del ámbito sanitario.\nRequisitos imprescindibles:\nGrado Universitario en Ingeniería Informática o titulación afín.\nExperiencia mínima de 3 años en funciones relacionadas con el puesto.\nDesarrollo de soluciones de integración sobre XML y SebServices\nExperiencia en:\n- Conectividad http y sockets\n- Sistemas de información sanitarios\n- Mensajería hl7\n- Fhir\n- Java y javascript\n- Sql\nValorables Certificaciones:\nCertificación HL7\nCertificación FHIR\nCertificación en ITI\nCondiciones:\nModalidad: Híbrida si existe centro de trabajo.\nUbicación: Indiferente.\nHorario: C - Flexible.",
+ "inscritos": "0 inscritos a esta oferta",
+ "compatibilidad": "",
+ "diagnostico": {
+  "titulo_pagina": "Oferta de empleo: Desarrollador/a de Aplicaciones en Madrid - Bolsa trabajo InfoJobs",
+  "tarjetas": 0,
+  "h1": "Desarrollador/a de Aplicaciones",
+  "segundos": 3
+ },
+ "guardado": "2026-10-27T11:57:00.615Z",
+ "token": "9n712pgip0"
+}

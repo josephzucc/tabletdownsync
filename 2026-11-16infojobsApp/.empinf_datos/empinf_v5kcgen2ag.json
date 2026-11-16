@@ -1,0 +1,434 @@
+{
+ "tipo": "linkedin_lista",
+ "modo": "inicio",
+ "mostrar_todo": {
+  "Empleos que coincidan con tu perfil": "https://www.linkedin.com/jobs/search-results/?keywords=Ingeniero+de+datos%2C+on-site+or+hybrid+or+remote&origin=JobSearchOrigin_QUALIFICATION_LANDING&originToLandingJobPostings=4474438925%2C4475827333%2C4475032735%2C4477990237&geoId=90009790"
+ },
+ "recientes": [
+  {
+   "texto": "vb6",
+   "lugar": "Madrid y alrededores",
+   "url": "https://www.linkedin.com/jobs/search-results/?keywords=vb6&origin=SEMANTIC_SEARCH_HISTORY&distance=0.0&geoId=90009790"
+  }
+ ],
+ "empresas": [],
+ "ofertas": [
+  {
+   "id": "4474438925",
+   "titulo": "Consultor de Inteligencia Artificial",
+   "empresa": "Aubay Spain",
+   "ubicacion": "Madrid y alrededores (En remoto)",
+   "modalidad": "En remoto",
+   "publicada": "hace 5 días",
+   "red": "",
+   "marcas": [
+    "solicitud sencilla",
+    "verificado",
+    "top solicitantes"
+   ],
+   "seccion": "Empleos que coincidan con tu perfil",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4474438925&eBP=NON_CHARGEABLE_CHANNEL&refId=Zsy9lJ92EwvKCDFeOPAkhA%3D%3D&trackingId=gh3GSu9YSsAiwsaPrIfAzg%3D%3D&showHowYouFit=HOW_YOU_FIT&keywords=Ingeniero+de+datos%2C+on-site+or+hybrid+or+remote&origin=QUALIFICATION_LANDING&geoId=90009790"
+  },
+  {
+   "id": "4475827333",
+   "titulo": "Data Engineer (m/w/d)",
+   "empresa": "Deutsche Telekom",
+   "ubicacion": "Madrid",
+   "modalidad": "",
+   "publicada": "hace 1 semana",
+   "red": "",
+   "marcas": [
+    "verificado",
+    "top solicitantes"
+   ],
+   "seccion": "Empleos que coincidan con tu perfil",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4475827333&eBP=NON_CHARGEABLE_CHANNEL&refId=Zsy9lJ92EwvKCDFeOPAkhA%3D%3D&trackingId=XCqDnHXg1GZD3SDjtXBOuA%3D%3D&showHowYouFit=HOW_YOU_FIT&keywords=Ingeniero+de+datos%2C+on-site+or+hybrid+or+remote&origin=QUALIFICATION_LANDING&geoId=90009790"
+  },
+  {
+   "id": "4475032735",
+   "titulo": "Data Solution Architect",
+   "empresa": "Roche",
+   "ubicacion": "Madrid",
+   "modalidad": "",
+   "publicada": "",
+   "red": "1 antiguo empleado trabaja aquí",
+   "marcas": [
+    "promocionado",
+    "verificado"
+   ],
+   "seccion": "Empleos que coincidan con tu perfil",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4475032735&eBP=CwEAAAGhNMhsUY0MUQ9CYxAN-Pd6NYMpWaL30LQlvWThKu9ssDTBhc3qJPExTpIJgjGLMCZLrBIDK42I8XKMcahs3geL3_MMRnNhn1t3Ce9saquedsrUXBO6jOG2Vtmdwp95L16XQLCBr2YZcVtBVJ8OsE10sjRGvkkq5jMuFbKCBcO8Pb19Ke6SrAPhsJxZ5UOK76UoNJ5Km10QCruiTdlNVP_oXn_0SNypeFpQjCc5jQFgkWKy9mXrieF1wSNC_uV_ZsBqM-fln6WvxlTvm39G8wTTNSINL8F1PuU6mE9ydj0fkdV14BjeWgO1Tri6pV8hD6yp4g6keR4nzvZ03H7ipDuXgI9kRw6PmndtC7P0HTu6dv1Lp9G4nPowyYlUkisjYIfqByJqLCsBTqRcuRwYh4B7CDN6pX89oWgkulLxd0wqyoAUeXz25D0x1r0STtn5RjNCI5Nf7Ieg7vT-b5qTeFPJ65n1c_cMQSOgXrjFxSpN&refId=Zsy9lJ92EwvKCDFeOPAkhA%3D%3D&trackingId=Jq8KVfVwpsijNj%2BYVzU11A%3D%3D&showHowYouFit=HOW_YOU_FIT&keywords=Ingeniero+de+datos%2C+on-site+or+hybrid+or+remote&origin=QUALIFICATION_LANDING&geoId=90009790"
+  },
+  {
+   "id": "4477990237",
+   "titulo": "Data Engineer",
+   "empresa": "Ryanair - Europe's Favourite Airline",
+   "ubicacion": "Madrid",
+   "modalidad": "",
+   "publicada": "hace 1 hora",
+   "red": "",
+   "marcas": [
+    "verificado",
+    "pocos solicitantes"
+   ],
+   "seccion": "Empleos que coincidan con tu perfil",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4477990237&eBP=NOT_ELIGIBLE_FOR_CHARGING&refId=Zsy9lJ92EwvKCDFeOPAkhA%3D%3D&trackingId=9hiD9P06giKYjwr2sW1tJw%3D%3D&showHowYouFit=HOW_YOU_FIT&keywords=Ingeniero+de+datos%2C+on-site+or+hybrid+or+remote&origin=QUALIFICATION_LANDING&geoId=90009790"
+  },
+  {
+   "id": "4475425041",
+   "titulo": "Senior Data Engineer - Platform",
+   "empresa": "Ebury",
+   "ubicacion": "Madrid (Híbrido)",
+   "modalidad": "Híbrido",
+   "publicada": "",
+   "red": "1 antiguo empleado trabaja aquí",
+   "marcas": [
+    "promocionado",
+    "verificado",
+    "pocos solicitantes"
+   ],
+   "seccion": "Más empleos para ti",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?keywords=Ingeniero+de+datos&origin=JobSearchOrigin_INFINITE_JOBS_LANDING&currentJobId=4475425041&originToLandingJobPostings=4475425041&trackingId=ceMk76pKMwl0IsYoRByApQ%3D%3D&refId=E5cUhm6fbVdRID9ymeEfnw%3D%3D&eBP=CwEAAAGhNMh3DPslcs3fKrmP_ouRTNea5mG0QbuJ8_ZjlZO-v1XJyMMaxcfvGIE_IpYHGRS834eEYOzHo6zTY5JtYX8wfwjH5wW387rg408ibAZFbQelzEIprW7QVVG12xeObzVJ0tMEnkUeotk7HcGpnjPXnkyEm5udryaKGIMNkKTLtdMf3a-QpME8QwFJsHEuxK0YaB_fNp710YmfkHXqgiLxhijBmLc3bPhv2LgT4h7c8ifKW4Mdq5vDtPM_sKN8Pu0smZrTwKK_D8eXM-1qHIouj_FZaWoz1DhW3H1kMGmclrZxvNjSih7zxkCDFY42vYwJqaEX9__fdQpgK-gA2wROXIVKtnBgYpPiaiaXTcJNNXZ5KAhszs20hv3f77t4lf5EWBGcIpYnOkBigSukhBvYTk6LC2qczBjPPWc5EOwdWe0sJmS_GCHTeeou4Br7R7Ehu2DM9vpJmRIx7rpTKIVhEFVolxTZ6o2wgcdQ8kr-ZUs&geoId=90009790"
+  },
+  {
+   "id": "4459612427",
+   "titulo": "Data Engineer, Ring Agent Platforms",
+   "empresa": "Amazon",
+   "ubicacion": "Madrid",
+   "modalidad": "",
+   "publicada": "",
+   "red": "3 antiguos empleados trabajan aquí",
+   "marcas": [
+    "promocionado",
+    "verificado"
+   ],
+   "seccion": "Más empleos para ti",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?keywords=Ingeniero+de+datos&origin=JobSearchOrigin_INFINITE_JOBS_LANDING&currentJobId=4459612427&originToLandingJobPostings=4459612427&trackingId=DBk7z90jn4LcvAaT%2Fs11%2FA%3D%3D&refId=E5cUhm6fbVdRID9ymeEfnw%3D%3D&eBP=CwEAAAGhNMh3DPHtMdvdy8e1RtDpesMP7UtMxCY0t3zDnotNUY6emXkwHfRwFWvzAGLEam56xM5ApVS9BalFq9p07ILMM9eb5rw9jXXf_evZWV3tbaKpxovTBmxbhlRNxCCDPjLrUrLaASgKbE6CMkXzaaaHROSLMplgM4B17qWJC13jrsIA_h-wgFpB39TSejXhqIPf-mc7bJnd3c6xfBGUPvTWdthHfswrQVxfqBC30C6roeCJ6wq7a0HqkdADZUCrGmajijb3XCAqzBtToA6qCkYWy8KnKz3t06H4nvF5MFu-wQD8gvxp08LOZdnVQn8FAt-O4d2mzVc7rcqoW2EuG0NPALfMNnecfmeTX-3fn3OV3f9nsagPd6uDg9fvtFdcDUzaqrz6Kl2R4FMZizIxw7izQNj1UeOgMKPkMUysxYF-XK1PjcV0VwjrwSiVXNSCEr2Pm1yZ4F-h6h0Jq-kzTzagKRme1HkUVwbP5zArGe29yTk&geoId=90009790"
+  },
+  {
+   "id": "4474264348",
+   "titulo": "Senior Big Data Engineer",
+   "empresa": "Gaming Innovation Group",
+   "ubicacion": "Madrid (Híbrido)",
+   "modalidad": "Híbrido",
+   "publicada": "",
+   "red": "",
+   "marcas": [
+    "promocionado",
+    "verificado",
+    "pocos solicitantes"
+   ],
+   "seccion": "Más empleos para ti",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?keywords=Ingeniero+de+datos&origin=JobSearchOrigin_INFINITE_JOBS_LANDING&currentJobId=4474264348&originToLandingJobPostings=4474264348&trackingId=3pITa5MQUF95%2F56Qyi3HKg%3D%3D&refId=E5cUhm6fbVdRID9ymeEfnw%3D%3D&eBP=CwEAAAGhNMh3DOHnX8YULn1ojhwVbhVi8f8IrNqy-NKx10kZASAX1z5NyLaG6lDxI0xcv924ubXH5cTgeMvqaVKYa6tnzqq7kW4vzCqAYfux_OrEhfzcrRpHBYWip-B-6nP0uUeQ3HkpY7aXAyjtwqkiTWMbqFsRoeABkeJpd5-YDiypINpXQ2g06EMsTRL9gJ0ksh3p0sahh303F7HwjnGMhSs4Hy1zVBqfUbIqtmPuUSN-QHzvMeBAOlbWDQLs3xma10kWn-TryA_5K80rkQcMthfzBXjQyd-WrkkQUKlRnvvUMuMyugbXkdpTwvCRzaZhHrDVb2ZTiXWgEUemvNwbQeTS0NfFTA7-kML9I2vbMKcG3y6JbHrogVNsVb-Cx7yYj_iT4-iCOpbpS1VET9BfDYc3tr39NtSOs0ED4_HOXcuGTJG6mjkmXeYLmCV2AVQaWY3Vx4imdnFkq9S1K4pnhaip3fTy6-StCGBpIBk9rWUn&geoId=90009790"
+  },
+  {
+   "id": "4475218017",
+   "titulo": "Consultor/a Data Engineer (Azure Synapse)",
+   "empresa": "Minsait",
+   "ubicacion": "Madrid (En remoto)",
+   "modalidad": "En remoto",
+   "publicada": "",
+   "red": "5 antiguos empleados trabajan aquí",
+   "marcas": [
+    "promocionado",
+    "verificado",
+    "pocos solicitantes"
+   ],
+   "seccion": "Más empleos para ti",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?keywords=Ingeniero+de+datos&origin=JobSearchOrigin_INFINITE_JOBS_LANDING&currentJobId=4475218017&originToLandingJobPostings=4475218017&trackingId=R2hdijiuI0EN06yc7BKdXA%3D%3D&refId=XQqbZ3Mi42jAdnZ%2BM%2F6byw%3D%3D&eBP=CwEAAAGhNMh3DMGv6Q0rEu_dyxN0rH4-_VtAIsdnoHd3fIhjZuv-wHS5LHh4d_6mMNRWlXPVsuP0AYK0ddzwQY29AmET8bm3XXtQU_s3S3PQnI7TDreIpyvpFxfLnaLA7bUz_4ZpC6YXg7XKajeC02ZPc74uKcJjVVHkZzKEIr9dA1H1ynlHN1r7M7IoGHQYutIeyrAA9jTQDmvI4BHvfHSosDjHFDgOm_gPUfWBA0JpKwnvOs55kzPGqHM6Onol6Rxcz3oMm1KiLVhZy7ycHPMHY6kPVzItZrgJYPkf4YNNmEI5e0oC_BTISgKphXGNZ0YrlYmrvNZWD_2qVoQivjP8VJbI-lN58qL--pFeqrJrc_xT1-aVe7pQOAftFv5vDC_o0GWaJIxjBk2MMek2b0qYUV27zvUgfTSSxgxg4ybZ3cSbS-0NMWQUfAfUHyDtxS2a3QIbAbDEXLADtMhWZcC4g1WjuNWkvHSfOf-AZGLGqIkA&geoId=90009790"
+  },
+  {
+   "id": "4268618851",
+   "titulo": "Data Engineer",
+   "empresa": "Prima",
+   "ubicacion": "Madrid (En remoto)",
+   "modalidad": "En remoto",
+   "publicada": "",
+   "red": "1 antiguo alumno trabaja aquí",
+   "marcas": [
+    "promocionado"
+   ],
+   "seccion": "Más empleos para ti",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?keywords=Ingeniero+de+datos&origin=JobSearchOrigin_INFINITE_JOBS_LANDING&currentJobId=4268618851&originToLandingJobPostings=4268618851&trackingId=3OQ29i6X1ii%2FiBrVgapzKg%3D%3D&refId=XQqbZ3Mi42jAdnZ%2BM%2F6byw%3D%3D&eBP=CwEAAAGhNMh3DGmjmSZQjwQyiApffANXfd1DSPjrMNRThBvqH-SCJobCRczc-Yf_O5Sz-hyRU64DqlH4V4dQOGm9lTBiLKvmluhhVTEmhWb_wEmpvMRcFBRYQKerKJCv7rLm1HuraVO4IIH5KMNw1W13pH5wI3LTtsaWMAFn6ehLsdmb0fKyhIJ289bCB7_CW0wwdNg4BvTGxdWNUVomVdWX8XiCYz2Nl9F9AzdbHmZeT-gEp03vqqkpzWz29-TMOZt9xE7Buc1wZM2dZlGFyBN228402KKU_-Mf8FjjTVlzNs11FsejHH-rvnkRzsfHe3ThCgyBuqxIAjo0vlCHJGZG8c9MhDbIUWEoLQq3WOelrOY6BW6DnOALtRCo-3fMgL60STdcDPwAWNdqer483eRoSeRRNnuwlcDVVEeR_h57ZcnOzYBw6MlPzyQSS2VEUR0iOgbFuB7-c61bwG3VJpRTXSbMhFWqjsHkPV-eihhbR0I0G9icsg&geoId=90009790"
+  },
+  {
+   "id": "4462440575",
+   "titulo": "Data Engineer",
+   "empresa": "Zinco",
+   "ubicacion": "Madrid",
+   "modalidad": "",
+   "publicada": "hace 1 mes",
+   "red": "1 antiguo alumno trabaja aquí",
+   "marcas": [],
+   "seccion": "Más empleos para ti",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?keywords=Ingeniero+de+datos&origin=JobSearchOrigin_INFINITE_JOBS_LANDING&currentJobId=4462440575&originToLandingJobPostings=4462440575&trackingId=8Y1XVLa%2FYbI7Vd%2FhHb03FA%3D%3D&refId=XQqbZ3Mi42jAdnZ%2BM%2F6byw%3D%3D&eBP=NOT_ELIGIBLE_FOR_CHARGING&geoId=90009790"
+  },
+  {
+   "id": "4446119950",
+   "titulo": "Data Engineer",
+   "empresa": "CGI",
+   "ubicacion": "Madrid",
+   "modalidad": "",
+   "publicada": "hace 2 meses",
+   "red": "2 antiguos empleados trabajan aquí",
+   "marcas": [],
+   "seccion": "Más empleos para ti",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?keywords=Ingeniero+de+datos&origin=JobSearchOrigin_INFINITE_JOBS_LANDING&currentJobId=4446119950&originToLandingJobPostings=4446119950&trackingId=sriQuqJ5ThRDQcxaritl4w%3D%3D&refId=XQqbZ3Mi42jAdnZ%2BM%2F6byw%3D%3D&eBP=NOT_ELIGIBLE_FOR_CHARGING&geoId=90009790"
+  },
+  {
+   "id": "4474267925",
+   "titulo": "DATA Engineer",
+   "empresa": "Insud Pharma",
+   "ubicacion": "Madrid",
+   "modalidad": "",
+   "publicada": "",
+   "red": "1 antiguo alumno trabaja aquí",
+   "marcas": [
+    "promocionado"
+   ],
+   "seccion": "Más empleos para ti",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?keywords=Ingeniero+de+datos&origin=JobSearchOrigin_INFINITE_JOBS_LANDING&currentJobId=4474267925&originToLandingJobPostings=4474267925&trackingId=%2FtVQWo8L4hz2qJug%2BendFQ%3D%3D&refId=XQqbZ3Mi42jAdnZ%2BM%2F6byw%3D%3D&eBP=CwEAAAGhNMh3DZmicXdkPEo3N4DlTfxckJXyAkq6EKqGqYdNrNaS42WDaC5h7jQTeODgI13fBUetxUbE1SUBBIrV9AwYPDTNh1qZgLeznsGK3AT1sq8GxL0QkAW38B57rF8k3-IgV4wfCJAT4BK1HIh6_Q9kIl10Ud7XP8Hxth4ZzdQZFxV4MmAVb7Rf4jchfNPbpODQut-EQvMSx3CousbyGUVO-Xt8JyEtXoHu8XVrZLdRF56xIBq2lqytNMk1CEs3wZMUW0rRknzg5B8cyq_stofyP-JeSjGD_3t1Pryu6WtHtCPIVw2_tKuQCb3nzSxMLk8StmiBHN0LM8C5TgmgI7D9tpQ2jT0SNyuMYslZkb7NEDrbwiJYW1sxxidNbgHNw4G4do0B9RsAWhhgevG3mLMswmvqy8LwGK-7yM9bFSiDfqEIbVb_S8d0o73sSOdtEVdcbPukuM_KvUMK_oaG42MVfSLv3hr3v1BAFajtF1EQ&geoId=90009790"
+  },
+  {
+   "id": "4473739318",
+   "titulo": "Data Engineer PySpark / Databricks – 100% Teletrabajo",
+   "empresa": "METRICA",
+   "ubicacion": "Madrid (En remoto)",
+   "modalidad": "En remoto",
+   "publicada": "hace 1 semana",
+   "red": "1 antiguo empleado trabaja aquí",
+   "marcas": [],
+   "seccion": "Más empleos para ti",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?keywords=Ingeniero+de+datos&origin=JobSearchOrigin_INFINITE_JOBS_LANDING&currentJobId=4473739318&originToLandingJobPostings=4473739318&trackingId=DegckH0gWmikfC96T28kjQ%3D%3D&refId=XQqbZ3Mi42jAdnZ%2BM%2F6byw%3D%3D&eBP=NOT_ELIGIBLE_FOR_CHARGING&geoId=90009790"
+  },
+  {
+   "id": "4469744237",
+   "titulo": "Data Engineer",
+   "empresa": "Zenova",
+   "ubicacion": "Madrid (Híbrido)",
+   "modalidad": "Híbrido",
+   "publicada": "hace 2 semanas",
+   "red": "",
+   "marcas": [],
+   "seccion": "Más empleos para ti",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?keywords=Ingeniero+de+datos&origin=JobSearchOrigin_INFINITE_JOBS_LANDING&currentJobId=4469744237&originToLandingJobPostings=4469744237&trackingId=08lUBJu7nwhg33srYxbNFQ%3D%3D&refId=XQqbZ3Mi42jAdnZ%2BM%2F6byw%3D%3D&eBP=NOT_ELIGIBLE_FOR_CHARGING&geoId=90009790"
+  },
+  {
+   "id": "4470891476",
+   "titulo": "Senior Data Engineer",
+   "empresa": "KPMG España",
+   "ubicacion": "Madrid (Híbrido)",
+   "modalidad": "Híbrido",
+   "publicada": "",
+   "red": "4 antiguos empleados trabajan aquí",
+   "marcas": [
+    "promocionado",
+    "verificado"
+   ],
+   "seccion": "Más empleos para ti",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?keywords=Ingeniero+de+datos&origin=JobSearchOrigin_INFINITE_JOBS_LANDING&currentJobId=4470891476&originToLandingJobPostings=4470891476&trackingId=Tqq19BHEp3v9JYr09pMMmQ%3D%3D&refId=XQqbZ3Mi42jAdnZ%2BM%2F6byw%3D%3D&eBP=CwEAAAGhNMh3DW83-ISue8DDU69KkUtN4stfISsnlQ9oKtNOGrBpdqzP6Cjpgn72uSTsCxzBfb1byWcLWNa6qlCybeJTA2gJzGXFm3Ygh0H2KY1KjXy60yi272dyfqvAKQWTRBHypgxJw66RaEUKnD6B8C4frC8k8gvqt1RDnefWohh6yNH3OSlBcu16jcFUnsq5cZHyY4Yz6aDtJkhLTQGzBwYM0BJlmHNS2DaLjL3T8q0Lhg48Ir-CapdI9uVqWVulJXwNmsB9qQnoaDAFi5Km79dyMnrSF2EMjHEo9oibVggjYIXc6M5CiWISBJxAWe41Bk2ji_4wGlLYpeKFBYWPNhbdvRDG5XBzVwhgp2LN_nr-LDwkZFNOeKgJCV1gBzh63jFtcE4ffKHDQDl_sBD4rrCrCxXO0BxT8PwilCGiFf6zRRpT-AAqRggZe62ke4oIYr-dBi-RH_HZWMjc7fsYHsgBaYfr7O4ySNVp8IH2GA&geoId=90009790"
+  },
+  {
+   "id": "4473865341",
+   "titulo": "Data Engineer",
+   "empresa": "INNOCV Solutions",
+   "ubicacion": "Madrid (Híbrido)",
+   "modalidad": "Híbrido",
+   "publicada": "hace 1 semana",
+   "red": "1 antiguo empleado trabaja aquí",
+   "marcas": [],
+   "seccion": "Más empleos para ti",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?keywords=Ingeniero+de+datos&origin=JobSearchOrigin_INFINITE_JOBS_LANDING&currentJobId=4473865341&originToLandingJobPostings=4473865341&trackingId=7eOXO2VcvSKhQB4ktef0yQ%3D%3D&refId=XQqbZ3Mi42jAdnZ%2BM%2F6byw%3D%3D&eBP=NOT_ELIGIBLE_FOR_CHARGING&geoId=90009790"
+  },
+  {
+   "id": "4477128591",
+   "titulo": "Spark, Scala, SQL Developer (100% remote within Spain)",
+   "empresa": "UST",
+   "ubicacion": "Madrid",
+   "modalidad": "",
+   "publicada": "",
+   "red": "",
+   "marcas": [
+    "promocionado"
+   ],
+   "seccion": "Más empleos para ti",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?keywords=Ingeniero+de+datos&origin=JobSearchOrigin_INFINITE_JOBS_LANDING&currentJobId=4477128591&originToLandingJobPostings=4477128591&trackingId=n3cxn8a6rX7XvmcThni4Vw%3D%3D&refId=XQqbZ3Mi42jAdnZ%2BM%2F6byw%3D%3D&eBP=CwEAAAGhNMh3DeOebTtrayngcp-0DpArULFnWk4co7I0rwhYam_IaUfDv4c3358Hd7P2mive0chdy23n35xzgRLPvOvdFO56CA_9hj_iTcA6Qh1PXQcilvXio6iNHCqxPlm3rzvyQnzTKnBxWg2w8fTA6LqQKS6KLtFrKRPr2RL0r0qEwqNMSx487XnCl7x2TmCTnY0bM5fv9TsfSXt_KcfpA24RE6CDoTq8tvGaGzblsgOzu69JNAQNb8CEmRUHm5P2QgH6CJmwXo2ON75nJiZlTxj_gyYiXfdfBF9q2ZoIqMw34pqcIAI9wsbRfA4_W_6jf3YjlHUYWOj7eqI3hnzCtbEYi8UX008chy7uogGYQBbUsXyFJlS6hRxkngM_jyIV4ma36sOn0GnqxRXu3__GUaD4Y-F7g4D7UDsjkSzcftpdPRduml7FEa22O083GOX2KquC_v1UK4xoswx9WBmTDc_mBvZNysetxh1ITyFnLA&geoId=90009790"
+  },
+  {
+   "id": "4475557266",
+   "titulo": "Data Engineer",
+   "empresa": "Robert Walters",
+   "ubicacion": "Madrid",
+   "modalidad": "",
+   "publicada": "",
+   "red": "",
+   "marcas": [
+    "promocionado",
+    "verificado",
+    "pocos solicitantes"
+   ],
+   "seccion": "Más empleos para ti",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?keywords=Ingeniero+de+datos&origin=JobSearchOrigin_INFINITE_JOBS_LANDING&currentJobId=4475557266&originToLandingJobPostings=4475557266&trackingId=IZBmut6ke46AIzJrd4LW3w%3D%3D&refId=XQqbZ3Mi42jAdnZ%2BM%2F6byw%3D%3D&eBP=CwEAAAGhNMh3DYww8xuZnLId5dRBCEZcDUoFfMobY-plKVxyONMT8cCPu8EErB-XLeq9kvoV7pLOwb7VwsM1MMC5fGA5ykt44aGuT3eZpxrwI10PEUICdw2DqAoJ6oIKvKIDsoo6PD2ueEjFQLdVqoiuvwo7ylMbEljpCY2kLw6WfbSm-4dJPlwtuv55FSl2vGpjhGaIc7OO0NQXX_9Rq6oZRD1f-0KheUjncBNnPUJzJy8Z_9GXwwrrpFOqyVlCY5j61UVr9WjhsYinikLAKQAlyGGaVxdSPHSn4O4fBj38ibGx2rbJR2nbuMWZyCrMJ8eiCHzSzw09a53KNqPhu8Adhvl4aNZsD1NNfT2DTxuejA9EHSuHTGHZ-Gl38vewg4hlDmBoZz-lSbvvfD48uhC6eVhbTz8d55qwxrathOx4sHW4mYPKJdUfAzgViWBZ1sov3F-qjg2vZXt1ig1HsROIHBOk_ts65erG9UQViRKjZoB7hhE&geoId=90009790"
+  },
+  {
+   "id": "4336658880",
+   "titulo": "Data Software Engineer",
+   "empresa": "Prima",
+   "ubicacion": "Madrid (En remoto)",
+   "modalidad": "En remoto",
+   "publicada": "",
+   "red": "1 antiguo alumno trabaja aquí",
+   "marcas": [
+    "promocionado",
+    "verificado"
+   ],
+   "seccion": "Más empleos para ti",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?keywords=Ingeniero+de+datos&origin=JobSearchOrigin_INFINITE_JOBS_LANDING&currentJobId=4336658880&originToLandingJobPostings=4336658880&trackingId=AEWfOsGtxLUqphSUtryuGw%3D%3D&refId=d9v4yjI6Q9rAS5LAcqMzoQ%3D%3D&eBP=CwEAAAGhNMh3DduJqa2nF0g1EIlrG6Ix-nqZ-I7yc6uhT1QUzB6sEvQKxgPJcTMdbf-TJuudItnvbh6F0uedcJmtdItLqW5yXxECb9gYdXpN72pZTPLHFMbGagrWIu2PPqo4mUd0o8Hxie2sWOHltOYSzd0GmQ7suRP_IwrFhUxUHsdsP2E6pqc72_0gnxKZTbZvKYbB3YjlQ-LdK5VWH4q6A6Oo8lhFyXyR50VhfKkSoC7tg-qMuSM8CA_wvRRuj4WkAZx9rgYdl3GFNj1aTa5QDebPkON0YGwF4jp10mNkn4J3qt0eitNKmtzhMpZWpI0bJJujoNKFCqCE56ttK10Pb7UGn0e0b_8y6Ei95Vo2b6N-hLH1JyInVSZd3H-CKes7XQZimFkxXr-4lCcqBAJ_hmI5Z-AlLCCin5sNFUTO4MzQi7xPN6zDcn2XcYcjaeEwfceapJmEQZXCKiP_PNazjZgd5xm1s9iYjLncw0G8dQr96Yo&geoId=90009790"
+  },
+  {
+   "id": "4448991122",
+   "titulo": "Data Engineer Pyspark / jornada de tarde / 100% Teletrabajo",
+   "empresa": "METRICA",
+   "ubicacion": "Madrid (En remoto)",
+   "modalidad": "En remoto",
+   "publicada": "hace 2 meses",
+   "red": "1 antiguo empleado trabaja aquí",
+   "marcas": [],
+   "seccion": "Más empleos para ti",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?keywords=Ingeniero+de+datos&origin=JobSearchOrigin_INFINITE_JOBS_LANDING&currentJobId=4448991122&originToLandingJobPostings=4448991122&trackingId=yAsZsEPUcvOwnTjcU6N7Dw%3D%3D&refId=d9v4yjI6Q9rAS5LAcqMzoQ%3D%3D&eBP=NOT_ELIGIBLE_FOR_CHARGING&geoId=90009790"
+  },
+  {
+   "id": "4434338393",
+   "titulo": "Data Engineer",
+   "empresa": "AVEVA",
+   "ubicacion": "Madrid",
+   "modalidad": "",
+   "publicada": "",
+   "red": "",
+   "marcas": [
+    "promocionado"
+   ],
+   "seccion": "Más empleos para ti",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?keywords=Ingeniero+de+datos&origin=JobSearchOrigin_INFINITE_JOBS_LANDING&currentJobId=4434338393&originToLandingJobPostings=4434338393&trackingId=ipIffWzOzeC3QbDdpqavug%3D%3D&refId=d9v4yjI6Q9rAS5LAcqMzoQ%3D%3D&eBP=CwEAAAGhNMh3DdBNKg_leDOrDC7n58kdb4FS7Btwe4EPIaRvZfYUdGMzHM6knQ6FD5RTzzDHDNx-XdshrDHaMlnWRq27T2IhGDpx5mZI7tUg3G03e2TtmMEUxVtiF2kCIYpyjaoPb0j8o-AfHrokBK63LjQx0Syv5t04Cjq5dZUQ35tF6BiRlsSOnY0S_CGBT6oU-oowkHiFK_vDv3z-kRLeR8aWVAxFIhfwqDmRHA1BzSH3ivo8O-dd6dDbQn8VTGItcWMdxx4ZZwbRl9JP12SHOtDznH9_2Q96k2E7YSzACkDUjgA6RcMerhcppXQ-B3qOD4x9VRBU3ml82LL-wXxMl1DWliJ8IKDJpSguIbRcJQabFWDjoBug4r3bbg_ACNCw5XEeDm5xjpXGe030wu02V5HgqS48Yt0Aj11PQSpw_7Pv3B3fUa78cxlhSx4H3WmjDie0QaE7_G14rGlKlwjK4iIwqmmkOWNrskj39LhuJKOhP-4&geoId=90009790"
+  },
+  {
+   "id": "4475956939",
+   "titulo": "Senior Data Engineer/ Data Architect (GCP)",
+   "empresa": "Keyrus",
+   "ubicacion": "Alcobendas (En remoto)",
+   "modalidad": "En remoto",
+   "publicada": "",
+   "red": "",
+   "marcas": [
+    "promocionado"
+   ],
+   "seccion": "Más empleos para ti",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?keywords=Ingeniero+de+datos&origin=JobSearchOrigin_INFINITE_JOBS_LANDING&currentJobId=4475956939&originToLandingJobPostings=4475956939&trackingId=MbZGGKY4rtoVTquAVXrVvA%3D%3D&refId=d9v4yjI6Q9rAS5LAcqMzoQ%3D%3D&eBP=CwEAAAGhNMh3DdRwrv3b7tpPW-j1-EIEBcW_9UOAmcLjjjysxhvlBWmS5ATZZEokVztHlJJF6a7DwOTebFA9JkPQcYC4rRXOGL2ZKQ3E64OPbMLKqub2PWB4AiqA94MAL0-dHxjJl9imob8gHHBt9M57B_POpeaCKflM7SsIOSw2zavEcbZSA4jrE9kwzoltnlHcjLFUK35rGZ0oHtp6TZOVqDM0-q4F7J2JA8bCQLeEK_bIoVWAK7fHusgnvAQf-3yxOcF8k28mcGOVMjbZPZJP7wNR1Awz72RAri_aDi4j3g88UeODXvv2MWCVLwOqT6beXt1EFgR-ALD0RPr61-hSfbul8s6YIch_x6nkSC4p6wM-KQjKIcdtZaZGZ6heMs5VhFgOu7H0X19wbW0eI4nbkqyBkDlY1ToNRy53MXwX2nWLCqxB2HPgvN6nrV9tXljfhOtkIl3i2YEHtlcMk1OmdtXCp1QmAZ14vIx5K970Ty3nIYk&geoId=90009790"
+  },
+  {
+   "id": "4472025350",
+   "titulo": "Ingeniero de Datos Senior",
+   "empresa": "Acercanza Consulting",
+   "ubicacion": "Boadilla del Monte (En remoto)",
+   "modalidad": "En remoto",
+   "publicada": "",
+   "red": "",
+   "marcas": [
+    "promocionado",
+    "solicitud sencilla",
+    "evaluando activamente"
+   ],
+   "seccion": "Más empleos para ti",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?keywords=Ingeniero+de+datos&origin=JobSearchOrigin_INFINITE_JOBS_LANDING&currentJobId=4472025350&originToLandingJobPostings=4472025350&trackingId=ZATtqh9lgBcT2He90r9L1g%3D%3D&refId=d9v4yjI6Q9rAS5LAcqMzoQ%3D%3D&eBP=CwEAAAGhNMh3DTgJb1azqrx76cxThmwDm_P8DXHP2_V1TpvSGp2LcOTI-Qls9NiY3bzXzUUHyrHPOy8LEtTFSK21YkuJ0gn_j0NLF2dKmVtJdXgD9U-3kfESRbKATUBs0mL0DkXKyl9bT123nVvO9vjdld8KrWE_UM9HlnmGKMD7vY85SzLLoyTGzEW9R377V-xeqJVFuyGQFXo2IDCYFEBMMplEX9YC4Wug7RQInHjJUYIpPqurjSS5KmhEB_TxEdUj3xk2GicRN7nE_W33QLJmB7ZCQscxnUZmAtmyMKtxqhGhXoO4ItveNawwSUCDxP1a3B8JMcIZVHdDUWS2M_w79cf0Bnd-5t8TIpe9nMKQh1N5lnZhwVA675-d2RTtWObFKpeqGinYLPs-Uur9cXjV1dhEOS4nMRnn1joNzfJzwcSsBNRK7BUxHqLysovFee3ep3w-dXDDnUOXUzG2__k1ntfdw0lRw16oJshFmD08Lm8vUp4&geoId=90009790"
+  },
+  {
+   "id": "4477806210",
+   "titulo": "Data Engineer",
+   "empresa": "Keepler Data Tech",
+   "ubicacion": "Madrid y alrededores (Presencial)",
+   "modalidad": "Presencial",
+   "publicada": "",
+   "red": "",
+   "marcas": [
+    "promocionado",
+    "solicitud sencilla",
+    "evaluando activamente",
+    "pocos solicitantes"
+   ],
+   "seccion": "Más empleos para ti",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?keywords=Ingeniero+de+datos&origin=JobSearchOrigin_INFINITE_JOBS_LANDING&currentJobId=4477806210&originToLandingJobPostings=4477806210&trackingId=SW%2BklqfShfVSodpXuCgK0Q%3D%3D&refId=d9v4yjI6Q9rAS5LAcqMzoQ%3D%3D&eBP=CwEAAAGhNMh3DQ4wUdNg_s9_HopInKuV8qXZG4mEQuGDjbo2oecnUuefT88pkqRzUEyXcDRy-vK3jFOHV-j8B5EjAypGKGLfDIOdPIjdwOqZmmNNsrAbPiAHHD_E5mLRm7v42oX6naJ-rjNwas5_z7DGr3M_BTcHSQ1EnM8PAQ2H2c9EZ9XBxZm-Zj0CAt1rgIuTQAPdA3VLZcrlYF0_bnDhs_gEXokdKQZvGXmPH8JQ4L55E5YoPbi7psxCFGgqqlsSutRu3isuL5e9PY84sgo-cD6jA-jCGLkrwtP0C-BMUE5Cm3TxMC9T_Iogw3DrRbzK15_5UZM5FQUpOGynZ0fYLaHgCEcRFcarS9HnocBL4Yhhcwdv2vjtzG1cZM3AFMJ0yiapqw5KmfZXzfy4-Y5HcFvN7TleZ30KCS5ys8wK9HkJJCY8uVFYE5F8A7DWrMlL_3q4waLLItLQoWBMZq7Vyi7xyn6bEhZRQv0xQ7U&geoId=90009790"
+  },
+  {
+   "id": "4427940743",
+   "titulo": "Data Engineer",
+   "empresa": "Scalian",
+   "ubicacion": "Madrid (En remoto)",
+   "modalidad": "En remoto",
+   "publicada": "hace 4 meses",
+   "red": "",
+   "marcas": [
+    "solicitud sencilla",
+    "evaluando activamente"
+   ],
+   "seccion": "Más empleos para ti",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?keywords=Ingeniero+de+datos&origin=JobSearchOrigin_INFINITE_JOBS_LANDING&currentJobId=4427940743&originToLandingJobPostings=4427940743&trackingId=TcZiH8MbBwO%2FX2RNiwwGJQ%3D%3D&refId=d9v4yjI6Q9rAS5LAcqMzoQ%3D%3D&eBP=NOT_ELIGIBLE_FOR_CHARGING&geoId=90009790"
+  },
+  {
+   "id": "4468793387",
+   "titulo": "Data Engineer - Intermediate",
+   "empresa": "Equifax",
+   "ubicacion": "Madrid",
+   "modalidad": "",
+   "publicada": "",
+   "red": "",
+   "marcas": [
+    "promocionado"
+   ],
+   "seccion": "Más empleos para ti",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?keywords=Ingeniero+de+datos&origin=JobSearchOrigin_INFINITE_JOBS_LANDING&currentJobId=4468793387&originToLandingJobPostings=4468793387&trackingId=rlmvcTzOrnaqiF%2B9SuZtLQ%3D%3D&refId=d9v4yjI6Q9rAS5LAcqMzoQ%3D%3D&eBP=CwEAAAGhNMh3Db3nDk5Z5FsRXj4UIQtmKH8F7piH0u0tYe2dddJkGvbp6B5oW0hLcW0XFQCks7uV8Ex9TzQ7YNn0krVI3F-gsJzkfRT4aMQ04fLLtTfGxRHTLjuTIOpoAVmlT8_VHnltLBMzeXAzzcxyX_lBoDgrgQOUPQjkYQgJ1AyFMaIe82IRodbqTmicOIE3kz140gJiz12SrXqtPv2lVhBmpWcmaciQWR2h6GLt3hy2XTY9K8fdd2Aww30wGY6ypbfP5FYbTsYp_Yb1EX-S2qUZDsgC-O0JRg77CoNMfGy1i999KW8Rxl7U4bp50xvLuj016GqRNGAj4f8bH9rSlNROVcbCxpYc9awau9_1Df0IATFTAEn6-PNBcDZB-tg88XoXZkPaUFlr24EbDuIzG10iDrzN5uxXhLVU2L1bJcG8he_NcQzjiKDj29XsoBhbrtzZrWc8xs5wC1zUqAVR-UvJSuWY7Q0wMNBWFjDdYLKXplI&geoId=90009790"
+  },
+  {
+   "id": "4471890406",
+   "titulo": "Data Engineer-Databricks",
+   "empresa": "Minsait",
+   "ubicacion": "Madrid y alrededores (Híbrido)",
+   "modalidad": "Híbrido",
+   "publicada": "",
+   "red": "",
+   "marcas": [
+    "promocionado",
+    "solicitud sencilla",
+    "evaluando activamente"
+   ],
+   "seccion": "Más empleos para ti",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?keywords=Ingeniero+de+datos&origin=JobSearchOrigin_INFINITE_JOBS_LANDING&currentJobId=4471890406&originToLandingJobPostings=4471890406&trackingId=ZQeYDhrMNGzxgZwO1pzg6A%3D%3D&refId=d9v4yjI6Q9rAS5LAcqMzoQ%3D%3D&eBP=CwEAAAGhNMh3DV13zw5e5BbMgkFE4UEat2p2Z8GhR4q7Ht_zZ7BuvRK570CoNhqSPCtz9vsZ0lr8HGMd6eoc7soZOWXkOLW9LID7tIUStKnGDx8UtS-q-5EPW2l1k9mTkAIkr3L5umDU9UT70FwfBmZ80iX0FkuyPfOQFFvWFOG1MIK8ZTIrJBUH5msd5qLkTYu3ynPa_GsPB49ESANGzngqa370N9DBX1i-tLDXDVZkKGy84wqQ0ea-hAXWQT0hDQOjwTkt8oUyjfM87Zu9DaEo9gKFbXHHz3HKqCx2Cmx76TuW55GIRCZeneImVA3ChQWpusZa6kWXziBOaotNWxxnvonGX9in_O3-_TqsNkM-bWEJWSTXYyGihWQwb46xF5jwxGyBu1EvS-XzJifVyf5nbC-RxI8kjMzDXI-i2S6Af3wsSoDXTuuSS40e4Qh37QgXErZCS6mHCK2r-3_NgqcvkkfKoWvKCNIIep1GGcVVSiH3Gqk&geoId=90009790"
+  },
+  {
+   "id": "4469730962",
+   "titulo": "Analytics Engineer (Junior)",
+   "empresa": "Zenova",
+   "ubicacion": "Madrid (Híbrido)",
+   "modalidad": "Híbrido",
+   "publicada": "hace 2 semanas",
+   "red": "",
+   "marcas": [],
+   "seccion": "Más empleos para ti",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?keywords=Ingeniero+de+datos&origin=JobSearchOrigin_INFINITE_JOBS_LANDING&currentJobId=4469730962&originToLandingJobPostings=4469730962&trackingId=NJ%2B8baIxz%2FGAIiM4TvWhZg%3D%3D&refId=d9v4yjI6Q9rAS5LAcqMzoQ%3D%3D&eBP=NOT_ELIGIBLE_FOR_CHARGING&geoId=90009790"
+  },
+  {
+   "id": "4470480192",
+   "titulo": "Data Engineer",
+   "empresa": "Capgemini Engineering",
+   "ubicacion": "Madrid",
+   "modalidad": "",
+   "publicada": "hace 2 semanas",
+   "red": "2 antiguos empleados trabajan aquí",
+   "marcas": [],
+   "seccion": "Más empleos para ti",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?keywords=Ingeniero+de+datos&origin=JobSearchOrigin_INFINITE_JOBS_LANDING&currentJobId=4470480192&originToLandingJobPostings=4470480192&trackingId=hy140R6KwdTXNQ6vRtnh4w%3D%3D&refId=d9v4yjI6Q9rAS5LAcqMzoQ%3D%3D&eBP=NOT_ELIGIBLE_FOR_CHARGING&geoId=90009790"
+  }
+ ],
+ "url": "https://www.linkedin.com/jobs/",
+ "token": "v5kcgen2ag",
+ "guardado": "2026-10-13T10:22:01.506Z"
+}

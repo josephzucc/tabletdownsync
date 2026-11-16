@@ -1,0 +1,750 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: caducidad despido \"tutela de derechos fundamentales\" prescripción",
+  "filtros": {
+   "texto": "caducidad despido \"tutela de derechos fundamentales\" prescripción",
+   "desde": "01/01/2023",
+   "jurisdiccion": [
+    "SOCIAL"
+   ],
+   "organo": [
+    "Tribunal Supremo",
+    "Tribunal Superior de Justicia"
+   ]
+  },
+  "fecha": "06/11/2026 07:32",
+  "aplicados_en_web": {
+   "jurisdiccion": [
+    "Social"
+   ],
+   "organo": [
+    "Tribunal Supremo",
+    "Tribunal Superior de Justicia"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "11907890",
+   "db": "AN",
+   "fecha": "20261020",
+   "titulo": "STSJ Cataluña, a 20 de octubre de 2026 - ROJ: STSJ CAT 8476/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/78f83561ad505814a0a8778d75e36f0d/20261030",
+   "roj": "STSJ CAT 8476/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:8476",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "5523/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "CARLOS ESCRIBANO VINDEL",
+    "Nº Recurso": "1528/2026"
+   },
+   "resumen": "adecuación del procedimiento de tutela de derechos fundamentales, decae íntegramente la excepción de caducidad apreciada en la instancia como así apreció el TSJ. Al no estar ante una acción de impugnación del despido, resulta inaplicable el perentorio plazo de veinte días previsto en el artículo 59.3 del Estatuto de los Trabajadores . Sin que nada pueda analizarse en cuanto a la posible prescripción de la acción ejercitada ( STS 156/2025, de 27 de febrero -rcud 1607/2022 ) que no se invocó expresamente por la empresa en momento alguno y como es sabido no puede ser aparecida de oficio. En atención a lo expuesto, el actor acudió correctamente a la modalidad procesal de tutela de derechos fundamentales. La demanda perseguía reparar de manera íntegra (daño moral",
+   "info": []
+  },
+  {
+   "ref": "11890614",
+   "db": "AN",
+   "fecha": "20260928",
+   "titulo": "STSJ Andalucía, a 28 de septiembre de 2026 - ROJ: STSJ AND 13020/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/312323a544bf4eaba0a8778d75e36f0d/20261019",
+   "roj": "STSJ AND 13020/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:13020",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1517/2026",
+    "Municipio": "Málaga",
+    "Ponente": "ROCIO INMACULADA ANGUITA MANDLY",
+    "Nº Recurso": "927/2026"
+   },
+   "resumen": "aunque sea genéricamente, las pretensiones, no existe incongruencia omisiva en la sentencia, pese a que no haya pronunciamientos respecto de alegaciones concretas no sustanciales, pues sólo la omisión o falta total de respuesta, y no la respuesta genérica o global a las cuestiones planteadas, entraña vulneración de la tutela judicial efectiva (sentencia de 16 de octubre de 2008 [ROJ: STSJ AND 9858/2008]. La sentencia no resuelve sobre la posible prescripción de los hechos imputados en la carta de despido, ademas de existir una formulación incorrecta por la parte alegando caducidad en lugar de prescripción, ello no da lugar a la nulidad de la sentencia, reproduciéndose el citado argumento al amparo del articulo 193 c) LRJS y existiendo suficiencia de hechos probados para resolver la cuestión conforme al articulo 202 LRJS. SEXTO.- Por el cauce del apartado",
+   "info": []
+  },
+  {
+   "ref": "11889415",
+   "db": "AN",
+   "fecha": "20260917",
+   "titulo": "STSJ Andalucía, a 17 de septiembre de 2026 - ROJ: STSJ AND 12915/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/0e87a4e96ad17deaa0a8778d75e36f0d/20261016",
+   "roj": "STSJ AND 12915/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:12915",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2494/2026",
+    "Municipio": "Sevilla",
+    "Ponente": "VICTOR MERIDA MUÑOZ",
+    "Nº Recurso": "2412/2026"
+   },
+   "resumen": "de prestaciones de Seguridad Social considera que la resolución de la Entidad Gestora lo discrimina puede canalizar su acción procesal a través de la modalidad de Tutela de Derechos Fundamentales y Libertades públicas. Dicha Sentencia se refiere al caso de varón jubilado bajo la vigencia del art. 60 LGSS antes de su modificación por RDL 3/2021 pero después de la STJUE de 12 diciembre 2019 a quien, pese a tener dos hijos, el INSS deniega el complemento de pensión. No cabe duda hasta este momento de que, en este tipo de discriminaciones, el plazo de prescripción de la acción de Tutela de Derechos Fundamentales ex art. 179.2 de la LRJS es el mismo que el de prescripción para reclamar el citado complemento el cual a su vez se rige por el plazo de prescripción de la prestación a la que complementa (en la mayoría de los casos Jubilación contributiva o IP contributiva, pero",
+   "info": []
+  },
+  {
+   "ref": "11866702",
+   "db": "AN",
+   "fecha": "20260911",
+   "titulo": "STSJ Galicia, a 11 de septiembre de 2026 - ROJ: STSJ GAL 5313/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/a35fc5f57dd3ada4a0a8778d75e36f0d/20260929",
+   "roj": "STSJ GAL 5313/2026",
+   "ecli": "ECLI:ES:TSJGAL:2026:5313",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "3604/2026",
+    "Municipio": "Coruña (A)",
+    "Ponente": "JOSE ANTONIO MERINO PALAZUELO",
+    "Nº Recurso": "1504/2026"
+   },
+   "resumen": "DERECHOS FUNDAMENTALES",
+   "info": []
+  },
+  {
+   "ref": "11866912",
+   "db": "AN",
+   "fecha": "20260910",
+   "titulo": "STSJ Madrid, a 10 de septiembre de 2026 - ROJ: STSJ M 10981/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/3b8858b58a238cffa0a8778d75e36f0d/20260929",
+   "roj": "STSJ M 10981/2026",
+   "ecli": "ECLI:ES:TSJM:2026:10981",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "767/2026",
+    "Municipio": "Madrid",
+    "Ponente": "RAQUEL VICENTE ANDRES",
+    "Nº Recurso": "301/2026"
+   },
+   "resumen": "laboral prolongado de más de diez meses sin asignación de proyecto, que es un acto continuo y autónomo y b) La acción de vulneración de derechos fundamentales con ocasión del despido (accidente de trabajo el mismo día, discriminación por enfermedad sobrevenida), que guarda conexión causal con el acto extintivo. Señala la recurrente que el artículo 179.2 LRJS establece que la demanda de tutela de derechos fundamentales habrá de interponerse dentro del plazo general de prescripción o caducidad previsto para las conductas o actos sobre los que se concrete la lesión. Alude a la diferencia siguiente: Si el acto lesivo es el despido, el plazo es de veinte días hábiles de caducidad (art. 59.3 ET; art. 103.1 LRJS). Si el acto lesivo son conductas empresariales discriminatorias durante la relación laboral (distintas del acto extintivo), el plazo",
+   "info": []
+  },
+  {
+   "ref": "11857436",
+   "db": "AN",
+   "fecha": "20260908",
+   "titulo": "STSJ Cataluña, a 08 de septiembre de 2026 - ROJ: STSJ CAT 7062/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/a8bc53c3a1b7b5a4a0a8778d75e36f0d/20260922",
+   "roj": "STSJ CAT 7062/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:7062",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "4649/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "SALVADOR SALAS ALMIRALL",
+    "Nº Recurso": "5827/2025"
+   },
+   "resumen": "Impugnación individual de despido colectivo para obtener una indemnización superior a la fijada en el acuerdo al que se adhirieron. Prescripción en las obligaciones de pago único. Aedecuación del procedimiento y eficacia liberatoria del finiquito. La edad",
+   "info": []
+  },
+  {
+   "ref": "11818869",
+   "db": "AN",
+   "fecha": "20260707",
+   "titulo": "STSJ Asturias, a 07 de julio de 2026 - ROJ: STSJ AS 1909/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/a93ba9bd647cca00a0a8778d75e36f0d/20260811",
+   "roj": "STSJ AS 1909/2026",
+   "ecli": "ECLI:ES:TSJAS:2026:1909",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1265/2026",
+    "Municipio": "Oviedo",
+    "Ponente": "JORGE GONZALEZ RODRIGUEZ",
+    "Nº Recurso": "143/2026"
+   },
+   "resumen": "DESPIDO DISCIPLINARIO",
+   "info": []
+  },
+  {
+   "ref": "11802346",
+   "db": "AN",
+   "fecha": "20260703",
+   "titulo": "STSJ Castilla y León, a 03 de julio de 2026 - ROJ: STSJ CL 2626/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/ca43679c12aee96ba0a8778d75e36f0d/20260723",
+   "roj": "STSJ CL 2626/2026",
+   "ecli": "ECLI:ES:TSJCL:2026:2626",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "431/2026",
+    "Municipio": "Burgos",
+    "Ponente": "MARIA JOSE RENEDO JUAREZ",
+    "Nº Recurso": "311/2026"
+   },
+   "resumen": "Despido disciplinario trabajador hipermercado por acoso a otras compañeras de trabajo. Gravedad de la conducta, sanción proporcionada. Se confirma procedencia despido.",
+   "info": []
+  },
+  {
+   "ref": "11799012",
+   "db": "AN",
+   "fecha": "20260701",
+   "titulo": "STSJ País Vasco, a 01 de julio de 2026 - ROJ: STSJ PV 2360/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/f1c91d54e99b92b8a0a8778d75e36f0d/20260720",
+   "roj": "STSJ PV 2360/2026",
+   "ecli": "ECLI:ES:TSJPV:2026:2360",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1623/2026",
+    "Municipio": "Bilbao",
+    "Ponente": "GARBIÑE BIURRUN MANCISIDOR",
+    "Nº Recurso": "1306/2026"
+   },
+   "resumen": "del procedimiento es intranscendente.\". Pero lo cierto es que la demanda fue siempre, tal como consta en su encabezamiento, \"sobre derecho y cantidad con vulneración de derechos fundamentales\" y que la pretensión de declaración de derecho y la de abono de cantidad versa sobre derecho fundamental e indemnización por su vulneración. Por tanto, ninguna indebida acumulación de acciones se aprecia en el caso, en el que la demanda ejerce acción de tutela de derechos fundamentales, solicita el reconocimiento de un derecho y una indemnización por vulneración de uno de aquellos derechos, todo ello permitido por los artículos 177 y siguientes LRJS. C.- LA PRETENSIÓN DE NULIDAD DE LA SENTENCIA POR INDEBIDA RECONDUCCIÓN A LA MODALIDAD DE TUTELA DE DERECHOS FUNDAMENTALES Y FALTA DE MOTIVACIÓN SOBRE DICHA RECONDUCCIÓN.",
+   "info": []
+  },
+  {
+   "ref": "11795180",
+   "db": "TS",
+   "fecha": "20260701",
+   "titulo": "STS, a 01 de julio de 2026 - ROJ: STS 3077/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/a77931c9a472ee57a0a8778d75e36f0d/20260716",
+   "roj": "STS 3077/2026",
+   "ecli": "ECLI:ES:TS:2026:3077",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "612/2026",
+    "Municipio": "Madrid",
+    "Ponente": "JUAN MANUEL SAN CRISTOBAL VILLANUEVA",
+    "Nº Recurso": "2476/2025"
+   },
+   "resumen": "Se examina la posible incongruencia omisiva de la sentencia recurrida y si el proceso adecuado para examinar una posible discriminación por razón de edad en el cálculo de la indemnización por despido colectivo es el de tutela de derechos fundamentales.",
+   "info": []
+  },
+  {
+   "ref": "11797307",
+   "db": "AN",
+   "fecha": "20260701",
+   "titulo": "STSJ Cantabria, a 01 de julio de 2026 - ROJ: STSJ CANT 781/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/b356f335b06d18aea0a8778d75e36f0d/20260717",
+   "roj": "STSJ CANT 781/2026",
+   "ecli": "ECLI:ES:TSJCANT:2026:781",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "509/2026",
+    "Municipio": "Santander",
+    "Ponente": "MARIA DE LAS MERCEDES SANCHA SAIZ",
+    "Nº Recurso": "284/2026"
+   },
+   "resumen": "contradicen abiertamente las conclusiones sentadas por la juzgadora. 4.Pues bien, atendiendo al carácter extraordinario del recurso de suplicación no es posible dar por probados los indicios de vulneración de derechos fundamentales e invertir la carga de la prueba, con lo que la calificación del despido es de improcedente y no nulo; lo que nos lleva a desestimar el motivo y del recurso formulado. 5.La desestimación de la acción principal de tutela de derechos fundamentales implica la denegación de la indemnización accesoria por dicha vulneración, conforme a los artículos 183 y 179.3 LRJS. NOVENO.- Infracción jurídica: recurso de la entidad local. 1.Una vez rechazada la caducidad de la acción de despido y no habiendo prosperado la revisión fáctica interesada respecto",
+   "info": []
+  },
+  {
+   "ref": "11839232",
+   "db": "AN",
+   "fecha": "20260625",
+   "titulo": "STSJ Canarias, a 25 de junio de 2026 - ROJ: STSJ ICAN 1319/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/c6d0763557404554a0a8778d75e36f0d/20260904",
+   "roj": "STSJ ICAN 1319/2026",
+   "ecli": "ECLI:ES:TSJICAN:2026:1319",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "945/2026",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "OSCAR GONZALEZ PRIETO",
+    "Nº Recurso": "1657/2025"
+   },
+   "resumen": "razones sistemáticas analizaremos la existencia del panorama indiciario favorable o no a la pretendida vulneración de derechos fundamentales. La Sala IV del Tribunal Supremo, en múltiples sentencias, por todas STS 19-05-2020, rcud. 2911/2017, ha resumido su doctrina sobre las cargas probatorias en los procedimientos de tutela de derechos fundamentales en los términos siguientes: \"El Tribunal Constitucional ha tenido ocasión de pronunciarse acerca de las reglas de distribución de la carga de la prueba cuando nos encontramos ante una vulneración de derechos fundamentales y lo ha hecho en La STC 138/2006 de 8 de mayo, en los siguientes términos: \"Tratándose de la tutela frente a actos lesivos de derechos fundamentales, hemos subrayado de forma reiterada la importancia que en relación con la misma tiene la regla de la distribución de la carga de la prueba.",
+   "info": []
+  },
+  {
+   "ref": "11808026",
+   "db": "AN",
+   "fecha": "20260623",
+   "titulo": "STSJ Asturias, a 23 de junio de 2026 - ROJ: STSJ AS 1789/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/5fdbc419144eff1fa0a8778d75e36f0d/20260728",
+   "roj": "STSJ AS 1789/2026",
+   "ecli": "ECLI:ES:TSJAS:2026:1789",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1090/2026",
+    "Municipio": "Oviedo",
+    "Ponente": "FRANCISCO JOSE DE PRADO FERNANDEZ",
+    "Nº Recurso": "363/2026"
+   },
+   "resumen": "DESPIDO OBJETIVO",
+   "info": []
+  },
+  {
+   "ref": "11805259",
+   "db": "AN",
+   "fecha": "20260622",
+   "titulo": "STSJ Baleares, a 22 de junio de 2026 - ROJ: STSJ BAL 751/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/483dd62b057de44aa0a8778d75e36f0d/20260727",
+   "roj": "STSJ BAL 751/2026",
+   "ecli": "ECLI:ES:TSJBAL:2026:751",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "306/2026",
+    "Municipio": "Palma de Mallorca",
+    "Ponente": "OSCAR LOPEZ BERMEJO",
+    "Nº Recurso": "81/2026"
+   },
+   "resumen": "OTROS DCHOS. LABORALES",
+   "info": []
+  },
+  {
+   "ref": "11793144",
+   "db": "AN",
+   "fecha": "20260622",
+   "titulo": "STSJ Castilla y León, a 22 de junio de 2026 - ROJ: STSJ CL 2529/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/d19e10123c1f9be9a0a8778d75e36f0d/20260715",
+   "roj": "STSJ CL 2529/2026",
+   "ecli": "ECLI:ES:TSJCL:2026:2529",
+   "sala": "",
+   "datos": {
+    "Municipio": "Valladolid",
+    "Ponente": "JOSE MANUEL RIESCO IGLESIAS",
+    "Nº Recurso": "1059/2026"
+   },
+   "resumen": "DERECHOS FUNDAMENTALES",
+   "info": []
+  },
+  {
+   "ref": "11805470",
+   "db": "AN",
+   "fecha": "20260618",
+   "titulo": "STSJ Galicia, a 18 de junio de 2026 - ROJ: STSJ GAL 4289/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/f84d2842dc1bc95ca0a8778d75e36f0d/20260727",
+   "roj": "STSJ GAL 4289/2026",
+   "ecli": "ECLI:ES:TSJGAL:2026:4289",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2863/2026",
+    "Municipio": "Coruña (A)",
+    "Ponente": "RAQUEL MARIA NAVEIRO SANTOS",
+    "Nº Recurso": "1287/2026"
+   },
+   "resumen": "MODIFICACION CONDIC.LABORALES",
+   "info": []
+  },
+  {
+   "ref": "11822664",
+   "db": "AN",
+   "fecha": "20260616",
+   "titulo": "STSJ Murcia, a 16 de junio de 2026 - ROJ: STSJ MU 1567/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/18432d808ec7fc02a0a8778d75e36f0d/20260817",
+   "roj": "STSJ MU 1567/2026",
+   "ecli": "ECLI:ES:TSJMU:2026:1567",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "547/2026",
+    "Municipio": "Murcia",
+    "Ponente": "MARIANO GASCON VALERO",
+    "Nº Recurso": "231/2026"
+   },
+   "resumen": "DESPIDO DISCIPLINARIO",
+   "info": []
+  },
+  {
+   "ref": "11779392",
+   "db": "AN",
+   "fecha": "20260612",
+   "titulo": "STSJ Cantabria, a 12 de junio de 2026 - ROJ: STSJ CANT 699/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/8ee7e994c1728e4aa0a8778d75e36f0d/20260702",
+   "roj": "STSJ CANT 699/2026",
+   "ecli": "ECLI:ES:TSJCANT:2026:699",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "466/2026",
+    "Municipio": "Santander",
+    "Ponente": "ELENA PEREZ PEREZ",
+    "Nº Recurso": "208/2026"
+   },
+   "resumen": "Prescripción de las vacaciones. El derecho a vacaciones no puede interpretarse de modo restrictivo.",
+   "info": []
+  },
+  {
+   "ref": "11800344",
+   "db": "AN",
+   "fecha": "20260611",
+   "titulo": "STSJ Andalucía, a 11 de junio de 2026 - ROJ: STSJ AND 8670/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/78151fc86d2e33b0a0a8778d75e36f0d/20260721",
+   "roj": "STSJ AND 8670/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:8670",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1787/2026",
+    "Municipio": "Sevilla",
+    "Ponente": "VICTOR MERIDA MUÑOZ",
+    "Nº Recurso": "1730/2026"
+   },
+   "resumen": "prestacional o en la de Tutela de Derechos Fundamentales, declarando que el beneficiario ha sufrido discriminación por razón de sexo directamente imputable a la Entidad Gestora por la denegación injustificada del complemento por aportación demográfica tras el dictado de la STJUE de 12-12-19 y concediendo por ende el citado complemento, se presente demanda judicial aparte (entendemos ya en este caso a través de la modalidad procesal específica de Tutela), reclamando los 1.800 euros. En apoyo de esta tesis citamos la STS Sala 4ª de 27-02-25 nº de recurso 1607/2022 conforme a la cual es factible en términos procesales accionar de manera autónoma por indemnización de daños y perjuicios derivada de vulneración de Derechos Fundamentales previamente constatada en vía judicial en procedimiento de Despido que fue declarado nulo en base a esa misma",
+   "info": []
+  },
+  {
+   "ref": "11809662",
+   "db": "AN",
+   "fecha": "20260603",
+   "titulo": "STSJ Andalucía, a 03 de junio de 2026 - ROJ: STSJ AND 9598/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/6557a4a6675d4584a0a8778d75e36f0d/20260729",
+   "roj": "STSJ AND 9598/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:9598",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1693/2026",
+    "Municipio": "Sevilla",
+    "Ponente": "VICTOR MERIDA MUÑOZ",
+    "Nº Recurso": "1657/2026"
+   },
+   "resumen": "de la modalidad de Tutela de Derechos Fundamentales y Libertades públicas. Dicha Sentencia se refiere al caso de varón jubilado bajo la vigencia del art. 60 LGSS antes de su modificación por RDL 3/2021 pero después de la STJUE de 12 diciembre 2019 a quien, pese a tener dos hijos, el INSS deniega el complemento de pensión. No cabe duda hasta este momento de que, en este tipo de discriminaciones, el plazo de prescripción de la acción de Tutela de Derechos Fundamentales ex art. 179.2 de la LRJS es el mismo que el de prescripción para reclamar el citado complemento el cual a su vez se rige por el plazo de prescripción de la prestación a la que complementa (en la mayoría de los casos Jubilación contributiva o IP contributiva, pero véase la dicción literal del art. 60 del TRLGSS que también contempla el supuesto de la pensión contributiva de viudedad). Así lo entiende",
+   "info": []
+  },
+  {
+   "ref": "11883322",
+   "db": "AN",
+   "fecha": "20260519",
+   "titulo": "STSJ Canarias, a 19 de mayo de 2026 - ROJ: STSJ ICAN 2130/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/75c853ebf04ca656a0a8778d75e36f0d/20261013",
+   "roj": "STSJ ICAN 2130/2026",
+   "ecli": "ECLI:ES:TSJICAN:2026:2130",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "386/2026",
+    "Municipio": "Santa Cruz de Tenerife",
+    "Ponente": "EDUARDO JESUS RAMOS REAL",
+    "Nº Recurso": "727/2025"
+   },
+   "resumen": "Despido. Acoso sexual. Nulidad por dicriminación por motivos de salud. Improcedencia por falta de concreción de la carta de despido. Improcedencia por falta de audiencia al trabajador en despido anterior al 18.11.24. IMprocedencia por aplicación de la doctrina gradualista.",
+   "info": []
+  },
+  {
+   "ref": "11801493",
+   "db": "AN",
+   "fecha": "20260519",
+   "titulo": "STSJ Canarias, a 19 de mayo de 2026 - ROJ: STSJ ICAN 910/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/e4726a437cd3788da0a8778d75e36f0d/20260722",
+   "roj": "STSJ ICAN 910/2026",
+   "ecli": "ECLI:ES:TSJICAN:2026:910",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "703/2026",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "JAVIER ERCILLA GARCIA",
+    "Nº Recurso": "1652/2025"
+   },
+   "resumen": "de reconocimiento laboral que ocurrió posteriormente. En el caso presente nos encontramos con que el actor presenta dos demandas, una de tutela de derechos fundamentales y otra de despido. La primera se interpone el 18 de octubre de 2024, la segunda el 03 de diciembre de 2024. La primera acción tiene un plazo de prescripción genérico de un año, cuando no está asociada de manera indisoluble a otra acción, como podría ser la acción de despido, si no, su plazo sería de 20 días ex art. 179.2 LRJS, es decir: \"La demanda habrá de interponerse dentro del plazo general de prescripción o caducidad de la acción previsto para las conductas o actos sobre los que se concrete la lesión del derecho fundamental o libertad pública.\" Si analizamos en profundidad la demanda, lo que se alega es que: «Suplico al Juzgado, tenga por presentado",
+   "info": []
+  },
+  {
+   "ref": "11775070",
+   "db": "AN",
+   "fecha": "20260519",
+   "titulo": "STSJ Comunidad Valenciana, a 19 de mayo de 2026 - ROJ: STSJ CV 2241/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/10a4179f7012c174a0a8778d75e36f0d/20260629",
+   "roj": "STSJ CV 2241/2026",
+   "ecli": "ECLI:ES:TSJCV:2026:2241",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1506/2026",
+    "Municipio": "Valencia",
+    "Ponente": "GEMA PALOMAR CHALVER",
+    "Nº Recurso": "3591/2025"
+   },
+   "resumen": "Social (LRJS) impone canalizar la tutela de derechos fundamentales a través del procedimiento específico -en este caso, el de despido -, ello no significa que la caducidad del despido se extienda a la acción de tutela de derechos fundamentales porque está planteada dentro del plazo de prescripción de un año, por lo que debería poder ser enjuiciada. Por todo la recurrente considera que dejando a un lado la acción por despido, debe resolverse la acción de vulneración de derechos fundamentales así como la indemnización paralela reclamada, al no estar afectada por la caducidad. SEGUNDO.-Nos encontramos ante una controversia de carácter netamente jurídico. No se cuestiona la caducidad de la acción por despido, pero se pretende dejar a salvo la acción acumulada de vulneración de derechos fundamentales. En el presente proceso estamos",
+   "info": []
+  },
+  {
+   "ref": "11791642",
+   "db": "AN",
+   "fecha": "20260514",
+   "titulo": "STSJ Andalucía, a 14 de mayo de 2026 - ROJ: STSJ AND 8157/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/ccf32c85e04a1d66a0a8778d75e36f0d/20260714",
+   "roj": "STSJ AND 8157/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:8157",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1421/2026",
+    "Municipio": "Sevilla",
+    "Ponente": "VICTOR MERIDA MUÑOZ",
+    "Nº Recurso": "1238/2026"
+   },
+   "resumen": "procesales accionar de manera autónoma por indemnización de daños y perjuicios derivada de vulneración de Derechos Fundamentales previamente constatada en vía judicial en procedimiento de Despido que fue declarado nulo en base a esa misma vulneración mediante resolución judicial firme. También la STS 540/2023, de 19 julio (rcud. 3106), resuelve que cuando un beneficiario de prestaciones de Seguridad Social considera que la resolución de la Entidad Gestora lo discrimina puede canalizar su acción procesal a través de la modalidad de Tutela de Derechos Fundamentales y Libertades públicas. Dicha Sentencia se refiere al caso de varón jubilado bajo la vigencia del art. 60 LGSS antes de su modificación por RDL 3/2021 pero después de la STJUE de 12 diciembre 2019 a quien, pese a tener dos hijos, el INSS deniega el complemento de pensión.",
+   "info": []
+  },
+  {
+   "ref": "11744097",
+   "db": "AN",
+   "fecha": "20260507",
+   "titulo": "STSJ Castilla y León, a 07 de mayo de 2026 - ROJ: STSJ CL 1700/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/ea9c36c05a0e7a09a0a8778d75e36f0d/20260603",
+   "roj": "STSJ CL 1700/2026",
+   "ecli": "ECLI:ES:TSJCL:2026:1700",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "231/2026",
+    "Municipio": "Burgos",
+    "Ponente": "JESUS CARLOS GALAN PARADA",
+    "Nº Recurso": "117/2026"
+   },
+   "resumen": "DESPIDO OBJETIVO",
+   "info": []
+  },
+  {
+   "ref": "11736917",
+   "db": "AN",
+   "fecha": "20260505",
+   "titulo": "STSJ País Vasco, a 05 de mayo de 2026 - ROJ: STSJ PV 1595/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/8ec63bbfa29bb129a0a8778d75e36f0d/20260527",
+   "roj": "STSJ PV 1595/2026",
+   "ecli": "ECLI:ES:TSJPV:2026:1595",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1072/2026",
+    "Municipio": "Bilbao",
+    "Ponente": "NURIA PERCHIN BENITO",
+    "Nº Recurso": "294/2026"
+   },
+   "resumen": "al trabajo después de una situación de excedencia por cuidado de familiares. II.Como expresa la reciente sentencia TS de 27 mayo 2025 (RCUD 631/2023): \"El plazo para el ejercicio de la acción resarcitoria de los daños y perjuicios causados por violación de derechos fundamentales no es de caducidad sino de prescripción de un año. Así, lo expresamos en la STS 729/2018 de 10 julio (rcud. 3269/2016 ) que remite a la STS -de Pleno- de 26 de enero de 2005 (R. 35/2003 ) en el sentido proceder la aplicación del plazo de prescripción de un año del artículo 59.1 del ET para el ejercicio de las acciones que nazcan con ocasión del contrato de trabajo. En esta sentencia, tras señalarse que \"desde la STC",
+   "info": []
+  },
+  {
+   "ref": "11759030",
+   "db": "AN",
+   "fecha": "20260430",
+   "titulo": "STSJ Madrid, a 30 de abril de 2026 - ROJ: STSJ M 6282/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/d00e721e43b77979a0a8778d75e36f0d/20260616",
+   "roj": "STSJ M 6282/2026",
+   "ecli": "ECLI:ES:TSJM:2026:6282",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "449/2026",
+    "Municipio": "Madrid",
+    "Ponente": "SUSANA MARIA MOLINA GUTIERREZ",
+    "Nº Recurso": "916/2025"
+   },
+   "resumen": "En las acciones derivadas de despido y demás acciones sujetas a plazo de caducidad, el plazo de interposición de la demanda será de veinte días hábiles o el especial que sea aplicable, contados a partir del día siguiente a aquél en que se hubiera producido el acto o la notificación de la resolución impugnada, o desde que se deba entender agotada la vía administrativa en los demás casos.\" El artículo 70 finaliza proclamando que \"No será necesario agotar la vía administrativa para interponer demanda de tutela de derechos fundamentales y libertades públicas frente a actos de las Administraciones públicas en el ejercicio de sus potestades en materia laboral y sindical, si bien el plazo para la interposición de la demanda será de veinte días desde el día siguiente a la notificación del acto o al transcurso del plazo fijado para la resolución, sin",
+   "info": []
+  },
+  {
+   "ref": "11747925",
+   "db": "AN",
+   "fecha": "20260430",
+   "titulo": "STSJ Andalucía, a 30 de abril de 2026 - ROJ: STSJ AND 6372/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/98133898ebbdedb3a0a8778d75e36f0d/20260605",
+   "roj": "STSJ AND 6372/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:6372",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1258/2026",
+    "Municipio": "Sevilla",
+    "Ponente": "JOSE JOAQUIN PEREZ-BENEYTO ABAD",
+    "Nº Recurso": "1475/2024"
+   },
+   "resumen": "profesional de investigador en formación, con un salario mensual a efectos de despido 1.636,08 euros, con una jornada de lunes a viernes de 8.00 a 15.30 horas. SEGUNDO.- DON se encontraba matriculado en el programa de Doctorado en Biología Integrada de la Facultad de Biología de la Universidad de Sevilla, siendo director de la tesis doctoral el Dr. D. , y se encontraba integrado en el grupo de investigación dirigido por éste, PGC2018-09835-B-100 del Plan Estatal del Ministerio de Ciencia, Innovación y Universidades. TERCERO.- El actor interpuso demanda contra la demandada para la tutela de derechos fundamentales que dio lugar al procedimiento 1181/2021 del Juzgado de lo Social número 8 de Sevilla. En fecha 19 de julio de 2023 se dictó sentencia en el citado procedimiento, desestimando la demanda y absolviendo a los demandados de",
+   "info": []
+  },
+  {
+   "ref": "11744620",
+   "db": "AN",
+   "fecha": "20260429",
+   "titulo": "STSJ Murcia, a 29 de abril de 2026 - ROJ: STSJ MU 814/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/849c8f66a81ce205a0a8778d75e36f0d/20260603",
+   "roj": "STSJ MU 814/2026",
+   "ecli": "ECLI:ES:TSJMU:2026:814",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "383/2026",
+    "Municipio": "Murcia",
+    "Ponente": "MARIA DOLORES NOGUEROLES PEÑA",
+    "Nº Recurso": "172/2026"
+   },
+   "resumen": "DERECHOS FUNDAMENTALES",
+   "info": []
+  },
+  {
+   "ref": "11767463",
+   "db": "AN",
+   "fecha": "20260428",
+   "titulo": "STSJ Comunidad Valenciana, a 28 de abril de 2026 - ROJ: STSJ CV 1896/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/1828312a3ca4cd69a0a8778d75e36f0d/20260623",
+   "roj": "STSJ CV 1896/2026",
+   "ecli": "ECLI:ES:TSJCV:2026:1896",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1257/2026",
+    "Municipio": "Valencia",
+    "Ponente": "INMACULADA CONCEPCION LINARES BOSCH",
+    "Nº Recurso": "3177/2025"
+   },
+   "resumen": "59 del Estatuto de los Trabajadores al estimar la excepción de caducidad de la acción de despido. Sostiene la recurrente que el titulo de su demanda dice \"Impugnación consecuencias individuales de despido colectivo por vulneración de Derechos Fundamentales y reclamación de cantidad\", con cita de SSTC 140/21 y 72/22, que no se esta reclamado la calificación del despido como procedente, improcedente o nulo, sino que esta alegando una vulneración de derechos fundamentales y esas cantidades son en realidad la indemnización por dicha vulneración, que la acción de tutela de derechos fundamentales reclamando daños y perjuicios del despido no está sometida al plazo de caducidad de 20 días con cita de STS de 13-6-2011, y la reclamación de cantidad del hecho cuarto de su demanda referida al descuento del desempleo en el parámetro el cálculo de la indemnización",
+   "info": []
+  },
+  {
+   "ref": "11741548",
+   "db": "AN",
+   "fecha": "20260422",
+   "titulo": "STSJ Madrid, a 22 de abril de 2026 - ROJ: STSJ M 5472/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/0499fcd6cca98808a0a8778d75e36f0d/20260601",
+   "roj": "STSJ M 5472/2026",
+   "ecli": "ECLI:ES:TSJM:2026:5472",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "403/2026",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA ISABEL SAIZ ARESES",
+    "Nº Recurso": "1109/2025"
+   },
+   "resumen": "y 52 del texto refundido de la Ley del Estatuto de los Trabajadores ,movilidad geográfica, modificación sustancial de las condiciones de trabajo, suspensión del contrato y reducción de jornada por causas económicas, técnicas, organizativas o de producción o derivadas de fuerza mayor, derechos de conciliación de la vida personal, familiar y laboral del artículo 139, impugnación de altas médicas, vacaciones, materia electoral, conflictos colectivos, impugnación de convenios colectivos y tutela de derechos fundamentales y libertades públicas, tanto en el proceso declarativo como en trámite de recurso o de ejecución. Tampoco serán inhábiles dichos días para la adopción de actos preparatorios, medidas precautorias y medidas cautelares, en particular en materia de prevención de riesgos laborales, accidentes de trabajo y enfermedades",
+   "info": []
+  },
+  {
+   "ref": "11743044",
+   "db": "AN",
+   "fecha": "20260417",
+   "titulo": "STSJ Madrid, a 17 de abril de 2026 - ROJ: STSJ M 5623/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/bcced9b11aee4ed5a0a8778d75e36f0d/20260602",
+   "roj": "STSJ M 5623/2026",
+   "ecli": "ECLI:ES:TSJM:2026:5623",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "370/2026",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA DE LA SOLEDAD ORTEGA UGENA",
+    "Nº Recurso": "1266/2025"
+   },
+   "resumen": "El actor presentó demanda de despido, con tutela de derechos fundamentales por discriminación, y subsidiariamente la improcedencia del mismo, condenando a la empresa a que le readmita en las mismas condiciones que regían antes del despido o le abone la indemnización que legalmente me corresponda, y en el caso que se produzca la readmisión abonándole los salarios dejados de percibir desde el despido y hasta la readmisión. Así mismo solicita en concepto de daño moral la cantidad indemnizatoria adicional de 140.873,12 euros. Condenando a la empresa al abono de 6.116,73 euros en concepto de liquidación de haberes pendiente de cobro a la fecha del despido, conforme desglose realizado en demanda. En el acto de juicio se alega la excepción de caducidad, el Juez suspende el juicio para pronunciarse, oyendo al Ministerio Fiscal. Se dicta auto de 15 de julio de",
+   "info": []
+  },
+  {
+   "ref": "11714743",
+   "db": "AN",
+   "fecha": "20260416",
+   "titulo": "STSJ Cataluña, a 16 de abril de 2026 - ROJ: STSJ CAT 3111/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/413e898a709cbd9ba0a8778d75e36f0d/20260511",
+   "roj": "STSJ CAT 3111/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:3111",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2232/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "ANA CONSUELO CASTAN HERNANDEZ",
+    "Nº Recurso": "581/2026"
+   },
+   "resumen": "Sentencia del Tribunal Supremo, 480/2025, de 27 de mayo \"El plazo para el ejercicio de la acción resarcitoria de los daños y perjuicios causados por violación de derechos fundamentales no es de caducidad sino de prescripción de un año. Así, lo expresamos en la STS 729/2018 de 10 julio (rcud. 3269/2016) que remite a la STS -de Pleno- de 26 de enero de 2005 (R. 35/2003) en el sentido proceder la aplicación del plazo de prescripción de un año del artículo 59.1 del ET para el ejercicio de las acciones que nazcan con ocasión del contrato de trabajo. En esta sentencia, tras señalarse que \"desde la STC 7/1983 de 14 de febrero. De acuerdo con esta premisa, los derechos fundamentales son \"permanentes e imprescriptibles\"; lo que es compatible, no obstante, con que \"el ordenamiento limite temporalmente la vida\" de las acciones concretas que derivan",
+   "info": []
+  },
+  {
+   "ref": "11765763",
+   "db": "AN",
+   "fecha": "20260415",
+   "titulo": "STSJ Andalucía, a 15 de abril de 2026 - ROJ: STSJ AND 6603/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/2b3f9cbe5c6dc364a0a8778d75e36f0d/20260622",
+   "roj": "STSJ AND 6603/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:6603",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1166/2026",
+    "Municipio": "Sevilla",
+    "Ponente": "MARIA INMACULADA LIÑAN ROJO",
+    "Nº Recurso": "1057/2026"
+   },
+   "resumen": "pueda atribuirse al finiquito suscrito por las partes.\" En consecuencia, tiene perfecto derecho el demandante de ejercitar sus pretensiones a través del procedimiento de tutela de derechos fundamentales en el cual podrá solicitar la indemnización que entiende le corresponde por el quebranto sufrido al haber sido objeto de discriminación por razón de la edad, según mantiene. Lo expuesto lleva a la estimación de este primer motivo en lo que a la inadecuación de procedimiento y caducidad se refiere, excepciones que fueron planteadas por la entidad demandada, ahora recurrida, y que han de ser rechazadas, procediendo continuar con el conocimiento de los restantes motivos de censura jurídica\". Corolario de lo anterior: tiene perfecto derecho el demandante de ejercitar sus pretensiones a través del procedimiento de tutela de derechos fundamentales",
+   "info": []
+  },
+  {
+   "ref": "11747875",
+   "db": "AN",
+   "fecha": "20260413",
+   "titulo": "STSJ Andalucía, a 13 de abril de 2026 - ROJ: STSJ AND 6293/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/a31afe84cc112f9da0a8778d75e36f0d/20260605",
+   "roj": "STSJ AND 6293/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:6293",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1156/2026",
+    "Municipio": "Sevilla",
+    "Ponente": "MARIA DEL CARMEN PEREZ SIBON",
+    "Nº Recurso": "1274/2024"
+   },
+   "resumen": "del recurso administrativo, según proceda, uniendo copia de todo ello para la entidad demandada. 3. En las acciones derivadas de despido y demás acciones sujetas a plazo de caducidad, el plazo de interposición de la demanda será de veinte días hábiles o el especial que sea aplicable, contados a partir del día siguiente a aquél en que se hubiera producido el acto o la notificación de la resolución impugnada, o desde que se deba entender agotada la vía administrativa en los demás casos\". Por su parte, el art. 70 de la misma norma establece: \"Excepciones al agotamiento de la vía administrativa. No será necesario agotar la vía administrativa para interponer demanda de tutela de derechos fundamentales y libertades públicas frente a actos de las Administraciones públicas en",
+   "info": []
+  },
+  {
+   "ref": "11753581",
+   "db": "AN",
+   "fecha": "20260409",
+   "titulo": "STSJ Andalucía, a 09 de abril de 2026 - ROJ: STSJ AND 6503/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/d12c365541023b65a0a8778d75e36f0d/20260611",
+   "roj": "STSJ AND 6503/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:6503",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "874/2026",
+    "Municipio": "Granada",
+    "Ponente": "FRANCISCO JOSE VILLAR DEL MORAL",
+    "Nº Recurso": "1170/2025"
+   },
+   "resumen": "marzo que, \"tanto el TS como el TC y los TTSJ, mantienen que en los supuestos de despido nulo por vulneración de derechos fundamentales además de las consecuencias propias de la declaración de nulidad del despido (la readmisión del trabajador con abono de los correspondientes salarios de tramitación), también deberá fijarse una indemnización adicional por los daños y perjuicios derivados de la vulneración del derecho fundamental, siempre y cuando estos daños y perjuicios hayan sido solicitados expresamente en la demanda. La Sala considera que, tras la nueva regulación en la materia establecida por el referido art. 183 de la LRJS, siempre que se haya producido una vulneración de un derecho fundamental en el ámbito de una relación laboral, la sentencia que se dicte en esta modalidad procesal de tutela de derechos fundamentales y libertades públicas no debe limitarse",
+   "info": []
+  },
+  {
+   "ref": "11716567",
+   "db": "AN",
+   "fecha": "20260407",
+   "titulo": "STSJ Galicia, a 07 de abril de 2026 - ROJ: STSJ GAL 2168/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/9588d116f509f9efa0a8778d75e36f0d/20260512",
+   "roj": "STSJ GAL 2168/2026",
+   "ecli": "ECLI:ES:TSJGAL:2026:2168",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1542/2026",
+    "Municipio": "Coruña (A)",
+    "Ponente": "LUIS FERNANDO DE CASTRO MEJUTO",
+    "Nº Recurso": "5627/2025"
+   },
+   "resumen": "DESPIDO DISCIPLINARIO",
+   "info": []
+  },
+  {
+   "ref": "11727786",
+   "db": "AN",
+   "fecha": "20260406",
+   "titulo": "STSJ Andalucía, a 06 de abril de 2026 - ROJ: STSJ AND 5463/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/d4030bfd8636d205a0a8778d75e36f0d/20260520",
+   "roj": "STSJ AND 5463/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:5463",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "604/2026",
+    "Municipio": "Málaga",
+    "Ponente": "JOSE LUIS BARRAGAN MORALES",
+    "Nº Recurso": "261/2026"
+   },
+   "resumen": "una actuación administrativa o judicial destinada a la reclamación de sus derechos laborales, sea ésta realizada por ellas mismas o por sus representantes legales. Respecto de la llamada garantía de indemnidad, la Sala de lo Social del Tribunal Supremo ha puesto de relieve en la sentencia de 20 de diciembre de 2024 [REC: 523/2024, ROJ: STS 6277/2024], entre otras muchas, que, conforme a la doctrina constitucional, y en el ámbito laboral, la garantía de indemnidad consiste en la imposibilidad de adoptar medidas intencionales de represalia derivadas del ejercicio por el trabajador de la tutela de sus derechos de suerte que una actuación empresarial que cause un perjuicio y esté motivada por el hecho de haber ejercitado una acción judicial tendente al reconocimiento de unos derechos de los que el trabajador se creía asistido (en el sentido amplio anteriormente",
+   "info": []
+  },
+  {
+   "ref": "11734867",
+   "db": "AN",
+   "fecha": "20260327",
+   "titulo": "STSJ Canarias, a 27 de marzo de 2026 - ROJ: STSJ ICAN 651/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/3e7affb7b83a3c21a0a8778d75e36f0d/20260526",
+   "roj": "STSJ ICAN 651/2026",
+   "ecli": "ECLI:ES:TSJICAN:2026:651",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "472/2026",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "GUMERSINDO PEDRO MANSO ABIZANDA",
+    "Nº Recurso": "1640/2025"
+   },
+   "resumen": "el problema de las reglas de distribución de la carga de la prueba para la efectividad de la tutela de los derechos fundamentales, para lo que acude a su propia doctrina desde la STC 38/1981 (RTC 1981, 38), conforme a la cual \"cuando se alegue que una decisión empresarial encubre en realidad una conducta lesiva de los derechos fundamentales, incumbe al empresario la carga de probar que su actuación obedece a motivos razonables, extraños a todo propósito atentatorio de un derecho fundamental. Si bien, para que juegue en el citado sentido la carga probatoria, el trabajador ha de aportar un indicio razonable de que el acto empresarial lesiona sus derechos fundamentales ( SSTC 87/1998 [RTC 1998, 87] y 74/1998 [RTC 1998, 74], y las allí citadas). Es decir, no es suficiente la mera alegación de la vulneración constitucional. Al demandante corresponde aportar,",
+   "info": []
+  },
+  {
+   "ref": "11708644",
+   "db": "AN",
+   "fecha": "20260320",
+   "titulo": "STSJ Madrid, a 20 de marzo de 2026 - ROJ: STSJ M 4226/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/d6464096cf6d3b8aa0a8778d75e36f0d/20260505",
+   "roj": "STSJ M 4226/2026",
+   "ecli": "ECLI:ES:TSJM:2026:4226",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "292/2026",
+    "Municipio": "Madrid",
+    "Ponente": "IGNACIO MORENO GONZALEZ-ALLER",
+    "Nº Recurso": "1163/2025"
+   },
+   "resumen": "como contra la herencia yacente de Doña , efectuando estos siete pronunciamientos: 1.° Que ha existido una relación laboral de carácter especial del servicio del hogar familiar entre la demandante y Doña , desarrollada entre 11 de abril de 2021 y el 1 de octubre de 2024. 2.° Que la relación laboral se extinguió válidamente con motivo del fallecimiento de la empleadora, de conformidad con lo previsto en el artículo 49.1.g) del Estatuto de los Trabajadores y el artículo 11 del Real Decreto 1620/2011, de 14 de noviembre, sin que tal extinción pueda calificarse como despido improcedente ni nulo. 3.° Que se desestima la pretensión de indemnización adicional por vulneración de derechos fundamentales por no haber quedado acreditada su concurrencia. 4.° Que se condena a la herencia",
+   "info": []
+  }
+ ],
+ "extra": {
+  "total_web": "210 resultados ( máximo documentos a recuperar 200) paginas: 20"
+ }
+}

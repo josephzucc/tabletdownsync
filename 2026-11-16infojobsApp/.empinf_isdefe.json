@@ -1,0 +1,171 @@
+{
+ "puestos": [
+  {
+   "id": 2592,
+   "fecha": "22/10/2026",
+   "orden": "20261022",
+   "nombre": "Mecánico/a de Antena (2025-T00193) (Robledo de Chavela) (2)",
+   "ref": "",
+   "estado": "Abierta",
+   "url": "https://seleccionisdefe.es/convocatoria-2592",
+   "n": 1,
+   "fichero": ""
+  },
+  {
+   "id": 2591,
+   "fecha": "22/10/2026",
+   "orden": "20261022",
+   "nombre": "Ingeniero/a de Gestión Contractual y Económica de Programas Internacionales de Defensa (2025-T00338) (13)",
+   "ref": "",
+   "estado": "Abierta",
+   "url": "https://seleccionisdefe.es/convocatoria-2591",
+   "n": 2,
+   "fichero": ""
+  },
+  {
+   "id": 2590,
+   "fecha": "22/10/2026",
+   "orden": "20261022",
+   "nombre": "Ingeniero/a de Soluciones IA para Análisis de Costes (2025-T00277) (14)",
+   "ref": "",
+   "estado": "Abierta",
+   "url": "https://seleccionisdefe.es/convocatoria-2590",
+   "n": 3,
+   "fichero": ""
+  },
+  {
+   "id": 2589,
+   "fecha": "22/10/2026",
+   "orden": "20261022",
+   "nombre": "Ingenieros/as de Certificación Aeronáutica (2026-T00111) (5)",
+   "ref": "",
+   "estado": "Abierta",
+   "url": "https://seleccionisdefe.es/convocatoria-2589",
+   "n": 4,
+   "fichero": ""
+  },
+  {
+   "id": 2588,
+   "fecha": "21/10/2026",
+   "orden": "20261021",
+   "nombre": "Ingeniero/a de Sistemas de Mando y Control (2026-T00325) (2)",
+   "ref": "",
+   "estado": "Abierta",
+   "url": "https://seleccionisdefe.es/convocatoria-2588",
+   "n": 5,
+   "fichero": ""
+  },
+  {
+   "id": 2587,
+   "fecha": "21/10/2026",
+   "orden": "20261021",
+   "nombre": "Ingeniero/a Consultor de comunicaciones tácticas emergentes (2025-T00318) (11)",
+   "ref": "",
+   "estado": "Abierta",
+   "url": "https://seleccionisdefe.es/convocatoria-2587",
+   "n": 6,
+   "fichero": ""
+  },
+  {
+   "id": 2586,
+   "fecha": "20/10/2026",
+   "orden": "20261020",
+   "nombre": "Ingeniero/a de Sistemas Operacionales (2026-T00425)2",
+   "ref": "",
+   "estado": "Abierta",
+   "url": "https://seleccionisdefe.es/convocatoria-2586",
+   "n": 7,
+   "fichero": ""
+  },
+  {
+   "id": 2585,
+   "fecha": "20/10/2026",
+   "orden": "20261020",
+   "nombre": "Ingeniero/a - Mantenimiento de Helicópteros(2026-T00113)4",
+   "ref": "",
+   "estado": "Abierta",
+   "url": "https://seleccionisdefe.es/convocatoria-2585",
+   "n": 8,
+   "fichero": ""
+  },
+  {
+   "id": 2584,
+   "fecha": "19/10/2026",
+   "orden": "20261019",
+   "nombre": "Técnico/a en gestión de personal y tiempos de trabajo (2026-T00165) (2)",
+   "ref": "",
+   "estado": "Abierta",
+   "url": "https://seleccionisdefe.es/convocatoria-2584",
+   "n": 9,
+   "fichero": ""
+  },
+  {
+   "id": 2583,
+   "fecha": "19/10/2026",
+   "orden": "20261019",
+   "nombre": "Desarrollador/a de Microservicios - Sistema de Gestión Procesal Ministerio de Justicia (2026-T00076)(7)",
+   "ref": "",
+   "estado": "Abierta",
+   "url": "https://seleccionisdefe.es/convocatoria-2583",
+   "n": 10,
+   "fichero": ""
+  },
+  {
+   "id": 2582,
+   "fecha": "19/10/2026",
+   "orden": "20261019",
+   "nombre": "Gestor/a de Transportes Internacionales(2026-T00073)4",
+   "ref": "",
+   "estado": "Abierta",
+   "url": "https://seleccionisdefe.es/convocatoria-2582",
+   "n": 11,
+   "fichero": ""
+  },
+  {
+   "id": 2581,
+   "fecha": "16/10/2026",
+   "orden": "20261016",
+   "nombre": "Ingeniero/a de equipamiento de aeronave (MEL) (2026-T00225) (2)",
+   "ref": "",
+   "estado": "Abierta",
+   "url": "https://seleccionisdefe.es/convocatoria-2581",
+   "n": 12,
+   "fichero": ""
+  },
+  {
+   "id": 2580,
+   "fecha": "09/10/2026",
+   "orden": "20261009",
+   "nombre": "Ingeniero/a Navegación Aérea - Inspector/a (2025-T00412) (14)",
+   "ref": "",
+   "estado": "Cerrada",
+   "url": "https://seleccionisdefe.es/convocatoria-2580",
+   "n": 13,
+   "fichero": ""
+  },
+  {
+   "id": 2579,
+   "fecha": "09/10/2026",
+   "orden": "20261009",
+   "nombre": "Consultor/a de apoyo a la ejecución de proyectos de ayudas de la SETELECO (2025-T00033) (20)",
+   "ref": "",
+   "estado": "Cerrada",
+   "url": "https://seleccionisdefe.es/convocatoria-2579",
+   "n": 14,
+   "fichero": ""
+  },
+  {
+   "id": 2578,
+   "fecha": "09/10/2026",
+   "orden": "20261009",
+   "nombre": "Técnico/a verificador fondos europeos (2026-T00098) (4)",
+   "ref": "",
+   "estado": "Cerrada",
+   "url": "https://seleccionisdefe.es/convocatoria-2578",
+   "n": 15,
+   "fichero": ""
+  }
+ ],
+ "actualizado": "22/10/2026 19:26",
+ "total_web": 1913
+}

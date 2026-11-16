@@ -1,0 +1,35 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STSJ M 7754/2026",
+  "filtros": {
+   "roj": "STSJ M 7754/2026"
+  },
+  "fecha": "06/11/2026 08:43",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "11783974",
+   "db": "AN",
+   "fecha": "20260609",
+   "titulo": "STSJ Madrid, a 09 de junio de 2026 - ROJ: STSJ M 7754/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/3237fa502ce28986a0a8778d75e36f0d/20260707",
+   "roj": "STSJ M 7754/2026",
+   "ecli": "ECLI:ES:TSJM:2026:7754",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "339/2026",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA BEGOÑA GARCIA ALVAREZ",
+    "Nº Recurso": "771/2025"
+   },
+   "resumen": "de altas médicas 1405/2024 Materia:Incapacidad temporal Sentencia número: 339/2026 Ilmos. Sres Dña. MARIA AURORA DE LA CUEVA ALEU -PRESIDENTE- Dña. MARIA BEGOÑA GARCIA ALVAREZ Dña. M LOURDES MELENDEZ MORILLO-VELARDE En Madrid a nueve de junio de dos mil veintiséis habiendo visto en recurso de suplicación los presentes autos la Sección 5 de la Sala de lo Social de este Tribunal Superior de Justicia, compuesta por los Ilmos. Sres. citados, de acuerdo con lo prevenido en el artículo 117.1 de la Constitución Española, EN NOMBRE DE S.M. EL REY Y POR LA AUTORIDAD QUE LE CONFIERE EL PUEBLO ESPAÑOL",
+   "info": [],
+   "pdf": "pdf/STSJ_M_7754_2026.pdf",
+   "txt": "txt/STSJ_M_7754_2026.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

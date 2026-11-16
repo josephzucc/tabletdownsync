@@ -1,0 +1,1 @@
+( cleanup () { echo "Caught signal, cleaning up temporary files...";exit 0;};trap cleanup SIGTERM SIGINT;source "$functest";export pid=$$;export salir=0;export m=15;export t=$((m*60));while (( salir == 0 ));do sig=$(date -d +${m}minutes +"%Y-%m-%d-%H-%M");gn;echo -e "${pid}: Ahora ${now}\nEspero hasta ${sig}";sleep $t;wait;python3 luzpvpc.py --manana;done ) & pid1=$!;

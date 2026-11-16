@@ -1,0 +1,1 @@
+d=$(mktemp);find . -type f -iname "2026-11-14*.*" -exec sh -c 'echo "$(stat -c %s "$1");$(date -r "$1" +"%Y-%m-%d-%H-%M-%S");$(echo ${1} | cut -c "3-100" )"' _ {} \; >>${d};csvsql --no-header-row --tables t --query "SELECT c FROM t WHERE a < 100 ORDER BY a" $d | tail -n +2 ;rm $d

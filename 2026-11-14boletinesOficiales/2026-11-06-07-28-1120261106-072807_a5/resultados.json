@@ -1,0 +1,44 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: {\"numres\": \"527/2023\", \"desde\": \"01/07/2023\", \"hasta\": \"31/07/2023\", \"organo\": [\"Tribunal Supremo\"]}",
+  "filtros": {
+   "numres": "527/2023",
+   "desde": "01/07/2023",
+   "hasta": "31/07/2023",
+   "organo": [
+    "Tribunal Supremo"
+   ]
+  },
+  "fecha": "06/11/2026 07:28",
+  "aplicados_en_web": {
+   "organo": [
+    "Tribunal Supremo"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "10580621",
+   "db": "TS",
+   "fecha": "20230719",
+   "titulo": "STS, a 19 de julio de 2023 - ROJ: STS 3535/2023",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/f595eb35ecce61caa0a8778d75e36f0d/20230803",
+   "roj": "STS 3535/2023",
+   "ecli": "ECLI:ES:TS:2023:3535",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "527/2023",
+    "Municipio": "Madrid",
+    "Ponente": "IGNACIO GARCIA-PERROTE ESCARTIN",
+    "Nº Recurso": "3624/2020"
+   },
+   "resumen": "INCAPACIDAD TEMPORAL: agotado plazo máximo de IT sin declarar IP si tiene o no derecho a una nueva IT por la misma patología sin trascurrir más de 180 días desde la incapacidad anterior. Necesidad de justificar el INSS la denegación en capacidad laboral",
+   "info": [],
+   "pdf": "pdf/STS_3535_2023.pdf",
+   "txt": "txt/STS_3535_2023.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

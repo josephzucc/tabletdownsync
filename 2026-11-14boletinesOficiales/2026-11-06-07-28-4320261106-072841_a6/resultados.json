@@ -1,0 +1,50 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: {\"numres\": \"186/2025\", \"desde\": \"01/01/2025\", \"hasta\": \"31/05/2025\", \"jurisdiccion\": [\"SOCIAL\"], \"organo\": [\"Tribunal Supremo\"]}",
+  "filtros": {
+   "numres": "186/2025",
+   "desde": "01/01/2025",
+   "hasta": "31/05/2025",
+   "jurisdiccion": [
+    "SOCIAL"
+   ],
+   "organo": [
+    "Tribunal Supremo"
+   ]
+  },
+  "fecha": "06/11/2026 07:28",
+  "aplicados_en_web": {
+   "jurisdiccion": [
+    "Social"
+   ],
+   "organo": [
+    "Tribunal Supremo"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "11259346",
+   "db": "TS",
+   "fecha": "20250312",
+   "titulo": "STS, a 12 de marzo de 2025 - ROJ: STS 1289/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/ee04c5ac83164b92a0a8778d75e36f0d/20250403",
+   "roj": "STS 1289/2025",
+   "ecli": "ECLI:ES:TS:2025:1289",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "186/2025",
+    "Municipio": "Madrid",
+    "Ponente": "CONCEPCION ROSARIO URESTE GARCIA",
+    "Nº Recurso": "1395/2023"
+   },
+   "resumen": "Personal no sanitario que trabaja en dependencias auxiliares de un centro sanitario. Incapacidad temporal. Enfermedad originada por &#8220;SARS-COV-2&#8221;. Calificación de enfermedad profesional.",
+   "info": [],
+   "pdf": "pdf/STS_1289_2025.pdf",
+   "txt": "txt/STS_1289_2025.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

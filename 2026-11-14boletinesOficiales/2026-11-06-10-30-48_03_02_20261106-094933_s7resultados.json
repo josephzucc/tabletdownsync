@@ -1,0 +1,49 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: {\"numres\": \"612/2026\", \"desde\": \"01/01/2026\", \"jurisdiccion\": [\"SOCIAL\"], \"organo\": [\"Tribunal Supremo\"]}",
+  "filtros": {
+   "numres": "612/2026",
+   "desde": "01/01/2026",
+   "jurisdiccion": [
+    "SOCIAL"
+   ],
+   "organo": [
+    "Tribunal Supremo"
+   ]
+  },
+  "fecha": "06/11/2026 09:49",
+  "aplicados_en_web": {
+   "jurisdiccion": [
+    "Social"
+   ],
+   "organo": [
+    "Tribunal Supremo"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "11795180",
+   "db": "TS",
+   "fecha": "20260701",
+   "titulo": "STS, a 01 de julio de 2026 - ROJ: STS 3077/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/a77931c9a472ee57a0a8778d75e36f0d/20260716",
+   "roj": "STS 3077/2026",
+   "ecli": "ECLI:ES:TS:2026:3077",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "612/2026",
+    "Municipio": "Madrid",
+    "Ponente": "JUAN MANUEL SAN CRISTOBAL VILLANUEVA",
+    "Nº Recurso": "2476/2025"
+   },
+   "resumen": "Se examina la posible incongruencia omisiva de la sentencia recurrida y si el proceso adecuado para examinar una posible discriminación por razón de edad en el cálculo de la indemnización por despido colectivo es el de tutela de derechos fundamentales.",
+   "info": [],
+   "pdf": "pdf/STS_3077_2026.pdf",
+   "txt": "txt/STS_3077_2026.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

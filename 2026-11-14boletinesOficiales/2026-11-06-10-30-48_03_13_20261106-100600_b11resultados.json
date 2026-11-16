@@ -1,0 +1,561 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: Tragsatec periodo de prueba artículo 10 convenio ingeniería",
+  "filtros": {
+   "texto": "Tragsatec periodo de prueba artículo 10 convenio ingeniería",
+   "desde": "01/01/2022",
+   "jurisdiccion": [
+    "SOCIAL"
+   ]
+  },
+  "fecha": "06/11/2026 10:06",
+  "aplicados_en_web": {
+   "jurisdiccion": [
+    "Social"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "11903275",
+   "db": "AN",
+   "fecha": "20260917",
+   "titulo": "STSJ Murcia, a 17 de septiembre de 2026 - ROJ: STSJ MU 1645/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/f8c0ec8e6519ebffa0a8778d75e36f0d/20261027",
+   "roj": "STSJ MU 1645/2026",
+   "ecli": "ECLI:ES:TSJMU:2026:1645",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "697/2026",
+    "Municipio": "Murcia",
+    "Ponente": "MARIANO GASCON VALERO",
+    "Nº Recurso": "822/2025"
+   },
+   "resumen": "FIJEZA LABORAL",
+   "info": []
+  },
+  {
+   "ref": "11824759",
+   "db": "AN",
+   "fecha": "20260617",
+   "titulo": "STSJ Madrid, a 17 de junio de 2026 - ROJ: STSJ M 10104/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/5ac0bd1a77f550c0a0a8778d75e36f0d/20260819",
+   "roj": "STSJ M 10104/2026",
+   "ecli": "ECLI:ES:TSJM:2026:10104",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "609/2026",
+    "Municipio": "Madrid",
+    "Ponente": "SUSANA MARIA MOLINA GUTIERREZ",
+    "Nº Recurso": "965/2025"
+   },
+   "resumen": "los periodos analizados. Dichos Certificados fueron ratificados por los firmantes en el acto del juicio. La actora no cumplió los límites de calidad fijados en el proyecto. DÉCIMO QUINTO.- En fecha 31 de enero de 2024 le fue notificada la trabajadora a la extinción del contrato de trabajo por no superación del periodo de prueba (documento número 23 del ramo de prueba de la actora y número 18 de la empresa). DÉCIMO SEXTO.- Se aporta por la actora como documento número 6 Manual de Procedimiento del Programa de Ayudas para Renovables en Autoconsumo al que constan los sistemas de tramitación de expedientes. DÉCIMO SÉPTIMO.- Es de aplicación a la relación laboral el XX Convenio de Empresas de Ingeniería, y de Oficinas de Estudios Técnicos (documento número. 3 aportado",
+   "info": []
+  },
+  {
+   "ref": "11752996",
+   "db": "AN",
+   "fecha": "20260429",
+   "titulo": "STSJ Castilla y León, a 29 de abril de 2026 - ROJ: STSJ CL 1881/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/7ce9aa4716dbcda3a0a8778d75e36f0d/20260610",
+   "roj": "STSJ CL 1881/2026",
+   "ecli": "ECLI:ES:TSJCL:2026:1881",
+   "sala": "",
+   "datos": {
+    "Municipio": "Valladolid",
+    "Ponente": "CARLA GARCIA DEL CURA",
+    "Nº Recurso": "392/2026"
+   },
+   "resumen": "DESPIDO OBJETIVO",
+   "info": []
+  },
+  {
+   "ref": "11661341",
+   "db": "AN",
+   "fecha": "20260224",
+   "titulo": "STSJ Asturias, a 24 de febrero de 2026 - ROJ: STSJ AS 483/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/00ecc65121804da2a0a8778d75e36f0d/20260320",
+   "roj": "STSJ AS 483/2026",
+   "ecli": "ECLI:ES:TSJAS:2026:483",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "299/2026",
+    "Municipio": "Oviedo",
+    "Ponente": "MARIA DE LA ALMUDENA VEIGA VAZQUEZ",
+    "Nº Recurso": "1914/2025"
+   },
+   "resumen": "Cesión y Despido: inexistencia al concurrir causa válida de extinción. Contratación fraudulenta seguida de la interinidad por vacante. Cobertura reglamentaria de la plaza a través de concurso que el demandante no superó. Nulidad por discapacidad: supuesto",
+   "info": []
+  },
+  {
+   "ref": "11643963",
+   "db": "TS",
+   "fecha": "20260218",
+   "titulo": "STS, a 18 de febrero de 2026 - ROJ: STS 840/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/7d3e55189cece27da0a8778d75e36f0d/20260305",
+   "roj": "STS 840/2026",
+   "ecli": "ECLI:ES:TS:2026:840",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "172/2026",
+    "Municipio": "Madrid",
+    "Ponente": "FELIX VICENTE AZON VILAS",
+    "Nº Recurso": "275/2024"
+   },
+   "resumen": "RCO. Fue ajustada a derecho la decisión de TRAGSATEC de reconocer 5 días laborables a todo el personal, necesite o no desplazamiento, en los casos previstos en el art. 37.3. b) ET tras la reforma del precepto por el RDL 5/2023. No constituyó una MSCT.",
+   "info": []
+  },
+  {
+   "ref": "11635701",
+   "db": "AN",
+   "fecha": "20260209",
+   "titulo": "STSJ Castilla y León, a 09 de febrero de 2026 - ROJ: STSJ CL 454/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/25b0b9e92d1b000da0a8778d75e36f0d/20260227",
+   "roj": "STSJ CL 454/2026",
+   "ecli": "ECLI:ES:TSJCL:2026:454",
+   "sala": "",
+   "datos": {
+    "Municipio": "Valladolid",
+    "Ponente": "CARLOS GARCIA-GIRALDA CASAS",
+    "Nº Recurso": "3239/2025"
+   },
+   "resumen": "Inexistencia de sucesión de empresas, nuevo servicio adjudicado diferente del anterior. Despido improcedente con responsabilidad empresa saliente.",
+   "info": []
+  },
+  {
+   "ref": "11633553",
+   "db": "TS",
+   "fecha": "20260204",
+   "titulo": "STS, a 04 de febrero de 2026 - ROJ: STS 702/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/f4f3c597077e35e5a0a8778d75e36f0d/20260226",
+   "roj": "STS 702/2026",
+   "ecli": "ECLI:ES:TS:2026:702",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "126/2026",
+    "Municipio": "Madrid",
+    "Ponente": "LUISA MARIA GOMEZ GARRIDO",
+    "Nº Recurso": "251/2024"
+   },
+   "resumen": "Conflicto colectivo. Determinación de si los permisos previstos en el artículo 37.3 b) del ET deben comenzar a disfrutarse por la persona trabajadora necesariamente a partir del primer día laborable siguiente al suceso que ocasiona el permiso.",
+   "info": []
+  },
+  {
+   "ref": "11647443",
+   "db": "AN",
+   "fecha": "20260203",
+   "titulo": "STSJ Comunidad Valenciana, a 03 de febrero de 2026 - ROJ: STSJ CV 396/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/e4b836eec2cefcb5a0a8778d75e36f0d/20260309",
+   "roj": "STSJ CV 396/2026",
+   "ecli": "ECLI:ES:TSJCV:2026:396",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "355/2026",
+    "Municipio": "Valencia",
+    "Ponente": "TERESA PILAR BLANCO PERTEGAZ",
+    "Nº Recurso": "2557/2025"
+   },
+   "resumen": "constituye despido improcedente. La declaración de despido improcedente obliga a calcular la indemnización extintiva de acuerdo con el artículo 110.1 de la Ley Reguladora de la Jurisdicción Social (Ley 36/2011, de 10 de octubre) y con el artículo 56.1 del Estatuto de los Trabajadores (Real Decreto Legislativo 2/2015, de 23 octubre), ascendiendo a \"treinta y tres días de salario por año de servicio, prorrateándose por meses los periodos de tiempo inferiores a un año, hasta un máximo de veinticuatro mensualidades\". Ello significa que por cada mes de prestación de servicios laborales se devengan 2,75 días indemnizatorios (33 días de salario anuales divididos por los 12 meses del año), con el tope de 720 días. El cálculo de esta indemnización debe hacerse sobre la base del periodo en que la parte actora ha prestado servicios",
+   "info": []
+  },
+  {
+   "ref": "11428517",
+   "db": "AN",
+   "fecha": "20250717",
+   "titulo": "STSJ Madrid, a 17 de julio de 2025 - ROJ: STSJ M 9604/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/b4791191ec0e7d88a0a8778d75e36f0d/20250904",
+   "roj": "STSJ M 9604/2025",
+   "ecli": "ECLI:ES:TSJM:2025:9604",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "553/2025",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA ISABEL SAIZ ARESES",
+    "Nº Recurso": "1176/2024"
+   },
+   "resumen": "puede destinarse a los expedientes de reclasificación, si así se acordara con los representantes de los trabajadores\". Y no podemos acceder a lo solicitado pues en la comunicación de 18 de noviembre del 2021 informando sobre la autorización preceptiva no se hace remisión a tal informe de masa salarial, por lo que con independencia de lo que indica tal informe que además no señala de forma literal lo que quiere hacer constar la recurrente, no cabe la modificación propuesta. 5. En el apartado D) se solicita la adición de un nuevo hecho probado, el cuarto bis para el que propone el siguiente texto: \"En acuerdo colectivo alcanzado entre TRAGSATEC y la parte social con fecha 18/12/2020, respecto del personal afectado por el Convenio Colectivo Nacional de Empresa de Ingeniería y Oficinas de Estudios Técnicos, se conviene que el importe establecido para",
+   "info": []
+  },
+  {
+   "ref": "11414731",
+   "db": "AN",
+   "fecha": "20250616",
+   "titulo": "STSJ Andalucía, a 16 de junio de 2025 - ROJ: STSJ AND 11638/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/ceaa4564fd248ae1a0a8778d75e36f0d/20250825",
+   "roj": "STSJ AND 11638/2025",
+   "ecli": "ECLI:ES:TSJAND:2025:11638",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1095/2025",
+    "Municipio": "Málaga",
+    "Ponente": "ERNESTO UTRERA MARTIN",
+    "Nº Recurso": "994/2025"
+   },
+   "resumen": "de estudios técnicos. El contrato de trabajo es temporal de duración determinada que se rige por el artículo 15 de la Ley del Estatuto de los Trabajadores (estipulación 7ª del contrato) (Hecho no controvertido). QUINTO.- El día 4 de septiembre de 2023, Don comunica por escrito a Doña que no ha superado el periodo de prueba, debiendo Doña abandonar el mismo día su puesto de trabajo. La decisión de la empresa de extinguir el contrato se basa en el art. 10 del XX Convenio Colectivo Nacional de Empresas de Ingeniería y Oficinas de Estudios Técnicos y en la estipulación 3ª del contrato de trabajo (Hecho no controvertido). SEXTO.- La trabajadora con carácter previo a ser contratada por la empresa ejercía",
+   "info": []
+  },
+  {
+   "ref": "11241861",
+   "db": "TS",
+   "fecha": "20250304",
+   "titulo": "STS, a 04 de marzo de 2025 - ROJ: STS 1026/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/ace3395aca77ce7ba0a8778d75e36f0d/20250320",
+   "roj": "STS 1026/2025",
+   "ecli": "ECLI:ES:TS:2025:1026",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "166/2025",
+    "Municipio": "Madrid",
+    "Ponente": "ANGEL ANTONIO BLASCO PELLICER",
+    "Nº Recurso": "5377/2023"
+   },
+   "resumen": "Determinar si ha existido o no sucesión de plantilla y, en consecuencia, transmisión de unidad productiva entre el Centro de Investigaciones Sociológicas (CIS) y TRAGSATEC, a efectos de declarar la improcedencia de un despido.",
+   "info": []
+  },
+  {
+   "ref": "11232202",
+   "db": "AN",
+   "fecha": "20250218",
+   "titulo": "STSJ Asturias, a 18 de febrero de 2025 - ROJ: STSJ AS 278/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/f10f871d303360cfa0a8778d75e36f0d/20250312",
+   "roj": "STSJ AS 278/2025",
+   "ecli": "ECLI:ES:TSJAS:2025:278",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "258/2025",
+    "Municipio": "Oviedo",
+    "Ponente": "CATALINA ORDOÑEZ DIAZ",
+    "Nº Recurso": "1904/2024"
+   },
+   "resumen": "Despido improcedente: inexistencia. Regular extinción del contrato temporal vinculado a la concreta obra encomendada. Indemnización adicional por despido improcedente. Reclamación de mayor salario asociado a una superior categoría. El teletrabajo.",
+   "info": []
+  },
+  {
+   "ref": "11063328",
+   "db": "AN",
+   "fecha": "20240905",
+   "titulo": "STSJ Galicia, a 05 de septiembre de 2024 - ROJ: STSJ GAL 5885/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/c61ed1619aec9df6a0a8778d75e36f0d/20241010",
+   "roj": "STSJ GAL 5885/2024",
+   "ecli": "ECLI:ES:TSJGAL:2024:5885",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "3821/2024",
+    "Municipio": "Coruña (A)",
+    "Ponente": "MANUEL DOMINGUEZ LOPEZ",
+    "Nº Recurso": "1690/2023"
+   },
+   "resumen": "OTROS DCHOS. LABORALES",
+   "info": []
+  },
+  {
+   "ref": "10986794",
+   "db": "AN",
+   "fecha": "20240711",
+   "titulo": "SAN, a 11 de julio de 2024 - ROJ: SAN 3925/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/470a1fdf2082a25ca0a8778d75e36f0d/20240801",
+   "roj": "SAN 3925/2024",
+   "ecli": "ECLI:ES:AN:2024:3925",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "87/2024",
+    "Municipio": "Madrid",
+    "Ponente": "ANA SANCHO ARANZASTI",
+    "Nº Recurso": "146/2024"
+   },
+   "resumen": "Incidencia del RD Ley 5/2023. Permisos retribuidos.",
+   "info": []
+  },
+  {
+   "ref": "11191176",
+   "db": "AN",
+   "fecha": "20240506",
+   "titulo": "SJSO Lugo, a 06 de mayo de 2024 - ROJ: SJSO 2589/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/e195c4a7d8133366a0a8778d75e36f0d/20250207",
+   "roj": "SJSO 2589/2024",
+   "ecli": "ECLI:ES:JSO:2024:2589",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "135/2024",
+    "Municipio": "Lugo",
+    "Ponente": "MARIA HORTENSIA BOUSO DARRIBA",
+    "Nº Recurso": "133/2024"
+   },
+   "resumen": "CONFLICTO COLECTIVO",
+   "info": []
+  },
+  {
+   "ref": "10841904",
+   "db": "TS",
+   "fecha": "20240306",
+   "titulo": "STS, a 06 de marzo de 2024 - ROJ: STS 1350/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/a57d10d580152d2ca0a8778d75e36f0d/20240322",
+   "roj": "STS 1350/2024",
+   "ecli": "ECLI:ES:TS:2024:1350",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "423/2024",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA LUZ GARCIA PAREDES",
+    "Nº Recurso": "325/2021"
+   },
+   "resumen": "RC. TRAGSATEC. Modificación sustancial de condiciones de trabajo colectivas. Incongruencia omisiva. Requisitos para la condición más beneficiosa en el ámbito de las administraciones públicas aplicables a las sociedades mercantiles estatales.",
+   "info": []
+  },
+  {
+   "ref": "10931899",
+   "db": "AN",
+   "fecha": "20231129",
+   "titulo": "STSJ Andalucía, a 29 de noviembre de 2023 - ROJ: STSJ AND 16140/2023",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/bed65c7e6ee29c34a0a8778d75e36f0d/20240614",
+   "roj": "STSJ AND 16140/2023",
+   "ecli": "ECLI:ES:TSJAND:2023:16140",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "3186/2023",
+    "Municipio": "Sevilla",
+    "Ponente": "MARIA AMELIA LERDO DE TEJADA PAGONABARRAGA",
+    "Nº Recurso": "1518/2021"
+   },
+   "resumen": "en Andalucía y otros espacios naturales protegidos nº . Servicio de Apoyo Técnico a la Gestión, Seguimiento, la Evaluación y Participación en los Espacios Protegidos de Andalucía con especial atención a la Red Natura 2000 nº año 2016 -2017\" (folio 172, por reproducido). El 27.06.17 las partes suscribieron la Addenda al contrato modificando su cláusula sexta en el sentido de que dicho contrato se celebraba para la realización de la obra o servicio \"Servicio de Apoyo Técnico a la Gestión, Seguimiento, la Evaluación y Participación en los Espacios Protegidos de Andalucía con especial atención a la Red Natura 2000. Prórroga del expediente de fecha junio 2017\" (folio 173, por reproducido). A la relación laboral, TRAGSATEC le ha venido aplicando el XV Convenio Colectivo Nacional de Empresa de Ingeniería y Oficinas de Estudios Técnicos.",
+   "info": []
+  },
+  {
+   "ref": "10959227",
+   "db": "AN",
+   "fecha": "20231108",
+   "titulo": "STSJ Andalucía, a 08 de noviembre de 2023 - ROJ: STSJ AND 17647/2023",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/6a21809a4384a83ba0a8778d75e36f0d/20240708",
+   "roj": "STSJ AND 17647/2023",
+   "ecli": "ECLI:ES:TSJAND:2023:17647",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2987/2023",
+    "Municipio": "Sevilla",
+    "Ponente": "JESUS SANCHEZ ANDRADA",
+    "Nº Recurso": "2019/2023"
+   },
+   "resumen": "los folios 382 y siguientes, consistentes en Sistemas Comunes de Gestión (NOC). SEXTO.- En fecha de 21.5.2012 se firmó un convenio sobre seguridad social entre España y EE.UU., en que se manifiesta que el actor estaría sometido a la legislación de España en materia de Seguridad Social y exento de la legislación estadounidense en materia de Seguridad Social, en el período en que el actor estuviera prestando servicios en dicho país (1.10.2011 a 30.9.2016) para la empresa Abengoa Bionergía S.A. (folios 272 y 273, que se dan por reproducidos). SÉPTIMO.- D. percibió de Abengoa Bioenergía: - En el año 2014 una remuneración de 164346,50 euros y 225,16 euros de remuneración en especie (folio 275). - En el año 2015 una retribución dineraria de 158568,28 euros, 232,17 euros de retribución en especie y 2747,76 euros de Seguridad",
+   "info": []
+  },
+  {
+   "ref": "10681954",
+   "db": "AN",
+   "fecha": "20231011",
+   "titulo": "STSJ Madrid, a 11 de octubre de 2023 - ROJ: STSJ M 10922/2023",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/71ab4c3cf788515ca0a8778d75e36f0d/20231103",
+   "roj": "STSJ M 10922/2023",
+   "ecli": "ECLI:ES:TSJM:2023:10922",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "876/2023",
+    "Municipio": "Madrid",
+    "Ponente": "YOLANDA MARTINEZ ALVAREZ",
+    "Nº Recurso": "162/2023"
+   },
+   "resumen": "Conflicto colectivo. Se debate cuál es el díes a quo de los permisos retribuidos que recogen los epígrafes b), c) d), c), e), f), g), h), j) y k) del art. 18 del Convenio de Limpieza Pública Viaria de Madrid Capital con vigencia hasta el 31-12-20.",
+   "info": []
+  },
+  {
+   "ref": "10584445",
+   "db": "AN",
+   "fecha": "20230621",
+   "titulo": "STSJ Madrid, a 21 de junio de 2023 - ROJ: STSJ M 7544/2023",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/85becc343738d869a0a8778d75e36f0d/20230807",
+   "roj": "STSJ M 7544/2023",
+   "ecli": "ECLI:ES:TSJM:2023:7544",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "624/2023",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA VIRGINIA GARCIA ALARCON",
+    "Nº Recurso": "206/2023"
+   },
+   "resumen": "separada de recurso de suplicación, a esta Sala de lo Social, tuvieron los mismos entrada en esta Sección en fecha 10 de marzo de 2023, dictándose la correspondiente y subsiguiente providencia para su tramitación en forma. SEXTO: Nombrada Magistrada-Ponente, se dispuso el pase de los autos a la misma para su conocimiento y estudio, señalándose el día 21 de junio de 2023 para los actos de votación y fall24 A la vista de los anteriores antecedentes de hecho, se formulan por esta Sección de Sala los siguientes . PRIMERO.- Con amparo en el apartado a) del artículo 193 de la Ley Reguladora de la Jurisdicción Social interesa la recurrente la reposición de los autos al momento en que se encontraban cuando considera que se han infringido los artículos 9.3, 24.1 y 2 y 120.3 de la Constitución,",
+   "info": []
+  },
+  {
+   "ref": "10584694",
+   "db": "AN",
+   "fecha": "20230619",
+   "titulo": "STSJ Madrid, a 19 de junio de 2023 - ROJ: STSJ M 7219/2023",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/eb75a6b0864da08ca0a8778d75e36f0d/20230807",
+   "roj": "STSJ M 7219/2023",
+   "ecli": "ECLI:ES:TSJM:2023:7219",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "451/2023",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA OFELIA RUIZ PONTONES",
+    "Nº Recurso": "234/2023"
+   },
+   "resumen": "Tecnologías y Servicios Agrarios S.A.\" (TRAGSATEC), DEBO CONDENAR Y CONDENO a Tecnologías y Servicios Agrarios S.A.\", a abonar a Dª , la cantidad de 40.096,10 €, que devengará el 10% de interés por mora.\" SEGUNDO.- En dicha sentencia y como HECHOS PROBADOS se declaran los siguientes: \" PRIMERO.- La parte actora, Dª , con D.N.I. n° , venía prestando sus servicios para la mercantil \"Tecnologías y Servicios Agrarios S.A.\" (en adelante TRAGSATEC) en virtud de contrato indefinido a jornada completa, antigüedad de fecha 23/11/2001, categoría profesional de titulado medio, siendo de aplicación el XVIII Convenio colectivo del sector de empresas de ingeniería y oficinas de estudios técnicos (hecho no controvertido) SEGUNDO.- La trabajadora",
+   "info": []
+  },
+  {
+   "ref": "10360567",
+   "db": "AN",
+   "fecha": "20230217",
+   "titulo": "STSJ Madrid, a 17 de febrero de 2023 - ROJ: STSJ M 1260/2023",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/628fd4c1f1c4a01ca0a8778d75e36f0d/20230306",
+   "roj": "STSJ M 1260/2023",
+   "ecli": "ECLI:ES:TSJM:2023:1260",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "144/2023",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA OFELIA RUIZ PONTONES",
+    "Nº Recurso": "1357/2022"
+   },
+   "resumen": "Despido.El trabajador viene prestando sus servicios laborales como Encuestador en el Centro de Investigaciones Sociologicas, comunicado su cese se plantea si la acción de despido esta caduca, si la prestación de servicios es laboral y el despido.",
+   "info": []
+  },
+  {
+   "ref": "10288344",
+   "db": "AN",
+   "fecha": "20230112",
+   "titulo": "STSJ Andalucía, a 12 de enero de 2023 - ROJ: STSJ AND 73/2023",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/2b9d07b9c6be1955a0a8778d75e36f0d/20230216",
+   "roj": "STSJ AND 73/2023",
+   "ecli": "ECLI:ES:TSJAND:2023:73",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "22/2023",
+    "Municipio": "Granada",
+    "Ponente": "JOSE MANUEL GONZALEZ VIÑAS",
+    "Nº Recurso": "330/2022"
+   },
+   "resumen": "Públicas no quedan exoneradas del cumplimiento de esa exigencia legal, puesto que deben \"someterse a la legislación laboral cuando, actuando como empresarios ( artículo 1.2 del Estatuto de los Trabajadores), celebren y queden vinculadas con sus trabajadores por medio del contrato de trabajo, que habrá de regirse en su nacimiento y en su desarrollo ajustadamente a la normativa laboral que le sea aplicable según las circunstancias concurrentes en cada caso. Así lo impone el artículo 35.1 del Real Decreto 364/95 de 10 de Marzo, Reglamento General de Ingreso del personal al Servicio de la Administración General del Estado. Y negar tal sometimiento, iría en contra del claro mandato del artículo 9.1 de la Constitución, que sujeta no sólo a los ciudadanos, sino también a los poderes públicos, a la propia Constitución y al resto del ordenamiento jurídico.",
+   "info": []
+  },
+  {
+   "ref": "10259368",
+   "db": "AN",
+   "fecha": "20230112",
+   "titulo": "STSJ Extremadura, a 12 de enero de 2023 - ROJ: STSJ EXT 39/2023",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/3c30de94ffed377fa0a8778d75e36f0d/20230201",
+   "roj": "STSJ EXT 39/2023",
+   "ecli": "ECLI:ES:TSJEXT:2023:39",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "13/2023",
+    "Municipio": "Cáceres",
+    "Ponente": "PEDRO BRAVO GUTIERREZ",
+    "Nº Recurso": "814/2022"
+   },
+   "resumen": "DESPIDO OBJETIVO",
+   "info": []
+  },
+  {
+   "ref": "10243980",
+   "db": "TS",
+   "fecha": "20221220",
+   "titulo": "STS, a 20 de diciembre de 2022 - ROJ: STS 4901/2022",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/52ea764d824eff88a0a8778d75e36f0d/20230123",
+   "roj": "STS 4901/2022",
+   "ecli": "ECLI:ES:TS:2022:4901",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "982/2022",
+    "Municipio": "Madrid",
+    "Ponente": "CONCEPCION ROSARIO URESTE GARCIA",
+    "Nº Recurso": "104/2021"
+   },
+   "resumen": "Permisos del art. 19 del Convenio Colectivo Estatal de Jardinería 2017-2020. Aplica doctrina sobre interpretación de los conceptos jurídicos de días naturales, laborables y mejoras convencionales. Estimación parcial (permiso regulado en el apartado f) del",
+   "info": []
+  },
+  {
+   "ref": "10199988",
+   "db": "AN",
+   "fecha": "20221108",
+   "titulo": "SJSO A Coruña, a 08 de noviembre de 2022 - ROJ: SJSO 3221/2022",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/50b2e4073c5522b5a0a8778d75e36f0d/20221220",
+   "roj": "SJSO 3221/2022",
+   "ecli": "ECLI:ES:JSO:2022:3221",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "377/2022",
+    "Municipio": "Santiago de Compostela",
+    "Ponente": "MARIA CAROLINA NORES DIAZ",
+    "Nº Recurso": "400/2022"
+   },
+   "resumen": "DESPIDO",
+   "info": []
+  },
+  {
+   "ref": "10170022",
+   "db": "AN",
+   "fecha": "20221027",
+   "titulo": "STSJ Galicia, a 27 de octubre de 2022 - ROJ: STSJ GAL 7314/2022",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/3a8f5a37abb260d7a0a8778d75e36f0d/20221122",
+   "roj": "STSJ GAL 7314/2022",
+   "ecli": "ECLI:ES:TSJGAL:2022:7314",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "4892/2022",
+    "Municipio": "Coruña (A)",
+    "Ponente": "FERNANDO CABEZAS LEFLER",
+    "Nº Recurso": "440/2022"
+   },
+   "resumen": "CLASIFICACIÓN PROFESIONAL",
+   "info": []
+  },
+  {
+   "ref": "10154773",
+   "db": "TS",
+   "fecha": "20221018",
+   "titulo": "STS, a 18 de octubre de 2022 - ROJ: STS 3826/2022",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/3d4dc27bc95164faa0a8778d75e36f0d/20221104",
+   "roj": "STS 3826/2022",
+   "ecli": "ECLI:ES:TS:2022:3826",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "834/2022",
+    "Municipio": "Madrid",
+    "Ponente": "ANTONIO VICENTE SEMPERE NAVARRO",
+    "Nº Recurso": "139/2020"
+   },
+   "resumen": "Conflicto colectivo. Reglas para el cómputo de los permisos remunerados contemplados en el convenio colectivo del grupo de empresas Dia y Twins Alimentación. Reitera doctrina.",
+   "info": []
+  },
+  {
+   "ref": "10103243",
+   "db": "AN",
+   "fecha": "20220719",
+   "titulo": "STSJ Asturias, a 19 de julio de 2022 - ROJ: STSJ AS 2328/2022",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/3584840f2edbaf1aa0a8778d75e36f0d/20220920",
+   "roj": "STSJ AS 2328/2022",
+   "ecli": "ECLI:ES:TSJAS:2022:2328",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1577/2022",
+    "Municipio": "Oviedo",
+    "Ponente": "LAURA GARCIA-MONGE PIZARRO",
+    "Nº Recurso": "1294/2022"
+   },
+   "resumen": "CESIÓN ILEGAL",
+   "info": []
+  },
+  {
+   "ref": "10431362",
+   "db": "AN",
+   "fecha": "20220711",
+   "titulo": "SJSO Asturias, a 11 de julio de 2022 - ROJ: SJSO 6831/2022",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/b598512b64379111a0a8778d75e36f0d/20230418",
+   "roj": "SJSO 6831/2022",
+   "ecli": "ECLI:ES:JSO:2022:6831",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "356/2022",
+    "Municipio": "Oviedo",
+    "Ponente": "MARIA DEL SOL RUBIO ACEBES",
+    "Nº Recurso": "355/2022"
+   },
+   "resumen": "DESPIDO",
+   "info": []
+  }
+ ],
+ "extra": {
+  "total_web": "38 resultados paginas: 4"
+ }
+}

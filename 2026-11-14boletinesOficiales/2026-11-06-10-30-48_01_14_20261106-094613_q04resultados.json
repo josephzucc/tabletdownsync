@@ -1,0 +1,35 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STSJ NA 589/2026",
+  "filtros": {
+   "roj": "STSJ NA 589/2026"
+  },
+  "fecha": "06/11/2026 09:46",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "11881176",
+   "db": "AN",
+   "fecha": "20260929",
+   "titulo": "STSJ Navarra, a 29 de septiembre de 2026 - ROJ: STSJ NA 589/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/0eaba3efcbc378ada0a8778d75e36f0d/20261009",
+   "roj": "STSJ NA 589/2026",
+   "ecli": "ECLI:ES:TSJNA:2026:589",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "319/2026",
+    "Municipio": "Pamplona/Iruña",
+    "Ponente": "CARLOS GONZALEZ GONZALEZ",
+    "Nº Recurso": "211/2026"
+   },
+   "resumen": "Extinción por ineptitud sobrevenida declarado despido nulo porque la empresa no acredita la ineptitud ni había realizado ajustes razonables o probada carga excesiva de tales ajustes. Confirma nulidad despido.",
+   "info": [],
+   "pdf": "pdf/STSJ_NA_589_2026.pdf",
+   "txt": "txt/STSJ_NA_589_2026.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

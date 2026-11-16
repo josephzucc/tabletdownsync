@@ -1,0 +1,49 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: {\"numres\": \"1112/2025\", \"recurso\": \"2433/2024\", \"jurisdiccion\": [\"SOCIAL\"], \"organo\": [\"Tribunal Supremo\"]}",
+  "filtros": {
+   "numres": "1112/2025",
+   "recurso": "2433/2024",
+   "jurisdiccion": [
+    "SOCIAL"
+   ],
+   "organo": [
+    "Tribunal Supremo"
+   ]
+  },
+  "fecha": "06/11/2026 07:26",
+  "aplicados_en_web": {
+   "jurisdiccion": [
+    "Social"
+   ],
+   "organo": [
+    "Tribunal Supremo"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "11546599",
+   "db": "TS",
+   "fecha": "20251124",
+   "titulo": "STS, a 24 de noviembre de 2025 - ROJ: STS 5338/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/582c7f10955bd524a0a8778d75e36f0d/20251205",
+   "roj": "STS 5338/2025",
+   "ecli": "ECLI:ES:TS:2025:5338",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "1112/2025",
+    "Municipio": "Madrid",
+    "Ponente": "ISABEL OLMOS PARES",
+    "Nº Recurso": "2433/2024"
+   },
+   "resumen": "Incapacidad temporal: Efectos económicos. Se aplica el art. 53.1 TRLGSS y los efectos se retrotraen a tres meses antes de la solicitud de determinación de la contingencia.",
+   "info": [],
+   "pdf": "pdf/STS_5338_2025.pdf",
+   "txt": "txt/STS_5338_2025.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

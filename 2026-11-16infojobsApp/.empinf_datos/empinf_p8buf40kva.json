@@ -1,0 +1,334 @@
+{
+ "tipo": "ineco_listado",
+ "url": "https://ineco.epreselec.com/Ofertas/Ofertas.aspx",
+ "total": 45,
+ "filtro": {
+  "pais": "España",
+  "provincia": "Provincia",
+  "oficina": "IT"
+ },
+ "ofertas": [
+  {
+   "id": "3369255",
+   "titulo": "28617 - Técnico/a documentalista en revisión de expedientes",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "9 de octubre, 2026"
+  },
+  {
+   "id": "3336056",
+   "titulo": "28693 - Especialista en datos climáticos",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "9 de octubre, 2026"
+  },
+  {
+   "id": "3369199",
+   "titulo": "28984 - Beca Responsabilidad Social Corporativa",
+   "tipo": "BECA",
+   "lugar": "Madrid, España",
+   "fecha": "9 de octubre, 2026"
+  },
+  {
+   "id": "3299660",
+   "titulo": "28281 - Consultor/a técnico/a IA - Arquitectura y Soluciones",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "9 de octubre, 2026"
+  },
+  {
+   "id": "3369254",
+   "titulo": "28618 - Técnico/a documentalista en revisión de expedientes y gestión de recursos judiciales",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "9 de octubre, 2026"
+  },
+  {
+   "id": "3272484",
+   "titulo": "27297 - Gestión y operación de sistemas",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "5 de octubre, 2026"
+  },
+  {
+   "id": "3306221",
+   "titulo": "28341- Analista de Datos de Business Intelligence",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "5 de octubre, 2026"
+  },
+  {
+   "id": "3205940",
+   "titulo": "26790 - Consultor/a de Inteligencia Artificial",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "5 de octubre, 2026"
+  },
+  {
+   "id": "3366573",
+   "titulo": "TRE26-ECS-118 - Auditor/a de Accesibilidad Digital",
+   "tipo": "TASA REPOSICIÓN",
+   "lugar": "Madrid, España",
+   "fecha": "1 de octubre, 2026"
+  },
+  {
+   "id": "3366577",
+   "titulo": "TRE26-ECS-132- Especialista en Meteorología y Clima",
+   "tipo": "TASA REPOSICIÓN",
+   "lugar": "Madrid, España",
+   "fecha": "1 de octubre, 2026"
+  },
+  {
+   "id": "3366607",
+   "titulo": "TRE26-ECS-131 - Desarrollador/a de Modelos de Inteligencia Artificial",
+   "tipo": "TASA REPOSICIÓN",
+   "lugar": "Madrid, España",
+   "fecha": "1 de octubre, 2026"
+  },
+  {
+   "id": "3366595",
+   "titulo": "TRE26-TXT-005 - Ingeniero/a IA",
+   "tipo": "TASA REPOSICIÓN",
+   "lugar": "Madrid, España",
+   "fecha": "1 de octubre, 2026"
+  },
+  {
+   "id": "3366570",
+   "titulo": "TRE26-ECS-097 - Analista Programador/a de Aplicaciones Java",
+   "tipo": "TASA REPOSICIÓN",
+   "lugar": "Madrid, España",
+   "fecha": "1 de octubre, 2026"
+  },
+  {
+   "id": "3366579",
+   "titulo": "TRE26-ECS-117 - Experto/a Senior en Plataformas de Firma Electrónica y Servicios PKI",
+   "tipo": "TASA REPOSICIÓN",
+   "lugar": "Madrid, España",
+   "fecha": "1 de octubre, 2026"
+  },
+  {
+   "id": "3366582",
+   "titulo": "TRE26-ECS-116 - Consultor/a Senior de Arquitectura de Ciberseguridad IT/OT",
+   "tipo": "TASA REPOSICIÓN",
+   "lugar": "Madrid, España",
+   "fecha": "1 de octubre, 2026"
+  },
+  {
+   "id": "3366533",
+   "titulo": "TRE26-ECS-098 - Analista Programador/a de Aplicaciones Java.",
+   "tipo": "TASA REPOSICIÓN",
+   "lugar": "Madrid, España",
+   "fecha": "1 de octubre, 2026"
+  },
+  {
+   "id": "3366556",
+   "titulo": "TRE26-ECS-134 - Técnico/a de administración gestor documental",
+   "tipo": "TASA REPOSICIÓN",
+   "lugar": "Madrid, España",
+   "fecha": "1 de octubre, 2026"
+  },
+  {
+   "id": "3366567",
+   "titulo": "TRE26-ECS-133- Especialista en Predicción Numérica del Tiempo",
+   "tipo": "TASA REPOSICIÓN",
+   "lugar": "Madrid, España",
+   "fecha": "1 de octubre, 2026"
+  },
+  {
+   "id": "3366549",
+   "titulo": "TRE26-ECS-096 - Documentalista Revisión de Expedientes",
+   "tipo": "TASA REPOSICIÓN",
+   "lugar": "Madrid, España",
+   "fecha": "1 de octubre, 2026"
+  },
+  {
+   "id": "3365768",
+   "titulo": "28886 - Analista Funcional Aplicaciones Web",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "30 de septiembre, 2026"
+  },
+  {
+   "id": "3298913",
+   "titulo": "28252 - Técnico/a de Operaciones de Software en el Sector Energético",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "30 de septiembre, 2026"
+  },
+  {
+   "id": "3282304",
+   "titulo": "27690 - Técnico/a documentalista en revisión de expedientes",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "30 de septiembre, 2026"
+  },
+  {
+   "id": "3328634",
+   "titulo": "28615 - Técnico/a documentalista en revisión de expedientes",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "30 de septiembre, 2026"
+  },
+  {
+   "id": "3329155",
+   "titulo": "28635 - Técnico/a documentalista",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "30 de septiembre, 2026"
+  },
+  {
+   "id": "3330161",
+   "titulo": "28616 - Técnico/a documentalista en revisión de expedientes",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "30 de septiembre, 2026"
+  },
+  {
+   "id": "3244410",
+   "titulo": "27353 - Técnico/a para proyectos de innovación",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3251375",
+   "titulo": "27418 - Consultor/a de Procesos y modelado BPMN",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3284049",
+   "titulo": "28055- Técnico/a de sistemas",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3261508",
+   "titulo": "27501 - Analista de desarrollo Java",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3290653",
+   "titulo": "28193- Analista Programador/a JAVA",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3293464",
+   "titulo": "28100 - Consultor/a Destinos Turísticos Inteligentes",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3294521",
+   "titulo": "28260 - Responsable de Metodología y Calidad del Ciclo de Vida del Software",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3298478",
+   "titulo": "28145 - Programador/a PLSQL",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3311197",
+   "titulo": "28433- Analista de sistemas técnicos para integraciones",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3332830",
+   "titulo": "28681 - Catalogador/a jurídico/a",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3325200",
+   "titulo": "28101 - Técnico/a Sostenibilidad DTI",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3307454",
+   "titulo": "28408 - Jefe/a de Proyecto - Responsable de Proyectos en el ámbito de la Gestión Procesal",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3304168",
+   "titulo": "28335- Analista Programador/a Java con Spring Boot",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3298461",
+   "titulo": "28143 - Analista Programador/a de Procesos ETL y PLSQL",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "28 de julio, 2026"
+  },
+  {
+   "id": "3311196",
+   "titulo": "28432 - Analista de sistemas técnicos para integraciones",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "28 de julio, 2026"
+  },
+  {
+   "id": "3298517",
+   "titulo": "28271 - Consultor/a en Inteligencia Artificial",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "16 de julio, 2026"
+  },
+  {
+   "id": "3323135",
+   "titulo": "28598 - Técnico/a de Soporte N1",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "8 de junio, 2026"
+  },
+  {
+   "id": "3322649",
+   "titulo": "28477 - Científico/a de Datos",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "8 de junio, 2026"
+  },
+  {
+   "id": "3296163",
+   "titulo": "28219 - Analista Programador/a JAVA",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "9 de abril, 2026"
+  },
+  {
+   "id": "3284612",
+   "titulo": "28021 - Técnico/a en IA",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "10 de marzo, 2026"
+  }
+ ],
+ "pedido": {
+  "pais": "Espana",
+  "provincia": "Madrid",
+  "oficina": "IT"
+ },
+ "token": "p8buf40kva",
+ "guardado": "2026-10-09T17:48:12.503Z"
+}

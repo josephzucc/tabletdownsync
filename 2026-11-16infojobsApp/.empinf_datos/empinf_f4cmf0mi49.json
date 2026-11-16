@@ -1,0 +1,74 @@
+{
+ "tipo": "linkedin_lista",
+ "modo": "inicio",
+ "mostrar_todo": {
+  "Empleos que coincidan con tu perfil": "https://www.linkedin.com/jobs/search-results/?keywords=Ingeniero+de+datos%2C+on-site+or+hybrid+or+remote&origin=JobSearchOrigin_QUALIFICATION_LANDING&originToLandingJobPostings=4475471356%2C4470970625%2C4475584656%2C4470471665&geoId=90009790"
+ },
+ "ofertas": [
+  {
+   "id": "4475471356",
+   "titulo": "Ingeniero/a IA y Análisis de datos",
+   "empresa": "Altia",
+   "ubicacion": "Madrid (Híbrido)",
+   "modalidad": "Híbrido",
+   "publicada": "hace 1 día",
+   "red": "",
+   "marcas": [
+    "top solicitantes"
+   ],
+   "seccion": "Empleos que coincidan con tu perfil",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4475471356&eBP=NON_CHARGEABLE_CHANNEL&refId=dPwYE9IwSaiFqzUc%2FpcDAg%3D%3D&trackingId=y0SeVIW%2BPwuV%2Bt%2FmYkIIyA%3D%3D&showHowYouFit=HOW_YOU_FIT&keywords=Ingeniero+de+datos%2C+on-site+or+hybrid+or+remote&origin=QUALIFICATION_LANDING&geoId=90009790"
+  },
+  {
+   "id": "4470970625",
+   "titulo": "Junior Data Engineer",
+   "empresa": "KPMG España",
+   "ubicacion": "Madrid (Híbrido)",
+   "modalidad": "Híbrido",
+   "publicada": "hace 2 semanas",
+   "red": "",
+   "marcas": [
+    "solicitud sencilla",
+    "verificado",
+    "top solicitantes"
+   ],
+   "seccion": "Empleos que coincidan con tu perfil",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4470970625&eBP=NON_CHARGEABLE_CHANNEL&refId=dPwYE9IwSaiFqzUc%2FpcDAg%3D%3D&trackingId=%2BLQzsd5XAQr1ZG3w1Y1nIQ%3D%3D&showHowYouFit=HOW_YOU_FIT&keywords=Ingeniero+de+datos%2C+on-site+or+hybrid+or+remote&origin=QUALIFICATION_LANDING&geoId=90009790"
+  },
+  {
+   "id": "4475584656",
+   "titulo": "D360 Forward Deployed Engineer",
+   "empresa": "Salesforce",
+   "ubicacion": "Madrid (Híbrido)",
+   "modalidad": "Híbrido",
+   "publicada": "",
+   "red": "",
+   "marcas": [
+    "promocionado",
+    "verificado",
+    "pocos solicitantes"
+   ],
+   "seccion": "Empleos que coincidan con tu perfil",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4475584656&eBP=CwEAAAGhIH7CvmuehT_4gTqkHDo3q6PlissIZ1dnqyr53tr5-H9E3MxWpBqZG7keStRxVli8prG9MFCWJFHdsDt299dGwrtZ5ITEHQIqc9N6YwnPdkc7m3nE5s9HyFA-a3IZvakxuMvXVDL9SqaM3ysPL-NoVKDnQhLXeU9YpfxSw3H2LOPt1bv_iraGSmpYjp7vKQo240ZbtaC2wu1tawJSSy57BtYYQqoFK2lmcYPGTwy0MTUxTYwpYM5Odwa8Hk9fpNMAuIjxb6qyBtI8LSl9vcTO734zLYqBRq4K8UbXzn9s32w7rzyIYFYOxixQfYYjBTXHxZ1u7l072s_UxwaD_TY9tMOaF8FNyaPcJsFvUgyaZrRXxIp3ryxF2cUaaI5xbaPVvPVFOVqWyfDn44lbr9id1Yvc8Vkecfko62xIK7T_byv0xI_GJnf1agNQwk64pjVwGzmLigdTbhs&refId=dPwYE9IwSaiFqzUc%2FpcDAg%3D%3D&trackingId=bxerhLmoRcQP8%2B2MJ6JC2w%3D%3D&showHowYouFit=HOW_YOU_FIT&keywords=Ingeniero+de+datos%2C+on-site+or+hybrid+or+remote&origin=QUALIFICATION_LANDING&geoId=90009790"
+  },
+  {
+   "id": "4470471665",
+   "titulo": "Founding Software Engineer",
+   "empresa": "NAIIAN AI",
+   "ubicacion": "Madrid (Presencial)",
+   "modalidad": "Presencial",
+   "publicada": "",
+   "red": "",
+   "marcas": [
+    "promocionado",
+    "solicitud sencilla",
+    "evaluando activamente"
+   ],
+   "seccion": "Empleos que coincidan con tu perfil",
+   "enlace": "https://www.linkedin.com/jobs/search-results/?currentJobId=4470471665&eBP=CwEAAAGhIH7Cv5_fCKxyZ5SJvb4rcQSHXDLx1aKyL_MMDFyHZH0arcw9ek1wEGYbzihcKNaEMz-HmDvYc9eXvKi8kz9LOvlBER17Y0m5YW9I6Q65xT_BxhqQ6J_O7UcRelAR6Wt8lImCFOw59FM8nJCbUWeW5x6LhJuCluouIPCFdDgJQ_jW_P5H7JrLrAhnolblsXkBRst4leo3YrbU3iiJZ0qxxoa1XWjmyUifoZIGcp7w46GAKyxbgHUp3PjWnAcPzVmkMcKJUzkF8eCJrQJxSIt2CaH4z3HvKWvirD5OaO1Fcnjhhy4bvGR9FPHBJo6wEq6evBhSV6TYeyUOL6VT0-p-yrQt4oR-IlFlM1k53mkfvXeh6y2uOBTzM7G9-ZClFnniJsu_YmGWJYyvi7lYvksikN6AT-n6ZOtvP5IDNY3DlqKd5r890zWaAm-FgUVWZEtGQBMYj32fErCCtzlVC-tfF5isKzMFIxQE45V409Z531nsAgT3dh9cVkSSxxfQ&refId=dPwYE9IwSaiFqzUc%2FpcDAg%3D%3D&trackingId=Q11WlGMx7hTaAf%2By2jQp1w%3D%3D&showHowYouFit=HOW_YOU_FIT&keywords=Ingeniero+de+datos%2C+on-site+or+hybrid+or+remote&origin=QUALIFICATION_LANDING&geoId=90009790"
+  }
+ ],
+ "url": "https://www.linkedin.com/jobs/",
+ "token": "f4cmf0mi49",
+ "guardado": "2026-10-09T11:49:14.042Z"
+}

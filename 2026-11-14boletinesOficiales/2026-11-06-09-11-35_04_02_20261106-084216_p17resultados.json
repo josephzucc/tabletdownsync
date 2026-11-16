@@ -1,0 +1,35 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STSJ PV 3266/2026",
+  "filtros": {
+   "roj": "STSJ PV 3266/2026"
+  },
+  "fecha": "06/11/2026 08:42",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "11889597",
+   "db": "AN",
+   "fecha": "20261006",
+   "titulo": "STSJ País Vasco, a 06 de octubre de 2026 - ROJ: STSJ PV 3266/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/bfc429787f5d73a9a0a8778d75e36f0d/20261016",
+   "roj": "STSJ PV 3266/2026",
+   "ecli": "ECLI:ES:TSJPV:2026:3266",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2167/2026",
+    "Municipio": "Bilbao",
+    "Ponente": "NURIA PERCHIN BENITO",
+    "Nº Recurso": "1268/2026"
+   },
+   "resumen": "y en espera de su posterior evolución, no solo limita para las fundamentales tareas de su profesión como Técnico Superior de la Administración, sino para el desempeño de toda profesión u oficio. Además deben considerarse previsiblemente definitivas, dada su tendencia a la cronicidad y el tiempo transcurrido desde el inicial diagnóstico y debut de la sintomatología. Es cierto que en relación a la enfermedad de COVID persistente, la doctrina de los TSJ ha denegado en algunos casos cualquier grado de incapacidad permanente, (STSJ Madrid 21/11/2024, Rec. 322/2024); en otros ha reconocido la incapacidad permanente total ( SSTSj Castilla-León de 27/11/2024, Rec. 1770/2024, y Galicia de 19/11/2024, Rec. 1216/2024); y en otros ha reconocido la incapacidad permanente absoluta (STSJ Asturias de 3/12/2014, Rec. 2035/2024, además de la citada en el recurso). Lógicamente en todos",
+   "info": [],
+   "pdf": "pdf/STSJ_PV_3266_2026.pdf",
+   "txt": "txt/STSJ_PV_3266_2026.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

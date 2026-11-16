@@ -1,0 +1,2 @@
+while read -r file;do file2=$(echo "$file" | sed "s/\.txt/_unaLinea\.txt/g" );
+awk '/^[0-9]{2}\/[0-9]{2}\/[0-9]{4}/ {collecting=1; buffer=$0; next} collecting && /https:\/\/www\.boe\.es\/buscar\/doc\.php/ {collecting=0; gsub(/[ \t]+/, " ", buffer); col1=buffer; col2=$0; next} collecting {buffer=buffer " " $0; next} /https:\/\/www\.boe\.es\/buscar\/doc\.php/ {col2=$0; next} /PDF: https:\/\// {col3=$0; print col1 "\037" col2 "\037" col3; col1=col2=col3=buffer=""}' ${file} >${file2};done < <( ls 2026-11-14-08-5*.txt );

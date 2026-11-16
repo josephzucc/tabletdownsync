@@ -1,0 +1,50 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: \"derechos fundamentales\" prescripción discapacidad",
+  "filtros": {
+   "texto": "\"derechos fundamentales\" prescripción discapacidad",
+   "desde": "27/02/2025",
+   "hasta": "27/02/2025",
+   "jurisdiccion": [
+    "SOCIAL"
+   ],
+   "organo": [
+    "Tribunal Supremo"
+   ]
+  },
+  "fecha": "06/11/2026 07:26",
+  "aplicados_en_web": {
+   "jurisdiccion": [
+    "Social"
+   ],
+   "organo": [
+    "Tribunal Supremo"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "11241848",
+   "db": "TS",
+   "fecha": "20250227",
+   "titulo": "STS, a 27 de febrero de 2025 - ROJ: STS 1000/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/3ae8f766e013513ea0a8778d75e36f0d/20250320",
+   "roj": "STS 1000/2025",
+   "ecli": "ECLI:ES:TS:2025:1000",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "156/2025",
+    "Municipio": "Madrid",
+    "Ponente": "CONCEPCION ROSARIO URESTE GARCIA",
+    "Nº Recurso": "1607/2022"
+   },
+   "resumen": "Determinar el dies a quopara la prescripción de la acción de reclamación de daños y perjuicios por vulneración de derechos fundamentales respecto de un despido que ha sido declarado nulo.",
+   "info": [],
+   "pdf": "pdf/STS_1000_2025.pdf",
+   "txt": "txt/STS_1000_2025.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

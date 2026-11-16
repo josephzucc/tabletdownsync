@@ -1,0 +1,35 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STSJ M 14300/2024",
+  "filtros": {
+   "roj": "STSJ M 14300/2024"
+  },
+  "fecha": "06/11/2026 08:39",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "11147376",
+   "db": "AN",
+   "fecha": "20241121",
+   "titulo": "STSJ Madrid, a 21 de noviembre de 2024 - ROJ: STSJ M 14300/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/6a9390033990527ca0a8778d75e36f0d/20241230",
+   "roj": "STSJ M 14300/2024",
+   "ecli": "ECLI:ES:TSJM:2024:14300",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "932/2024",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA CONCEPCION DEL BRIO CARRETERO",
+    "Nº Recurso": "514/2024"
+   },
+   "resumen": "Se plantea si el desistimiento empresarial de la relación laboral de la actora durante el periodo de prueba constituye un despido y en su caso este debe de calificarse de nulo por discriminación por razón de enfermedad.",
+   "info": [],
+   "pdf": "pdf/STSJ_M_14300_2024.pdf",
+   "txt": "txt/STSJ_M_14300_2024.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

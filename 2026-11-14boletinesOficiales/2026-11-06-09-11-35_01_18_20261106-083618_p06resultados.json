@@ -1,0 +1,35 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STSJ M 10104/2026",
+  "filtros": {
+   "roj": "STSJ M 10104/2026"
+  },
+  "fecha": "06/11/2026 08:36",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "11824759",
+   "db": "AN",
+   "fecha": "20260617",
+   "titulo": "STSJ Madrid, a 17 de junio de 2026 - ROJ: STSJ M 10104/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/5ac0bd1a77f550c0a0a8778d75e36f0d/20260819",
+   "roj": "STSJ M 10104/2026",
+   "ecli": "ECLI:ES:TSJM:2026:10104",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "609/2026",
+    "Municipio": "Madrid",
+    "Ponente": "SUSANA MARIA MOLINA GUTIERREZ",
+    "Nº Recurso": "965/2025"
+   },
+   "resumen": "/ Ceses en general 344/2024 Materia:Despido Sentencia número: 609/2026 Ilmas. Sras D./Dña. CONCEPCIÓN DEL BRIO CARRETERO D./Dña. MARIA ISABEL SAIZ ARESES D./Dña. SUSANA MARIA MOLINA GUTIERREZ En Madrid a diecisiete de junio de dos mil veintiséis habiendo visto en recurso de suplicación los presentes autos la Sección 2 de la Sala de lo Social de este Tribunal Superior de Justicia, compuesta por las Ilmas. Sras. citadas, de acuerdo con lo prevenido en el artículo 117.1 de la Constitución Española, EN NOMBRE DE S.M. EL REY Y POR LA AUTORIDAD QUE LE CONFIERE EL PUEBLO ESPAÑOL ha dictado la siguiente S E N T E N",
+   "info": [],
+   "pdf": "pdf/STSJ_M_10104_2026.pdf",
+   "txt": "txt/STSJ_M_10104_2026.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

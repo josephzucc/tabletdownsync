@@ -1,0 +1,35 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STSJ M 10426/2026",
+  "filtros": {
+   "roj": "STSJ M 10426/2026"
+  },
+  "fecha": "06/11/2026 08:47",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "11836420",
+   "db": "AN",
+   "fecha": "20260728",
+   "titulo": "STSJ Madrid, a 28 de julio de 2026 - ROJ: STSJ M 10426/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/2e5df4b9d30cc41ba0a8778d75e36f0d/20260902",
+   "roj": "STSJ M 10426/2026",
+   "ecli": "ECLI:ES:TSJM:2026:10426",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "633/2026",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA DEL AMPARO RODRIGUEZ RIQUELME",
+    "Nº Recurso": "186/2026"
+   },
+   "resumen": "1159/2022 Materia: Materias laborales individuales INDEMNIZACION DAÑOS Y PERJUICIOS OMISION MEDIDAS DE PREVENCION Sentencia número: 633/2026 Ilmos. Sres Dña. MARÍA DEL CARMEN PRIETO FERNÁNDEZ Dña. MARIA DEL AMPARO RODRIGUEZ RIQUELME Dña. MARIA AURORA DE LA CUEVA ALEU En Madrid a veintiocho de julio de dos mil veintiséis habiendo visto en recurso de suplicación los presentes autos la Sección 4 de la Sala de lo Social de este Tribunal Superior de Justicia, compuesta por los Ilmos. Sres. citados, de acuerdo con lo prevenido en el artículo 117.1 de la Constitución Española, EN NOMBRE DE S.M. EL REY Y POR LA AUTORIDAD QUE LE CONFIERE EL",
+   "info": [],
+   "pdf": "pdf/STSJ_M_10426_2026.pdf",
+   "txt": "txt/STSJ_M_10426_2026.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

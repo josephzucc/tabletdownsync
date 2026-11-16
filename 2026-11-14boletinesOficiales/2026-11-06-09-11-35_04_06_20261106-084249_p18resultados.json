@@ -1,0 +1,34 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STSJ CL 3545/2026",
+  "filtros": {
+   "roj": "STSJ CL 3545/2026"
+  },
+  "fecha": "06/11/2026 08:42",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "11877152",
+   "db": "AN",
+   "fecha": "20260921",
+   "titulo": "STSJ Castilla y León, a 21 de septiembre de 2026 - ROJ: STSJ CL 3545/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/eeb332811d24a6fca0a8778d75e36f0d/20261006",
+   "roj": "STSJ CL 3545/2026",
+   "ecli": "ECLI:ES:TSJCL:2026:3545",
+   "sala": "",
+   "datos": {
+    "Municipio": "Valladolid",
+    "Ponente": "JOSE MANUEL RIESCO IGLESIAS",
+    "Nº Recurso": "125/2025"
+   },
+   "resumen": "Incapacidad permanente absoluta y total. Auxiliar de ayuda a domicilio. Se desestiman. Síndrome Postcovid. Discopatía lumbar. Hernia discal cervical. Trastorno adaptativo",
+   "info": [],
+   "pdf": "pdf/STSJ_CL_3545_2026.pdf",
+   "txt": "txt/STSJ_CL_3545_2026.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

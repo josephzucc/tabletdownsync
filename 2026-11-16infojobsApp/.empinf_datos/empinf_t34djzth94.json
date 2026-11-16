@@ -1,0 +1,194 @@
+{
+ "tipo": "ineco_listado",
+ "url": "https://ineco.epreselec.com/Ofertas/Ofertas.aspx",
+ "total": 25,
+ "filtro": {
+  "pais": "España",
+  "provincia": "Provincia",
+  "oficina": "CONSULTORÍA"
+ },
+ "ofertas": [
+  {
+   "id": "3367422",
+   "titulo": "28752 - Analista Estratégico/a de Mercados Ferroviarios",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "4 de noviembre, 2026"
+  },
+  {
+   "id": "3376044",
+   "titulo": "29064 - Beca de Planificación Aeroportuaria",
+   "tipo": "BECA",
+   "lugar": "Madrid, España",
+   "fecha": "3 de noviembre, 2026"
+  },
+  {
+   "id": "3220435",
+   "titulo": "26935 - Técnico/a en Planificación de Infraestructuras de Transporte Terrestre",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "27 de octubre, 2026"
+  },
+  {
+   "id": "3363604",
+   "titulo": "28908 - Técnico/a especialista en contaminación acústica en carreteras",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "21 de octubre, 2026"
+  },
+  {
+   "id": "3172169",
+   "titulo": "26437 - Consultor/a Ferroviario de Explotación y Capacidad",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "21 de octubre, 2026"
+  },
+  {
+   "id": "3372199",
+   "titulo": "29018 - Beca de Planificación Aeroportuaria",
+   "tipo": "BECA",
+   "lugar": "Madrid, España",
+   "fecha": "20 de octubre, 2026"
+  },
+  {
+   "id": "3338491",
+   "titulo": "28748 - Consultor/a de Economía del Transporte",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "19 de octubre, 2026"
+  },
+  {
+   "id": "3324493",
+   "titulo": "28631 - Técnico/a en gestión aeroportuaria",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "16 de octubre, 2026"
+  },
+  {
+   "id": "3248951",
+   "titulo": "27455 - Experto/a en Transporte Ferroviario de Mercancías y Regulación en el ámbito del transporte por ferrocarril",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "16 de octubre, 2026"
+  },
+  {
+   "id": "3325839",
+   "titulo": "28151 - Técnico/a aeronáutico en ámbito de servidumbres / Superficies limitadoras de obstáculos (SLO)",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "16 de octubre, 2026"
+  },
+  {
+   "id": "3302183",
+   "titulo": "28357 - Técnico/a en Servidumbres Aeronáuticas",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "16 de octubre, 2026"
+  },
+  {
+   "id": "3368184",
+   "titulo": "28830 - Especialista en eficiencia energética y calidad del aire",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "14 de octubre, 2026"
+  },
+  {
+   "id": "3251138",
+   "titulo": "27390 - Gerente de Planificación de Transporte Terrestre",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "13 de octubre, 2026"
+  },
+  {
+   "id": "3362557",
+   "titulo": "28951 Técnico/a de Apoyo a la subdirección de Estrategia de Negocio",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "9 de octubre, 2026"
+  },
+  {
+   "id": "3365875",
+   "titulo": "28842 Vigilante de campo para control de vegetación",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Ourense, España",
+   "fecha": "30 de septiembre, 2026"
+  },
+  {
+   "id": "3365874",
+   "titulo": "28843 Vigilante de campo para control de vegetación",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "León, España",
+   "fecha": "30 de septiembre, 2026"
+  },
+  {
+   "id": "3313707",
+   "titulo": "28467 - Vigilante de campo para control de vegetación",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3234480",
+   "titulo": "27164 - Técnico/a para supervisión ambiental de proyectos",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3364044",
+   "titulo": "28914 - Analista de Adquisiciones Costa Rica",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Costa Rica",
+   "fecha": "25 de septiembre, 2026"
+  },
+  {
+   "id": "3362430",
+   "titulo": "28943 Becario/a de Planificación Aeroportuaria",
+   "tipo": "BECA",
+   "lugar": "Madrid, España",
+   "fecha": "21 de septiembre, 2026"
+  },
+  {
+   "id": "3234962",
+   "titulo": "27258 - Beca de explotación ferroviaria",
+   "tipo": "BECA",
+   "lugar": "Madrid, España",
+   "fecha": "12 de agosto, 2026"
+  },
+  {
+   "id": "3307671",
+   "titulo": "28429 - Beca en Proyectos de Ingeniería Civil",
+   "tipo": "BECA",
+   "lugar": "Madrid, España",
+   "fecha": "5 de mayo, 2026"
+  },
+  {
+   "id": "3296948",
+   "titulo": "28296 - Técnico/a en Consultoría de Transporte Terrestre, Modelización y Estudios de Demanda y Tráfico - Deslocalizable toda España",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "10 de abril, 2026"
+  },
+  {
+   "id": "3295644",
+   "titulo": "28233 - Consultor/a técnico/a en Fondos Europeos",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "8 de abril, 2026"
+  },
+  {
+   "id": "3234478",
+   "titulo": "27163 - Técnico/a para supervisión ambiental de proyectos",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "27 de octubre, 2025"
+  }
+ ],
+ "pedido": {
+  "pais": "Espana",
+  "provincia": "Madrid",
+  "oficina": "CONSULTORIA"
+ },
+ "token": "t34djzth94",
+ "guardado": "2026-11-06T11:13:25.840Z"
+}

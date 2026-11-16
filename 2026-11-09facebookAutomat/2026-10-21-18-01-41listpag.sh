@@ -1,0 +1,1 @@
+source ../functest.sh;gn;d="${now}listadofb.txt";echo "CODIGO;NOMBRE" >>$d;python3 fb.py listas paginas | cut -c '1-70' | tail +5 | head -52 | while read -r fbpag;do echo "${fbpag:0:5};${fbpag:8}" >>$d;done;cat $d;rm $d

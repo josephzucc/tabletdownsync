@@ -1,0 +1,50 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: {\"recurso\": \"1216/2024\", \"desde\": \"19/11/2024\", \"hasta\": \"19/11/2024\", \"jurisdiccion\": [\"SOCIAL\"], \"organo\": [\"Tribunal Superior de Justicia\"]}",
+  "filtros": {
+   "recurso": "1216/2024",
+   "desde": "19/11/2024",
+   "hasta": "19/11/2024",
+   "jurisdiccion": [
+    "SOCIAL"
+   ],
+   "organo": [
+    "Tribunal Superior de Justicia"
+   ]
+  },
+  "fecha": "06/11/2026 08:52",
+  "aplicados_en_web": {
+   "jurisdiccion": [
+    "Social"
+   ],
+   "organo": [
+    "Tribunal Superior de Justicia"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "11149393",
+   "db": "AN",
+   "fecha": "20241119",
+   "titulo": "STSJ Galicia, a 19 de noviembre de 2024 - ROJ: STSJ GAL 7921/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/29c7ad6387b0e165a0a8778d75e36f0d/20250102",
+   "roj": "STSJ GAL 7921/2024",
+   "ecli": "ECLI:ES:TSJGAL:2024:7921",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "5290/2024",
+    "Municipio": "Coruña (A)",
+    "Ponente": "JOSE ANTONIO MERINO PALAZUELO",
+    "Nº Recurso": "1216/2024"
+   },
+   "resumen": "Incapacidad absoluta. Síndrome post-COVID, COVID persistente con afectación multisistémica (generales, neurológicos, osteo-articulares, digestivos, respiratorios), predominio de astenia, insuficiencia vitamina D, síndrome miofascial, trastorno adaptativo",
+   "info": [],
+   "pdf": "pdf/STSJ_GAL_7921_2024.pdf",
+   "txt": "txt/STSJ_GAL_7921_2024.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

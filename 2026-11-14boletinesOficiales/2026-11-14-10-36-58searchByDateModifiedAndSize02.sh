@@ -1,0 +1,1 @@
+f1 () { t="txt";while read -r line;do i="${line%%$t*}";echo "$(u=".txt:";s="${line:47}";j="${s%%$u*}";j=${#j};echo ${s:0: ${j}} );${line: $(q=${#i};echo $((q+4)))}";done };d=$(mktemp);while read -r term;do grep -i "${term}" 2026-11-14-08-*.txt | f1 | grep -v "Guardado en 2026-11-14" | sort -u >>${d};done < <(cat *terminos*);cat $d | csvlook -d ';';rm $d

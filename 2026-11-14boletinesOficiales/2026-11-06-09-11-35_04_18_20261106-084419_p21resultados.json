@@ -1,0 +1,35 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STSJ M 11927/2026",
+  "filtros": {
+   "roj": "STSJ M 11927/2026"
+  },
+  "fecha": "06/11/2026 08:44",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "11897956",
+   "db": "AN",
+   "fecha": "20260930",
+   "titulo": "STSJ Madrid, a 30 de septiembre de 2026 - ROJ: STSJ M 11927/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/1643302d612aff7ba0a8778d75e36f0d/20261022",
+   "roj": "STSJ M 11927/2026",
+   "ecli": "ECLI:ES:TSJM:2026:11927",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "738/2026",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA DEL AMPARO RODRIGUEZ RIQUELME",
+    "Nº Recurso": "417/2026"
+   },
+   "resumen": "1130/2025 Materia:Incapacidad permanente Sentencia número: 738-2026 Ilmas. Sras Dña. MARÍA DEL CARMEN PRIETO FERNÁNDEZ Dña. MARIA DEL AMPARO RODRIGUEZ RIQUELME Dña. MARÍA AURORA DE LA CUEVA ALEU En Madrid a treinta de septiembre de dos mil veintiséis habiendo visto en recurso de suplicación los presentes autos la Sección 4 de la Sala de lo Social de este Tribunal Superior de Justicia, compuesta por los Ilmos. Sres. citados, de acuerdo con lo prevenido en el artículo 117.1 de la Constitución Española, EN NOMBRE DE S.M. EL REY Y POR LA AUTORIDAD QUE LE CONFIERE EL PUEBLO ESPAÑOL ha dictado la siguiente S E N T E N C I A",
+   "info": [],
+   "pdf": "pdf/STSJ_M_11927_2026.pdf",
+   "txt": "txt/STSJ_M_11927_2026.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

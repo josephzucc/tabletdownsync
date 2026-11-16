@@ -1,0 +1,563 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: \"periodo de prueba\" \"fondos europeos\" convenio",
+  "filtros": {
+   "texto": "\"periodo de prueba\" \"fondos europeos\" convenio",
+   "desde": "01/01/2022",
+   "jurisdiccion": [
+    "SOCIAL"
+   ]
+  },
+  "fecha": "06/11/2026 07:29",
+  "aplicados_en_web": {
+   "jurisdiccion": [
+    "Social"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "11759065",
+   "db": "AN",
+   "fecha": "20260508",
+   "titulo": "STSJ Madrid, a 08 de mayo de 2026 - ROJ: STSJ M 6317/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/8bfa3f715f4fb98ca0a8778d75e36f0d/20260616",
+   "roj": "STSJ M 6317/2026",
+   "ecli": "ECLI:ES:TSJM:2026:6317",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "417/2026",
+    "Municipio": "Madrid",
+    "Ponente": "RAQUEL VICENTE ANDRES",
+    "Nº Recurso": "1067/2025"
+   },
+   "resumen": "contrato de trabajo temporal vinculado a programas financiados con fondos europeos ( D.A 5ª RD Ley 32/2021) con TRAGSATEC (Tecnologías y Servicios Agrarios, S.A, SMEMP) el 8.11.2023 para prestar servicios como titulado universitario superior, a tiempo completo. El contrato se formalizó para la ejecución de los fondos provenientes del Plan de Recuperación, Transformación y Resiliencia, y su duración era para la ejecución del proyecto Coop del AECID-Gobernabilidad Democrática, y hasta el fin de los trabajos propios dentro del encargo/proyecto. Se pactó un periodo de prueba de seis meses (doc. 1 actora) TERCERO.-La actora fue dada de alta en la TGSS por cuenta de Tecnologías y Servicios Agrarios, S.A SMEMP con efectos de 8.11.2023 (doc. 6 empresa) CUARTO.-Por carta de 13.11.2023 TRAGSATEC comunicó",
+   "info": []
+  },
+  {
+   "ref": "11414731",
+   "db": "AN",
+   "fecha": "20250616",
+   "titulo": "STSJ Andalucía, a 16 de junio de 2025 - ROJ: STSJ AND 11638/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/ceaa4564fd248ae1a0a8778d75e36f0d/20250825",
+   "roj": "STSJ AND 11638/2025",
+   "ecli": "ECLI:ES:TSJAND:2025:11638",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1095/2025",
+    "Municipio": "Málaga",
+    "Ponente": "ERNESTO UTRERA MARTIN",
+    "Nº Recurso": "994/2025"
+   },
+   "resumen": "el contrato se formaliza expresamente para la ejecución del Plan de Recuperación, Transformación y Resiliencia -PRTR. Como cláusula especifica del contrato de trabajo: \"Conforme a las cláusulas específicas de contrato de duración determinada vinculados a programas financiados con fondos europeos, el contrato tendrá la duración necesaria para la ejecución del proyecto APOYO TECNICO ADMINISTRATIVO A LA TRAMITACION Y GESTION DE EXPEDIENTES ASOCIADOS A LAS INVERSIONES Y A LAS ACTIVIDADES PROPIAS DE LA CONSEJERIA DE MEDIO AMBIENTE Y SOSTENIBILIDAD en las tareas propias de su categoría . Apoyo tramitación expedientes administrativos, apoyo redacción normativa, revisión pliegos.\" (hecho no controvertido). CUARTO.- El contrato fija un periodo de prueba de 6 meses, siéndole de aplicación el convenio colectivo de empresas de ingeniería y oficinas",
+   "info": []
+  },
+  {
+   "ref": "11345681",
+   "db": "AN",
+   "fecha": "20250326",
+   "titulo": "STSJ Canarias, a 26 de marzo de 2025 - ROJ: STSJ ICAN 1040/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/ece26605545eaf78a0a8778d75e36f0d/20250618",
+   "roj": "STSJ ICAN 1040/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:1040",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "473/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "MARIA JESUS GARCIA HERNANDEZ",
+    "Nº Recurso": "1430/2024"
+   },
+   "resumen": "Apoyo en los folios 34 a 43 y 182 4) Modificación del hecho probado noveno, proponiéndose la siguiente literalidad: \"Consta Convenio Colectivo Personal Laboral del Cabildo Insular de Lanzarote BOP 23.01.2009 siendo el salario bruto prorrateado mensual para un trabajador de categoría Técnico A1 para el 2022 de 4.50821 euros Consta Convenio Colectivo Cabildo BOP 15.06.2012 de aplicación para personal contratado para prestar servicios en Escuelas Taller, Casas de Oficio, Talleres de Empleo , Proyectos que de desarrollen al amparo de Programas o Convocatorias o Convenios subvencionados con fondos europeos etc. siendo el salario bruto prorrateado mensual para un trabajador de su categoría de Técnico A1 para el 2022 de 2.80086 euros y de 2.870 88 euros para el 2023 de conformidad a la Ley 31/2022 de 23 de diciembre PGE El Cabildo reconoce no haber abonado",
+   "info": []
+  },
+  {
+   "ref": "11345756",
+   "db": "AN",
+   "fecha": "20250326",
+   "titulo": "STSJ Canarias, a 26 de marzo de 2025 - ROJ: STSJ ICAN 1131/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/3f0c1e442d782292a0a8778d75e36f0d/20250618",
+   "roj": "STSJ ICAN 1131/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:1131",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "472/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "MARIA JESUS GARCIA HERNANDEZ",
+    "Nº Recurso": "1496/2024"
+   },
+   "resumen": "mensual para un trabajador de categoría Técnico A1 para el 2022 de 4.50821 euros Consta Convenio Colectivo Cabildo BOP 15.06.2012 de aplicación para personal contratado para prestar servicios en Escuelas Taller, Casas de Oficio, Talleres de Empleo , Proyectos que de desarrollen al amparo de Programas o Convocatorias o Convenios subvencionados con fondos europeos etc. siendo el salario bruto prorrateado mensual para un trabajador de su categoría de Técnico A1 para el 2022 de 2.80086 euros y de 2.870 88 euros para el 2023 de conformidad a la Ley 31/2022 de 23 de diciembre PGE El Cabildo reconoce no haber abonado a la trabajadora el 100% del salario que le correspondería percibir de conformidad al CC BOP 15.06.2012 sino un 75%\". 5) Adición de la siguiente literalidad al hecho probado décimo: \"Con fecha 09.06.2023 se publica en el BOCA Orden 26.05.2023",
+   "info": []
+  },
+  {
+   "ref": "11324639",
+   "db": "AN",
+   "fecha": "20250320",
+   "titulo": "STSJ Canarias, a 20 de marzo de 2025 - ROJ: STSJ ICAN 849/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/e9c8ceba58f049f1a0a8778d75e36f0d/20250602",
+   "roj": "STSJ ICAN 849/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:849",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "450/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "ALVARO MARIA HIERRO FUSTER",
+    "Nº Recurso": "1442/2024"
+   },
+   "resumen": "el 1 de noviembre de 2021 hasta el 31 de octubre de 2022 con un periodo de prueba de seis meses previéndose que el contrato se extinguiría por la expiración del tiempo convenido así como que la retribución del trabajador sería del 90% del salario fijado en el convenio para un trabajador que desempeñe el mismo o equivalente puesto de trabajo artículo 11.1 e del Estatuto de los Trabajadores (hecho probado en virtud del documento número 10 del ramo de prueba de la demandada) TERCERO.- En fecha 28 de octubre de 2022 las partes acordaron prorrogar por doce meses de duración el contrato celebrado desde el 1 de noviembre de 2022 hasta el treinta y uno de octubre de 2023 de tal forma que el tiempo acumulado del contrato inicial más la prórroga sería de 24 meses (hecho probado en virtud del documento número 12 del ramo de prueba de la demandada) CUARTO.- La",
+   "info": []
+  },
+  {
+   "ref": "11324599",
+   "db": "AN",
+   "fecha": "20250313",
+   "titulo": "STSJ Canarias, a 13 de marzo de 2025 - ROJ: STSJ ICAN 809/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/5af9050b316fd826a0a8778d75e36f0d/20250602",
+   "roj": "STSJ ICAN 809/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:809",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "400/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "GLORIA POYATOS MATAS",
+    "Nº Recurso": "1407/2024"
+   },
+   "resumen": "de obras y de contratas Mediciones y certificaciones\" Se ampara la recurrente en prueba documental: -Doc nº7 prueba documental actora -Folio 181 D-Modificación del hecho probado noveno (HP9º), proponiéndose la siguiente literalidad: \"Consta Convenio Colectivo Personal Laboral del Cabildo Insular de Lanzarote BOP 23.01.2009 siendo el salario bruto prorrateado mensual para un trabajador de categoría Técnico A1 para el 2022 de 4.50821 euros Consta Convenio Colectivo Cabildo BOP 15.06.2012 de aplicación para personal contratado para prestar servicios en Escuelas Taller, Casas de Oficio, Talleres de Empleo , Proyectos que de desarrollen al amparo de Programas o Convocatorias o Convenios subvencionados con fondos europeos etc. siendo el salario bruto prorrateado mensual para un trabajador",
+   "info": []
+  },
+  {
+   "ref": "11324647",
+   "db": "AN",
+   "fecha": "20250313",
+   "titulo": "STSJ Canarias, a 13 de marzo de 2025 - ROJ: STSJ ICAN 857/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/f19e09007079fa98a0a8778d75e36f0d/20250602",
+   "roj": "STSJ ICAN 857/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:857",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "459/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "JAVIER RAMON DIEZ MORO",
+    "Nº Recurso": "1497/2024"
+   },
+   "resumen": "para un trabajador de categoría Técnico A1 para el 2022 de 4.50821 euros Consta Convenio Colectivo Cabildo BOP 15.06.2012 de aplicación para personal contratado para prestar servicios en Escuelas Taller, Casas de Oficio, Talleres de Empleo, Proyectos que de desarrollen al amparo de Programas o Convocatorias o Convenios subvencionados con fondos europeos etc. siendo el salario bruto prorrateado mensual para un trabajador de su categoría de Técnico A1 para el 2022 de 2.80086 euros y de 2.870 88 euros para el 2023 de conformidad ala Ley 31/2022 de 23 de diciembre PGE. El Cabildo reconoce no haber abonado a la trabajadora el 100% del salario que le correspondería percibir de conformidad al CC BOP 15.06.2012 sino un 75%. -El Cabildo Insular de Lanzarote ha contratado a nuevos trabajadores para el programa de Nuevas Oportunidades de Empleo 2022-2023, utilizando la misma modalidad",
+   "info": []
+  },
+  {
+   "ref": "11324616",
+   "db": "AN",
+   "fecha": "20250313",
+   "titulo": "STSJ Canarias, a 13 de marzo de 2025 - ROJ: STSJ ICAN 826/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/0b0b2f7deadbc1b4a0a8778d75e36f0d/20250602",
+   "roj": "STSJ ICAN 826/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:826",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "416/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "JAVIER RAMON DIEZ MORO",
+    "Nº Recurso": "1431/2024"
+   },
+   "resumen": "A1 para el 2022 de 4.50821 euros Consta Convenio Colectivo Cabildo BOP 15.06.2012 de aplicación para personal contratado para prestar servicios en Escuelas Taller, Casas de Oficio, Talleres de Empleo, Proyectos que de desarrollen al amparo de Programas o Convocatorias o Convenios subvencionados con fondos europeos etc. siendo el salario bruto prorrateado mensual para un trabajador de su categoría de Técnico A1 para el 2022 de 2.80086 euros y de 2.870 88 euros para el 2023 de conformidad ala Ley 31/2022 de 23 de diciembre PGE. El Cabildo reconoce no haber abonado a la trabajadora el 100% del salario que le correspondería percibir de conformidad al CC BOP 15.06.2012 sino un 75%. -El Cabildo Insular de Lanzarote ha contratado a nuevos trabajadores para el programa de Nuevas Oportunidades de Empleo 2022-2023, utilizando la misma modalidad contractual, aplicando el 100% del salario",
+   "info": []
+  },
+  {
+   "ref": "11322507",
+   "db": "AN",
+   "fecha": "20250313",
+   "titulo": "STSJ Canarias, a 13 de marzo de 2025 - ROJ: STSJ ICAN 788/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/fd5f359018e65d27a0a8778d75e36f0d/20250530",
+   "roj": "STSJ ICAN 788/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:788",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "375/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "OSCAR GONZALEZ PRIETO",
+    "Nº Recurso": "1398/2024"
+   },
+   "resumen": "Extinción válida de contrato en prácticas. Fraude inexistente. Correlación entre las funciones y la titulación. Las diferencias salariales adeudadas deben ser objeto de una reclamación en procedimiento diferente, sin suponer fraude.",
+   "info": []
+  },
+  {
+   "ref": "11322508",
+   "db": "AN",
+   "fecha": "20250313",
+   "titulo": "STSJ Canarias, a 13 de marzo de 2025 - ROJ: STSJ ICAN 789/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/fcc8a9686324bee9a0a8778d75e36f0d/20250530",
+   "roj": "STSJ ICAN 789/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:789",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "376/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "OSCAR GONZALEZ PRIETO",
+    "Nº Recurso": "1393/2024"
+   },
+   "resumen": "una duración de doce meses desde el 1 de noviembre de 2021 hasta el 31 de octubre de 2022 con un periodo de prueba de seis meses previéndose que el contrato se extinguiría por la expiración del tiempo convenido así como que la retribución del trabajador sería del 90% del salario fijado en el convenio para un trabajador que desempeñe el mismo o equivalente puesto de trabajo artículo 11.1 e del Estatuto de los Trabajadores (hecho probado en virtud del documento número 10 del ramo de prueba de la demandada) TERCERO.- En fecha veintiocho de octubre de 2022 las partes acordaron prorrogar por doce meses de duración el contrato celebrado desde el 1 de noviembre de 2022 hasta el treinta y uno de octubre de 2023 de tal forma que el tiempo acumulado del contrato inicial más la prórroga sería de 24 meses (hecho probado en virtud del documento número 12 del ramo de",
+   "info": []
+  },
+  {
+   "ref": "11322510",
+   "db": "AN",
+   "fecha": "20250313",
+   "titulo": "STSJ Canarias, a 13 de marzo de 2025 - ROJ: STSJ ICAN 791/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/185abf993a6f5308a0a8778d75e36f0d/20250530",
+   "roj": "STSJ ICAN 791/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:791",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "378/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "OSCAR GONZALEZ PRIETO",
+    "Nº Recurso": "1495/2024"
+   },
+   "resumen": "mensual para un trabajador de categoría Técnico A1 para el 2022 de 4.50821 euros Consta Convenio Colectivo Cabildo BOP 15.06.2012 de aplicación para personal contratado para prestar servicios en Escuelas Taller, Casas de Oficio, Talleres de Empleo , Proyectos que de desarrollen al amparo de Programas o Convocatorias o Convenios subvencionados con fondos europeos etc. siendo el salario bruto prorrateado mensual para un trabajador de su categoría de Técnico A1 para el 2022 de 2.80086 euros y de 2.870 88 euros para el 2023 de conformidad ala Ley 31/2022 de 23 de diciembre PGE. El Cabildo reconoce no haber abonado a la trabajadora el 100% del salario que le correspondería percibir de conformidad al CC BOP 15.06.2012 sino un 75%. -El Cabildo Insular de Lanzarote ha contratado a nuevos trabajadores para el programa de Nuevas Oportunidades de Empleo 2022-2023, utilizando la misma",
+   "info": []
+  },
+  {
+   "ref": "11322509",
+   "db": "AN",
+   "fecha": "20250313",
+   "titulo": "STSJ Canarias, a 13 de marzo de 2025 - ROJ: STSJ ICAN 790/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/22a8e1ed1188c42da0a8778d75e36f0d/20250530",
+   "roj": "STSJ ICAN 790/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:790",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "377/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "OSCAR GONZALEZ PRIETO",
+    "Nº Recurso": "1433/2024"
+   },
+   "resumen": "BOP 23.01.2009 siendo el salario bruto prorrateado mensual para un trabajador de categoría Técnico A1 para el 2022 de 4.50821 euros Consta Convenio Colectivo Cabildo BOP 15.06.2012 de aplicación para personal contratado para prestar servicios en Escuelas Taller, Casas de Oficio, Talleres de Empleo , Proyectos que de desarrollen al amparo de Programas o Convocatorias o Convenios subvencionados con fondos europeos etc. siendo el salario bruto prorrateado mensual para un trabajador de su categoría de Técnico A1 para el 2022 de 2.80086 euros y de 2.870 88 euros para el 2023 de conformidad ala Ley 31/2022 de 23 de diciembre PGE. El Cabildo reconoce no haber abonado a la trabajadora el 100% del salario que le correspondería percibir de conformidad al CC BOP 15.06.2012 sino un 75%. -El Cabildo Insular de Lanzarote ha contratado a nuevos trabajadores para el programa de Nuevas Oportunidades",
+   "info": []
+  },
+  {
+   "ref": "11322503",
+   "db": "AN",
+   "fecha": "20250313",
+   "titulo": "STSJ Canarias, a 13 de marzo de 2025 - ROJ: STSJ ICAN 784/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/13697f1554f575eaa0a8778d75e36f0d/20250530",
+   "roj": "STSJ ICAN 784/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:784",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "371/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "JAVIER ERCILLA GARCIA",
+    "Nº Recurso": "1477/2024"
+   },
+   "resumen": "Extinción válida de contrato en prácticas. Fraude inexistente: adscripción temporalmente a tareas diferentes de las derivadas de su formación. Duración: dentro del límite legal de dos años.",
+   "info": []
+  },
+  {
+   "ref": "11322499",
+   "db": "AN",
+   "fecha": "20250313",
+   "titulo": "STSJ Canarias, a 13 de marzo de 2025 - ROJ: STSJ ICAN 780/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/78d7846a2bc6f0fba0a8778d75e36f0d/20250530",
+   "roj": "STSJ ICAN 780/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:780",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "367/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "JAVIER ERCILLA GARCIA",
+    "Nº Recurso": "1500/2024"
+   },
+   "resumen": "doce meses desde el 1 de noviembre de 2021 hasta el 31 de octubre de 2022 con un periodo de prueba de seis meses previéndose que el contrato se extinguiría por la expiración del tiempo convenido así como que la retribución del trabajador sería del 90% del salario fijado en el convenio para un trabajador que desempeñe el mismo o equivalente puesto de trabajo artículo 11.1 e del Estatuto de los Trabajadores (hecho probado en virtud del documento número 10 del ramo de prueba de la demandada) TERCERO.- En fecha veintiocho de octubre de 2022 las partes acordaron prorrogar por doce meses de duración el contrato celebrado desde el 1 de noviembre de 2022 hasta el treinta y uno de octubre de 2023 de tal forma que el tiempo acumulado del contrato inicial más la prórroga sería de 23 meses y 15 días. (hecho probado en virtud del documento número 12 del ramo de prueba",
+   "info": []
+  },
+  {
+   "ref": "11301313",
+   "db": "AN",
+   "fecha": "20250227",
+   "titulo": "STSJ Canarias, a 27 de febrero de 2025 - ROJ: STSJ ICAN 483/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/b77dc466bfca53b8a0a8778d75e36f0d/20250513",
+   "roj": "STSJ ICAN 483/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:483",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "355/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "GLORIA POYATOS MATAS",
+    "Nº Recurso": "1440/2024"
+   },
+   "resumen": "estableciéndose una duración de doce meses desde el 1 de noviembre de 2021 hasta el 31 de octubre de 2022 con un periodo de prueba de seis meses previéndose que el contrato se extinguiría por la expiración del tiempo convenido así como que la retribución del trabajador sería del 90% del salario fijado en el convenio para un trabajador que desempeñe el mismo o equivalente puesto de trabajo artículo 11.1 e del Estatuto de los Trabajadores (hecho probado en virtud del documento número 10 del ramo de prueba de la demandada) TERCERO.- En fecha 31 de octubre de 2022 las partes acordaron prorrogar por doce meses de duración el contrato celebrado desde el 1 de noviembre de 2022 hasta el treinta y uno de octubre de 2023 de tal forma que el tiempo acumulado del contrato inicial más la prórroga sería de 24 meses (hecho probado en virtud del documento número 12 del",
+   "info": []
+  },
+  {
+   "ref": "11301303",
+   "db": "AN",
+   "fecha": "20250227",
+   "titulo": "STSJ Canarias, a 27 de febrero de 2025 - ROJ: STSJ ICAN 472/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/5211f0dbf61bc0aaa0a8778d75e36f0d/20250513",
+   "roj": "STSJ ICAN 472/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:472",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "342/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "MARIA JESUS GARCIA HERNANDEZ",
+    "Nº Recurso": "1394/2024"
+   },
+   "resumen": "demandada puso fín a la relación laboral por finalización del contrato de trabajo con efectos del 31/10/2023. -Consta Convenio Colectivo Personal Laboral del Cabildo Insular de Lanzarote BOP 23.01.2009 siendo el salario bruto prorrateado mensual para un trabajador de categoría Técnico A1 para el 2022 de 4.50821 euros Consta Convenio Colectivo Cabildo BOP 15.06.2012 de aplicación para personal contratado para prestar servicios en Escuelas Taller, Casas de Oficio, Talleres de Empleo , Proyectos que de desarrollen al amparo de Programas o Convocatorias o Convenios subvencionados con fondos europeos etc. siendo el salario bruto prorrateado mensual para un trabajador de su categoría de Técnico A1 para el 2022 de 2.80086 euros y de 2.870 88 euros para el 2023 de conformidad ala Ley 31/2022 de 23 de diciembre PGE. El Cabildo reconoce no haber abonado a la trabajadora el 100% del",
+   "info": []
+  },
+  {
+   "ref": "11301312",
+   "db": "AN",
+   "fecha": "20250227",
+   "titulo": "STSJ Canarias, a 27 de febrero de 2025 - ROJ: STSJ ICAN 482/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/62ac7ee1d644d38aa0a8778d75e36f0d/20250513",
+   "roj": "STSJ ICAN 482/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:482",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "354/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "GLORIA POYATOS MATAS",
+    "Nº Recurso": "1396/2024"
+   },
+   "resumen": "Convenio Colectivo Cabildo BOP 15.06.2012 de aplicación para personal contratado para prestar servicios en Escuelas Taller, Casas de Oficio, Talleres de Empleo , Proyectos que de desarrollen al amparo de Programas o Convocatorias o Convenios subvencionados con fondos europeos etc. siendo el salario bruto prorrateado mensual para un trabajador de su categoría de Técnico A1 para el 2022 de 2.80086 euros y de 2.870 88 euros para el 2023 de conformidad a la Ley 31/2022 de 23 de diciembre PGE El Cabildo reconoce no haber abonado a la trabajadora el 100% del salario que le correspondería percibir de conformidad al CC BOP 15.06.2012 sino un 75%\" -Se ampara la recurrente en prueba documental : Folios 56 a 59 CC Folios 61 a 63 CC BOP 15.06.2012 Folios 60 Tabla Salarial Personal Laboral Cabildo 2022",
+   "info": []
+  },
+  {
+   "ref": "11301302",
+   "db": "AN",
+   "fecha": "20250227",
+   "titulo": "STSJ Canarias, a 27 de febrero de 2025 - ROJ: STSJ ICAN 471/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/38b23fb108dffc57a0a8778d75e36f0d/20250513",
+   "roj": "STSJ ICAN 471/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:471",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "341/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "MARIA JESUS GARCIA HERNANDEZ",
+    "Nº Recurso": "1399/2024"
+   },
+   "resumen": "de trabajo de 37, 5 horas semanales de lunes a viernes\"; estableciéndose una duración de doce meses desde el 1 de noviembre de 2021 hasta el 31 de octubre de 2022 con un periodo de prueba de seis meses previéndose que el contrato se extinguiría por la expiración del tiempo convenido así como que la retribución del trabajador sería del 90% del salario fijado en el convenio para un trabajador que desempeñe el mismo o equivalente puesto de trabajo artículo 11.1 e del Estatuto de los Trabajadores (hecho probado en virtud del documento número 10 del ramo de prueba de la demandada) TERCERO.- En fecha 28 de octubre de 2022 las partes acordaron prorrogar por doce meses de duración el contrato celebrado desde el 1 de noviembre de 2022 hasta el treinta y uno de octubre de 2023 de tal forma que el tiempo acumulado del contrato inicial más la prórroga sería de 24 meses",
+   "info": []
+  },
+  {
+   "ref": "11301274",
+   "db": "AN",
+   "fecha": "20250227",
+   "titulo": "STSJ Canarias, a 27 de febrero de 2025 - ROJ: STSJ ICAN 442/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/77fbdd50da7bcaf2a0a8778d75e36f0d/20250513",
+   "roj": "STSJ ICAN 442/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:442",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "329/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "JAVIER RAMON DIEZ MORO",
+    "Nº Recurso": "1400/2024"
+   },
+   "resumen": "de doce meses desde el 1 de noviembre de 2021 hasta el 31 de octubre de 2022 con un periodo de prueba de 2 meses previéndose que el contrato se extinguiría por la expiración del tiempo convenido así como que la retribución del trabajador sería del 90% del salario fijado en el convenio para un trabajador que desempeñe el mismo o equivalente puesto de trabajo artículo 11.1 e del Estatuto de los Trabajadores (hecho probado en virtud del documento número 10 del ramo de prueba de la demandada). TERCERO.- En fecha veintiocho de octubre de 2022 las partes acordaron prorrogar por doce meses de duración el contrato celebrado desde el 1 de noviembre de 2022 hasta el treinta y uno de octubre de 2023 de tal forma que el tiempo acumulado del contrato inicial más la prórroga sería de 24 meses (hecho probado en virtud del documento número 12 del ramo de prueba de la demandada).",
+   "info": []
+  },
+  {
+   "ref": "11301268",
+   "db": "AN",
+   "fecha": "20250227",
+   "titulo": "STSJ Canarias, a 27 de febrero de 2025 - ROJ: STSJ ICAN 436/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/3ab078e4614392a3a0a8778d75e36f0d/20250513",
+   "roj": "STSJ ICAN 436/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:436",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "322/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "JAVIER RAMON DIEZ MORO",
+    "Nº Recurso": "1395/2024"
+   },
+   "resumen": "de colectivos con dificultades en la inserción laboral. -La demandada puso fin a la relación laboral por finalización del contrato de trabajo con efectos del 31/10/2023. -Consta Convenio Colectivo Personal Laboral del Cabildo Insular de Lanzarote, BOP 23.01.2009, siendo el salario bruto prorrateado mensual para un trabajador de categoría Técnico A1 para el 2022 de 4.50821 euros. Consta Convenio Colectivo Cabildo, BOP 15.06.2012, de aplicación para personal contratado para prestar servicios en Escuelas Taller, Casas de Oficio, Talleres de Empleo, Proyectos que se desarrollen al amparo de Programas o Convocatorias, o Convenios subvencionados con fondos europeos, etc., siendo el salario bruto prorrateado mensual para un trabajador de su categoría de Técnico A1 para el 2022 de 2.80086 euros, y de 2.87088 euros para el 2023, de conformidad a la Ley 31/2022 de 23 de",
+   "info": []
+  },
+  {
+   "ref": "11301270",
+   "db": "AN",
+   "fecha": "20250227",
+   "titulo": "STSJ Canarias, a 27 de febrero de 2025 - ROJ: STSJ ICAN 438/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/a4341687e0aa5097a0a8778d75e36f0d/20250513",
+   "roj": "STSJ ICAN 438/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:438",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "324/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "JAVIER ERCILLA GARCIA",
+    "Nº Recurso": "1441/2024"
+   },
+   "resumen": "una duración de doce meses desde el 1 de noviembre de 2021 hasta el 31 de octubre de 2022 con un periodo de prueba de seis meses previéndose que el contrato se extinguiría por la expiración del tiempo convenido así como que la retribución del trabajador sería del 90% del salario fijado en el convenio para un trabajador que desempeñe el mismo o equivalente puesto de trabajo artículo 11.1 e del Estatuto de los Trabajadores (hecho probado en virtud del documento número 10 del ramo de prueba de la demandada) TERCERO.- En fecha 28 de octubre de 2022 las partes acordaron prorrogar por doce meses de duración el contrato celebrado desde el 1 de noviembre de 2022 hasta el treinta y uno de octubre de 2023 de tal forma que el tiempo acumulado del contrato inicial más la prórroga sería de 24 meses (hecho probado en virtud del documento número 12 del ramo de prueba",
+   "info": []
+  },
+  {
+   "ref": "11301212",
+   "db": "AN",
+   "fecha": "20250213",
+   "titulo": "STSJ Canarias, a 13 de febrero de 2025 - ROJ: STSJ ICAN 380/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/8418a03cc3192f53a0a8778d75e36f0d/20250513",
+   "roj": "STSJ ICAN 380/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:380",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "249/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "YOLANDA ALVAREZ DEL VAYO ALONSO",
+    "Nº Recurso": "1386/2024"
+   },
+   "resumen": "31/10/2023. -Consta Convenio Colectivo Personal Laboral del Cabildo Insular de Lanzarote BOP 23.01.2009 siendo el salario bruto prorrateado mensual para un trabajador de categoría Técnico A1 para el 2022 de 4.50821 euros Consta Convenio Colectivo Cabildo BOP 15.06.2012 de aplicación para personal contratado para prestar servicios en Escuelas Taller, Casas de Oficio, Talleres de Empleo , Proyectos que de desarrollen al amparo de Programas o Convocatorias o Convenios subvencionados con fondos europeos etc. siendo el salario bruto prorrateado mensual para un trabajador de su categoría de Técnico A1 para el 2022 de 2.80086 euros y de 2.870 88 euros para el 2023 de conformidad ala Ley 31/2022 de 23 de diciembre PGE. El Cabildo reconoce no haber abonado a la trabajadora el 100% del salario que le correspondería percibir de conformidad al CC BOP 15.06.2012 sino un 75%. -El",
+   "info": []
+  },
+  {
+   "ref": "11301176",
+   "db": "AN",
+   "fecha": "20250213",
+   "titulo": "STSJ Canarias, a 13 de febrero de 2025 - ROJ: STSJ ICAN 344/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/fd99cbe2b9f9590ba0a8778d75e36f0d/20250513",
+   "roj": "STSJ ICAN 344/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:344",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "223/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "JAVIER RAMON DIEZ MORO",
+    "Nº Recurso": "1384/2024"
+   },
+   "resumen": "Colectivo Personal Laboral del Cabildo Insular de Lanzarote BOP 23.01.2009 siendo el salario bruto prorrateado mensual para un trabajador de categoría Técnico A1 para el 2022 de 4.50821 euros Consta Convenio Colectivo Cabildo BOP 15.06.2012 de aplicación para personal contratado para prestar servicios en Escuelas Taller, Casas de Oficio, Talleres de Empleo , Proyectos que de desarrollen al amparo de Programas o Convocatorias o Convenios subvencionados con fondos europeos etc. siendo el salario bruto prorrateado mensual para un trabajador de su categoría de Técnico A1 para el 2022 de 2.80086 euros y de 2.870 88 euros para el 2023 de conformidad ala Ley 31/2022 de 23 de diciembre PGE. El Cabildo reconoce no haber abonado a la trabajadora el 100% del salario que le correspondería percibir de conformidad al CC BOP 15.06.2012 sino un 75%. -El Cabildo Insular de Lanzarote ha contratado",
+   "info": []
+  },
+  {
+   "ref": "11301186",
+   "db": "AN",
+   "fecha": "20250213",
+   "titulo": "STSJ Canarias, a 13 de febrero de 2025 - ROJ: STSJ ICAN 354/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/c9a7af3e266f81eba0a8778d75e36f0d/20250513",
+   "roj": "STSJ ICAN 354/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:354",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "239/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "OSCAR GONZALEZ PRIETO",
+    "Nº Recurso": "1387/2024"
+   },
+   "resumen": "de doce meses desde el 1 de noviembre de 2021 hasta el 31 de octubre de 2022 con un periodo de prueba de seis meses previéndose que el contrato se extinguiría por la expiración del tiempo convenido así como que la retribución del trabajador sería del 90% del salario fijado en el convenio para un trabajador que desempeñe el mismo o equivalente puesto de trabajo artículo 11.1 e del Estatuto de los Trabajadores (hecho probado en virtud del documento número 10 del ramo de prueba de la demandada) TERCERO.- En fecha 31 de octubre de 2022 las partes acordaron prorrogar por doce meses de duración el contrato celebrado desde el 1 de noviembre de 2022 hasta el treinta y uno de octubre de 2023 de tal forma que el tiempo acumulado del contrato inicial más la prórroga sería de 24 meses (hecho probado en virtud del documento número 12 del ramo de prueba de la demandada)",
+   "info": []
+  },
+  {
+   "ref": "11301233",
+   "db": "AN",
+   "fecha": "20250213",
+   "titulo": "STSJ Canarias, a 13 de febrero de 2025 - ROJ: STSJ ICAN 401/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/f84699e38ae6dfdda0a8778d75e36f0d/20250513",
+   "roj": "STSJ ICAN 401/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:401",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "272/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "GLORIA POYATOS MATAS",
+    "Nº Recurso": "1388/2024"
+   },
+   "resumen": "noviembre de 2021 hasta el 31 de octubre de 2022 con un periodo de prueba de seis meses previéndose que el contrato se extinguiría por la expiración del tiempo convenido así como que la retribución del trabajador sería del 90% del salario fijado en el convenio para un trabajador que desempeñe el mismo o equivalente puesto de trabajo artículo 11.1 e del Estatuto de los Trabajadores (hecho probado en virtud del documento número 10 del ramo de prueba de la demandada) TERCERO.- En fecha veintiocho de octubre de 2022 las partes acordaron prorrogar por doce meses de duración el contrato celebrado desde el 1 de noviembre de 2022 hasta el treinta y uno de octubre de 2023 de tal forma que el tiempo acumulado del contrato inicial más la prórroga sería de 24 meses (hecho probado en virtud del documento número 12 del ramo de prueba de la demandada) CUARTO.- La",
+   "info": []
+  },
+  {
+   "ref": "11299728",
+   "db": "AN",
+   "fecha": "20250206",
+   "titulo": "STSJ Canarias, a 06 de febrero de 2025 - ROJ: STSJ ICAN 295/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/35bee5aae9c2267ca0a8778d75e36f0d/20250512",
+   "roj": "STSJ ICAN 295/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:295",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "181/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "JAVIER RAMON DIEZ MORO",
+    "Nº Recurso": "1678/2024"
+   },
+   "resumen": "Laboral del Cabildo Insular de Lanzarote BOP 23.01.2009 siendo el salario bruto prorrateado mensual para un trabajador de categoría Técnico A1 para el 2022 de 4.50821 euros Consta Convenio Colectivo Cabildo BOP 15.06.2012 de aplicación para personal contratado para prestar servicios en Escuelas Taller, Casas de Oficio, Talleres de Empleo , Proyectos que de desarrollen al amparo de Programas o Convocatorias o Convenios subvencionados con fondos europeos etc. siendo el salario bruto prorrateado mensual para un trabajador de su categoría de Técnico A1 para el 2022 de 2.80086 euros y de 2.870 88 euros para el 2023 de conformidad ala Ley 31/2022 de 23 de diciembre PGE. El Cabildo reconoce no haber abonado a la trabajadora el 100% del salario que le correspondería percibir de conformidad al CC BOP 15.06.2012 sino un 75%. -El Cabildo Insular de Lanzarote ha contratado a nuevos trabajadores",
+   "info": []
+  },
+  {
+   "ref": "11398569",
+   "db": "AN",
+   "fecha": "20250121",
+   "titulo": "STSJ Comunidad Valenciana, a 21 de enero de 2025 - ROJ: STSJ CV 961/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/13c16351692321d6a0a8778d75e36f0d/20250806",
+   "roj": "STSJ CV 961/2025",
+   "ecli": "ECLI:ES:TSJCV:2025:961",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "174/2025",
+    "Municipio": "Valencia",
+    "Ponente": "MARIA ESPERANZA MONTESINOS LLORENS",
+    "Nº Recurso": "2554/2024"
+   },
+   "resumen": "Adicional 5ª de la Ley 15/22 de 12 de Julio de 2022, que traslada luego en su tenor e invocando que ECOVUL es un programa subvencionado con Fondos Europeos, dirigido en este caso al fomento del empleo a grupos vulnerables, con el fin de mantener dos años la duración del contrato, ha sido en este caso, utilizado al antojo de la empresa, \"sin más compromiso que devolver o no recibir dicho fondo si antes de ese tiempo los despiden, dando igual la causa, sin causa, habiendo pasado el periodo de prueba, y ocasionando como en el presente caso, un perjuicios manifiestos al haber elegido mi mandante a esta empresa y no ha otra con el mismo programa y oportunidad, no habiendo sanción alguna para la empresa, ni compensación alguna al trabajador\"de cuanto sigue que por ello, debe declararse la Nulidad del despido, siendo suficiente como indicio de la vulneración de derechos fundamentales,",
+   "info": []
+  },
+  {
+   "ref": "11299682",
+   "db": "AN",
+   "fecha": "20250116",
+   "titulo": "STSJ Canarias, a 16 de enero de 2025 - ROJ: STSJ ICAN 252/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/a60dda9e8a6c3273a0a8778d75e36f0d/20250512",
+   "roj": "STSJ ICAN 252/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:252",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "32/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "GLORIA POYATOS MATAS",
+    "Nº Recurso": "1385/2024"
+   },
+   "resumen": "el salario bruto prorrateado mensual para un trabajador de categoría Técnico A1 para el 2022 de 4.50821 euros Consta Convenio Colectivo Cabildo BOP 15.06.2012 de aplicación para personal contratado para prestar servicios en Escuelas Taller, Casas de Oficio, Talleres de Empleo , Proyectos que de desarrollen al amparo de Programas o Convocatorias o Convenios subvencionados con fondos europeos etc. siendo el salario bruto prorrateado mensual para un trabajador de su categoría de Técnico A1 para el 2022 de 2.80086 euros y de 2.870 88 euros para el 2023 de conformidad ala Ley 31/2022 de 23 de diciembre PGE. El Cabildo reconoce no haber abonado a la trabajadora el 100% del salario que le correspondería percibir de conformidad al CC BOP 15.06.2012 sino un 75%. -El Cabildo Insular de Lanzarote ha contratado a nuevos trabajadores para el programa de Nuevas Oportunidades de Empleo",
+   "info": []
+  },
+  {
+   "ref": "10867204",
+   "db": "AN",
+   "fecha": "20240306",
+   "titulo": "STSJ Madrid, a 06 de marzo de 2024 - ROJ: STSJ M 2529/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/96f2f3aafee10f12a0a8778d75e36f0d/20240417",
+   "roj": "STSJ M 2529/2024",
+   "ecli": "ECLI:ES:TSJM:2024:2529",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "227/2024",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA VIRGINIA GARCIA ALARCON",
+    "Nº Recurso": "1019/2023"
+   },
+   "resumen": "Extinción de la relación laboral por desistimiento empresarial por no haber superado el periodo de prueba, trabajador que ha estado en sucesivos procesos de incapacidad temporal. Se plante si el cese debe de calificarse de despido",
+   "info": []
+  },
+  {
+   "ref": "10727713",
+   "db": "AN",
+   "fecha": "20230728",
+   "titulo": "SJSO León, a 28 de julio de 2023 - ROJ: SJSO 3723/2023",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/9a59bf0a74f4389ba0a8778d75e36f0d/20231214",
+   "roj": "SJSO 3723/2023",
+   "ecli": "ECLI:ES:JSO:2023:3723",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "201/2023",
+    "Municipio": "León",
+    "Ponente": "ANGEL SORANDO PINILLA",
+    "Nº Recurso": "177/2023"
+   },
+   "resumen": "TUTELA DCHOS.FUND.",
+   "info": []
+  }
+ ],
+ "extra": {
+  "total_web": "33 resultados paginas: 4"
+ }
+}

@@ -1,0 +1,39 @@
+{
+  "368173": {
+    "nombre": "La Adrada - Avila",
+    "paradas": [
+      "LA ADRADA",
+      "SOTILLO DE LA ADRADA",
+      "SANTA MARIA DEL TIETAR",
+      "EL TIEMBLO",
+      "AVILA"
+    ]
+  },
+  "368173": {
+    "nombre": "La Adrada - Avila",
+    "paradas": [
+      "laadrada",
+      "sotillo",
+      "santamaria",
+      "eltiemblo",
+      "avila"
+    ]
+  },
+  "382744": {
+    "nombre": "La Adrada - Madrid Estacion Sur",
+    "paradas": [
+      "LA ADRADA",
+      "SOTILLO DE LA ADRADA",
+      "SANTA MARIA DEL TIETAR",
+      "MADRID ESTACION SUR"
+    ]
+  },
+  "368146": {
+    "nombre": "La Adrada - Sotillo de la Adrada",
+    "paradas": [
+      "LA ADRADA",
+      "SOTILLO DE LA ADRADA",
+      "SANTA MARIA DEL TIETAR"
+    ]
+  }
+}

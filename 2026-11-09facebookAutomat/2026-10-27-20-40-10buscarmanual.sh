@@ -1,0 +1,1 @@
+file="MANUAL_fb.txt";set -- "${file}";if (( $# > 0 ));then i=1;file=${1};out="";while [[ "$out" == "" ]];do j=$((j+30));cat ${file} | sed -n "${i},${j}p";i=$((i+30));read -p "out (${i}) [vacio] ? " out;done;else echo "no se ha indicado archivo a abrir";fi

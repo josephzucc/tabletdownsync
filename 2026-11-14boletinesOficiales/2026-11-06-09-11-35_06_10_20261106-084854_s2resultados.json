@@ -1,0 +1,49 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: {\"numres\": \"1152/2025\", \"recurso\": \"3356/2024\", \"jurisdiccion\": [\"SOCIAL\"], \"organo\": [\"Tribunal Supremo\"]}",
+  "filtros": {
+   "numres": "1152/2025",
+   "recurso": "3356/2024",
+   "jurisdiccion": [
+    "SOCIAL"
+   ],
+   "organo": [
+    "Tribunal Supremo"
+   ]
+  },
+  "fecha": "06/11/2026 08:48",
+  "aplicados_en_web": {
+   "jurisdiccion": [
+    "Social"
+   ],
+   "organo": [
+    "Tribunal Supremo"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "11551865",
+   "db": "TS",
+   "fecha": "20251127",
+   "titulo": "STS, a 27 de noviembre de 2025 - ROJ: STS 5377/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/42fa60a4dad59ef2a0a8778d75e36f0d/20251211",
+   "roj": "STS 5377/2025",
+   "ecli": "ECLI:ES:TS:2025:5377",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "1152/2025",
+    "Municipio": "Madrid",
+    "Ponente": "ANGEL ANTONIO BLASCO PELLICER",
+    "Nº Recurso": "3356/2024"
+   },
+   "resumen": "Despido por ineptitud sobrevenida tras una larga IT sin que el INSS apreciara finalmente ninguna situación incapacitante mientras que el servicio de prevención declaró al trabajador no apto. Daños morales. Falta de contradicción en ambos casos.",
+   "info": [],
+   "pdf": "pdf/STS_5377_2025.pdf",
+   "txt": "txt/STS_5377_2025.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

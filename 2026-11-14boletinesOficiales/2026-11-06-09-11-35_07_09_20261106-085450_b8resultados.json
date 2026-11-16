@@ -1,0 +1,571 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: especialmente sensible vigilancia de la salud discapacidad despido",
+  "filtros": {
+   "texto": "especialmente sensible vigilancia de la salud discapacidad despido",
+   "desde": "01/01/2021",
+   "jurisdiccion": [
+    "SOCIAL"
+   ],
+   "organo": [
+    "Tribunal Supremo",
+    "Tribunal Superior de Justicia"
+   ]
+  },
+  "fecha": "06/11/2026 08:54",
+  "aplicados_en_web": {
+   "jurisdiccion": [
+    "Social"
+   ],
+   "organo": [
+    "Tribunal Supremo",
+    "Tribunal Superior de Justicia"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "11913496",
+   "db": "AN",
+   "fecha": "20261014",
+   "titulo": "STSJ Galicia, a 14 de octubre de 2026 - ROJ: STSJ GAL 6075/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/9288ad8383cfff45a0a8778d75e36f0d/20261104",
+   "roj": "STSJ GAL 6075/2026",
+   "ecli": "ECLI:ES:TSJGAL:2026:6075",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "4123/2026",
+    "Municipio": "Coruña (A)",
+    "Ponente": "RAQUEL MARIA NAVEIRO SANTOS",
+    "Nº Recurso": "3515/2026"
+   },
+   "resumen": "SANCIÓN",
+   "info": []
+  },
+  {
+   "ref": "11901277",
+   "db": "AN",
+   "fecha": "20261006",
+   "titulo": "STSJ Asturias, a 06 de octubre de 2026 - ROJ: STSJ AS 2420/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/10c7646e542fc7ada0a8778d75e36f0d/20261026",
+   "roj": "STSJ AS 2420/2026",
+   "ecli": "ECLI:ES:TSJAS:2026:2420",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1623/2026",
+    "Municipio": "Oviedo",
+    "Ponente": "JOSE LUIS NIÑO ROMERO",
+    "Nº Recurso": "779/2026"
+   },
+   "resumen": "DESPIDO OBJETIVO",
+   "info": []
+  },
+  {
+   "ref": "11881176",
+   "db": "AN",
+   "fecha": "20260929",
+   "titulo": "STSJ Navarra, a 29 de septiembre de 2026 - ROJ: STSJ NA 589/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/0eaba3efcbc378ada0a8778d75e36f0d/20261009",
+   "roj": "STSJ NA 589/2026",
+   "ecli": "ECLI:ES:TSJNA:2026:589",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "319/2026",
+    "Municipio": "Pamplona/Iruña",
+    "Ponente": "CARLOS GONZALEZ GONZALEZ",
+    "Nº Recurso": "211/2026"
+   },
+   "resumen": "Extinción por ineptitud sobrevenida declarado despido nulo porque la empresa no acredita la ineptitud ni había realizado ajustes razonables o probada carga excesiva de tales ajustes. Confirma nulidad despido.",
+   "info": []
+  },
+  {
+   "ref": "11877474",
+   "db": "AN",
+   "fecha": "20260929",
+   "titulo": "STSJ Cataluña, a 29 de septiembre de 2026 - ROJ: STSJ CAT 7577/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/fe9574923d603016a0a8778d75e36f0d/20261007",
+   "roj": "STSJ CAT 7577/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:7577",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "5012/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "NURIA BONO ROMERA",
+    "Nº Recurso": "3224/2026"
+   },
+   "resumen": "8/2015, de 30 de octubre, (LGSS ) que se transcriben. Tras ello se alega que se debe reconocer a la demandante la incapacidad permanente absoluta, ya que tiene la imposibilidad física y psíquica, además de la NO aptitud para realizar las tareas esenciales con un mínimo de capacidad y eficacia. Respecto de esto último y la existencia de un despido objetivo de la trabajadora por ineptitud sobrevenida, de la Ley de Prevención de Riesgos Laborales 31/1995 cita y transcribe los artículos 22 vigilancia de la salud y 25 Protección de trabajadores especialmente sensibles a determinados riesgos. Muestra su discrepancia de los fundamentos de derecho segundo, tercero y cuarto de la sentencia para sostener que, cuando un trabajador/a es calificado, como NO APTO, es porque no puede realizar las funciones básicas de su profesión habitual, siendo en este caso de gerocultora, en función del profesiograma",
+   "info": []
+  },
+  {
+   "ref": "11888342",
+   "db": "AN",
+   "fecha": "20260924",
+   "titulo": "STSJ Andalucía, a 24 de septiembre de 2026 - ROJ: STSJ AND 12804/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/4a6a86efd1f7ce1fa0a8778d75e36f0d/20261016",
+   "roj": "STSJ AND 12804/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:12804",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2076/2026",
+    "Municipio": "Granada",
+    "Ponente": "FRANCISCO JOSE VILLAR DEL MORAL",
+    "Nº Recurso": "2764/2025"
+   },
+   "resumen": "varios centros de internamiento de menores en las Comunidades de Madrid, Andalucía, Galicia y Navarra, y programas de cumplimiento de medidas de medio abierto que resultan de la adjudicación de los concursos o firma de convenios con la correspondiente Administración Pública. Concretamente, en el Centro de Internamiento en el que Ud. presta servicios se desarrollan de conformidad con la Ley Orgánica 5/2000, de 12 de enero, reguladora de la responsabilidad penal de los menores (LO 5/2000) medidas judiciales en régimen de internamiento cerrado, semiabierto, abierto, terapéutico de salud mental y terapéutico de deshabituación de tóxicos. Por tanto, la actividad a la que se dedica , y más concretamente la que Ud. desarrolla como Director del centro , es especialmente sensible y, por ello, requiere que Ud. realice sus funciones con el máximo celo y diligencia posible. A este respecto,",
+   "info": []
+  },
+  {
+   "ref": "11893214",
+   "db": "AN",
+   "fecha": "20260923",
+   "titulo": "STSJ Castilla-La Mancha, a 23 de septiembre de 2026 - ROJ: STSJ CLM 2413/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/22ab55c3054d304aa0a8778d75e36f0d/20261021",
+   "roj": "STSJ CLM 2413/2026",
+   "ecli": "ECLI:ES:TSJCLM:2026:2413",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1586/2026",
+    "Municipio": "Albacete",
+    "Ponente": "FRANCISCO JOSE TRUJILLO CALVO",
+    "Nº Recurso": "1820/2025"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": []
+  },
+  {
+   "ref": "11888225",
+   "db": "AN",
+   "fecha": "20260917",
+   "titulo": "STSJ Andalucía, a 17 de septiembre de 2026 - ROJ: STSJ AND 12414/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/2beeb8566d3b2473a0a8778d75e36f0d/20261016",
+   "roj": "STSJ AND 12414/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:12414",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2027/2026",
+    "Municipio": "Granada",
+    "Ponente": "RAFAELA HORCAS BALLESTEROS",
+    "Nº Recurso": "2950/2025"
+   },
+   "resumen": "trabajadora remite una solicitud de adaptación del puesto; dicha comunicación se dirige a la cuenta infor@ambulanciasquevedo.com la cual no existe en el dominio corporativo de la empresa desde 2017. (documental de la empresa, testifical) SEPTIMO.- En acta de Infracción de la Inspección de Trabajo y Seguridad Social , de 02/04/2025, en materia de Seguridad y Salud, se recogen los antecedentes documentales examinados (cuadrantes, formación, vigilancia de la salud, EPIs, evaluación de riesgos, etc.) y se explicita que es lícito detraer salario por tiempo no trabajado con arreglo al art. 26.1 ET, proponiéndose sanción por déficit evaluativo en el tratamiento de persona especialmente sensible; no se consignan hallazgos sobre impagos salariales ni se aprecia relación causal discriminatoria en los descuentos. (acta de inspescción) OCTAVO.- Consta en autos evaluación",
+   "info": []
+  },
+  {
+   "ref": "11866207",
+   "db": "AN",
+   "fecha": "20260908",
+   "titulo": "STSJ Cataluña, a 08 de septiembre de 2026 - ROJ: STSJ CAT 7202/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/f1b9a57f6b0b6f72a0a8778d75e36f0d/20260929",
+   "roj": "STSJ CAT 7202/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:7202",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "4643/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "ANA CRISTINA SALAS VELASCO",
+    "Nº Recurso": "7385/2025"
+   },
+   "resumen": "en los documentos adjuntos al mismo que cita. La revisión no puede prosperar. La redacción propuesta no se corresponde con la literalidad de los documentos invocados y pretende, en realidad, obtener una nueva valoración conjunta de la prueba. Además, la documental ya fue valorada en la instancia y no evidencia de forma patente error alguno del juzgador. Los informes del servicio de prevención reflejan distintas calificaciones de aptitud en fechas sucesivas -apto en informe de 13.9.2016, apto con restricciones en informe de 31.8.2017, trabajador especialmente sensible en informe de 14.11.2017 y no apto en el de 4.12.2017-, sin que su contenido permita por sí solo concluir que el actor presentara, en la fecha de alta médica, las lesiones actualmente acreditadas, ni que estas le impidieran desempeñar su profesión, pues dichos informes responden a las exigencias de un",
+   "info": []
+  },
+  {
+   "ref": "11858007",
+   "db": "AN",
+   "fecha": "20260730",
+   "titulo": "STSJ La Rioja, a 30 de julio de 2026 - ROJ: STSJ LR 349/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/1616bca64416a375a0a8778d75e36f0d/20260922",
+   "roj": "STSJ LR 349/2026",
+   "ecli": "ECLI:ES:TSJLR:2026:349",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "102/2026",
+    "Municipio": "Logroño",
+    "Ponente": "CARLOS GONZALEZ GONZALEZ",
+    "Nº Recurso": "102/2026"
+   },
+   "resumen": "Modificación sustancial de las condiciones de trabajo. Nulidad por vulneración de derechos fundamentales. Discapacidad y derecho a los ajustes razonables.",
+   "info": []
+  },
+  {
+   "ref": "11838782",
+   "db": "AN",
+   "fecha": "20260729",
+   "titulo": "STSJ Galicia, a 29 de julio de 2026 - ROJ: STSJ GAL 5069/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/d48c98b4a876a44ca0a8778d75e36f0d/20260904",
+   "roj": "STSJ GAL 5069/2026",
+   "ecli": "ECLI:ES:TSJGAL:2026:5069",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "3436/2026",
+    "Municipio": "Coruña (A)",
+    "Ponente": "RAQUEL MARIA NAVEIRO SANTOS",
+    "Nº Recurso": "1695/2026"
+   },
+   "resumen": "RESOLUCION CONTRATO",
+   "info": []
+  },
+  {
+   "ref": "11836274",
+   "db": "AN",
+   "fecha": "20260727",
+   "titulo": "STSJ Galicia, a 27 de julio de 2026 - ROJ: STSJ GAL 5049/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/24020bdda1c5980aa0a8778d75e36f0d/20260902",
+   "roj": "STSJ GAL 5049/2026",
+   "ecli": "ECLI:ES:TSJGAL:2026:5049",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "3429/2026",
+    "Municipio": "Coruña (A)",
+    "Ponente": "RAQUEL MARIA NAVEIRO SANTOS",
+    "Nº Recurso": "1275/2026"
+   },
+   "resumen": "DERECHOS FUNDAMENTALES",
+   "info": []
+  },
+  {
+   "ref": "11838959",
+   "db": "AN",
+   "fecha": "20260716",
+   "titulo": "STSJ Andalucía, a 16 de julio de 2026 - ROJ: STSJ AND 11067/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/d17cb492e218074ea0a8778d75e36f0d/20260904",
+   "roj": "STSJ AND 11067/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:11067",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1857/2026",
+    "Municipio": "Granada",
+    "Ponente": "FERNANDO OLIET PALA",
+    "Nº Recurso": "2651/2025"
+   },
+   "resumen": "condiciones de despido. El principio de primacía del Derecho de la Unión Europea implica que las normas europeas prevalecen sobre las nacionales en caso de conflicto, y el principio de efecto directo permite que ciertas disposiciones del Derecho de la Unión sean invocadas directamente por los particulares ante los tribunales nacionales, siempre que estas sean suficientemente claras, precisas e incondicionales. La normativa europea aplicable, especialmente la Directiva 2000/78/CE y la Carta de los Derechos Fundamentales de la Unión Europea, establece un marco claro de protección frente a la discriminación por discapacidad en el empleo. La Directiva 2000/78/CE, aunque formalmente requiere transposición, ha sido reconocida por la jurisprudencia europea y española como susceptible de aplicación directa en aquellos aspectos en los que sus disposiciones sean suficientemente",
+   "info": []
+  },
+  {
+   "ref": "11838902",
+   "db": "AN",
+   "fecha": "20260716",
+   "titulo": "STSJ Andalucía, a 16 de julio de 2026 - ROJ: STSJ AND 11010/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/3f5712ed4ac53fb9a0a8778d75e36f0d/20260904",
+   "roj": "STSJ AND 11010/2026",
+   "ecli": "ECLI:ES:TSJAND:2026:11010",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1853/2026",
+    "Municipio": "Granada",
+    "Ponente": "FERNANDO OLIET PALA",
+    "Nº Recurso": "1802/2025"
+   },
+   "resumen": "el protocolo citado, si al trabajador se le diagnostica una neumoconiosis o silicosis simple (grado primero) debe ser destinado a un puesto exento de riesgo, manteniéndose reconocimientos médicos anuales para controlar su posible evolución. En el momento de la tramitación del expediente administrativo el protocolo aplicable era ya el aprobado el 8 de octubre de 2019. En el punto 5.4.2 (\"criterios de valoración de la aptitud para el trabajo\") se delimita el llamado grupo 4 (silicosis simple), lo que determina que el trabajador pase a ser considerado como trabajador especialmente sensible (TES) para riesgos respiratorios y se apliquen varios criterios de actuación, entre ellos el que \"debe ocupar un puesto exento de exposición a inhalación de sílice\", añadiendo que \"en el caso de que no exista en la empresa un puesto exento de riesgo de exposición a inhalación de sílice de la categoría",
+   "info": []
+  },
+  {
+   "ref": "11816100",
+   "db": "AN",
+   "fecha": "20260709",
+   "titulo": "STSJ Castilla-La Mancha, a 09 de julio de 2026 - ROJ: STSJ CLM 1977/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/549d350277b0495fa0a8778d75e36f0d/20260807",
+   "roj": "STSJ CLM 1977/2026",
+   "ecli": "ECLI:ES:TSJCLM:2026:1977",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1339/2026",
+    "Municipio": "Albacete",
+    "Ponente": "ANTONIO CERVERA PELAEZ-CAMPOMANES",
+    "Nº Recurso": "471/2026"
+   },
+   "resumen": "DERECHOS FUNDAMENTALES",
+   "info": []
+  },
+  {
+   "ref": "11802348",
+   "db": "AN",
+   "fecha": "20260618",
+   "titulo": "STSJ Castilla y León, a 18 de junio de 2026 - ROJ: STSJ CL 2667/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/975a4552b626f962a0a8778d75e36f0d/20260723",
+   "roj": "STSJ CL 2667/2026",
+   "ecli": "ECLI:ES:TSJCL:2026:2667",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "374/2026",
+    "Municipio": "Burgos",
+    "Ponente": "JESUS CARLOS GALAN PARADA",
+    "Nº Recurso": "274/2026"
+   },
+   "resumen": "Acoso laboral, demanda ex art 50 ET. Inexistencia de indicios suficientes de acoso que permitan invertir carga de la prueba sobre la empresa. Confirma desestimación.",
+   "info": []
+  },
+  {
+   "ref": "11839233",
+   "db": "AN",
+   "fecha": "20260616",
+   "titulo": "STSJ Canarias, a 16 de junio de 2026 - ROJ: STSJ ICAN 1320/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/e7ad19720df22fa1a0a8778d75e36f0d/20260904",
+   "roj": "STSJ ICAN 1320/2026",
+   "ecli": "ECLI:ES:TSJICAN:2026:1320",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "853/2026",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "GLORIA POYATOS MATAS",
+    "Nº Recurso": "419/2026"
+   },
+   "resumen": "ni realizar posturas forzadas y favorecer cambios posturales. En los peustos de LPC la trabjadora carga con cajas de pollo más de 10 kg (documento 12 del ramo de prueba de la demandada; documento 2 del ramo de prueba de la actora y testifical de Dña. .) QUINTO.- Dña., estuvo en situación de incapacidad temporal por contingencia común desde el 12/06/24 hasta el 19/08/24. Con el diagnostico principal de \"enfermedad desmielinizante del sistema nervioso central no especificada\" y tipo de proceso largo (documento 6 de ramo de prueba de la actora aportado en demanda). SEXTO.- En fecha 04/05/25 el servicio de prevención de la mercantil demandada Vitaly certificó que la trabajadora era apta para trabajar tras examen de salud especialmente sensible efectuado en fecha 22/04/25 (documento 2 del ramo de prueba de la actora aportado en demanda) SEPTIMO.- En fecha 23/05/25 inició",
+   "info": []
+  },
+  {
+   "ref": "11792852",
+   "db": "AN",
+   "fecha": "20260616",
+   "titulo": "STSJ Canarias, a 16 de junio de 2026 - ROJ: STSJ ICAN 888/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/a12f3dfb425c43cfa0a8778d75e36f0d/20260715",
+   "roj": "STSJ ICAN 888/2026",
+   "ecli": "ECLI:ES:TSJICAN:2026:888",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "853/2026",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "GLORIA POYATOS MATAS",
+    "Nº Recurso": "419/2026"
+   },
+   "resumen": "Despido disciplinario: Se confirma la nulidad del despido disciplinario de una trabajadora de una cadena de supermercados penalizada con la extinción contractual por verse afectada por una grave enfermedad.",
+   "info": []
+  },
+  {
+   "ref": "11808019",
+   "db": "AN",
+   "fecha": "20260616",
+   "titulo": "STSJ Asturias, a 16 de junio de 2026 - ROJ: STSJ AS 1782/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/b38e4716e9b27ff1a0a8778d75e36f0d/20260728",
+   "roj": "STSJ AS 1782/2026",
+   "ecli": "ECLI:ES:TSJAS:2026:1782",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1035/2026",
+    "Municipio": "Oviedo",
+    "Ponente": "JOSE LUIS NIÑO ROMERO",
+    "Nº Recurso": "253/2026"
+   },
+   "resumen": "DESPIDO OBJETIVO",
+   "info": []
+  },
+  {
+   "ref": "11779046",
+   "db": "TS",
+   "fecha": "20260616",
+   "titulo": "STS, a 16 de junio de 2026 - ROJ: STS 2733/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/64dd5c2f9fb79e02a0a8778d75e36f0d/20260702",
+   "roj": "STS 2733/2026",
+   "ecli": "ECLI:ES:TS:2026:2733",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "542/2026",
+    "Municipio": "Madrid",
+    "Ponente": "RAFAEL ANTONIO LOPEZ PARADA",
+    "Nº Recurso": "4192/2024"
+   },
+   "resumen": "RCUD. Trabajadora diagnosticada de silicosis simple sin enfermedades interconcurrentes y en situación de desempleo. Procede el reconocimiento de la incapacidad permanente total por la exposición a la inhalación de polvo de sílice. Reitera doctrina.",
+   "info": []
+  },
+  {
+   "ref": "11780990",
+   "db": "AN",
+   "fecha": "20260602",
+   "titulo": "STSJ Navarra, a 02 de junio de 2026 - ROJ: STSJ NA 382/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/a2574c0e5e420389a0a8778d75e36f0d/20260703",
+   "roj": "STSJ NA 382/2026",
+   "ecli": "ECLI:ES:TSJNA:2026:382",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "208/2026",
+    "Municipio": "Pamplona/Iruña",
+    "Ponente": "CARLOS GONZALEZ GONZALEZ",
+    "Nº Recurso": "96/2026"
+   },
+   "resumen": "estado biológico o por su discapacidad física, psíquica o sensorial debidamente reconocida, puedan ellos, los demás trabajadores u otras personas relacionadas con la empresa ponerse en situación de peligro o, en general, cuando se encuentren manifiestamente en estados o situaciones transitorias que no respondan a las exigencias psicofísicas de los respectivos puestos de trabajo\". En el recurso se insiste que la magistrada de instancia no ha tenido en cuenta las exigencias de la normativa citada en orden a una evaluación concreta del puesto de trabajo desempeñado por la trabajadora, siendo, además, trabajadora especialmente sensible, destacando en este sentido que \"no obra ninguna medición de los riesgos asociados al concreto puesto de trabajo al que es destinada la recurrente por la demandada, cuando debe hacer las tareas de carretillera, pese a que existe",
+   "info": []
+  },
+  {
+   "ref": "11770395",
+   "db": "AN",
+   "fecha": "20260514",
+   "titulo": "STSJ Madrid, a 14 de mayo de 2026 - ROJ: STSJ M 6931/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/af37b9fcef6b41cca0a8778d75e36f0d/20260625",
+   "roj": "STSJ M 6931/2026",
+   "ecli": "ECLI:ES:TSJM:2026:6931",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "476/2026",
+    "Municipio": "Madrid",
+    "Ponente": "ANGELA MOSTAJO VEIGA",
+    "Nº Recurso": "147/2026"
+   },
+   "resumen": "no hace ninguna alusión a los nuevos informes. En tercer lugar, el artículo 25 de la LPRL señala: Artículo 25. Protección de trabajadores especialmente sensibles a determinados riesgos. 1. El empresario garantizará de manera específica la protección de los trabajadores que, por sus propias características personales o estado biológico conocido, incluidos aquellos que tengan reconocida la situación de discapacidad física, psíquica o sensorial, sean especialmente sensibles a los riesgos derivados del trabajo. A tal fin, deberá tener en cuenta dichos aspectos en las evaluaciones de los riesgos y, en función de éstas, adoptará las medidas preventivas y de protección necesarias. Los trabajadores no serán empleados en aquellos puestos de trabajo en los",
+   "info": []
+  },
+  {
+   "ref": "11734001",
+   "db": "AN",
+   "fecha": "20260420",
+   "titulo": "STSJ Baleares, a 20 de abril de 2026 - ROJ: STSJ BAL 454/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/8523946d7cacd2bfa0a8778d75e36f0d/20260526",
+   "roj": "STSJ BAL 454/2026",
+   "ecli": "ECLI:ES:TSJBAL:2026:454",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "192/2026",
+    "Municipio": "Palma de Mallorca",
+    "Ponente": "OSCAR LOPEZ BERMEJO",
+    "Nº Recurso": "597/2025"
+   },
+   "resumen": "DESPIDO OBJETIVO",
+   "info": []
+  },
+  {
+   "ref": "11716549",
+   "db": "AN",
+   "fecha": "20260327",
+   "titulo": "STSJ Galicia, a 27 de marzo de 2026 - ROJ: STSJ GAL 2150/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/fb3adb9bf0674c3ca0a8778d75e36f0d/20260512",
+   "roj": "STSJ GAL 2150/2026",
+   "ecli": "ECLI:ES:TSJGAL:2026:2150",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1488/2026",
+    "Municipio": "Coruña (A)",
+    "Ponente": "BEATRIZ RAMA INSUA",
+    "Nº Recurso": "4553/2025"
+   },
+   "resumen": "RESOLUCION CONTRATO",
+   "info": []
+  },
+  {
+   "ref": "11736744",
+   "db": "AN",
+   "fecha": "20260326",
+   "titulo": "STSJ Canarias, a 26 de marzo de 2026 - ROJ: STSJ ICAN 731/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/c0f55d9cd9969e07a0a8778d75e36f0d/20260527",
+   "roj": "STSJ ICAN 731/2026",
+   "ecli": "ECLI:ES:TSJICAN:2026:731",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "245/2026",
+    "Municipio": "Santa Cruz de Tenerife",
+    "Ponente": "EDUARDO JESUS RAMOS REAL",
+    "Nº Recurso": "536/2025"
+   },
+   "resumen": "de contrato de Don señala expresamente: \"Por medio de la presente, le comunicamos que a partir del día 30 de JUNIO 2024 dejará de prestar servicios en nuestra empresa por NO SUPERAR EL PERIODO DE PRUEBA, siendo su último día de trabajo hoy 29 DE JUNIO de 2024\". (hecho que se desprende del folio 5 de los autos). CUARTO.- El servicio de prevención Vitaly certifica el 21 de junio de 2024: \"A con NIF , se le efectuó el examen de salud Especialmente sensible en la fecha 21 de junio de 2024, para el puesto de trabajo de Cocinero/a-platero/a y tras aplicar los PROTOCOLOS SANITARIOS ESPECÍFICOS DE Agentes químicos, Movimientos repetitivos, Vigilancia respiratoria, Esfuerzo visual, Dermatosis. La persona trabajadora ha sido considerada Apto\" (hecho que se desprende del folio 27 de los autos). QUINTO.- Don presenta escrito firmado",
+   "info": []
+  },
+  {
+   "ref": "11707388",
+   "db": "AN",
+   "fecha": "20260326",
+   "titulo": "STSJ Madrid, a 26 de marzo de 2026 - ROJ: STSJ M 4093/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/a95e1733cf8c212fa0a8778d75e36f0d/20260504",
+   "roj": "STSJ M 4093/2026",
+   "ecli": "ECLI:ES:TSJM:2026:4093",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "312/2026",
+    "Municipio": "Madrid",
+    "Ponente": "IGNACIO MORENO GONZALEZ-ALLER",
+    "Nº Recurso": "774/2025"
+   },
+   "resumen": "física del sujeto y de sus compañeros de trabajo. QUINTA.- Se prevé, de manera progresiva y rápida, una mayor dependencia, con menor movilidad y con muchas mayores necesidades asistenciales de tratamiento, de cuidados especializados, así como el deterioro irreversible de la funcionalidad, tanto de columna, como de pelvis y extremidades, y de su estado psicológico, precisando ayuda de tercera persona, habitualmente, para sus actividades y con una afectación acompañante que precisa de asistencia continua. SEXTA- Atendiendo a la Ley de Prevención de Riesgos Laborales 31/95 y Reglamento posterior, yR.D.L. 1/1994, de 20 de junio, General de la Seguridad Social (art. 137 ), esta trabajadora no puede ser considerada APTO por la Especialidad de Vigilancia de la Salud, para el ejercicio de su puesto de trabajo,",
+   "info": []
+  },
+  {
+   "ref": "11718351",
+   "db": "AN",
+   "fecha": "20260326",
+   "titulo": "STSJ Galicia, a 26 de marzo de 2026 - ROJ: STSJ GAL 2220/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/8ec605b47054c2a4a0a8778d75e36f0d/20260513",
+   "roj": "STSJ GAL 2220/2026",
+   "ecli": "ECLI:ES:TSJGAL:2026:2220",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1465/2026",
+    "Municipio": "Coruña (A)",
+    "Ponente": "PILAR CARREIRA VIDAL",
+    "Nº Recurso": "4978/2025"
+   },
+   "resumen": "DESPIDO DISCIPLINARIO",
+   "info": []
+  },
+  {
+   "ref": "11672593",
+   "db": "AN",
+   "fecha": "20260306",
+   "titulo": "STSJ Cataluña, a 06 de marzo de 2026 - ROJ: STSJ CAT 1762/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/41fbd7d95bff46e4a0a8778d75e36f0d/20260331",
+   "roj": "STSJ CAT 1762/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:1762",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1354/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "MIGUEL ANGEL PURCALLA BONILLA",
+    "Nº Recurso": "3291/2025"
+   },
+   "resumen": "Indemnización de daños y perjuicios por incumplimiento de la normativa de prevención de riesgos laborales, por parte del Consejo General del Poder Judicial. Cuantificación de los daños y perjuicios.",
+   "info": []
+  },
+  {
+   "ref": "11672588",
+   "db": "AN",
+   "fecha": "20260305",
+   "titulo": "STSJ Cataluña, a 05 de marzo de 2026 - ROJ: STSJ CAT 1754/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/c954b087d0d67b10a0a8778d75e36f0d/20260331",
+   "roj": "STSJ CAT 1754/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:1754",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1344/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "MARIA DEL PILAR MARTIN ABELLA",
+    "Nº Recurso": "1686/2025"
+   },
+   "resumen": "el letrado de invocando como único motivo, de conformidad con lo dispuesto en el art. 193.c) de la Ley Reguladora de la Jurisdicción Social, la infracción de la infracción de los artículos 1101 y 1902 del Código Civil, en relación con la actual jurisprudencia del Tribunal Supremo y del Tribunal Superior de Justicia de Cataluña, en relación con el artículo 96.2 de la LRJS. La recurrente alega en síntesis que existe una clara vinculación entre la infracción empresarial de OPTIMA LESAN SL de falta de vigilancia de la salud o revisión médica inicial (que conlleva la no adecuación del puesto de trabajo a la situación de discapacidad de la actora - trabajadora especialmente sensible-) con el Accidente de Trabajo, que finalmente conduce a que la actora sea declarada en situación de invalidez total profesional,",
+   "info": []
+  },
+  {
+   "ref": "11687655",
+   "db": "AN",
+   "fecha": "20260302",
+   "titulo": "STSJ Castilla-La Mancha, a 02 de marzo de 2026 - ROJ: STSJ CLM 635/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/0042be609546ca9aa0a8778d75e36f0d/20260416",
+   "roj": "STSJ CLM 635/2026",
+   "ecli": "ECLI:ES:TSJCLM:2026:635",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "411/2026",
+    "Municipio": "Albacete",
+    "Ponente": "JOSE MONTIEL GONZALEZ",
+    "Nº Recurso": "46/2026"
+   },
+   "resumen": "DERECHOS FUNDAMENTALES",
+   "info": []
+  },
+  {
+   "ref": "11630172",
+   "db": "AN",
+   "fecha": "20260128",
+   "titulo": "STSJ Murcia, a 28 de enero de 2026 - ROJ: STSJ MU 104/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/b52f3f226f441ee8a0a8778d75e36f0d/20260224",
+   "roj": "STSJ MU 104/2026",
+   "ecli": "ECLI:ES:TSJMU:2026:104",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "77/2026",
+    "Municipio": "Murcia",
+    "Ponente": "JUANA VERA MARTINEZ",
+    "Nº Recurso": "939/2025"
+   },
+   "resumen": "DESPIDO OBJETIVO",
+   "info": []
+  }
+ ],
+ "extra": {
+  "total_web": "113 resultados paginas: 12"
+ }
+}

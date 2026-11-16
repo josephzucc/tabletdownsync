@@ -1,0 +1,35 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STSJ CAT 6650/2026",
+  "filtros": {
+   "roj": "STSJ CAT 6650/2026"
+  },
+  "fecha": "06/11/2026 08:43",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "11822184",
+   "db": "AN",
+   "fecha": "20260717",
+   "titulo": "STSJ Cataluña, a 17 de julio de 2026 - ROJ: STSJ CAT 6650/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/a7429fe43d815915a0a8778d75e36f0d/20260817",
+   "roj": "STSJ CAT 6650/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:6650",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "4295/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "FELIPE SOLER FERRER",
+    "Nº Recurso": "3392/2026"
+   },
+   "resumen": "- Sala de lo Social del Tribunal Superior de Justicia de Cataluña Paseo Lluís Companys, 14-16, No informado - Barcelona - C.P.: 08018 TEL.: 934866159 FAX: 933096846 EMAIL:salasocial.tsjcat@xij.gencat.cat N.I.G.: 0801944420240004814 Recurso de suplicación 3392/2026 -T1 Materia: Grau d'incapacitat Órgano de origen:Sección de lo Social del TI de Barcelona. Plaza nº 6 Procedimiento de origen:Seguridad Social en materia prestacional 104/2024 Parte recurrente/Solicitante: INSTITUT NACIONAL DE LA SEGURETAT SOCIAL (INSS) Abogado/a: Graduado/a Social: Parte recurrida: , TRESORERIA GENERAL DE LA SEGURETAT SOCIAL, MUTUAL MIDAT CYCLOPS, INSTITUT CATALÀ DE LA SALUT (ICS) Abogado/a: SERGIO RODRIGUEZ HURTADO, Claudioalejandro",
+   "info": [],
+   "pdf": "pdf/STSJ_CAT_6650_2026.pdf",
+   "txt": "txt/STSJ_CAT_6650_2026.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

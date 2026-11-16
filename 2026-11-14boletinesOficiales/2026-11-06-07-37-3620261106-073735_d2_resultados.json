@@ -1,0 +1,559 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: covid \"accidente de trabajo\" \"atención al público\"",
+  "filtros": {
+   "texto": "covid \"accidente de trabajo\" \"atención al público\"",
+   "desde": "01/01/2021",
+   "jurisdiccion": [
+    "SOCIAL"
+   ]
+  },
+  "fecha": "06/11/2026 07:37",
+  "aplicados_en_web": {
+   "jurisdiccion": [
+    "Social"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "11865985",
+   "db": "AN",
+   "fecha": "20260909",
+   "titulo": "STSJ Castilla-La Mancha, a 09 de septiembre de 2026 - ROJ: STSJ CLM 2281/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/c249073f145f1f61a0a8778d75e36f0d/20260929",
+   "roj": "STSJ CLM 2281/2026",
+   "ecli": "ECLI:ES:TSJCLM:2026:2281",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1503/2026",
+    "Municipio": "Albacete",
+    "Ponente": "ELENA CARDENAS RUIZ-VALDEPEÑAS",
+    "Nº Recurso": "1833/2025"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": []
+  },
+  {
+   "ref": "11708717",
+   "db": "AN",
+   "fecha": "20260326",
+   "titulo": "STSJ Madrid, a 26 de marzo de 2026 - ROJ: STSJ M 4317/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/524f9249a51b65e6a0a8778d75e36f0d/20260505",
+   "roj": "STSJ M 4317/2026",
+   "ecli": "ECLI:ES:TSJM:2026:4317",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "182/2026",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA BEGOÑA GARCIA ALVAREZ",
+    "Nº Recurso": "407/2025"
+   },
+   "resumen": "12-05-23 (S.353/2023). La cuestión objeto de debate en el presente recurso, a la vista del motivo expuesto, es la determinación de cuál sea la contingencia determinante de la incapacidad temporal del actor, en los períodos de 3-03-20 a 5-04-21; y del 3-07-23 al 28-12-24; que éste pretende sea reconocida como accidente de trabajo, al amparo del art. 156.2 e) del Texto Refundido de la LGSS, Real Decreto legislativo 8/2015, de 30 de octubre, (antiguo art. 115.2.e) de la LGSS/1994) , y que el INSS entiende es la de enfermedad común. Debe la Sala partir del relato de probanzas que luce la sentencia recurrida, que no fue combatido, y del que se desprende que el actor trabaja para IBERIA LINEAS AEREAS DE ESPAÑA S.A. desde 1998, como administrativo con atención al público. Que según los calendarios laborales obrantes en el Expediente,",
+   "info": []
+  },
+  {
+   "ref": "11679563",
+   "db": "AN",
+   "fecha": "20260323",
+   "titulo": "STSJ Cataluña, a 23 de marzo de 2026 - ROJ: STSJ CAT 2236/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/382e39a59e2d0c7da0a8778d75e36f0d/20260409",
+   "roj": "STSJ CAT 2236/2026",
+   "ecli": "ECLI:ES:TSJCAT:2026:2236",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1769/2026",
+    "Municipio": "Barcelona",
+    "Ponente": "RAUL URIA FERNANDEZ",
+    "Nº Recurso": "235/2026"
+   },
+   "resumen": "con fecha de nacimiento /1985, sufrió un accidente de trabajo en fecha 20/03/2020. Su profesión habitual es la de Enfermera. Inició un proceso de IT el 20/03/2020 y el 15/09/2021 se le extinguió por agotar el plazo máximo de la prestación. Por resolución del INSS de fecha 08/06/2022 se declaró que el proceso de IT de fecha 20/03/2020 por infección por coronavirus no especificado deriva de accidente de trabajo, (doc nº 23 ramo de prueba actora) SEGUNDO.- El INSS en resolución de fecha 20/01/2022 resolvió \"1. No declarar a en grado alguno de incapacidad permanente, derivada de accidente de trabajo, y denegar el derecho a prestaciones económicas porque no reúne el requisito de incapacidad permanente. 2. Extinguir la situación de incapacidad temporal con efectos desde el día de esta",
+   "info": []
+  },
+  {
+   "ref": "11643381",
+   "db": "AN",
+   "fecha": "20251215",
+   "titulo": "STSJ Cataluña, a 15 de diciembre de 2025 - ROJ: STSJ CAT 8410/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/eedbdbf028a18c9aa0a8778d75e36f0d/20260305",
+   "roj": "STSJ CAT 8410/2025",
+   "ecli": "ECLI:ES:TSJCAT:2025:8410",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "6672/2025",
+    "Municipio": "Barcelona",
+    "Ponente": "RAUL URIA FERNANDEZ",
+    "Nº Recurso": "3977/2025"
+   },
+   "resumen": "no discutido). SEGUNDO.-El INSS con fecha 03/05/2023, dictó resolución cuyo contenido doy por reproducido, en la que resolvió no declarar a la actora en grado alguno derivado de incapacidad permanente, derivada de accidente de trabajo y denegar el derecho a prestaciones económicas porque no reúne el requisito de incapacidad permanente. (Resolución del INSS de fecha 03/05/2023- folios 31 y 32 del expediente administrativo) TERCERO.-Contra la resolución de fecha 03/05/2023 dictada por el INSS la actora formuló reclamación previa, por considerar que se debe declarar una incapacidad permanente en grado de absoluta o subsidiariamente total, derivada de accidente de trabajo y con una base reguladora de 2077,80€, que fue desestimada por resolución del INSS de fecha 17/08/2023, la cual resolvía a su vez modificar la contingencia siendo enfermedad",
+   "info": []
+  },
+  {
+   "ref": "11612390",
+   "db": "AN",
+   "fecha": "20251127",
+   "titulo": "STSJ Canarias, a 27 de noviembre de 2025 - ROJ: STSJ ICAN 4453/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/4c7c8c5de58703dea0a8778d75e36f0d/20260210",
+   "roj": "STSJ ICAN 4453/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:4453",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1624/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "GLORIA POYATOS MATAS",
+    "Nº Recurso": "1674/2024"
+   },
+   "resumen": "Consideración excepcional como situación asimilada a accidente de trabajo de los periodos de aislamiento o contagio de las personas trabajadoras como consecuencia del virus COVID-19. «1. Al objeto de proteger la salud pública, se considerarán, con carácter excepcional, situación asimilada a accidente de trabajo, exclusivamente para la prestación económica de incapacidad temporal del sistema de Seguridad Social, aquellos periodos de aislamiento o contagio de las personas trabajadoras provocado por el virus COVID-19. 2. En ambos casos la duración de esta prestación excepcional vendrá determinada por el parte de baja por aislamiento y la correspondiente alta. 3. Podrá causar derecho a esta prestación la persona trabajadora por cuenta propia o ajena que se encuentre en la fecha del hecho causante en situación de alta en cualquiera de los regímenes de Seguridad",
+   "info": []
+  },
+  {
+   "ref": "11546599",
+   "db": "TS",
+   "fecha": "20251124",
+   "titulo": "STS, a 24 de noviembre de 2025 - ROJ: STS 5338/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/582c7f10955bd524a0a8778d75e36f0d/20251205",
+   "roj": "STS 5338/2025",
+   "ecli": "ECLI:ES:TS:2025:5338",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Nº de Resolución": "1112/2025",
+    "Municipio": "Madrid",
+    "Ponente": "ISABEL OLMOS PARES",
+    "Nº Recurso": "2433/2024"
+   },
+   "resumen": "Incapacidad temporal: Efectos económicos. Se aplica el art. 53.1 TRLGSS y los efectos se retrotraen a tres meses antes de la solicitud de determinación de la contingencia.",
+   "info": []
+  },
+  {
+   "ref": "11567735",
+   "db": "AN",
+   "fecha": "20251030",
+   "titulo": "STSJ Canarias, a 30 de octubre de 2025 - ROJ: STSJ ICAN 4191/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/c35f5fca6b329795a0a8778d75e36f0d/20251229",
+   "roj": "STSJ ICAN 4191/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:4191",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1470/2025",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "JAVIER RAMON DIEZ MORO",
+    "Nº Recurso": "963/2025"
+   },
+   "resumen": "Por ello y teniendo en cuenta también las quejas del personal de la Brigada de Extranjería ante la inminente reincorporación de Dª sin mascarilla, en su lugar fue adscrita a la Brigada de Policía Judicial de la Comisaría de Puerto del Rosario, en concreto a la UDEV (informes Judiciales) situada en la última planta donde se realizaba un trabajo burocrático en un lugar con despacho independiente y sin atención al público, minimizándose de esta manera cualquier riesgo de contagio para ella o para los demás. Esta última adscripción fue verbal y solo consta documentalmente minuta de incorporación de Dª a la Brigada Local de Policía Judicial (Informes) del día 09-12-20 (doc. n.º 30 y 31 adjuntos al Oficio remitido por la Comisaría de Puerto del Rosario al Juzgado con n.º de comunicación 42 y 47/2025 unido al expediente electrónico con fecha 13-01-25 en relación",
+   "info": []
+  },
+  {
+   "ref": "11506231",
+   "db": "AN",
+   "fecha": "20251006",
+   "titulo": "STSJ Castilla y León, a 06 de octubre de 2025 - ROJ: STSJ CL 3963/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/da87d821f12220caa0a8778d75e36f0d/20251114",
+   "roj": "STSJ CL 3963/2025",
+   "ecli": "ECLI:ES:TSJCL:2025:3963",
+   "sala": "",
+   "datos": {
+    "Municipio": "Valladolid",
+    "Ponente": "EMILIO ALVAREZ ANLLO",
+    "Nº Recurso": "1791/2024"
+   },
+   "resumen": "Reclamación de derecho y cantidad. Incumplimiento de la acción preventiva. Indemnización de daños y perjuicios. Interpretación de la normativa de promoción profesional contenida en el ET, el EBEP y el convenio colectivo de aplicación.",
+   "info": []
+  },
+  {
+   "ref": "11403011",
+   "db": "AN",
+   "fecha": "20250612",
+   "titulo": "STSJ Andalucía, a 12 de junio de 2025 - ROJ: STSJ AND 10412/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/ddd5ac94a6d2ae87a0a8778d75e36f0d/20250811",
+   "roj": "STSJ AND 10412/2025",
+   "ecli": "ECLI:ES:TSJAND:2025:10412",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1593/2025",
+    "Municipio": "Granada",
+    "Ponente": "FRANCISCO MANUEL ALVAREZ DOMINGUEZ",
+    "Nº Recurso": "1677/2024"
+   },
+   "resumen": "la demandada, y el puesto de trabajo que desempeña es Categoría profesional II.5 - 05 Oficiales administrativos: -Descripción de las tareas que realiza: las propias de un administrativo, tales como atención presencial y telefónica de clientes en cuanto a los productos comercializados por la entidad (seguros). - Atención al público y a las llamadas telefónicas. Las principales gestiones que realizan los clientes en las oficinas son: trámite de prestaciones, bajas o solicitud de información. - Tramitación de autorizaciones. - Pedido de material y solicitud de regalos. - Comunicar incidencias de la oficina. - Gestión comercial - Atención telefónica tanto a clientes como a agentes. Sobre todo le dan soporte a agentes que tienen dudas y a quienes el Jefe de Ventas no puede atender en ese momento porque está acompañando a algún agente a vender. - Recepción",
+   "info": []
+  },
+  {
+   "ref": "11352927",
+   "db": "AN",
+   "fecha": "20250519",
+   "titulo": "STSJ Castilla y León, a 19 de mayo de 2025 - ROJ: STSJ CL 2290/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/95859b5a396c3c97a0a8778d75e36f0d/20250624",
+   "roj": "STSJ CL 2290/2025",
+   "ecli": "ECLI:ES:TSJCL:2025:2290",
+   "sala": "",
+   "datos": {
+    "Municipio": "Valladolid",
+    "Ponente": "MARIA DEL CARMEN ESCUADRA BUENO",
+    "Nº Recurso": "149/2024"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": []
+  },
+  {
+   "ref": "11384862",
+   "db": "AN",
+   "fecha": "20250505",
+   "titulo": "STSJ Comunidad Valenciana, a 05 de mayo de 2025 - ROJ: STSJ CV 460/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/ee9cbceb2d8d4908a0a8778d75e36f0d/20250721",
+   "roj": "STSJ CV 460/2025",
+   "ecli": "ECLI:ES:TSJCV:2025:460",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1275/2025",
+    "Municipio": "Valencia",
+    "Ponente": "MIGUEL ANGEL BELTRAN ALEU",
+    "Nº Recurso": "19/2025"
+   },
+   "resumen": "como hace la recurrente que en todo puesto de trabajo debe llevarse a efecto a la evaluación de tales riesgos si no existen circunstancias que los puedan identificar. NO cabe considerar que incluso producido un siniestro calificable como accidente (lo que no es el caso) la falta de evaluación de algún riesgo se plantee como elemento determinante del siniestro pues ello supondría valorar la actuación preventiva como una actuación formal. Incluso podemos decir que la evaluación de los riesgos psicosociales, como es el caso de autos, no es solo necesaria en supuestos de ciertos trabajos, como oficina, atención al público etc...., puesto que las situación que constituyen tales riesgos pueden darse en cualquier tipo de trabajo puesto que el estres, rol, acoso etc..... se plantean en todos los trabajos y en todos los ámbitos de convivencia, de forma que la evaluación de riesgos",
+   "info": []
+  },
+  {
+   "ref": "11326011",
+   "db": "AN",
+   "fecha": "20250424",
+   "titulo": "STSJ Galicia, a 24 de abril de 2025 - ROJ: STSJ GAL 3366/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/b24b499ba8af9086a0a8778d75e36f0d/20250603",
+   "roj": "STSJ GAL 3366/2025",
+   "ecli": "ECLI:ES:TSJGAL:2025:3366",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2248/2025",
+    "Municipio": "Coruña (A)",
+    "Ponente": "EVA MARIA DOVAL LORENTE",
+    "Nº Recurso": "5898/2024"
+   },
+   "resumen": "INCAPACIDAD TEMPORAL",
+   "info": []
+  },
+  {
+   "ref": "11303267",
+   "db": "AN",
+   "fecha": "20250225",
+   "titulo": "STSJ Canarias, a 25 de febrero de 2025 - ROJ: STSJ ICAN 576/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/65597d3d94d707eca0a8778d75e36f0d/20250514",
+   "roj": "STSJ ICAN 576/2025",
+   "ecli": "ECLI:ES:TSJICAN:2025:576",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "151/2025",
+    "Municipio": "Santa Cruz de Tenerife",
+    "Ponente": "FELIX BARRIUSO ALGAR",
+    "Nº Recurso": "900/2023"
+   },
+   "resumen": "Incapacidad permanente",
+   "info": []
+  },
+  {
+   "ref": "11296412",
+   "db": "AN",
+   "fecha": "20241219",
+   "titulo": "STSJ Canarias, a 19 de diciembre de 2024 - ROJ: STSJ ICAN 4291/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/b247c5edf6309791a0a8778d75e36f0d/20250508",
+   "roj": "STSJ ICAN 4291/2024",
+   "ecli": "ECLI:ES:TSJICAN:2024:4291",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1806/2024",
+    "Municipio": "Palmas de Gran Canaria (Las)",
+    "Ponente": "JAVIER ERCILLA GARCIA",
+    "Nº Recurso": "1533/2023"
+   },
+   "resumen": "sido asignados. Si se precisare el uso de ordenadores para realizar escritos, cursos on-line, etc., se utilizarán aquellos que estén en el interior de las oficinas, fuera de la sala de atención al público, si los hay, o los que, a estos efectos, se señalen por los responsables de las respectivas oficinas, pero nunca los asignados a los puestos de trabajo de expedición, que sólo podrán usarse para la tramitación de documentos\" (doc. nº 2 aportado por la parte actora en el acto de la vista). En Oficio de 03-04-17 de Secretaría General de la División de se estableció \". Instalación de Internet en puestos Jefe Equipo de Expedición. En escrito de esta División. de fecha 28-02-17, se solicitaba a la Subdirección General de Logística facilitar el acceso a Internet en el puesto principal de Equipo de Expedición, teniendo en cuenta que este acceso sería único",
+   "info": []
+  },
+  {
+   "ref": "11188411",
+   "db": "AN",
+   "fecha": "20241212",
+   "titulo": "STSJ Castilla y León, a 12 de diciembre de 2024 - ROJ: STSJ CL 5278/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/243e3a951960e0d0a0a8778d75e36f0d/20250206",
+   "roj": "STSJ CL 5278/2024",
+   "ecli": "ECLI:ES:TSJCL:2024:5278",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "980/2024",
+    "Municipio": "Burgos",
+    "Ponente": "MARIA JOSE RENEDO JUAREZ",
+    "Nº Recurso": "724/2024"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": []
+  },
+  {
+   "ref": "11094983",
+   "db": "AN",
+   "fecha": "20240912",
+   "titulo": "STSJ Andalucía, a 12 de septiembre de 2024 - ROJ: STSJ AND 13655/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/2ee8f7cd5e851267a0a8778d75e36f0d/20241108",
+   "roj": "STSJ AND 13655/2024",
+   "ecli": "ECLI:ES:TSJAND:2024:13655",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2412/2024",
+    "Municipio": "Sevilla",
+    "Ponente": "FRANCISCO MANUEL DE LA CHICA CARREÑO",
+    "Nº Recurso": "2652/2022"
+   },
+   "resumen": "de trabajo de expendedor) y antigüedad de 13/12/17. SEGUNDO.- Resulta de aplicación el convenio colectivo del personal laboral de la Junta de Andalucía. El puesto de trabajo de expendedor (antes categoría profesional), tiene descritas las siguientes funciones (BOJA 9/6/2004): Es la que tiene como función básica de expedición, el cobro y la contabilización provisional de entradas y productos a la venta de un centro. La función básica y las descritas a continuación exigen tener terminada E.P.O. o formación laboral equivalente, o categoría profesional reconocida en Convenio Colectivo análoga a la que se describe. Desarrollará las funciones que se describen a continuación: - Asumir las tareas de atención al público en la taquilla u oficina expendedora. - Efectuar",
+   "info": []
+  },
+  {
+   "ref": "11378367",
+   "db": "AN",
+   "fecha": "20240722",
+   "titulo": "SJSO A Coruña, a 22 de julio de 2024 - ROJ: SJSO 3290/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/7da5bc31b1cb92a2a0a8778d75e36f0d/20250716",
+   "roj": "SJSO 3290/2024",
+   "ecli": "ECLI:ES:JSO:2024:3290",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "355/2024",
+    "Municipio": "Coruña (A)",
+    "Ponente": "PILAR CARREIRA VIDAL",
+    "Nº Recurso": "89/2024"
+   },
+   "resumen": "SEGURIDAD SOCIAL",
+   "info": []
+  },
+  {
+   "ref": "10852267",
+   "db": "AN",
+   "fecha": "20240222",
+   "titulo": "STSJ Cataluña, a 22 de febrero de 2024 - ROJ: STSJ CAT 1209/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/fb8a35591e75e50fa0a8778d75e36f0d/20240404",
+   "roj": "STSJ CAT 1209/2024",
+   "ecli": "ECLI:ES:TSJCAT:2024:1209",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1045/2024",
+    "Municipio": "Barcelona",
+    "Ponente": "MIQUEL ANGEL FALGUERA BARO",
+    "Nº Recurso": "3884/2023"
+   },
+   "resumen": "Contingencia por enfermedad profesional por Covid-19, incapacidad temporal, administrativa de centro sanitario",
+   "info": []
+  },
+  {
+   "ref": "10678654",
+   "db": "AN",
+   "fecha": "20231009",
+   "titulo": "STSJ Castilla y León, a 09 de octubre de 2023 - ROJ: STSJ CL 3698/2023",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/6e9b34c7bddcaef1a0a8778d75e36f0d/20231031",
+   "roj": "STSJ CL 3698/2023",
+   "ecli": "ECLI:ES:TSJCL:2023:3698",
+   "sala": "",
+   "datos": {
+    "Municipio": "Valladolid",
+    "Ponente": "EMILIO ALVAREZ ANLLO",
+    "Nº Recurso": "2451/2022"
+   },
+   "resumen": "INCAPACIDAD PERMANENTE",
+   "info": []
+  },
+  {
+   "ref": "10502348",
+   "db": "TS",
+   "fecha": "20230516",
+   "titulo": "ATS, a 16 de mayo de 2023 - ROJ: ATS 6468/2023",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/d08afbbf66e12481a0a8778d75e36f0d/20230602",
+   "roj": "ATS 6468/2023",
+   "ecli": "ECLI:ES:TS:2023:6468A",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "ANGEL ANTONIO BLASCO PELLICER",
+    "Nº Recurso": "4837/2022"
+   },
+   "resumen": "Despido disciplinario. Realización de actividades estando de baja por contacto con Covid-19. Se declara improcedente. Falta de contradicción.",
+   "info": []
+  },
+  {
+   "ref": "9807955",
+   "db": "AN",
+   "fecha": "20211117",
+   "titulo": "STSJ Madrid, a 17 de noviembre de 2021 - ROJ: STSJ M 12614/2021",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/174fc0e8ddfd2514/20220113",
+   "roj": "STSJ M 12614/2021",
+   "ecli": "ECLI:ES:TSJM:2021:12614",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "988/2021",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA LUISA GIL MEANA",
+    "Nº Recurso": "763/2021"
+   },
+   "resumen": "entreteniéndose y que está totalmente recuperado de la enfermedad pero no de sus secuelas por lo que no es necesario ningún tipo de cuarentena sin que en los inalterados hechos probados conste ninguna de tales alegaciones. En los inalterados hechos probados consta: \" TERCERO.- El actor, desde el 11/8/2020 se encontraba en situación de baja laboral por accidente de trabajo siendo la causa del mismo infección SARS COVID (hechos no discutidos). CUARTO.- Durante su baja laboral, los días señalados en la carta de despido, realizó tareas de compra de materia prima y bebidas, carga de las mismas, descarga, atención al público, cobro de facturas, lavado de vajilla, atención en mesa, en local bar restaurante regentado por su pareja sentimental, sin portar la mascarilla de protección de manera constante (informe de detective aportado por la",
+   "info": []
+  },
+  {
+   "ref": "9561443",
+   "db": "AN",
+   "fecha": "20210421",
+   "titulo": "SJSO Barcelona, a 21 de abril de 2021 - ROJ: SJSO 180/2021",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/cc166d10c8253b7a/20210610",
+   "roj": "SJSO 180/2021",
+   "ecli": "ECLI:ES:JSO:2021:180",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "176/2021",
+    "Municipio": "Barcelona",
+    "Ponente": "JUAN JOSE VIVAS GONZALEZ",
+    "Nº Recurso": "203/2019"
+   },
+   "resumen": "para cubrirla, compensarla o transmitirla. Son tres los requisitos precisos para que proceda la responsabilidad empresarial: I) El presupuesto de hecho, que un trabajador sufra lesiones en un accidente de trabajo o enfermedad profesional. II) El presupuesto virtual o jurídico, que el empresario haya incumplido alguna norma de seguridad. III) La relación de causalidad entre el incumplimiento y el accidente de trabajo, al haber sido ese incumplimiento elemento decisivo en la producción de la lesión. Es cierto (y así lo recuerda la sentencia de la Sala de 3 de octubre de 2002 citando la del Tribunal Supremo de 8 de octubre de 2001) que la promulgación de la LPRL (de 8 de noviembre de 1995 y, por tanto en vigor a la data del accidente) propicia un \"enjuiciamiento riguroso ...de la vulneración de las normas de seguridad\"",
+   "info": []
+  },
+  {
+   "ref": "9561444",
+   "db": "AN",
+   "fecha": "20210421",
+   "titulo": "SJSO Barcelona, a 21 de abril de 2021 - ROJ: SJSO 181/2021",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/c8ae9590d826b614/20210610",
+   "roj": "SJSO 181/2021",
+   "ecli": "ECLI:ES:JSO:2021:181",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "182/2021",
+    "Municipio": "Barcelona",
+    "Ponente": "JUAN JOSE VIVAS GONZALEZ",
+    "Nº Recurso": "543/2018"
+   },
+   "resumen": "llega el juzgador a la vista del examen del contrato de trabajo aportado por dicha parte en el acto de juicio, ( folio 99 al 101 de las actuaciones), ulteriores modificaciones de jornada firmadas por la empleadora ( folios 102 y 103 de las actuaciones; nóminas del actor ( al folio 104 al 109 de las actuaciones), denuncias ante la inspección de trabajo y ulteriores respuestas ( al folio 110 al 128 de las actuaciones. A lo anterior debemos añadir la ficta confessio de la demandada. 2/.- De las bajas médicas cursada por el actor. En cuanto a los periodos de bajas médicas cursados por D. , con NIF nº , del examen de los documentos obrantes a los folios 129 y 130 de las actuaciones ha resultado probado que el mismo cursó baja médica en fecha 06/06/2017 siendo dado de alta en fecha 21/07/2017 derivada de accidente de trabajo. Aspectos",
+   "info": []
+  },
+  {
+   "ref": "9561446",
+   "db": "AN",
+   "fecha": "20210420",
+   "titulo": "SJSO Barcelona, a 20 de abril de 2021 - ROJ: SJSO 183/2021",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/e2d46d142f54a8ad/20210610",
+   "roj": "SJSO 183/2021",
+   "ecli": "ECLI:ES:JSO:2021:183",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "181/2021",
+    "Municipio": "Barcelona",
+    "Ponente": "JUAN JOSE VIVAS GONZALEZ",
+    "Nº Recurso": "887/2017"
+   },
+   "resumen": "del grupo. (Hechos que resultan de los folios 38 al 42, 190 y 191 de las actuaciones). II.- Ese mismo día del accidente, por la inspección de trabajo y seguridad social de Barcelona se giró visita al centro de trabajo y tras las actuaciones inspectoras y de investigación emitió acta de infracción con nº , frente a la entidad PLASTIVERD PET RECLICADO SA, con CIF nº A-66254848, en la que se realizó propuesta de sanción por importe de 8.195,00 euros. Las actuaciones inspectoras consistieron en visita al centro de trabajo que la empresa PLASTIVERD PET RECLICADO SA posee en la Avenida Remolar 2, en el término municipal de El Prat de Llobregát. Acompañando a la inspección de trabajo Dª , la Técnico de Prevención de la Unidad Territorial de Barcelona del Institut de Seguretat y Salut Laboral. Además se entrevistó a las siguientes",
+   "info": []
+  },
+  {
+   "ref": "9557275",
+   "db": "AN",
+   "fecha": "20210409",
+   "titulo": "SJSO Barcelona, a 09 de abril de 2021 - ROJ: SJSO 176/2021",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/b3d8a6d8d381a297/20210608",
+   "roj": "SJSO 176/2021",
+   "ecli": "ECLI:ES:JSO:2021:176",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "164/2021",
+    "Municipio": "Barcelona",
+    "Ponente": "JUAN JOSE VIVAS GONZALEZ",
+    "Nº Recurso": "281/2019"
+   },
+   "resumen": "ante un único proceso de incapacidad temporal, por lo que teniendo su origen la primera baja médica en accidente de trabajo, necesariamente la nueva baja de 02/10/17 debe entenderse también derivada de accidente de trabajo. Entendiendo el juzgador que estamos en presencia del supuesto contemplado en el artículo 156.2 letra F del TRLGSS, esto es, de la agravación de las dolencias previas que afectaban a la actora como consecuencia del accidente de trabajo, debiendo por tanto calificarse la IT iniciada por la actora en fecha 02/10/2017 como derivada de accidente de trabajo por cuanto la misma no es más que una consecuencia / recaída de la iniciada en fecha 05/08/17. A modo de resumen, se estima la demanda de la parte actora declarando que la situación de IT iniciada en fecha 02/10/2017 deriva de accidente de trabajo, con los efectos inherentes a tal declaración,",
+   "info": []
+  },
+  {
+   "ref": "9553482",
+   "db": "AN",
+   "fecha": "20210409",
+   "titulo": "SJSO Barcelona, a 09 de abril de 2021 - ROJ: SJSO 173/2021",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/63ddcb8665984c0a/20210604",
+   "roj": "SJSO 173/2021",
+   "ecli": "ECLI:ES:JSO:2021:173",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "167/2021",
+    "Municipio": "Barcelona",
+    "Ponente": "JUAN JOSE VIVAS GONZALEZ",
+    "Nº Recurso": "476/2019"
+   },
+   "resumen": "Consejo y Ley Orgánica 3/2018, de 6 de diciembre, de protección de datos personales y garantía de los derechos digitales). INFORMACIÓN PARA LOS USUARIOS DE LA ADMINISTRACIÓN DE JUSTICIA: En aplicación de la Orden JUS/394/2020, dictada con motivo de la situación sobrevenida con motivo del COVID-19: - La atención al público en cualquier sede judicial o de la fiscalía se realizará por vía telefónica o a través del correo electrónico habilitado a tal efecto, arriba detallados, en todo caso cumpliendo lo dispuesto en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales. - Para aquellos casos en los que resulte imprescindible acudir a la sede judicial o de la fiscalía, será necesario obtener previamente",
+   "info": []
+  },
+  {
+   "ref": "9567243",
+   "db": "AN",
+   "fecha": "20210409",
+   "titulo": "SJSO Barcelona, a 09 de abril de 2021 - ROJ: SJSO 185/2021",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/9b2e164bd428b898/20210615",
+   "roj": "SJSO 185/2021",
+   "ecli": "ECLI:ES:JSO:2021:185",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "163/2021",
+    "Municipio": "Barcelona",
+    "Ponente": "JUAN JOSE VIVAS GONZALEZ",
+    "Nº Recurso": "270/2019"
+   },
+   "resumen": "que queda prohibida su transmisión o comunicación por cualquier medio o procedimiento y que deben ser tratados exclusivamente para los fines propios de la Administración de justicia, sin perjuicio de las responsabilidades civiles y penales que puedan derivarse de un uso ilegítimo de los mismos (Reglamento EU 2016/679 del Parlamento Europeo y del Consejo y Ley Orgánica 3/2018, de 6 de diciembre, de protección de datos personales y garantía de los derechos digitales). INFORMACIÓN PARA LOS USUARIOS DE LA ADMINISTRACIÓN DE JUSTICIA: En aplicación de la Orden JUS/394/2020, dictada con motivo de la situación sobrevenida con motivo del COVID-19: - La atención al público en cualquier sede judicial o de la fiscalía se realizará por vía telefónica o a través del correo electrónico habilitado",
+   "info": []
+  },
+  {
+   "ref": "9627195",
+   "db": "AN",
+   "fecha": "20210407",
+   "titulo": "STSJ Andalucía, a 07 de abril de 2021 - ROJ: STSJ AND 6009/2021",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/68d1b10e7c49691c/20210803",
+   "roj": "STSJ AND 6009/2021",
+   "ecli": "ECLI:ES:TSJAND:2021:6009",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "605/2021",
+    "Municipio": "Málaga",
+    "Ponente": "RAMON GOMEZ RUIZ",
+    "Nº Recurso": "391/2021"
+   },
+   "resumen": "Conflicto Colectivo. Modificación sustancial colectiva de condiciones de trabajo.",
+   "info": []
+  },
+  {
+   "ref": "9571195",
+   "db": "AN",
+   "fecha": "20210329",
+   "titulo": "SJSO Barcelona, a 29 de marzo de 2021 - ROJ: SJSO 189/2021",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/41ce284241ed84a7/20210617",
+   "roj": "SJSO 189/2021",
+   "ecli": "ECLI:ES:JSO:2021:189",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "145/2021",
+    "Municipio": "Barcelona",
+    "Ponente": "JUAN JOSE VIVAS GONZALEZ",
+    "Nº Recurso": "404/2019"
+   },
+   "resumen": "y Ley Orgánica 3/2018, de 6 de diciembre, de protección de datos personales y garantía de los derechos digitales). INFORMACIÓN PARA LOS USUARIOS DE LA ADMINISTRACIÓN DE JUSTICIA: En aplicación de la Orden JUS/394/2020, dictada con motivo de la situación sobrevenida con motivo del COVID-19: - La atención al público en cualquier sede judicial o de la fiscalía se realizará por vía telefónica o a través del correo electrónico habilitado a tal efecto, arriba detallados, en todo caso cumpliendo lo dispuesto en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales. - Para aquellos casos en los que resulte imprescindible acudir a la sede judicial o de la fiscalía, será necesario obtener previamente la",
+   "info": []
+  },
+  {
+   "ref": "9546426",
+   "db": "AN",
+   "fecha": "20210326",
+   "titulo": "SJSO Barcelona, a 26 de marzo de 2021 - ROJ: SJSO 169/2021",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/4f5b4e5f500f6e93/20210531",
+   "roj": "SJSO 169/2021",
+   "ecli": "ECLI:ES:JSO:2021:169",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "137/2021",
+    "Municipio": "Barcelona",
+    "Ponente": "JUAN JOSE VIVAS GONZALEZ",
+    "Nº Recurso": "624/2017"
+   },
+   "resumen": "accidente de trabajo o enfermedad profesional), genera la obligación de indemnizar o de reparar el daño producido por el incumplimiento contractual. Así pues, de ninguna forma cabe recurrir a la responsabilidad extracontractual en el caso de autos. En este sentido, la STS de 30 de octubre de 2012, Sala Social, rec. nº 2692/2012, reitera que \" la Sala Cuarta del Tribunal Supremo, por su parte, ha mantenido la doctrina de que la responsabilidad exigible al empresario causada por accidente de trabajo deriva del incumplimiento por el empleador de una obligación incorporada al contrato de trabajo, por lo que ha entendido que la obligación es siempre contractual, o en su caso, derivada de una concreta obligación legal\". Ahora bien, ha existido una importante evolución jurisprudencial acerca de la carga de la prueba de la culpa.",
+   "info": []
+  }
+ ],
+ "extra": {
+  "total_web": "42 resultados paginas: 5"
+ }
+}

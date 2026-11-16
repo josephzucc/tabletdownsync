@@ -1,0 +1,35 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STSJ M 9886/2026",
+  "filtros": {
+   "roj": "STSJ M 9886/2026"
+  },
+  "fecha": "06/11/2026 08:37",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "11822535",
+   "db": "AN",
+   "fecha": "20260716",
+   "titulo": "STSJ Madrid, a 16 de julio de 2026 - ROJ: STSJ M 9886/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/b9b5ec8666d4f7f5a0a8778d75e36f0d/20260817",
+   "roj": "STSJ M 9886/2026",
+   "ecli": "ECLI:ES:TSJM:2026:9886",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "727/2026",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA ISABEL SAIZ ARESES",
+    "Nº Recurso": "205/2026"
+   },
+   "resumen": "/ Ceses en general 953/2024 Materia:Despido Sentencia número: 727/2026 Ilmos. Sres D./Dña. CONCEPCIÓN DEL BRIO CARRETERO D./Dña. MARIA ISABEL SAIZ ARESES D./Dña. RAQUEL VICENTE ANDRES En Madrid a dieciséis de julio de dos mil veintiséis habiendo visto en recurso de suplicación los presentes autos la Sección 2 de la Sala de lo Social de este Tribunal Superior de Justicia, compuesta por los Ilmos. Sres. citados, de acuerdo con lo prevenido en el artículo 117.1 de la Constitución Española, EN NOMBRE DE S.M. EL REY Y POR LA AUTORIDAD QUE LE CONFIERE EL PUEBLO ESPAÑOL ha dictado la siguiente S E N T E N C I A",
+   "info": [],
+   "pdf": "pdf/STSJ_M_9886_2026.pdf",
+   "txt": "txt/STSJ_M_9886_2026.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

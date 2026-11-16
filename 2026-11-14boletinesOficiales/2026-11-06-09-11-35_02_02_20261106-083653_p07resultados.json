@@ -1,0 +1,35 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STSJ AND 11638/2025",
+  "filtros": {
+   "roj": "STSJ AND 11638/2025"
+  },
+  "fecha": "06/11/2026 08:36",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "11414731",
+   "db": "AN",
+   "fecha": "20250616",
+   "titulo": "STSJ Andalucía, a 16 de junio de 2025 - ROJ: STSJ AND 11638/2025",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/ceaa4564fd248ae1a0a8778d75e36f0d/20250825",
+   "roj": "STSJ AND 11638/2025",
+   "ecli": "ECLI:ES:TSJAND:2025:11638",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1095/2025",
+    "Municipio": "Málaga",
+    "Ponente": "ERNESTO UTRERA MARTIN",
+    "Nº Recurso": "994/2025"
+   },
+   "resumen": "TRIBUNAL SUPERIOR DE JUSTICIA DE ANDALUCÍA, CEUTA Y MELILLA SALA DE LO SOCIAL CON SEDE EN MÁLAGA N.I.G.: 2906734420250000036. Órgano origen: Juzgado de lo Social nº 1 de Melilla Asunto origen: DSP 731/2023 Procedimiento: Recurso de suplicación nº 994/2025. Sentencia nº 1095/2025 Negociado: UT Materia: Despido De: TECNOLOGÍAS Y SERVICIOS AGRARIOS S.A. Abogado/a: ABOGACÍA DEL ESTADO DE MELILLA Contra: Abogado/a: ALBERTO JOSE REQUENA POU ILTMO. SR. D. MANUEL MARTÍN HERNÁNDEZ-CARRILLO, PRESIDENTE ILTMO. SR. D. ERNESTO UTRERA MARTÍN, PONENTE ILTMO. SR. D. RAÚL PÁEZ ESCÁMEZ SENTENCIA En la ciudad de Málaga, a dieciséis de junio de dos mil veinticinco. La Sala",
+   "info": [],
+   "pdf": "pdf/STSJ_AND_11638_2025.pdf",
+   "txt": "txt/STSJ_AND_11638_2025.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

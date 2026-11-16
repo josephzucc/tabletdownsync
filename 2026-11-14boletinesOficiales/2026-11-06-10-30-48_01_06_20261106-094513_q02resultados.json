@@ -1,0 +1,35 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STSJ CANT 376/2026",
+  "filtros": {
+   "roj": "STSJ CANT 376/2026"
+  },
+  "fecha": "06/11/2026 09:45",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "11678947",
+   "db": "AN",
+   "fecha": "20260319",
+   "titulo": "STSJ Cantabria, a 19 de marzo de 2026 - ROJ: STSJ CANT 376/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/b6d1939db7846f5ea0a8778d75e36f0d/20260408",
+   "roj": "STSJ CANT 376/2026",
+   "ecli": "ECLI:ES:TSJCANT:2026:376",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "254/2026",
+    "Municipio": "Santander",
+    "Ponente": "ELENA PEREZ PEREZ",
+    "Nº Recurso": "27/2026"
+   },
+   "resumen": "SALA DE LO SOCIAL DEL TRIBUNAL SUPERIOR DE JUSTICIA DE CANTABRIA Recursos de Suplicación 0000027/2026 NIG: 3907544420250003714 TX004 Calle Avda Pedro San Martin S/N Santander Tfno: 942357126 Fax: 942357004 Sección de lo Social del Tribunal de Instancia de Santander. Plaza nº 4 Modificación sustancial condiciones laborales 0000614/2025 - 0 Puede relacionarse telemáticamente con esta Admón. a través de la sede electrónica. (Acceso Vereda para personas jurídicas) https://sedejudicial.cantabria.es/ SENTENCIA nº 000254/2026 En Santander, a 19 de marzo del 2026. PRESIDENTA Ilma.",
+   "info": [],
+   "pdf": "pdf/STSJ_CANT_376_2026.pdf",
+   "txt": "txt/STSJ_CANT_376_2026.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

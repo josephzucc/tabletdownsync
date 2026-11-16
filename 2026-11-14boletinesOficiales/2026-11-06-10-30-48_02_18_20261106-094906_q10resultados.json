@@ -1,0 +1,35 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STSJ M 4139/2026",
+  "filtros": {
+   "roj": "STSJ M 4139/2026"
+  },
+  "fecha": "06/11/2026 09:49",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "11707421",
+   "db": "AN",
+   "fecha": "20260326",
+   "titulo": "STSJ Madrid, a 26 de marzo de 2026 - ROJ: STSJ M 4139/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/5e4b90a03d8bfd5ba0a8778d75e36f0d/20260504",
+   "roj": "STSJ M 4139/2026",
+   "ecli": "ECLI:ES:TSJM:2026:4139",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "333/2026",
+    "Municipio": "Madrid",
+    "Ponente": "SUSANA MARIA MOLINA GUTIERREZ",
+    "Nº Recurso": "799/2025"
+   },
+   "resumen": "social 882/2023 Materia:Incapacidad permanente Sentencia número: 333/2026 Ilmas. Sras D./Dña. CONCEPCIÓN DEL BRIO CARRETERO D./Dña. MARIA ISABEL SAIZ ARESES D./Dña. SUSANA MARIA MOLINA GUTIERREZ En Madrid a veintiséis de marzo de dos mil veintiséis habiendo visto en recurso de suplicación los presentes autos la Sección 2 de la Sala de lo Social de este Tribunal Superior de Justicia, compuesta por las Ilmas. Sras. citadas, de acuerdo con lo prevenido en el artículo 117.1 de la Constitución Española, EN NOMBRE DE S.M. EL REY Y POR LA AUTORIDAD QUE LE CONFIERE EL PUEBLO ESPAÑOL ha dictado la siguiente S E N T",
+   "info": [],
+   "pdf": "pdf/STSJ_M_4139_2026.pdf",
+   "txt": "txt/STSJ_M_4139_2026.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

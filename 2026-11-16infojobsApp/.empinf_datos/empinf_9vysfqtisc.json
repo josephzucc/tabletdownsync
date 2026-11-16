@@ -1,0 +1,411 @@
+{
+ "tipo": "ineco_listado",
+ "url": "https://ineco.epreselec.com/Ofertas/Ofertas.aspx",
+ "total": 56,
+ "filtro": {
+  "pais": "España",
+  "provincia": "Provincia",
+  "oficina": "SISTEMAS"
+ },
+ "ofertas": [
+  {
+   "id": "3365891",
+   "titulo": "28901-Técnico/a de Material Rodante Eléctrico",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "28 de octubre, 2026"
+  },
+  {
+   "id": "3374583",
+   "titulo": "29049 - Becario/a de Ingenieria Civil o Ingeniería de Caminos, Canales y Puertos",
+   "tipo": "BECA",
+   "lugar": "Madrid, España",
+   "fecha": "27 de octubre, 2026"
+  },
+  {
+   "id": "3301538",
+   "titulo": "28340- Ingeniero/a de Telecomunicaciones. Redes Fijas",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "27 de octubre, 2026"
+  },
+  {
+   "id": "3315037",
+   "titulo": "28500 - Técnico/a de proyectos de navegación aérea",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "27 de octubre, 2026"
+  },
+  {
+   "id": "3318717",
+   "titulo": "28562- Técnico/a de gestión de proyectos y cambio organizacional",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "26 de octubre, 2026"
+  },
+  {
+   "id": "3361118",
+   "titulo": "28898 - Técnico/a de Material Rodante, sistemas electromecánicos",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "26 de octubre, 2026"
+  },
+  {
+   "id": "3374291",
+   "titulo": "INSE-29048 - Beca Ingeniería Industrial",
+   "tipo": "BECA",
+   "lugar": "Madrid, España",
+   "fecha": "26 de octubre, 2026"
+  },
+  {
+   "id": "3225099",
+   "titulo": "26883 Director/a Obra Línea Aérea de Contacto Ferroviaria",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Almería, España",
+   "fecha": "22 de octubre, 2026"
+  },
+  {
+   "id": "3372419",
+   "titulo": "28024 - Ingeniero/a Asistencia Obra Despliegue CTC Ferroviario",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Sevilla, España",
+   "fecha": "20 de octubre, 2026"
+  },
+  {
+   "id": "3371800",
+   "titulo": "28077 - Ingeniero/a Asistencia Obra Ferroviara Despliegue CTC Ferroviario",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Sevilla, España",
+   "fecha": "19 de octubre, 2026"
+  },
+  {
+   "id": "3368688",
+   "titulo": "28966 - Ingeniero/a ADS",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "19 de octubre, 2026"
+  },
+  {
+   "id": "3358601",
+   "titulo": "28807- Ingeniero/a compras repuestos Material Rodante",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "19 de octubre, 2026"
+  },
+  {
+   "id": "3365888",
+   "titulo": "28906 - Adjunto/a Dirección Obra Granada",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "16 de octubre, 2026"
+  },
+  {
+   "id": "3142903",
+   "titulo": "26000 - Técnico/a MR Encomienda",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "16 de octubre, 2026"
+  },
+  {
+   "id": "3199160",
+   "titulo": "26728 - Técnico/a en explotación de energía en sector ferroviario",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "16 de octubre, 2026"
+  },
+  {
+   "id": "2888182",
+   "titulo": "22641 - Director/a de Obra de Línea Aérea de Contacto Ferroviaria",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Vizcaya, España",
+   "fecha": "14 de octubre, 2026"
+  },
+  {
+   "id": "3359716",
+   "titulo": "28887 - Técnico/a de mantenimiento de instalaciones de suministro de energía eléctrica",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Barcelona, España",
+   "fecha": "9 de octubre, 2026"
+  },
+  {
+   "id": "3221713",
+   "titulo": "26948 - Técnico/a Mantenimiento de Señalización Ferroviaria",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Barcelona, España",
+   "fecha": "8 de octubre, 2026"
+  },
+  {
+   "id": "3315658",
+   "titulo": "28518 - Técnico/a de Seguridad y Factores Humanos",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "5 de octubre, 2026"
+  },
+  {
+   "id": "3330128",
+   "titulo": "28639- Ingeniero/a de Sistemas de monitorización remota CNS",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "5 de octubre, 2026"
+  },
+  {
+   "id": "3305260",
+   "titulo": "27774 - Técnico/a de seguridad y factores humanos",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3288264",
+   "titulo": "28165- Técnico/a Gestión Flota Material Rodante Ferrovario",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3364045",
+   "titulo": "28731 - Ingeniero/a de Sistemas de monitorización remota CNS",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3361750",
+   "titulo": "28867- Técnico/a de automatización (Sistemas ATM)",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3211402",
+   "titulo": "26682-Técnico/a de Autoprotección",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3225100",
+   "titulo": "26915 - Director/a Obra LAC Pórticos Sup. Pantógrafos",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3228352",
+   "titulo": "27096 - Dirección de obra Protección Pasos a Nivel",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3234073",
+   "titulo": "27149 - Jefe/a Unidad Pórticos Inspección Pantógrafos",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3238963",
+   "titulo": "27264 - Técnico/a en Gestión de Riesgos",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3270808",
+   "titulo": "27708 - Técnico/a Comunicaciones aeronáuticas",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3275492",
+   "titulo": "27919 - Supervisor/a de Obra",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Barcelona, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3287596",
+   "titulo": "28185- Técnico/a soporte certificación AEMET",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3286248",
+   "titulo": "28068 - Técnico/a en CRC App.",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3308439",
+   "titulo": "28405 - Técnico/a Línea Aérea de Contacto",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Sevilla, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3350963",
+   "titulo": "28835 - Técnico/a en Navegación Aérea para el equipo de Operaciones Aeroportuarias lado Aire y Ruta y TMA. GOA - GORT",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3316470",
+   "titulo": "28524- Técnico/a de Auscultación de Línea Aérea de Contacto Ferroviaria",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3316083",
+   "titulo": "28517 - Técnico/a Sistemas Gestión Seguridad Ferroviaria",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3311660",
+   "titulo": "28472 - Técnico/a de Automatización (Sistemas ATM)",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3302211",
+   "titulo": "28290 - Técnico/a Instalaciones de Protección Civil y Seguridad",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Barcelona, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3310490",
+   "titulo": "28421 - Técnico/a en Asistencia Técnica a Obra de Suministro de Energía Eléctrica",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Cáceres, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3358921",
+   "titulo": "28880 - Técnico/a de desarrollo de procesos de seguridad aérea",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de septiembre, 2026"
+  },
+  {
+   "id": "3326371",
+   "titulo": "28634- Dirección de Obras de Sistemas de Señalización Ferroviaria",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "21 de septiembre, 2026"
+  },
+  {
+   "id": "3286421",
+   "titulo": "28120 -Técnico/a Asistencia Técnica de Obra de Señalización Ferroviaria",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Cádiz, España",
+   "fecha": "4 de agosto, 2026"
+  },
+  {
+   "id": "3211404",
+   "titulo": "26772 - Responsable de Instalación de asistencia técnica de señalización ferroviaria",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "La Rioja, España",
+   "fecha": "4 de agosto, 2026"
+  },
+  {
+   "id": "3319837",
+   "titulo": "28564 - Técnico/a en consultoría de navegación aérea",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "31 de julio, 2026"
+  },
+  {
+   "id": "3326067",
+   "titulo": "28640 - Director/a Obra Catenaria Talleres",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de julio, 2026"
+  },
+  {
+   "id": "3295558",
+   "titulo": "28099 - Director/a Obra Videovigilancia (CCTV) , Control de Accesos y Anti -Intrusión Alta Velocidad",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de julio, 2026"
+  },
+  {
+   "id": "3304534",
+   "titulo": "28370 - Director/a de Obra de Señalización Ferroviaria.",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Zaragoza, España",
+   "fecha": "28 de julio, 2026"
+  },
+  {
+   "id": "3211405",
+   "titulo": "26773 Jefe/a Técnico/a de Señalización Ferroviaria",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Zaragoza, España",
+   "fecha": "28 de julio, 2026"
+  },
+  {
+   "id": "3330127",
+   "titulo": "28665 - Ingeniero/a de Vigilancia Espacial SST",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "28 de julio, 2026"
+  },
+  {
+   "id": "3282051",
+   "titulo": "27978 - Ingeniero/a Automatización SACTA",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "19 de junio, 2026"
+  },
+  {
+   "id": "3318716",
+   "titulo": "28415- Técnico/a ERTMS en obras alta velocidad",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de mayo, 2026"
+  },
+  {
+   "id": "3269686",
+   "titulo": "27721 - Técnico/a de Seguridad y Factores Humanos",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "2 de febrero, 2026"
+  },
+  {
+   "id": "3257039",
+   "titulo": "27550 - Ingeniero/a de Sistemas Radar Aeronáuticos",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "29 de diciembre, 2025"
+  },
+  {
+   "id": "3249139",
+   "titulo": "27457 - Técnico/a en Gestión de Riesgos Ferroviarios",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Valencia, España",
+   "fecha": "1 de diciembre, 2025"
+  },
+  {
+   "id": "3136556",
+   "titulo": "25773 - Ingeniero/a Automatización Sistemas ATM",
+   "tipo": "PLANTILLA / OFERTA",
+   "lugar": "Madrid, España",
+   "fecha": "3 de septiembre, 2025"
+  }
+ ],
+ "pedido": {
+  "pais": "Espana",
+  "provincia": "Madrid",
+  "oficina": "SISTEMAS"
+ },
+ "token": "9vysfqtisc",
+ "guardado": "2026-10-28T08:56:51.853Z"
+}

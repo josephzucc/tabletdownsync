@@ -1,0 +1,35 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STSJ AND 9190/2020",
+  "filtros": {
+   "roj": "STSJ AND 9190/2020"
+  },
+  "fecha": "06/11/2026 08:41",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "9270018",
+   "db": "AN",
+   "fecha": "20200708",
+   "titulo": "STSJ Andalucía, a 08 de julio de 2020 - ROJ: STSJ AND 9190/2020",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/1f82ab9b11097708/20201007",
+   "roj": "STSJ AND 9190/2020",
+   "ecli": "ECLI:ES:TSJAND:2020:9190",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "1282/2020",
+    "Municipio": "Málaga",
+    "Ponente": "MANUEL MARTIN HERNANDEZ-CARRILLO",
+    "Nº Recurso": "466/2020"
+   },
+   "resumen": "TRIBUNAL SUPERIOR DE JUSTICIA DE ANDALUCIA SALA DE LO SOCIAL CON SEDE EN MALAGA N.I.G.: 2906744420190010895 Negociado: MA Recurso: Recursos de Suplicación 466/2020 Juzgado origen: JUZGADO DE LO SOCIAL Nº 9 DE MALAGA Procedimiento origen: Despidos / Ceses en general 842/2019 Recurrente: Representante: ANTONIO CABALLERO CASTILLO Recurrido: SOCIEDAD ESTATAL CORREOS Y TELEGRAFOS S.A., FONDO DE GARANTIA SALARIAL y MINISTERIO FISCAL Representante:ABOGACIA DEL ESTADO DE MALAGA y LETRADO DE FOGASA - MALAGA Sentencia Nº 1282/2020 ILTMO. SR. D. D. FRANCISCO JAVIER VELA TORRES, PRESIDENTE ILTMO. SR. D. JOSE LUIS BARRAGAN MORALES, ILTMO. SR. D. MANUEL",
+   "info": [],
+   "pdf": "pdf/STSJ_AND_9190_2020.pdf",
+   "txt": "txt/STSJ_AND_9190_2020.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

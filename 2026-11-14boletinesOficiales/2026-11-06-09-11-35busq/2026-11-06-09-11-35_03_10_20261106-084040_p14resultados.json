@@ -1,0 +1,35 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STSJ AR 942/2026",
+  "filtros": {
+   "roj": "STSJ AR 942/2026"
+  },
+  "fecha": "06/11/2026 08:40",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "11765970",
+   "db": "AN",
+   "fecha": "20260608",
+   "titulo": "STSJ Aragón, a 08 de junio de 2026 - ROJ: STSJ AR 942/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/43cd8bad3f526366a0a8778d75e36f0d/20260622",
+   "roj": "STSJ AR 942/2026",
+   "ecli": "ECLI:ES:TSJAR:2026:942",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "449/2026",
+    "Municipio": "Zaragoza",
+    "Ponente": "MARIANO FUSTERO GALVE",
+    "Nº Recurso": "312/2026"
+   },
+   "resumen": "Despido inexistente: válido desistimiento durante el período de prueba. Diferentes funciones asignadas respecto a las que lo fueron bajo la cobertura de contrato anterior. La condición de salud como indicio y su neutralización probatoria.",
+   "info": [],
+   "pdf": "pdf/STSJ_AR_942_2026.pdf",
+   "txt": "txt/STSJ_AR_942_2026.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

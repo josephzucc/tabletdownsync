@@ -1,0 +1,1 @@
+t=${today};echo -e "dia;tipohora;periodo;v1;v2;vm\n${t};valle;0-8;0.1495;0.2041;0.169\n${t};llano;8-10,14-18,22-0;0.1644;0.2596;0.224\n${t};punta;10-14,18-22;0.2923;0.3;0.297" >>2026-11-11avilaLaAdradaTravesiaJuegoDeLaBola/2026-11-11bbddpreciospvpc.txt

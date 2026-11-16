@@ -1,0 +1,35 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STSJ M 2529/2024",
+  "filtros": {
+   "roj": "STSJ M 2529/2024"
+  },
+  "fecha": "06/11/2026 08:40",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "10867204",
+   "db": "AN",
+   "fecha": "20240306",
+   "titulo": "STSJ Madrid, a 06 de marzo de 2024 - ROJ: STSJ M 2529/2024",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/96f2f3aafee10f12a0a8778d75e36f0d/20240417",
+   "roj": "STSJ M 2529/2024",
+   "ecli": "ECLI:ES:TSJM:2024:2529",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "227/2024",
+    "Municipio": "Madrid",
+    "Ponente": "MARIA VIRGINIA GARCIA ALARCON",
+    "Nº Recurso": "1019/2023"
+   },
+   "resumen": "Extinción de la relación laboral por desistimiento empresarial por no haber superado el periodo de prueba, trabajador que ha estado en sucesivos procesos de incapacidad temporal. Se plante si el cese debe de calificarse de despido",
+   "info": [],
+   "pdf": "pdf/STSJ_M_2529_2024.pdf",
+   "txt": "txt/STSJ_M_2529_2024.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

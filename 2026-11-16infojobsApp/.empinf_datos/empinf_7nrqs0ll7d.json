@@ -1,0 +1,64 @@
+{
+ "tipo": "oferta",
+ "url": "https://www.infojobs.net/madrid/desarrollador-backend/of-i0a743ff93d4f87a7dad5423fb42d0a",
+ "id": "0a743ff93d4f87a7dad5423fb42d0a",
+ "titulo": "Desarrollador/a backend",
+ "empresa": "NAHUEL MOUNTAIN SL.",
+ "detalles": [
+  "Madrid (Madrid)",
+  "Híbrido",
+  "30.000€ - 40.000€ Bruto/año",
+  "Experiencia mínima: Más de 5 años",
+  "Contrato indefinido, jornada completa"
+ ],
+ "publicada": "Publicada Hace 1d",
+ "datos": [
+  [
+   "Estudios mínimos",
+   "Grado"
+  ],
+  [
+   "Experiencia mínima",
+   "Más de 5 años"
+  ],
+  [
+   "Conocimientos necesarios",
+   "Java, Spring Boot, API development, PostgreSQL, MongoDB, Docker, REST, Spring Security, DevOps, Jenkins"
+  ],
+  [
+   "Sector",
+   "Desarrollo de programación"
+  ],
+  [
+   "Categoría",
+   "Informática y telecomunicaciones - Programación"
+  ],
+  [
+   "Nivel",
+   "Especialista"
+  ],
+  [
+   "Personas a cargo",
+   "1 - 5"
+  ],
+  [
+   "Vacantes",
+   "1"
+  ],
+  [
+   "Salario",
+   "30.000€ - 40.000€ Bruto/año"
+  ]
+ ],
+ "descripcion": "Buscamos Desarrollador Backend Senior | NestJS, Java & DevOps\nEn CodeZone (calle Velazquez 126) buscamos incorporar un Desarrollador Backend Senior con experiencia sólida en arquitectura de software, buenas prácticas de desarrollo y conocimientos de DevOps.\nSomos una empresa tecnológica en pleno crecimiento, formada actualmente por un equipo de 8 profesionales. Desarrollamos software a medida, aplicaciones web y móviles, plataformas SaaS y soluciones empresariales.\nBuscamos un perfil con criterio técnico, capaz de diseñar arquitecturas backend robustas, escalables y mantenibles, que también pueda ayudarnos a ampliar nuestros servicios DevOps.\nResponsabilidades principales\nDiseño y desarrollo de soluciones backend con NestJS y Java (Spring Boot).\nAplicación de arquitectura hexagonal, Domain-Driven Design (DDD), SOLID y Clean Architecture.\nDiseño e implementación de arquitecturas de microservicios y sistemas distribuidos.\nDesarrollo de APIs REST escalables y optimizadas.\nImplementación de sistemas de autenticación, autorización y gestión de roles y permisos (RBAC).\nAplicación de buenas prácticas de desarrollo seguro y protección de datos.\nDiseño y optimización de bases de datos SQL y NoSQL.\nImplementación de pruebas unitarias, de integración y end-to-end.\nRevisión de código, refactorización y mejora continua de la calidad del software.\nDiseño de soluciones orientadas a la reutilización, mantenibilidad y escalabilidad.\nDevOps e infraestructura\nBuscamos un profesional que también pueda participar en la implantación de soluciones DevOps para nuestros proyectos y clientes.\nConfiguración y mantenimiento de pipelines CI/CD.\nContenerización mediante Docker y conocimientos de Kubernetes.\nDespliegue y administración de aplicaciones en entornos cloud (AWS, Azure o GCP).\nAutomatización de despliegues e infraestructura.\nMonitorización, logging y observabilidad de aplicaciones.\nAplicación de buenas prácticas en configuración, gestión de accesos y despliegues.\nRequisitos\nExperiencia senior demostrable en desarrollo backend.\nDominio de NestJS y Java.\nExperiencia sólida en arquitectura hexagonal, DDD, SOLID y patrones de diseño.\nExperiencia en microservicios, diseño de APIs y arquitectura de software.\nConocimientos de buenas prácticas de seguridad en el desarrollo backend.\nExperiencia con bases de datos relacionales y NoSQL.\nConocimientos prácticos de Docker, CI/CD y servicios cloud.\nExperiencia en testing automatizado, Git y revisión de código.\nCapacidad para tomar decisiones arquitectónicas y garantizar la calidad técnica de los proyectos.\nSe valorará\nExperiencia con Kubernetes, Terraform y automatización de infraestructura.\nConocimientos de Kafka, RabbitMQ y Redis.\nExperiencia en arquitecturas SaaS multitenant y sistemas de alta concurrencia.\nExperiencia implementando servicios DevOps para diferentes clientes.\n¿Qué ofrecemos?\nIncorporación a una empresa tecnológica en plena expansión.\nParticipación en proyectos de software de alta complejidad técnica.\nPosibilidad de impulsar una nueva línea de servicios DevOps.\nAutonomía técnica y participación en decisiones de arquitectura.\nOportunidades reales de crecimiento y desarrollo profesional.\nBuscamos algo más que un programador backend: un ingeniero con capacidad para diseñar software de calidad, aplicar buenas prácticas de arquitectura y construir soluciones escalables, seguras y mantenibles a largo plazo.\nCodeZone | Ingeniería y desarrollo de software\nwww.codezone.es\n#BackendDeveloper #NestJS #Java #DevOps #DDD #ArquitecturaHexagonal #SoftwareEngineering #CodeZone",
+ "inscritos": "56 inscritos a esta oferta",
+ "compatibilidad": "",
+ "diagnostico": {
+  "titulo_pagina": "Oferta de empleo: Desarrollador/a backend en Madrid - Bolsa trabajo InfoJobs",
+  "tarjetas": 0,
+  "h1": "Desarrollador/a backend",
+  "segundos": 3
+ },
+ "guardado": "2026-10-22T10:56:09.629Z",
+ "token": "7nrqs0ll7d"
+}

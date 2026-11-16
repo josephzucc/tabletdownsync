@@ -1,0 +1,35 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STSJ M 6589/2023",
+  "filtros": {
+   "roj": "STSJ M 6589/2023"
+  },
+  "fecha": "06/11/2026 09:47",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "10552454",
+   "db": "AN",
+   "fecha": "20230510",
+   "titulo": "STSJ Madrid, a 10 de mayo de 2023 - ROJ: STSJ M 6589/2023",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/5a7f49ed78b1c113a0a8778d75e36f0d/20230710",
+   "roj": "STSJ M 6589/2023",
+   "ecli": "ECLI:ES:TSJM:2023:6589",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "438/2023",
+    "Municipio": "Madrid",
+    "Ponente": "RAFAEL ANTONIO LOPEZ PARADA",
+    "Nº Recurso": "86/2023"
+   },
+   "resumen": "Incapacidad permanente absoluta: limitación para el desplazamiento al centro de trabajo. Trabajo a distancia. Integración social y empleo de discapacitados.",
+   "info": [],
+   "pdf": "pdf/STSJ_M_6589_2023.pdf",
+   "txt": "txt/STSJ_M_6589_2023.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

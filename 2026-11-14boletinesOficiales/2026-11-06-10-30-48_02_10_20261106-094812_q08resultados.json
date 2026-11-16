@@ -1,0 +1,35 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: STSJ LR 349/2026",
+  "filtros": {
+   "roj": "STSJ LR 349/2026"
+  },
+  "fecha": "06/11/2026 09:48",
+  "aplicados_en_web": {}
+ },
+ "resultados": [
+  {
+   "ref": "11858007",
+   "db": "AN",
+   "fecha": "20260730",
+   "titulo": "STSJ La Rioja, a 30 de julio de 2026 - ROJ: STSJ LR 349/2026",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/1616bca64416a375a0a8778d75e36f0d/20260922",
+   "roj": "STSJ LR 349/2026",
+   "ecli": "ECLI:ES:TSJLR:2026:349",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "102/2026",
+    "Municipio": "Logroño",
+    "Ponente": "CARLOS GONZALEZ GONZALEZ",
+    "Nº Recurso": "102/2026"
+   },
+   "resumen": "Modificación sustancial de las condiciones de trabajo. Nulidad por vulneración de derechos fundamentales. Discapacidad y derecho a los ajustes razonables.",
+   "info": [],
+   "pdf": "pdf/STSJ_LR_349_2026.pdf",
+   "txt": "txt/STSJ_LR_349_2026.txt"
+  }
+ ],
+ "extra": {
+  "total_web": "1 resultados"
+ }
+}

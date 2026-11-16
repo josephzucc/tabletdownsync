@@ -1,0 +1,249 @@
+{
+ "consulta": {
+  "descripcion": "busqueda: cesión ilegal Tragsatec ADIF",
+  "filtros": {
+   "texto": "cesión ilegal Tragsatec ADIF",
+   "jurisdiccion": [
+    "SOCIAL"
+   ]
+  },
+  "fecha": "06/11/2026 08:55",
+  "aplicados_en_web": {
+   "jurisdiccion": [
+    "Social"
+   ]
+  }
+ },
+ "resultados": [
+  {
+   "ref": "10003882",
+   "db": "TS",
+   "fecha": "20220524",
+   "titulo": "ATS, a 24 de mayo de 2022 - ROJ: ATS 8652/2022",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/92596adf6e3c1b74a0a8778d75e36f0d/20220613",
+   "roj": "ATS 8652/2022",
+   "ecli": "ECLI:ES:TS:2022:8652A",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "ROSA MARIA VIROLES PIÑOL",
+    "Nº Recurso": "4249/2021"
+   },
+   "resumen": "Cesión ilegal de TRAGSATEC en favor de ADIF. Titulada superior (Licenciada en derecho) que presta servicios de asistencia técnica en la encomienda del saneamiento urbanístico de los suelos de ADIF en Madrid y Castilla La Mancha. Falta de contradicción.",
+   "info": []
+  },
+  {
+   "ref": "9990702",
+   "db": "TS",
+   "fecha": "20220517",
+   "titulo": "ATS, a 17 de mayo de 2022 - ROJ: ATS 8071/2022",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/3fac341a03110f94/20220603",
+   "roj": "ATS 8071/2022",
+   "ecli": "ECLI:ES:TS:2022:8071A",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "RICARDO BODAS MARTIN",
+    "Nº Recurso": "359/2021"
+   },
+   "resumen": "Cesión ilegal. Falta de contradicción.",
+   "info": []
+  },
+  {
+   "ref": "9957932",
+   "db": "TS",
+   "fecha": "20220427",
+   "titulo": "ATS, a 27 de abril de 2022 - ROJ: ATS 6776/2022",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/25a0e1b208b1aa65/20220516",
+   "roj": "ATS 6776/2022",
+   "ecli": "ECLI:ES:TS:2022:6776A",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "RICARDO BODAS MARTIN",
+    "Nº Recurso": "2850/2021"
+   },
+   "resumen": "Cesión ilegal de TRAGSATEC en favor de ADIF. Arquitecta que presta servicios de asistencia técnica en la encomienda del saneamiento urbanístico de los suelos de ADIF en Madrid y Castilla La Mancha. No se aprecia. Falta de contradicción.",
+   "info": []
+  },
+  {
+   "ref": "9786994",
+   "db": "AN",
+   "fecha": "20211011",
+   "titulo": "STSJ Madrid, a 11 de octubre de 2021 - ROJ: STSJ M 11008/2021",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/8b0af5d66eb4c918/20211229",
+   "roj": "STSJ M 11008/2021",
+   "ecli": "ECLI:ES:TSJM:2021:11008",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "624/2021",
+    "Municipio": "Madrid",
+    "Ponente": "ENRIQUE JUANES FRAGA",
+    "Nº Recurso": "416/2021"
+   },
+   "resumen": "de lo Social Nº 29 de Madrid, que ha desestimado su demanda sobre declaración de la existencia de cesión ilegal entre TRAGSATEC y ADIF, con la categoría de técnico y antigüedad de 17-8-09, optando la demandante por su incorporación a ADIF, más reclamación de diferencias salariales por importe de 28.364,99 euros por el período de septiembre de 2018 a agosto de 2019 más el 10% de interés por mora. La sentencia estimó la falta de legitimación pasiva de la también demandada TRAGSA. Han impugnado el recurso TRAGSATEC y ADIF. Se formula una \"cuestión previa\" en la que la parte recurrente viene a sostener que la juzgadora no ha valorado con la misma atención la actividad probatoria de una y otra parte, en detrimento de la demandante. Pero no se ha articulado motivo alguno al respecto, por el cauce del art. 193.a) LRJS, si es que la recurrente entendía",
+   "info": []
+  },
+  {
+   "ref": "9682591",
+   "db": "TS",
+   "fecha": "20210907",
+   "titulo": "ATS, a 07 de septiembre de 2021 - ROJ: ATS 11097/2021",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/4c94e81d33c258c2/20210924",
+   "roj": "ATS 11097/2021",
+   "ecli": "ECLI:ES:TS:2021:11097A",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "ANTONIO VICENTE SEMPERE NAVARRO",
+    "Nº Recurso": "1397/2020"
+   },
+   "resumen": "DESPIDO. CESIÓN ILEGAL. TRABAJADORA EMBARAZADA. FALTA DE CONTRADICCIÓN.",
+   "info": []
+  },
+  {
+   "ref": "9591459",
+   "db": "TS",
+   "fecha": "20210622",
+   "titulo": "ATS, a 22 de junio de 2021 - ROJ: ATS 8480/2021",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/e5720296e245405b/20210705",
+   "roj": "ATS 8480/2021",
+   "ecli": "ECLI:ES:TS:2021:8480A",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "ANGEL ANTONIO BLASCO PELLICER",
+    "Nº Recurso": "2415/2020"
+   },
+   "resumen": "AYUNTAMIENTO DE MURCIA y ACTIVIDADES CULTURALES RIGA SLU. Cesión ilegal de mano de obra. Existencia de subrogación. Nulidad del despido por ausencia de expediente de extinción colectiva y fraude de ley. Vulneración de derechos fundamentales.",
+   "info": []
+  },
+  {
+   "ref": "9582789",
+   "db": "TS",
+   "fecha": "20210608",
+   "titulo": "ATS, a 08 de junio de 2021 - ROJ: ATS 8401/2021",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/8d63db7b09a6f538/20210628",
+   "roj": "ATS 8401/2021",
+   "ecli": "ECLI:ES:TS:2021:8401A",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "IGNACIO GARCIA-PERROTE ESCARTIN",
+    "Nº Recurso": "1788/2020"
+   },
+   "resumen": "AYUNTAMIENTO DE MURCIA; EXPERTUS; ALQUIBLA y CONEXIÓN CULTURA. Incongruencia extra petita. Cesión ilegal de mano de obra. Existencia de subrogación. Nulidad del despido por ausencia de expediente de extinción colectiva y fraude de ley. Nulidad del despido por vulneración de derechos fundamentales.",
+   "info": []
+  },
+  {
+   "ref": "9615158",
+   "db": "AN",
+   "fecha": "20210521",
+   "titulo": "STSJ Madrid, a 21 de mayo de 2021 - ROJ: STSJ M 5165/2021",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/1aacf9af747d0324/20210723",
+   "roj": "STSJ M 5165/2021",
+   "ecli": "ECLI:ES:TSJM:2021:5165",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "493/2021",
+    "Municipio": "Madrid",
+    "Ponente": "IGNACIO MORENO GONZALEZ-ALLER",
+    "Nº Recurso": "117/2021"
+   },
+   "resumen": "y estudio en 5-5-21, señalándose el día 19-5-21 para los actos de votación y fallo. SÉPTIMO: En la tramitación del presente recurso de suplicación no se ha producido ninguna incidencia. . PRIMERO.- Interpone recurso de suplicación la trabajadora contra sentencia que desestimó la demanda rectora de autos, dirigida frente a TRAGSATEC, S.A., TRAGSA y contra ADMINISTRADOR DE INFRAESTRUCTURAS FERROVIARIAS, tendente a que se declarara: a) La existencia de cesión ilegal de la demandante por TRAGSATEC (antes TRAGSA) a ADIF, y su derecho a la incorporación a ADIF, siendo el contrato de trabajo indefinido con la categoría de Técnico y la antigüedad de 18 de agosto de 2009, optando la demandante por su incorporación a ADIF, condenando solidariamente asimismo a las empresas demandadas a estar y pasar por esta declaración, b)",
+   "info": []
+  },
+  {
+   "ref": "8969684",
+   "db": "AN",
+   "fecha": "20190926",
+   "titulo": "STSJ Andalucía, a 26 de septiembre de 2019 - ROJ: STSJ AND 10425/2019",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/c2a2a12031818e16/20200107",
+   "roj": "STSJ AND 10425/2019",
+   "ecli": "ECLI:ES:TSJAND:2019:10425",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2186/2019",
+    "Municipio": "Granada",
+    "Ponente": "FRANCISCO JOSE VILLAR DEL MORAL",
+    "Nº Recurso": "3306/2018"
+   },
+   "resumen": "adicional 15ª del E.T., y la jurisprudencia interpretativa que invoca, desde la óptica que en este caso precedió previa declaración de cesión ilegal de trabajadores que posibilitó que en ejecución de sentencia la parte actora optase por integrarse en la Consejería, con plena aplicación del Convenio aplicable a su personal a diferencia del resto de personal temporal, sosteniendo que en estos casos y como sanción a este tráfico ilícito el carácter de los mismos debe de ser como el de un trabajador fijo, pese a la denominación formal como indefinido no fijo, ocupando una plaza concreta y expresa no pública, sino de carácter privado en la empresa Tragsatec generándose aquella en la administración con carácter público, fruto de la sentencia. Que la propia sentencia de Sevilla indicada ha ido separando la figura del indefinido no fijo de otras esencialmente temporales y cabe",
+   "info": []
+  },
+  {
+   "ref": "8716736",
+   "db": "AN",
+   "fecha": "20181102",
+   "titulo": "STSJ Andalucía, a 02 de noviembre de 2018 - ROJ: STSJ AND 15823/2018",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/110e045a3f8ed734/20190402",
+   "roj": "STSJ AND 15823/2018",
+   "ecli": "ECLI:ES:TSJAND:2018:15823",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "2539/2018",
+    "Municipio": "Granada",
+    "Ponente": "BEATRIZ PEREZ HEREDIA",
+    "Nº Recurso": "678/2018"
+   },
+   "resumen": "reconozca como objeto de una cesión ilegal por parte de Tragsatec a la Confederación codemandada. En la sentencia de instancia se reconoce sólo la improcedencia del despido, pero no la nulidad, previa desestimación de la cuestión prejudicial relativa a la cesión ilegal del art. 43 ET . En efecto, niega el juzgador en la instancia que en estos concretos supuestos se haya demostrado que el verdadero empleador de los demandantes sea la Confederación y no la empresa formalmente contratante, Tragsatec, afirmando que no concurren respecto de aquella y sí respecto de ésta los requisitos de ajeneidad y dependencia propios del verdadero empleador. Dicho pronunciamiento judicial, relativo a la falta de cesión ilegal, es igualmente rebatido en sendos recursos de los demandantes, como veremos en sede de censura jurídica. En relación con la acción de nulidad",
+   "info": []
+  },
+  {
+   "ref": "8017100",
+   "db": "TS",
+   "fecha": "20170406",
+   "titulo": "ATS, a 06 de abril de 2017 - ROJ: ATS 4141/2017",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/2f9ed704c4516a0e/20170515",
+   "roj": "ATS 4141/2017",
+   "ecli": "ECLI:ES:TS:2017:4141A",
+   "sala": "Sala de lo Social",
+   "datos": {
+    "Municipio": "Madrid",
+    "Ponente": "MILAGROS CALVO IBARLUCEA",
+    "Nº Recurso": "2390/2016"
+   },
+   "resumen": "DESPIDO. CESIÓN ILEGAL. ENCOMIENDA DE GESTIÓN ENTRE ADIF Y TRAGSATEC. FALTA DE CONTRADICCIÓN. FALTA DE IDONEIDAD DE LA SENTENCIA: NO CITADA EN PREPARACIÓN.",
+   "info": []
+  },
+  {
+   "ref": "7741528",
+   "db": "AN",
+   "fecha": "20160503",
+   "titulo": "STSJ Madrid, a 03 de mayo de 2016 - ROJ: STSJ M 5276/2016",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/090827772d09f8f7/20160721",
+   "roj": "STSJ M 5276/2016",
+   "ecli": "ECLI:ES:TSJM:2016:5276",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "324/2016",
+    "Municipio": "Madrid",
+    "Ponente": "LUIS LACAMBRA MORERA",
+    "Nº Recurso": "196/2016"
+   },
+   "resumen": "Prolongación de Castellana. XI. El equipo informático que utiliza el actor es titularidad de Tragsatec. El programa o aplicación informática es de ADIF. XII. Lo relativo a las vacaciones, libranzas u otras incidencias laborales del actor viene gestionándose por una coordinadora de Tragsatec que se ocupa de estas cuestiones en relación con todo el personal de Tragsatec destinado en ADIF. XIII. Por el demandante se intentó la conciliación previa ante el SMAC, sin avenencia respecto a Tragsatec, y sin efecto respecto de ADIF, según consta en la correspondiente certificación expedida por dicho Organismo y acompañada con la demanda (folio 11). XIV. La demanda iniciadora de estas actuaciones se formuló el día 13 marzo 2015, solicitándose en su \"suplico\" que se declare la existencia de cesión ilegal",
+   "info": []
+  },
+  {
+   "ref": "7394720",
+   "db": "AN",
+   "fecha": "20150515",
+   "titulo": "STSJ Asturias, a 15 de mayo de 2015 - ROJ: STSJ AS 1224/2015",
+   "url": "https://www.poderjudicial.es/search/AN/openDocument/1a5a024258365539/20150601",
+   "roj": "STSJ AS 1224/2015",
+   "ecli": "ECLI:ES:TSJAS:2015:1224",
+   "sala": "",
+   "datos": {
+    "Nº de Resolución": "933/2015",
+    "Municipio": "Oviedo",
+    "Ponente": "MARIA VIDAU ARGÜELLES",
+    "Nº Recurso": "722/2015"
+   },
+   "resumen": "Cesión ilegal de trabajadores. Doctrina general. Circulación de trabajadores dentro de las empresas del grupo, requisitos económico-organizativos. Revisión de hechos probados en suplicación.",
+   "info": []
+  }
+ ],
+ "extra": {
+  "total_web": "13 resultados paginas: 2"
+ }
+}
