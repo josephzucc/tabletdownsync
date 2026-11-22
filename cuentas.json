@@ -1,0 +1,22 @@
+{
+  "madrid": {
+    "host": "madrid.ebiblio.es",
+    "usuario": "53990802",
+    "password": "19011974"
+  },
+  "castillaleon": {
+    "host": "castillayleon.ebiblio.es",
+    "usuario": "053990802",
+    "password": "aBRFm6g?"
+  },
+  "_catalogo": {
+    "mundo": {"nombre": "El Mundo", "serial": "El Mundo (Ed. Nacional)", "naturaleza": "newspaper", "periodicidad": "diaria", "url": "https://madrid.ebiblio.es/resources?nature=newspaper&serial_name=El+Mundo+%28Ed.+Nacional%29"},
+    "paismadrid":  {"nombre": "El Pais Madrid", "serial": "El País, edición Madrid", "naturaleza": "newspaper", "periodicidad": "diaria", "url": "https://madrid.ebiblio.es/resources?nature=newspaper&serial_name=El+Pa%C3%ADs%2C+edici%C3%B3n+Madrid"},
+    "paism": {"nombre": "El Pais Madrid", "serial": "El País, edición Madrid", "naturaleza": "newspaper", "periodicidad": "diaria", "url": "https://madrid.ebiblio.es/resources?nature=newspaper&serial_name=El+Pa%C3%ADs%2C+edici%C3%B3n+Madrid"},
+    "paismad": {"nombre": "El Pais Madrid", "serial": "El País, edición Madrid", "naturaleza": "newspaper", "periodicidad": "diaria", "url": "https://madrid.ebiblio.es/resources?nature=newspaper&serial_name=El+Pa%C3%ADs%2C+edici%C3%B3n+Madrid"},
+    "pais": {"nombre": "El Pais", "serial": "El País", "naturaleza": "newspaper", "periodicidad": "diaria", "url": ["https://madrid.ebiblio.es/resources?nature=newspaper&serial_name=El+Pa%C3%ADs", "https://castillayleon.ebiblio.es/resources?nature=newspaper&serial_name=El+Pa%C3%ADs"]},
+    "cincodias": {"nombre": "Cinco Dias", "serial": "Cinco Días", "naturaleza": "newspaper", "periodicidad": "diaria", "url": ["https://madrid.ebiblio.es/resources?nature=newspaper&serial_name=Cinco+D%C3%ADas", "https://castillayleon.ebiblio.es/resources?nature=newspaper&serial_name=Cinco+D%C3%ADas"]},
+    "avila": {"nombre": "Diario de Avila", "serial": "Diario de Ávila", "naturaleza": "newspaper", "periodicidad": "diaria", "url": "https://castillayleon.ebiblio.es/resources?nature=newspaper&serial_name=Diario+de+%C3%81vila"},
+    "diarioavila": {"nombre": "Diario de Avila", "serial": "Diario de Ávila", "naturaleza": "newspaper", "periodicidad": "diaria", "url": "https://castillayleon.ebiblio.es/resources?nature=newspaper&serial_name=Diario+de+%C3%81vila"}
+  }
+}

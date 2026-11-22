@@ -1,3 +1,9 @@
+# Ignore Google and API credentials
+*Credential*.json
+*secret*.json
+*.pem
+*.key
+
 # Ignore everything
 *
 

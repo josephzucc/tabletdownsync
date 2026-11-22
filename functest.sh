@@ -4,8 +4,44 @@ delhome () { if (( $# > 0 ));then echo "$1" | sed "s/\/data\/data\/com.termux\/f
 cr () { now=$(date +"%Y-%m-%d-%H-%M-%S");d="${now}text.txt";if (( $# > 0 ));then d="${now}${1}.txt";fi;nano "$d"; }
 lsi () { shopt -s nocaseglob;ls -1 *${1}*.* | sort -r;shopt -u nocaseglob; }
 openurl () { if (( $# == 1 ));then am start -a android.intent.action.VIEW -d "${1}";else echo "No has especificado url";fi; }
-enviow () ( if (( $# == 2 ));then nro=${1};text=${2};url="";am start -a android.intent.action.VIEW -d "${url}";else echo "No ha especificado nro y texto";fi; )
+enviow () ( if (( $# == 2 ));then nro=${1};text="${2}";text2=$(python3 -c "import urllib.parse, sys; print(urllib.parse.quote(sys.stdin.read()))" < ${text});url="https://wa.me/${nro}?text=${text2}";am start -a android.intent.action.VIEW -d "${url}";else echo "No ha especificado nro y texto";fi; )
 dpwait () { if (( $# == 2 ));then ( m=${1};ejemp="${2}";t=$((m*60));sig=$(date -d +${m}minutes +"%Y-%m-%d-%H-%M");echo "Pedir ${ejemp} en ${sig}";sleep $t;wait;dp ${ejemp} madrid; ) & fi }
+fd () { if (( $# > 0 ));then l=" | head -n ${1}";busq="*${2}*";else l="";busq="*";fi;ex="find . -maxdepth 1 -type d -iname \"${busq}\" 2>/dev/null | sort -r${l}";eval "$ex"; }
+fdt () { gn;if (( $# > 0 ));then l=" | head -n ${1}";busq="${today}*${2}*";else l="";busq="${today}*";fi;ex="find . -maxdepth 1 -type d -iname \"${busq}\" 2>/dev/null | sort -r${l}";eval "$ex"; }
+ff () { if (( $# > 0 ));then l=" | head -n ${1}";busq="*${2}";else l="";busq="*.*";fi;ex="find . -maxdepth 1 -type f -iname \"${busq}\" 2>/dev/null | sort -r${l}";eval "$ex"; }
+od () {
+  busq="";l="";
+  if (( $# > 0 ));then
+    #echo $#;
+    case $# in 1) busq="*";l="";; 2) busq="*${2}*";l="";; 3) echo $#;busq="*${2}*";l=" | head -n ${3}";;esac;
+    days=${1};
+  else
+    l="";days=0;busq="*";
+  fi;
+  i=0;
+  while (( i <= days ));do
+    fecha=$(date -d -${i}days +"%Y-%m-%d");busq2="${fecha}${busq}";
+    ex="find . -maxdepth 1 -type d -iname \"${busq2}\" -printf '%f\n' 2>/dev/null | sort -r${l}";echo -e "\n${busq2}";eval "$ex";
+    i=$((i+1));
+  done;
+ }
+of () {
+  if (( $# > 0 ));then
+    days=${1};
+    case $# in 1) busq="*";l="";; 2) l="";busq="*${2}";; 3) l=" | head -n ${3}";busq="*${2}";;esac;
+  else
+    l="";days=0;busq="*.*";
+  fi;
+  i=0;
+  while ((i <= days ));do
+    fecha=$(date -d -${i}days +"%Y-%m-%d");busq2="${fecha}${busq}";
+    ex="find . -maxdepth 1 -type f -iname \"${busq2}\" -printf '%f\n' 2>/dev/null | sort -r${l}";echo -e "\n${busq2}";eval "$ex";
+    i=$((i+1));
+  done;
+}
+checkpend () { b () { while read -r file;do c1=$(basename $file);c2=$(basename $(dirname $file));echo "$c1 (${c2})";done  };find $ds -type f -iname "*pendiente*.txt" 2>/dev/null | b | sort; }
+checkpend2 () { b () { while read -r file;do c1=$(basename $file);echo "$c1";done };find $ds -type f -iname "*pendiente*.txt" 2>/dev/null | b | sort; }
+seesome () { if (( $# > 0 ));then d=$(mktemp);while read -r file;do echo "echo -e \"\\n\\n\\n=====================\\n$file\";less -M \"$file\";" >>$d;done < <(find . -maxdepth 1 -type f -iname "*${1}*" 2>/dev/null | sort -r );bash "$d";rm $d;fi  }
 
 init () {
   echo "ejecutando functest init";
@@ -14,34 +50,36 @@ init () {
   echo -e "now\t\t${now}\ntoday\t\t${today}"
   export base="/data/data/com.termux/files/home/storage/shared/Download/DownloadSync/";
   export shar="/data/data/com.termux/files/home/storage/shared/";
-  echo -e "base\t\t$(delhome ${base})\nshar\t\t$(delhome $shar)";
+  echo -e "base\t\t$(delhome ${ds})\nshar\t\t$(delhome $ds)";
 
   if [[ "$ebib" != "" ]];then echo -e "\tebib\t\t\tEstablecido desde $(basename ${histvar})";
-  elif [[ "$shar" != "" ]] then
-    export ebib=$(find $shar -type f -iname "ebib.py" 2>/dev/null | grep -v "MEGA" | sort | tail -n 1);
+  elif [[ "$ds" != "" ]] then
+    export ebib=$(find $ds -type f -iname "ebib.py" 2>/dev/null | grep -v "MEGA" | sort | tail -n 1);
+    export ebibf=$(dirname "$ebib");
     echo "ebib;${ebib}" >>${histvar};
+    echo "ebibf;${ebibf}" >>${histvar};
     echo -e "\tebib\t\t\t$(basename ${ebib})";
   else echo -e "\tshar vacio.\t\t\tNo puedo establecer ebib\n";
   fi;
   if [[ "$mailapp" != "" ]];then echo -e "\tmailapp\t\t\tEstablecido desde $(basename ${histvar})";
-  elif [[ "$shar" != "" ]] then
-    export mailapp=$(find $shar -type f -iname "correo.py" 2>/dev/null | grep -v "MEGA" | sort | tail -n 1);
+  elif [[ "$ds" != "" ]] then
+    export mailapp=$(find $ds -type f -iname "correo.py" 2>/dev/null | grep -v "MEGA" | sort | tail -n 1);
     echo "mailapp;${mailapp}" >>${histvar};
     echo -e "\tmailapp\t\t\t$(basename ${mailapp})";
   else echo -e "\tshar vacio.\t\t\tNo puedo establecer mailapp\n";
   fi;
 
   if [[ "$fbapp" != "" ]];then echo -e "\tfbapp\t\t\tEstablecido desde $(basename ${histvar})";
-  elif [[ "$shar" != "" ]] then
-    export fbapp=$(find $shar -type f -iname "fb.py" 2>/dev/null | grep -v "MEGA" | sort | tail -n 1);
+  elif [[ "$ds" != "" ]] then
+    export fbapp=$(find $ds -type f -iname "fb.py" 2>/dev/null | grep -v "MEGA" | sort | tail -n 1);
     echo "fbapp;${fbapp}" >>${histvar};
     echo -e "\tfbapp\t\t\t$(basename ${fbapp})";
   else echo -e "\tshar vacio.\t\t\tNo puedo establecer fbapp\n";
   fi;
 
   if [[ "$carruselapp" != "" ]];then echo -e "\tcarruselapp\t\t\tEstablecido desde $(basename ${histvar})";
-  elif [[ "$shar" != "" ]] then
-    export carruselapp=$(find $shar -type f -iname "carrusel.py" 2>/dev/null | grep -v "MEGA" | sort | tail -n 1);
+  elif [[ "$ds" != "" ]] then
+    export carruselapp=$(find $ds -type f -iname "carrusel.py" 2>/dev/null | grep -v "MEGA" | sort | tail -n 1);
     echo "carruselapp;${carruselapp}" >>${histvar};
     echo -e "\tcarruselapp\t\t\t$(basename ${carruselapp})";
   else echo -e "\tshar vacio.\t\t\tNo puedo establecer carruselapp\n";
@@ -56,8 +94,8 @@ init () {
   echo -e "mesa\t\t$(delhome $mesa)\nmess\t\t$(delhome $mess)";
 
   if [[ "$gastosm" != "" ]];then echo -e "\tgastosm\t\t\tEstablecido desde $(basename ${histvar})";
-  elif [[ "$shar" != "" ]] then
-    export gastosm=$(find $shar -type f -iname "${mesa}*gastos.txt" 2>/dev/null | grep -v "MEGA" | sort | tail -n 1);
+  elif [[ "$ds" != "" ]] then
+    export gastosm=$(find $ds -type f -iname "${mesa}*gastos.txt" 2>/dev/null | grep -v "MEGA" | sort | tail -n 1);
     if [[ "$gastosm" != "" ]];then
       echo "gastosm;${gastosm}" >>${histvar};
       echo -e "\tgastosm\t\t\t$(basename ${gastosm})";
@@ -66,8 +104,8 @@ init () {
   else echo -e "\tshar vacio.\t\t\tNo puedo establecer gastosm\n";
   fi;
   if [[ "$gastoss" != "" ]];then echo -e "\tgastoss\t\t\tEstablecido desde $(basename ${histvar})";
-  elif [[ "$shar" != "" ]] then
-    export gastoss=$(find $shar -type f -iname "${mess}*gastos.txt" 2>/dev/null | grep -v "MEGA" | sort | tail -n 1);
+  elif [[ "$ds" != "" ]] then
+    export gastoss=$(find $ds -type f -iname "${mess}*gastos.txt" 2>/dev/null | grep -v "MEGA" | sort | tail -n 1);
     echo "${gastoss}"
     if [[ "$gastoss" != "" ]];then
       echo "gastoss;${gastoss}" >>${histvar};
@@ -80,7 +118,7 @@ init () {
 }
 
 agastosm () {
-  mesa=$(date +"%Y-%m");echo "$mesa $mess";export gastosm=$(find $base -maxdepth 1 -type f -iname "${mesa}*gastos.txt" 2>/dev/null | sort | tail -n 1 );echo -e "gastosm ${gastosm}\ngastoss ${gastoss}"; 
+  mesa=$(date +"%Y-%m");echo "$mesa $mess";export gastosm=$(find $ds -maxdepth 1 -type f -iname "${mesa}*gastos.txt" 2>/dev/null | sort | tail -n 1 );echo -e "gastosm ${gastosm}\ngastoss ${gastoss}"; 
 }
 
 gn () { getNow >/dev/null; }
@@ -89,13 +127,13 @@ getNow () {
   now=$(date +"%Y-%m-%d-%H-%M-%S");
   base="/data/data/com.termux/files/home/storage/shared/Download/DownloadSync/";
   echo -e "Variable \$now establecida en ${now}";
-  echo -e "Variable \$base establecida en ${base}";
+  echo -e "Variable \$ds establecida en ${ds}";
   if [[ "$ebib" == "" ]];then
     export ebib=$(find ${base} -type f -iname "ebib.py" | grep -v "MEGA" | tail -n 1);
     echo -e "Variable \$ebib establecida en ${ebib}";
   fi;
   if [[ "$mailapp" == "" ]];then
-    export mailapp=$(find $base -type f -iname "correo.py" 2>/dev/null | grep -v "MEGA" | head -n 1 );
+    export mailapp=$(find $ds -type f -iname "correo.py" 2>/dev/null | grep -v "MEGA" | head -n 1 );
     echo -e "Variable \$mailapp establecida en ${mailapp}";
   fi;
   if [[ "$carruselapp" == "" ]];then
@@ -113,17 +151,17 @@ getToday () {
   today=$(date +"%Y-%m-%d");
   echo -e "Variable \$today establecida en ${today}";
   base="/data/data/com.termux/files/home/storage/shared/Download/DownloadSync/";
-  echo -e "Variable \$base establecida en ${base}";
+  echo -e "Variable \$ds establecida en ${ds}";
   if [[ "$ebib" == "" ]];then
     ebib=$(find ${base} -type f -iname "ebib.py" | grep -v "MEGA" | tail -n 1);
     echo -e "Variable \$ebib establecida en ${ebib}";
   fi;
   if [[ "$mailapp" == "" ]];then
-    mailapp=$(find $base -type f -iname "correo.py" 2>/dev/null | grep -v "MEGA" | head -n 1 );
+    mailapp=$(find $ds -type f -iname "correo.py" 2>/dev/null | grep -v "MEGA" | head -n 1 );
     echo -e "Variable \$mailapp establecida en ${mailapp}";
   fi;
   if [[ "$carruselapp" == "" ]];then
-    carruselapp=$(find ${base} -type f -iname "carrusel.py" 2>/dev/null | grep -v "MEGA" | head -n 1 );
+    carruselapp=$(find ${ds} -type f -iname "carrusel.py" 2>/dev/null | grep -v "MEGA" | head -n 1 );
     echo -e "Variable \$carruselapp establecida en ${carruselapp}";
   fi;
  }
@@ -161,7 +199,7 @@ mailg () {
   local qty=10;
   init >/dev/null;
   base="/data/data/com.termux/files/home/storage/shared/Download/DownloadSync/";
-  correopy=$(find $base -type f -iname "correo.py" 2>/dev/null | grep -v "MEGA" | head -n 1);
+  correopy=$(find $ds -type f -iname "correo.py" 2>/dev/null | grep -v "MEGA" | head -n 1);
   if (( $# > 0 ));then qty=${1};fi;
   clear;python3 ${mailapp} -acc gmx -last $qty -ver-lista;
  }
@@ -206,21 +244,21 @@ mailgtxt () {
   fi;
 }
 
-mailgy () { local qty=10;init >/dev/null;base="/data/data/com.termux/files/home/storage/shared/Download/DownloadSync/";correopy=$(find $base -type f -iname "correo.py" 2>/dev/null | grep -v "MEGA" | head -n 1);if (( $# > 0 ));then qty=${1};fi;clear;python3 ${correopy} -acc gmx yahoo -last $qty -ver-lista; }
-mailall () { local qty=10;init >/dev/null;base="/data/data/com.termux/files/home/storage/shared/Download/DownloadSync/";correopy=$(find $base -type f -iname "correo.py" 2>/dev/null | grep -v "MEGA" | head -n 1);if (( $# > 0 ));then qty=${1};fi;clear;python3 ${correopy} -acc todas -last $qty -ver-lista; }
-mailch () { local qty=10;init >/dev/null;acc="josech";base="/data/data/com.termux/files/home/storage/shared/Download/DownloadSync/";correopy=$(find $base -type f -iname "correo.py" 2>/dev/null | grep -v "MEGA" | head -n 1);if (( $# > 0 ));then qty=${1};fi;clear;python3 ${correopy} -acc ${acc} -last $qty -ver-lista; }
-mailpi () { local qty=10;init >/dev/null;acc="busqp";base="/data/data/com.termux/files/home/storage/shared/Download/DownloadSync/";correopy=$(find $base -type f -iname "correo.py" 2>/dev/null | grep -v "MEGA" | head -n 1);if (( $# > 0 ));then qty=${1};fi;clear;python3 ${correopy} -acc ${acc} -last $qty -ver-lista; }
+mailgy () { local qty=10;init >/dev/null;base="/data/data/com.termux/files/home/storage/shared/Download/DownloadSync/";correopy=$(find $ds -type f -iname "correo.py" 2>/dev/null | grep -v "MEGA" | head -n 1);if (( $# > 0 ));then qty=${1};fi;clear;python3 ${correopy} -acc gmx yahoo -last $qty -ver-lista; }
+mailall () { local qty=10;init >/dev/null;base="/data/data/com.termux/files/home/storage/shared/Download/DownloadSync/";correopy=$(find $ds -type f -iname "correo.py" 2>/dev/null | grep -v "MEGA" | head -n 1);if (( $# > 0 ));then qty=${1};fi;clear;python3 ${correopy} -acc todas -last $qty -ver-lista; }
+mailch () { local qty=10;init >/dev/null;acc="josech";base="/data/data/com.termux/files/home/storage/shared/Download/DownloadSync/";correopy=$(find $ds -type f -iname "correo.py" 2>/dev/null | grep -v "MEGA" | head -n 1);if (( $# > 0 ));then qty=${1};fi;clear;python3 ${correopy} -acc ${acc} -last $qty -ver-lista; }
+mailpi () { local qty=10;init >/dev/null;acc="busqp";base="/data/data/com.termux/files/home/storage/shared/Download/DownloadSync/";correopy=$(find $ds -type f -iname "correo.py" 2>/dev/null | grep -v "MEGA" | head -n 1);if (( $# > 0 ));then qty=${1};fi;clear;python3 ${correopy} -acc ${acc} -last $qty -ver-lista; }
 
 logfcha2 () {
   log="";
   getNow >/dev/null;getToday >/dev/null;base="/data/data/com.termux/files/home/storage/shared/Download/DownloadSync/";
-  echo -e "Variable \$now establecida en ${now}\nVariable \$today establecida en ${today}\nVariable \$base establecida en ${base}";
+  echo -e "Variable \$now establecida en ${now}\nVariable \$today establecida en ${today}\nVariable \$ds establecida en ${ds}";
   ayer=0;echo -e "Actualizacion fecha logcambios";actual=$(pwd);
   echo "Folder actual ${actual}";
   busq="logcambios";findfile="";
   while [[ "$findfile" == "" ]];do
     fecha=$(date -d -${ayer}days +"%Y-%m-%d");echo "Buscando ${busq} en ${fecha}";
-    findfile=$(find $base -type f -iname "${fecha}*${busq}*" 2>/dev/null | grep -v "MEGA" | sort | tail -n 1 );
+    findfile=$(find $ds -type f -iname "${fecha}*${busq}*" 2>/dev/null | grep -v "MEGA" | sort | tail -n 1 );
     if [[ "$findfile" == "" ]];then
       echo "No encontrado ${busq} en ${fecha}....";
     else
@@ -252,7 +290,7 @@ logfcha () {
   while [[ "$findfile" == "" ]];do
     fecha=$(date -d -${ayer}days +"%Y-%m-%d");
     echo "Buscando ${busq} en ${fecha}";
-    findfile=$(find $base -type f -iname "${fecha}*${busq}*" 2>/dev/null | grep -v "MEGA" | sort | tail -n 1 );
+    findfile=$(find $ds -type f -iname "${fecha}*${busq}*" 2>/dev/null | grep -v "MEGA" | sort | tail -n 1 );
     if [[ "$findfile" == "" ]];then
       echo "No encontrado ${busq} en ${fecha}....";
     else
@@ -299,7 +337,10 @@ choy () {
   echo "$today $now";
   base="/data/data/com.termux/files/home/storage/shared/Download/DownloadSync/";
   echo -e "Cambiar Carpeta hoy - (R) Jose Zuccoli";
-  read -p "Termino ? " busq;
+  case $# in
+    1) busq="${1}";;
+    0) read -p "Termino ? " busq;;
+  esac
   logcambios=$(find ${base} -maxdepth 1 -type f -iname "*logcambios*" 2>/dev/null | grep -v "MEGA" | sort | tail -n 1 );
   echo "Logcambios: ${logcambios}";
   lista1="${now}lista1.txt"; rm -- "$lista1" 2>/dev/null;
@@ -307,8 +348,9 @@ choy () {
   echo "Busqueda ${busq}";
   while read -r file;do i=$(printf "%02d" ${i});echo "${i}. ${file:2}" >>${lista1};
     i=$(( i + 1 ));done < <(find . -maxdepth 1 -type d -iname "*${busq}*" 2>/dev/null | grep -v "MEGA" | sort -r );
-  cat ${lista1};
-  read -p "Numero ? " nro;
+  if (( i == 2 ));then nro=1;
+  else cat ${lista1};read -p "Numero ? " nro;
+  fi
   nro=$( printf "%02d" ${nro} );
   file=$(cat ${lista1} | grep "^${nro}.");
   file=${file:4};
@@ -335,6 +377,9 @@ cact () {
       p) pval="$OPTARG";busq="${busq}*${pval}*";;
     esac;
   done;
+  case $# in
+    1) busq="${busq}*${1}";;
+  esac
   cacthist="${ds}/${today}cacthist.txt";
   [[ -f "$cacthist" ]] && ( echo "Creo historico cact $(basename ${cacthist})..." ) || echo "Historico acact existe $(basename ${cacthist})...";
   base="/data/data/com.termux/files/home/storage/shared/Download/DownloadSync/";
@@ -435,14 +480,14 @@ dest1="${ahora}lista1.csv";
 dest1=$(echo $dest1 | sed 's/-//g' );
 dest11=$(echo $dest1 | sed 's/\.csv//g' );
 basefolder="/data/data/com.termux/files/home/storage/shared/Download/DownloadSync";
-logcambios=$(find $basefolder -type f -iname "${hoy}*logcambios*" 2>/dev/null | grep -v "MEGA" | sort | tail -n 1 );
+logcambios=$(find $ds -type f -iname "${hoy}*logcambios*" 2>/dev/null | grep -v "MEGA" | sort | tail -n 1 );
 logcambiosf=$(basename "$logcambios");
 echo -e "Abrir archivos txt Hoy - (R) Jose Zuccoli";
 echo -e "Lista:	${dest1}
-basefolder	${basefolder}
+ds	${ds}
 logcambios	${logcambiosf}"
 i=1;
-histTerminos=$(find $basefolder -type f -iname "*histTerm.txt" 2>/dev/null | grep -v "MEGA" | sort | tail -n 1 );
+histTerminos=$(find $ds -type f -iname "*histTerm.txt" 2>/dev/null | grep -v "MEGA" | sort | tail -n 1 );
 term="";texto=""
 if [[ "$histTerminos" != "" ]];then 
   term=$(cat ${histTerminos} | tail -n 1 );
@@ -492,7 +537,7 @@ dest1="${ahora}lista1.csv";
 dest1=$(echo $dest1 | sed 's/-//g' );
 dest11=$(echo $dest1 | sed 's/\.csv//g' );
 basefolder="/data/data/com.termux/files/home/storage/shared/Download/DownloadSync";
-logcambios=$(find $basefolder -type f -iname "${hoy}*logcambios*" | grep -v "MEGA" );
+logcambios=$(find $ds -type f -iname "${hoy}*logcambios*" | grep -v "MEGA" );
 echo -e "Abrir archivos txt Hoy - (R) Jose Zuccoli";
 i=1;
 read -p "Termino ? " busq;

@@ -6,6 +6,7 @@
 source "$functest";
 gn;
 a=$(pwd);
+echo $now;
 SCRIPT_DIR=$(cd -- "$(dirname -- "$0")" && pwd);
 cd "$SCRIPT_DIR";
 d="${now}ebiblista.txt";
@@ -25,6 +26,9 @@ dre | while read -r line;do
            x="${txt:68:18}";x=$(echo "$x" | sed "s/[[:space:]]*$//g" );
            if [[ "${estado}" == "DISPONIBLE" ]];then
              y="${txt:95:10}";y=$(echo "$y" | sed "s/[[:space:]]*$//g" );
+             y2=$(echo $y | sed "s/m//g" );
+             # crear bbdd con items que se tiene que ir actualizando, y ahi poner campo ultimo aviso, sigte aviso
+             # avisar con termux-dialog confirm -t "ALERTA" -i "Ejemplar El Pais a pedir en prestamo en 15 minutos"
              sig=$(date -d +${y}inutes +"%H:%M");estado="ANTES ${sig}";
            else y="${txt:86:9}";y=$(echo "$y" | sed "s/[[:space:]]*$//g" );
            fi;
