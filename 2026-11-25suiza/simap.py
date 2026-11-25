@@ -1,4 +1,4 @@
-VERSION = "3.1.0"
+VERSION = "3.2.0"
 import glob, hashlib, argparse, sqlite3, zipfile, email, email.policy, re, json, base64, unicodedata, csv, sys
 from pathlib import Path
 from urllib.parse import urlparse, parse_qs
@@ -50,6 +50,8 @@ def main():
  i=sub.add_parser('importar',help='Importar EML o ZIP'); i.add_argument('archivos',nargs='*'); i.add_argument('--carpeta',default=str(Path(__file__).resolve().parent)); i.add_argument('--recursivo',action='store_true'); i.add_argument('--listar',action='store_true')
  b=sub.add_parser('buscar'); b.add_argument('palabras',nargs='*'); b.add_argument('--canton'); b.add_argument('--municipio'); b.add_argument('--organismo'); b.add_argument('--tipo'); b.add_argument('--cpv'); b.add_argument('--csv'); b.add_argument('--origen',action='store_true'); b.add_argument('--detalle',action='store_true'); sub.add_parser('estadisticas'); e=sub.add_parser('enriquecer'); e.add_argument('--id',action='append'); e.add_argument('--limite',type=int,default=50); e.add_argument('--pausa',type=float,default=1); e.add_argument('--forzar',action='store_true'); e.add_argument('--reintentar',action='store_true'); i.add_argument('--enriquecer',action='store_true'); b.add_argument('--adjudicatario'); b.add_argument('--estado-api'); b.add_argument('--id'); b.add_argument('--or',dest='anyword',action='store_true');
  for name in ('auditoria','errores','reprocesar','reparar','organismos','empresas','oportunidades','renovaciones','clasificar','mercado','informe'): sub.add_parser(name)
+ for name in ('investigar','documentos','historial','cpv','importes','colaboradores','contactos','exportar','evidencias'):
+  x=sub.add_parser(name); x.add_argument('--id'); x.add_argument('--canton'); x.add_argument('--limite',type=int,default=0); x.add_argument('--csv'); x.add_argument('--archivo'); x.add_argument('--carpeta')
  args=a.parse_args()
  if args.cmd=='importar':
   root=Path(args.carpeta).expanduser(); paths=set(); errors=0
@@ -86,6 +88,9 @@ def main():
   if args.enriquecer and not errors: errors += enrich(c, None, 50, 1, False, False)
   c.close(); return int(bool(errors))
  c=db(args.db)
+ if args.cmd in ('investigar','documentos','historial','cpv','importes','colaboradores','contactos','exportar','evidencias'):
+  try: return advanced(c,args)
+  finally: c.close()
  if args.cmd=='enriquecer':
   try: return enrich(c,args.id,args.limite,args.pausa,args.forzar,args.reintentar)
   finally: c.close()
@@ -275,4 +280,93 @@ def local_command(c,cmd):
  elif cmd=='informe':
   for name in ('auditoria','mercado','organismos','empresas','oportunidades'): print('===',name,'==='); local_command(c,name)
  return 0
+
+
+# Análisis local, sin peticiones web.
+TECH={
+ 'office_legacy':r'\b(?:vb6|visual basic(?: 6(?:\.0)?)?|vba|microsoft access|ms access|access datenbank|accdb|mdb|xlsm|docm|excel makro|word makro|office 20(?:03|07|10|13|16|19)|libreoffice|opendesk)\b',
+ 'dotnet':r'(?<!\w)\.net\b|\b(?:asp\.net|vb\.net|webforms|wcf|sql server|winforms|c#|dotnet)\b',
+ 'legacy':r'altsystem|altanwendung|ablösung|abloesung|modernisier|modernisation|obsolescen|bestandssystem|end.of.life|legacy|replatform|refactor|applicazioni legacy|système existant|systeme existant',
+ 'migration':r'migrat|migraz|datenübernahme|datenuebernahme|portierung|umstellung|reprise des données',
+ 'office':r'microsoft office|microsoft 365|\bm365\b|office 365|sharepoint|excel|libreoffice|openoffice|bureautique',
+ 'app':r'fachapplikation|fachanwendung|individualsoftware|softwareentwicklung|application métier|application metier|développement logiciel|applikationsentwicklung|anwendungsentwicklung',
+ 'open':r'open.source|souverän|souverain|libreoffice|opendesk|offene standards|logiciel libre',
+ 'dependency':r'herstellerabhängig|anbieterwechsel|vendor.lock.in|wechselkosten|systemwissen|quellcode|source code|proprietär|propriétaire|spezifische fach'}
+def verified(r):
+ try:
+  d=json.loads(r['json_api'] or '{}'); return d if matches(d,r['id']) and d['base'].get('projectId')==r['uuid_proyecto'] else {}
+ except (ValueError,TypeError,KeyError): return {}
+def technical(r,d):
+ fields={'titulo':r['titulo'] or ''}
+ for section,keys in {'procurement':('orderDescription','projectOrderDescription','executionNote','optionsNote','canContractBeExtendedNote'),'decision':('awardDecisionJustification','awardDecisionNote','totalPriceSelectionNote'),'terms':tuple(k for k in (d.get('terms') or {}) if k not in ('termsOfBusiness','remediesNotice')),'criteria':()}.items():
+  obj=d.get(section) or {}
+  if isinstance(obj,dict):
+   for k in keys:
+    v=txt(obj.get(k));
+    if v: fields[section+'.'+k]=v
+ for section in ('lots','criteria'):
+  for obj in walk(d.get(section)):
+   for k,v in obj.items():
+    if k in ('description','orderDescription','title','name','criterionDescription','note') and txt(v): fields[section+'.'+k+'#'+str(len(fields))]=txt(v)
+ hits=[]
+ for field,value in fields.items():
+  for tag,pattern in TECH.items():
+   m=re.search(pattern,value,re.I)
+   if m: hits.append((tag,field,' '.join(value[max(0,m.start()-95):m.end()+130].split())))
+ return hits
+
+def advanced(c,a):
+ import csv, collections, hashlib
+ rows=list(c.execute('select * from publicaciones order by fecha_publicacion,id'))
+ if a.canton: rows=[r for r in rows if (r['canton_organismo'] or '').upper()==a.canton.upper()]
+ if a.id:
+  seeds=[r for r in rows if r['id']==a.id or r['proyecto']==a.id or r['uuid_proyecto']==a.id]
+  if not seeds: raise SystemExit('Referencia no encontrada')
+  projects={r['uuid_proyecto'] for r in seeds}; rows=[r for r in rows if r['uuid_proyecto'] in projects]
+ def emit(header,items):
+  items=list(items); items=items[:a.limite] if a.limite>0 else items
+  if a.csv:
+   with open(a.csv,'w',encoding='utf-8',newline='') as f: w=csv.writer(f);w.writerow(header);w.writerows(items)
+  else:
+   print(' | '.join(header));
+   for item in items: print(' | '.join(str(x or '').replace('\n',' ') for x in item))
+ if a.cmd=='evidencias':
+  if not a.id or not a.carpeta: raise SystemExit('Usa --id REFERENCIA --carpeta DIRECTORIO')
+  import subprocess
+  root=Path(a.carpeta); out=[]
+  for f in sorted(root.rglob('*')):
+   if not f.is_file(): continue
+   try:
+    if f.suffix.lower() in ('.txt','.md','.csv'): content=f.read_text(errors='replace')
+    elif f.suffix.lower()=='.pdf': content=subprocess.run(['pdftotext','-layout',str(f),'-'],capture_output=True,check=True,timeout=90).stdout.decode(errors='replace')
+    elif f.suffix.lower() in ('.docx','.xlsx','.pptx','.odt','.ods'):
+     import xml.etree.ElementTree as ET
+     with zipfile.ZipFile(f) as z: content='\n'.join(' '.join(ET.fromstring(z.read(n)).itertext()) for n in z.namelist() if n.endswith('.xml') and (n.startswith(('word/','xl/','ppt/')) or n=='content.xml'))
+    else: continue
+    for tag,pat in TECH.items():
+     for m in list(re.finditer(pat,content,re.I))[:20]: out.append((a.id,str(f),tag,' '.join(content[max(0,m.start()-100):m.end()+130].split())))
+   except Exception as e: print(str(f)+': '+str(e),file=sys.stderr)
+  emit(('referencia_declarada','archivo','tema','fragmento'),out);return 0
+ out=[]; counts=collections.defaultdict(set); names={}
+ for r in rows:
+  d=verified(r); project=r['uuid_proyecto'] or r['proyecto']; office=(d.get('project-info') or {}).get('procOfficeAddress') or {}; dec=d.get('decision') or {}; hits=technical(r,d) if a.cmd in ('investigar','documentos','colaboradores','exportar') else []; tags={h[0] for h in hits}
+  score=sum({'office_legacy':10,'dotnet':6,'legacy':4,'migration':3,'office':3,'app':2,'open':3,'dependency':2}[t] for t in tags)
+  if a.cmd=='investigar' and hits:
+   for tag,field,fragment in hits: out.append((score,r['id'],r['titulo'],r['canton_organismo'],tag,field,fragment,r['url']))
+  if a.cmd=='documentos' and d.get('hasProjectDocuments') is True: out.append((score,r['id'],r['titulo'],r['canton_organismo'],r['url'],'; '.join(sorted(tags))))
+  if a.cmd=='historial': out.append((project,r['id'],r['fecha_publicacion'],r['tipo_api'] or r['tipo'],r['titulo'],r['plazo'],r['url']))
+  if a.cmd=='cpv':
+   for code in (r['cpv'] or '').split('; '):
+    if d and code: counts[code].add(project)
+  if a.cmd=='contactos' and office: out.append((r['id'],txt(office.get('name')),office.get('cantonId'),txt(office.get('city')),office.get('email'),office.get('phone'),txt(office.get('url'))))
+  if a.cmd in ('importes','colaboradores') and d.get('base',{}).get('type') in ('award','direct_award'):
+   for v in dec.get('vendors') or []:
+    name=txt(v.get('vendorName')); price=v.get('price') or {}; key=v.get('vendorId') or norm(name)
+    if a.cmd=='importes': out.append((project,r['id'],r['uuid_lote'],name,price.get('price'),price.get('currency'),price.get('vatType'),dec.get('awardDecisionDate'),r['tipo_api']))
+    elif name and score: counts[key].add(project);names[key]=name
+  if a.cmd=='exportar': out.append((r['id'],project,r['titulo'],r['tipo_api'],r['canton_organismo'],r['descripcion'],r['adjudicatarios'],r['url'],score))
+ if a.cmd in ('investigar','documentos'): out.sort(key=lambda x:-x[0])
+ if a.cmd in ('cpv','colaboradores'): out=[(names.get(k,k),len(v)) for k,v in sorted(counts.items(),key=lambda x:-len(x[1]))]
+ headers={'investigar':'puntos referencia titulo canton tema campo evidencia url','documentos':'puntos referencia titulo canton url temas','historial':'proyecto referencia fecha tipo titulo plazo url','cpv':'cpv proyectos','contactos':'referencia organismo canton ciudad email telefono web','importes':'proyecto referencia lote empresa importe moneda iva fecha tipo','colaboradores':'empresa proyectos_con_indicios','exportar':'referencia proyecto titulo tipo canton descripcion empresa url puntos'}
+ emit(headers[a.cmd].split(),out); return 0
 if __name__=='__main__': sys.exit(main())
