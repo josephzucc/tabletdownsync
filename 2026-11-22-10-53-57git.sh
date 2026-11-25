@@ -1,4 +1,6 @@
 #gh auth login
+source "$functest";gn;
+if (( $# < 1 ));then echo "Si no especificas nombre del commit ponemos la fecha/hora actual";set -- ${now};echo $1;fi;
 git init
 git add .
 git commit -m "${1}"
