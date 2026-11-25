@@ -6,11 +6,14 @@
 source "$functest";
 gn;
 a=$(pwd);
-echo $now;
 SCRIPT_DIR=$(cd -- "$(dirname -- "$0")" && pwd);
 cd "$SCRIPT_DIR";
-d="${now}ebiblista.txt";
+if (( $# == 1 ));then frecuencia=${1};else frecuencia=0;fi;
+echo -e "${now:0:16}\tcada ${frecuencia} minutos";
+#d="${now}ebiblista.txt";
+d=$(mktemp);
 m1=0;m2=0;m3=0;paso=1;
+ex2="";
 dre | while read -r line;do
   txt="${line}";
   case $paso in
@@ -28,7 +31,8 @@ dre | while read -r line;do
              y="${txt:95:10}";y=$(echo "$y" | sed "s/[[:space:]]*$//g" );
              y2=$(echo $y | sed "s/m//g" );
              # crear bbdd con items que se tiene que ir actualizando, y ahi poner campo ultimo aviso, sigte aviso
-             # avisar con termux-dialog confirm -t "ALERTA" -i "Ejemplar El Pais a pedir en prestamo en 15 minutos"
+             # avisar con termux-dialog confirm -t "ALERTA" -i "Ejemplar El Pais a pedir en prestamo en 15 minutos";
+             y3=$(( y2 - 5 ));ex2="${ex2}dpwait ${y3} \"${item}\" \"${acc}\";";
              sig=$(date -d +${y}inutes +"%H:%M");estado="ANTES ${sig}";
            else y="${txt:86:9}";y=$(echo "$y" | sed "s/[[:space:]]*$//g" );
            fi;
@@ -59,5 +63,6 @@ done;
 #csvsql -d ';' --tables t --no-header-row --query "SELECT a,b,c,d,e,h FROM t" $d | csvlook -d ',';
 csvsql -d ';' --tables t --no-header-row --query "SELECT a,b,c,d,e,h FROM t ORDER BY h ASC" $d | csvlook -d ',';
 cols="tipo,cuenta,desc,esp1,esp2,esp3";
+if [[ "$ex2" != "" ]];then echo "${ex2}";eval "${ex2}";fi;
 rm $d;
 cd "$a";

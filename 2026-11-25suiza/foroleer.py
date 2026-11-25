@@ -38,7 +38,7 @@ from html.parser import HTMLParser
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib import request, parse, error
 
-VERSION = "2.4.0"
+VERSION = "2.4.1"
 PUERTO_DEFECTO = 8775
 HOME = os.path.expanduser("~")
 DIR = os.environ.get("FOROLEER_DIR") or os.path.join(HOME, "foroleer")
@@ -1322,7 +1322,9 @@ def reddit_lista(red, query, subreddit, sort, tiempo, exacta, web, maximo):
 def reddit_leer_hilo(red, h, max_comentarios, web, desplazar):
     """Lee un hilo. Devuelve el item listo para escribir. Prueba la web elegida y la otra si no hay texto."""
     sub, id_ = reddit_ruta_hilo(h["url"])
-    orden = ["old", "www"] if web == "old" else ["www", "old"]
+    # Los hilos se leen primero en old.reddit.com: www.reddit.com suele responder con el aviso de bloqueo y ademas
+    # carga anuncios que abren el cuadro "Permitir que se abra este sitio?" de Firefox y dejan la pestana parada.
+    orden = ["www", "old"] if web == "www" else ["old", "www"]
     mejor = None
     for w in orden:
         if w == "www":
@@ -1367,7 +1369,7 @@ def reddit_leer_hilo(red, h, max_comentarios, web, desplazar):
 
 
 def reddit_buscar(red, query, subreddit=None, sort="relevance", limite_hilos=10, limite_comentarios=200, tiempo=None,
-                  exacta=False, web="www", desplazar=4):
+                  exacta=False, web="auto", desplazar=4):
     if red.modo != "extension":
         raise ErrorWeb("Reddit bloquea a Termux y no se usa su JSON: hace falta la extension de Firefox (--via extension). "
                        "Ejecuta: python3 foroleer.py abrir")
@@ -2693,8 +2695,9 @@ def main(argv=None):
     p.add_argument("--sort", default="relevance", choices=["relevance", "top", "new", "comments"])
     p.add_argument("--tiempo", choices=["hour", "day", "week", "month", "year", "all"], help="filtro de fecha")
     p.add_argument("--max-comentarios", type=int, default=200, dest="max_comentarios")
-    p.add_argument("--web", choices=["www", "old"], default="www",
-                   help="web de Reddit que se lee primero (la otra es el plan B). Por defecto www")
+    p.add_argument("--web", choices=["auto", "www", "old"], default="auto",
+                   help="web de Reddit que se lee primero (la otra es el plan B). Por defecto auto: la busqueda en www y "
+                        "los hilos en old.reddit.com, que no carga anuncios")
     p.add_argument("--desplazar", type=int, default=4, metavar="N",
                    help="veces que Firefox baja la pagina del hilo y pulsa 'ver mas respuestas' (0 = no; por defecto 4)")
     p.add_argument("--exacta", action="store_true", help="buscar la frase exacta (entre comillas)")

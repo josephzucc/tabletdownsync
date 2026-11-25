@@ -1,11 +1,16 @@
+
 delhome () { if (( $# > 0 ));then echo "$1" | sed "s/\/data\/data\/com.termux\/files\/home\///g";elif [[ ! -t 0 ]];then txt=$(cat);echo "$txt" | sed "s/\/data\/data\/com.termux\/files\/home\///g";fi;}
 [[ "$functest" == "" ]] && echo "functest verif" && export functest=$(realpath -- "${BASH_SOURCE[0]}") && echo "functest;${functest}" >>${histvar} && echo -e "\tfunctest\t\t$(delhome $functest)";
 
+sea1 () { case $# in 1) busq=${1};base=".";; 2) busq=${1};base=${2};;esac;ex="find ${base} -type f -iname \"*${busq}*\" 2>/dev/null | sort -r ";echo "command: $ex";eval "$ex"; }
+dest1 () { gn;if (( $# == 1 ));then d="${now}${1}";else d="${now}log.log";fi; }
+seemasters () { find $ds -type f -iname "*maestro*" -printf "%f\n" 2>/dev/null | grep -v -i -E "(pedir|A4)" | sort -r;  }
+seemasters2 () { find $ds -type f -iname "*maestro*" 2>/dev/null | grep -v -i -E "(pedir|A4)" | sort -r;  }
 cr () { now=$(date +"%Y-%m-%d-%H-%M-%S");d="${now}text.txt";if (( $# > 0 ));then d="${now}${1}.txt";fi;nano "$d"; }
-lsi () { shopt -s nocaseglob;ls -1 *${1}*.* | sort -r;shopt -u nocaseglob; }
+lsi () { shopt -s nocaseglob;find . -maxdepth 1 -type f -iname "*${1}*.*" 2>/dev/null | sort -r;shopt -u nocaseglob; }
 openurl () { if (( $# == 1 ));then am start -a android.intent.action.VIEW -d "${1}";else echo "No has especificado url";fi; }
 enviow () ( if (( $# == 2 ));then nro=${1};text="${2}";text2=$(python3 -c "import urllib.parse, sys; print(urllib.parse.quote(sys.stdin.read()))" < ${text});url="https://wa.me/${nro}?text=${text2}";am start -a android.intent.action.VIEW -d "${url}";else echo "No ha especificado nro y texto";fi; )
-dpwait () { if (( $# == 2 ));then ( m=${1};ejemp="${2}";t=$((m*60));sig=$(date -d +${m}minutes +"%Y-%m-%d-%H-%M");echo "Pedir ${ejemp} en ${sig}";sleep $t;wait;dp ${ejemp} madrid; ) & fi }
+dpwait () { if (( $# == 2 ));then ( m=${1};ejemp="${2}";if (( $# == 3 ));then cuenta="${3}";else cuenta="madrid";fi;t=$((m*60));sig=$(date -d +${m}minutes +"%Y-%m-%d-%H-%M");echo "Pedir ${ejemp} en ${sig}";sleep $t;wait;dp ${ejemp} ${cuenta};termux-dialog confirm -t "PEDIR $ejemp" -i "${ejemp} pedido"; ) & fi }
 fd () { if (( $# > 0 ));then l=" | head -n ${1}";busq="*${2}*";else l="";busq="*";fi;ex="find . -maxdepth 1 -type d -iname \"${busq}\" 2>/dev/null | sort -r${l}";eval "$ex"; }
 fdt () { gn;if (( $# > 0 ));then l=" | head -n ${1}";busq="${today}*${2}*";else l="";busq="${today}*";fi;ex="find . -maxdepth 1 -type d -iname \"${busq}\" 2>/dev/null | sort -r${l}";eval "$ex"; }
 ff () { if (( $# > 0 ));then l=" | head -n ${1}";busq="*${2}";else l="";busq="*.*";fi;ex="find . -maxdepth 1 -type f -iname \"${busq}\" 2>/dev/null | sort -r${l}";eval "$ex"; }
@@ -25,6 +30,7 @@ od () {
     i=$((i+1));
   done;
  }
+
 of () {
   if (( $# > 0 ));then
     days=${1};
@@ -39,6 +45,9 @@ of () {
     i=$((i+1));
   done;
 }
+
+of2 () { if (( $# > 0 ));then days=${1};case $# in 1) busq="*";l="";; 2) l="";busq="*${2}";; 3) l=" | head -n ${3}";busq="*${2}";;esac;                        else                                                                                                                       l="";days=0;busq="*.*";                                                                                                fi;                                                                                                                      i=0;                                                                                                                     while ((i <= days ));do                                                                                                    fecha=$(date -d -${i}days +"%Y-%m-%d");busq2="${fecha}${busq}";ex="find . -type f -iname \"${busq2}\" -printf '%f\n' 2>/dev/null | sort -r${l}";echo -e "\n${busq2}";eval "$ex";i=$((i+1));done; }
+
 checkpend () { b () { while read -r file;do c1=$(basename $file);c2=$(basename $(dirname $file));echo "$c1 (${c2})";done  };find $ds -type f -iname "*pendiente*.txt" 2>/dev/null | b | sort; }
 checkpend2 () { b () { while read -r file;do c1=$(basename $file);echo "$c1";done };find $ds -type f -iname "*pendiente*.txt" 2>/dev/null | b | sort; }
 seesome () { if (( $# > 0 ));then d=$(mktemp);while read -r file;do echo "echo -e \"\\n\\n\\n=====================\\n$file\";less -M \"$file\";" >>$d;done < <(find . -maxdepth 1 -type f -iname "*${1}*" 2>/dev/null | sort -r );bash "$d";rm $d;fi  }
@@ -670,41 +679,76 @@ carrstop () { init >/dev/null;python3 $carruselapp --stop; }
 
 form5 () {
 
+#set -u;set -x;export PS4='+ ${BASH_SOURCE}:${LINENO}: ';set -e;
+
 concepto="*********** RESTO ***********";
 clear;
-ingresos=$(basename "${1}");
+ingresos="${1}";
 getNow >/dev/null;
 totp=0;
 d="${2}";
+
+if [[ ! $1 =~ ^[+-]?([0-9]+([.][0-9]*)?|[.][0-9]+)$ ]]; then
+    echo "Not a number" >&2; return 1;
+fi
+
+if [[ -z $d || $d == */* ]];then
+  echo "Expected a filename without a path $d" >&2;return 1;
+fi
+
+if [[ ! -f "$d" ]];then
+    echo "File not exists $d" >&2; return 1;
+fi
+
 r=$(echo $d | sed "s/\-//g" );
 p=$(echo $r | sed "s/\.txt//g" );
+
 q="${now}tmp1.txt";q=$(echo $q | sed "s/\-//g" );
-cp "$d" "$r"
+cp -- "$d" "$r" || { echo "could not copy $d $r" >&2;return 1; }
 
 # Ingreso el resto
 tot=$(csvsql --query "SELECT SUM(IMPORTE) AS TOT FROM '${p}' ORDER BY IMPORTE DESC" ${r} | grep -v "TOT");
+if [[ ! $tot =~ ^[+-]?([0-9]+([.][0-9]*)?|[.][0-9]+)$ ]]; then echo "tot is not a number" >&2;return 1;fi
 importe=$(printf "%01.2f" $(echo "scale=2;(${ingresos}-${tot})" | bc ));
+if [[ ! $importe =~ ^[+-]?([0-9]+([.][0-9]*)?|[.][0-9]+)$ ]]; then echo "importe is not a number" >&2;return 1;fi
 echo "$concepto;$importe" >>${r};
 
 tot=0;
 csvsql --query "SELECT * FROM '${p}' ORDER BY IMPORTE DESC" ${r} >${q}
 rm "$r" 2>/dev/null
 
-s="${now}tmp2.txt";s=$(echo $s | sed "s/\-//g" );
+s="${now}tmp2.txt";
+s=$(echo $s | sed "s/\-//g" );
 e=$(echo $s | sed "s/\.txt//g" );
 
 while IFS="," read concepto importe;do
-if [[ "${concepto}" == "CONCEPTO" ]];then echo "CONCEPTO;IMPORTE;PORC;TOTP;TOT" >>${s};
-else
-porc=$(printf "%01.2f" $(echo "scale=2;(${importe}*100)/${ingresos}" | bc) );
-tot=$(printf "%01.2f" $(echo "scale=2;(${tot}+${importe})" | bc ));
-totp=$(printf "%01.2f" $(echo "scale=2;((${tot}*100)/${ingresos})" | bc) );
-echo "$concepto;$importe;$porc;$totp;$tot" >>${s};
-fi;
+  if [[ "${concepto}" == "CONCEPTO" ]];then echo "CONCEPTO;IMPORTE;PORC;TOTP;TOT" >>${s};
+  else
+    porc=$(printf "%01.2f" $(echo "scale=2;(${importe}*100)/${ingresos}" | bc) );
+    if [[ ! $porc =~ ^[+-]?([0-9]+([.][0-9]*)?|[.][0-9]+)$ ]]; then echo "porc is not a number" >&2;return 1;fi
+    tot=$(printf "%01.2f" $(echo "scale=2;(${tot}+${importe})" | bc ));
+    if [[ ! $tot =~ ^[+-]?([0-9]+([.][0-9]*)?|[.][0-9]+)$ ]]; then echo "tot is not a number" >&2;return 1;fi
+    totp=$(printf "%01.2f" $(echo "scale=2;((${tot}*100)/${ingresos})" | bc) );
+    if [[ ! $totp =~ ^[+-]?([0-9]+([.][0-9]*)?|[.][0-9]+)$ ]]; then echo "totp is not a number" >&2;return 1;fi
+    echo "$concepto;$importe;$porc;$totp;$tot" >>${s};
+  fi;
 done < <( cat ${q} );
 
+# Show the header and first few records as csvkit parses them
+csvlook --snifflimit 0 -d ',' $s | head
+
+# Check for rows whose field count differs from the header
+csvclean --length-mismatch $s >/dev/null
+csvclean -d ';' --length-mismatch "$s" >/dev/null
+
+# Inspect the reported physical lines (for example, around line 11)
+nl -ba $s | sed -n '8,14p'
+
+# Show the header names
+csvcut -n $s
+
 clear;echo -e "\n\n\n==================================================\n\n\nReporte generado el ${now}";
-csvsql --query "SELECT * FROM '${e}' ORDER BY IMPORTE DESC" $s | csvlook;
+csvsql --snifflimit 0 -d ';' --query "SELECT * FROM '${e}' ORDER BY IMPORTE DESC" $s | csvlook -d ',';
 rm "$t" 2>/dev/null;
 rm "$q" 2>/dev/null;
 rm "$s" 2>/dev/null;

@@ -77,7 +77,7 @@ fi;
 horaactual=$(date +"%H");horaini=$((10#$horaactual));horafin=$((10#$horaactual+5));
 
 hs=$(csvsql --tables t --query "SELECT periodo FROM (SELECT dia,tipo,periodo,preciomedio,PRINTF('%.2f',${medio}) as mediodia,PRINTF('%8s',PRINTF('%.2f',(((preciomedio/${medio})-1)*100)) || ' %') AS porc, CASE WHEN preciomedio > ${limite1} AND preciomedio < ${limite2} THEN 'NORMAL' WHEN preciomedio >= ${limite2} THEN 'VIP' ELSE 'ECONOMICO' END AS preciocoloq, CASE WHEN preciomedio > ${limite1d} AND preciomedio < ${limite2d} THEN 'NORMAL' WHEN preciomedio >= ${limite2d} THEN 'VIP' ELSE 'ECONOMICO' END AS preciocoloqd FROM t WHERE dia == '${dia}') as t WHERE preciocoloqd == 'VIP'" $o | tail -n +2 | awk -F- '{ if (NR == 1) {start=$1;end=$2} else if ($1 == end) {end=$2} else {printf "de %s a %s, ", start, end;start=$1;end=$2;} } END {printf "de %s a %s\n", start, end }');
-t="${dia} Horas a evitar gastar mucha luz ${hs} ";b=$(printf "%${#t}s" | tr ' ' '=';);echo -e "\n${b}\n${t}\n${b}\n" | tee "${today}GastoLuzMensaje.txt";
+t="${dia} Horas a evitar gastar mucha luz ${hs} ";b=$(printf "%${#t}s" | tr ' ' '=';);echo -e "\n${b}\n${t}\n${b}\n" | tee "${dia}GastoLuzMensaje.txt";
 
 if (( justbrief == 0 ));then
   t=" Dia Actual ${today} ";b=$(printf "%${#t}s" | tr ' ' '=';);echo -e "\n${b}\n${t}\n${b}\n";
