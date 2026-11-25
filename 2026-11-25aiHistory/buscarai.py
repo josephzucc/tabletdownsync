@@ -18,6 +18,7 @@ Solo usa la librería estándar de Python: no hay que instalar nada.
 """
 
 import argparse
+import array
 import base64
 import bisect
 import glob
@@ -35,7 +36,7 @@ from collections import Counter
 from datetime import datetime
 from html.parser import HTMLParser
 
-VERSION = "3.3"
+VERSION = "3.7"
 
 
 # ----------------------------------------------------------------------------
@@ -92,18 +93,26 @@ def normalizar(s):
     return "".join(ch.lower() if len(ch.lower()) == 1 else ch for ch in n)
 
 
-def parsear_consulta(q):
-    for a, b in (("“", '"'), ("”", '"'), ("«", '"'), ("»", '"')):
+def parsear_consulta(q, exacto=False, frase=False):
+    """Devuelve [(término, es_frase)]. exacto = respetar mayúsculas y tildes; frase = todo es una frase."""
+    for a, b in (("“", '"'), ("”", '"'), ("«", '"'), ("»", '"'), ("'", '"')):
         q = q.replace(a, b)
+    conv = (lambda x: x) if exacto else normalizar
+    if frase:
+        t = conv(q.replace('"', " ").strip())
+        return [(t, True)] if t else []
     out = []
-    for frase, palabra in re.findall(r'"([^"]+)"|(\S+)', q):
-        t = normalizar((frase or palabra).strip())
+    for fr, palabra in re.findall(r'"([^"]+)"|(\S+)', q):
+        t = conv((fr or palabra).strip())
         if t:
-            out.append(t)
+            out.append((t, bool(fr)))
     return out
 
 
 def compilar(termino, palabra_completa):
+    if isinstance(termino, tuple):
+        termino, es_frase = termino
+        palabra_completa = palabra_completa or (es_frase and " " in termino)
     cuerpo = r"\s+".join(re.escape(w) for w in termino.split())
     if palabra_completa:
         cuerpo = r"(?<!\w)" + cuerpo + r"(?!\w)"
@@ -1298,10 +1307,39 @@ def nota_keep(d):
     return cab, limpiar("\n".join(partes)) or "(nota vacía)", f, titulo
 
 
+def gemini_desde_keep(d, convs):
+    """Nota de Keep creada desde Gemini («guarda esta conversación en Keep») con Pregunta/Respuesta:
+    se convierte en una conversación de Gemini. Devuelve True si lo hizo."""
+    enlaces = [a.get("url", "") for a in d.get("annotations") or [] if isinstance(a, dict)]
+    texto = d.get("textContent") or html_a_texto(d.get("textContentHtml") or "")
+    if not any("gemini.google.com" in u for u in enlaces) or \
+            not any(RE_PR_PREG.match(l) or RE_PR_RESP.match(l) for l in texto.splitlines()):
+        return False
+    c = parsear_preguntas_respuestas(d.get("title") or "nota", texto, None, "Gemini")
+    msgs = [(("user" if m["role"] == "user" else "ai"), m["content"], None) for m in c["messages"]]
+    inter, _ = agrupar(msgs)
+    if not any(x["r"] for x in inter):                  # solo una lista de preguntas: se queda como nota
+        return False
+    f = fecha(d.get("createdTimestampUsec")) or fecha(d.get("userEditedTimestampUsec"))
+    enlace = next(u for u in enlaces if "gemini.google.com" in u)
+    inter[-1]["r"].append(f"[Guardada en Google Keep desde Gemini: {enlace}]")
+    lista = [Intercambio("\n\n".join(x["p"]), "\n\n".join(x["r"]), f) for x in inter]
+    titulo = (d.get("title") or c["title"]).strip()
+    convs.append(Conversacion(f"{titulo} (nota de Keep)", f, fecha(d.get("userEditedTimestampUsec")) or f,
+                              lista, "Gemini", "GEMINI"))
+    return True
+
+
+def descodificar_google(s):
+    """Takeout guarda los caracteres no ASCII de los nombres como #UXXXX (Soberan#U00eda -> Soberanía)."""
+    return re.sub(r"#U([0-9a-fA-F]{4})", lambda m: chr(int(m.group(1), 16)), s or "")
+
+
 def producto_takeout(nombre):
-    p = [x for x in nombre.replace("\\", "/").split("/") if x]
-    if p and p[0].lower() == "takeout":
-        p = p[1:]
+    p = [x for x in descodificar_google(nombre).replace("\\", "/").split("/") if x]
+    bajos = [x.lower() for x in p]
+    if "takeout" in bajos:
+        p = p[bajos.index("takeout") + 1:]
     if not p:
         return "Google"
     if normalizar(p[0]) in ("my activity", "mi actividad", "mis actividades") and len(p) > 2:
@@ -1329,6 +1367,12 @@ def fecha_de_nombre(nombre):
     if m:
         try:
             return datetime(*map(int, m.groups())).astimezone()
+        except ValueError:
+            return None
+    m = re.search(r"(?<!\d)(20\d\d)-(\d\d)-(\d\d)(?!\d)", os.path.basename(nombre))
+    if m:                                                   # solo el día: 2026-06-05articulo_...
+        try:
+            return datetime(*map(int, m.groups()), 12, 0).astimezone()
         except ValueError:
             return None
     return None
@@ -1399,6 +1443,106 @@ def parsear_transcripcion(nombre, texto, mtime=None):
             "created_at": f or fecha_de_nombre(nombre) or mtime, "__fuente__": fuente, "messages": msgs}
 
 
+RE_PR_PREG = re.compile(r"^\s*(?:\*\*|__)?\s*(?:pregunta(?:\s+del\s+usuario)?|question|prompt|consulta)"
+                        r"(?:\s*\d+)?\s*(?:\*\*|__)?\s*:\s*(?:\*\*|__)?\s*(.*)$", re.I)
+RE_PR_RESP = re.compile(r"^\s*(?:\*\*|__)?\s*(?:respuesta|answer|response)(?:\s+de\s+[\w.]+)?(?:\s*\d+)?"
+                        r"\s*(?:\*\*|__)?\s*:\s*(?:\*\*|__)?\s*(.*)$", re.I)
+RE_PR_SEP = re.compile(r"^\s*([#\-=_*~])\1{4,}\s*$")         # ######  ------  ====== (sin espacios dentro)
+RE_PR_FIN_PREG = re.compile(r"^\s*-{3,4}\s*$")                 # «---» entre la pregunta y la respuesta
+
+
+def _parrafos(lineas):
+    out, act = [], []
+    for l in lineas:
+        if l.strip():
+            act.append(l)
+        elif act:
+            out.append(act)
+            act = []
+    if act:
+        out.append(act)
+    return out
+
+
+def parsear_preguntas_respuestas(nombre, texto, mtime=None, ia=None):
+    """Conversaciones copiadas a mano en un .txt (Lumo, Perplexity, Euria, MyAI, Apertus, Gemini...):
+    - con marcas «Pregunta:» / «Respuesta:» (también «Pregunta del usuario:», «Pregunta 1:»...), o
+    - sin marcas: la pregunta es el primer párrafo y la respuesta el resto.
+    Varias preguntas en el mismo archivo se separan con una línea de ##### o ----- (5 o más)."""
+    lineas = texto.lstrip("\ufeff").replace("\r\n", "\n").split("\n")
+    bloques, act = [], []
+    for l in lineas:
+        if RE_PR_SEP.match(l):
+            bloques.append(act)
+            act = []
+        else:
+            act.append(l)
+    bloques.append(act)
+    bloques = [b for b in bloques if any(x.strip() for x in b)]
+    con_marcas = any(RE_PR_PREG.match(l) or RE_PR_RESP.match(l) for l in lineas)
+    msgs, titulo = [], None
+    for nb, b in enumerate(bloques):
+        hay_preg = any(RE_PR_PREG.match(l) for l in b)
+        hay_resp = any(RE_PR_RESP.match(l) for l in b)
+        if con_marcas and (hay_preg or hay_resp):
+            actual, cab = None, []
+            for l in b:
+                mp, mr = RE_PR_PREG.match(l), RE_PR_RESP.match(l)
+                if mp:
+                    actual = {"role": "user", "content": [mp.group(1)] if mp.group(1).strip() else [],
+                              "abierta": not hay_resp}
+                    msgs.append(actual)
+                elif mr:
+                    actual = {"role": "assistant", "content": [mr.group(1)] if mr.group(1).strip() else []}
+                    msgs.append(actual)
+                elif actual is None:
+                    cab.append(l.strip())
+                elif actual.get("abierta") and (RE_PR_FIN_PREG.match(l) or
+                                                (not l.strip() and any(x.strip() for x in actual["content"]))):
+                    # Pregunta sin «Respuesta:» (notas de Gemini): termina en el primer hueco o en «---»
+                    actual.pop("abierta")
+                    actual = {"role": "assistant", "content": []}
+                    msgs.append(actual)
+                else:
+                    actual["content"].append(l)
+            cab = [c for c in cab if c]
+            if cab and titulo is None and nb == 0:
+                titulo = re.sub(r"^(conversaci[oó]n|t[ií]tulo|title)\s*:\s*", "", cab[-1], flags=re.I) \
+                    if len(cab) == 1 else cab[0]
+            elif cab:                                       # texto antes de la marca: va con la respuesta anterior
+                msgs.append({"role": "assistant", "content": cab})
+            continue
+        ps = _parrafos(b)
+        while ps and all(re.fullmatch(r"[\[\]{}()<>.\-\s]*", l) for l in ps[0]):
+            ps.pop(0)                                       # «[]» y similares al principio
+        if not ps:
+            continue
+        if con_marcas:                                      # bloque sin marcas en un archivo con marcas
+            msgs.append({"role": "user", "content": ["[Texto sin pregunta]"]})
+            msgs.append({"role": "assistant", "content": [l for p in ps for l in p + [""]]})
+            continue
+        n = 1                                               # la pregunta puede tener varios párrafos con «?»
+        while n < len(ps) - 1 and n < 25 and len(ps[n]) <= 3 and "?" in " ".join(ps[n]) and \
+                "?" in " ".join(ps[n - 1]) and len(" ".join(ps[n])) < 1500:
+            n += 1
+        msgs.append({"role": "user", "content": [l for p in ps[:n] for l in p + [""]]})
+        if ps[n:]:
+            msgs.append({"role": "assistant", "content": [l for p in ps[n:] for l in p + [""]]})
+    for x in msgs:
+        x.pop("abierta", None)
+        x["content"] = "\n".join(x["content"]).strip()
+        if x["role"] == "assistant":
+            x["content"] = re.sub(r"^-{3,4}\s*\n", "", x["content"]).strip()
+    msgs = [x for x in msgs if x["content"]]
+    if not msgs and texto.strip():                          # nunca se pierde un archivo con texto
+        msgs = [{"role": "user", "content": "[Texto sin pregunta]"},
+                {"role": "assistant", "content": texto.strip()}]
+    ia = ia or etiqueta_por_nombre(nombre)
+    tema = tema_de_nombre(nombre, ia)
+    return {"title": titulo or tema or os.path.splitext(os.path.basename(nombre))[0],
+            "created_at": fecha_de_nombre(nombre) or mtime, "__fuente__": ia, "messages": msgs}
+
+
 def parsear_texto_conversacion(nombre, texto, mtime=None):
     """Elige el lector adecuado para un .md/.txt fuera de las exportaciones oficiales."""
     primeras = texto[:3000]
@@ -1407,7 +1551,13 @@ def parsear_texto_conversacion(nombre, texto, mtime=None):
     if sum(1 for l in texto.splitlines() if RE_TRANS_PREG.match(l)) and \
             sum(1 for l in texto.splitlines() if RE_TRANS_RESP.match(l) and len(l.strip()) < 40):
         return parsear_transcripcion(nombre, texto, mtime)
+    marcas_pr = any(RE_PR_PREG.match(l) or RE_PR_RESP.match(l) for l in texto.splitlines())
     c = parsear_markdown(nombre, texto, mtime)
+    roles = {m["role"] for m in c["messages"] if m.get("content")}
+    if marcas_pr or roles != {"user", "assistant"} or RE_PR_SEP.search(texto) and not \
+            re.search(r"^\s*(?:#{1,6}\s*|\*\*)\s*(user|usuario|assistant|asistente|t[uú]|yo|kimi|lumo)\b", texto,
+                      re.M | re.I):
+        return parsear_preguntas_respuestas(nombre, texto, mtime)
     # Título subrayado con ===== (formato de exportación de Lumo)
     ls = texto.lstrip("\ufeff").splitlines()
     if len(ls) > 1 and ls[0].strip() and re.match(r"^\s*=+\s*$", ls[1]):
@@ -1466,8 +1616,29 @@ def procesar_takeout(entradas, opts, reg, convs, poner_doc):
     """Google Takeout: Gemini (Mi actividad > Apps de Gemini), Keep y el resto de productos."""
     nombres_json = {e[2][:-5].lower() for e in entradas if e[2].lower().endswith(".json")}
     gem_items, notas, productos = [], [], Counter()
+    nb_meta, nb_chats = {}, []                      # NotebookLM: cuaderno -> (título, creado, visto)
     for _, _, nombre, tipo, datos in entradas:
         prod = producto_takeout(nombre)
+        partes_nb = [x for x in descodificar_google(nombre).replace("\\", "/").split("/") if x]
+        cuaderno = None
+        if any(x.lower() == "notebooklm" for x in partes_nb):
+            i = [x.lower() for x in partes_nb].index("notebooklm")
+            cuaderno = partes_nb[i + 1] if len(partes_nb) > i + 2 else None
+            if cuaderno and tipo == "json" and isinstance(datos, dict) and isinstance(datos.get("metadata"), dict) \
+                    and len(partes_nb) == i + 3 and "createTime" in datos["metadata"]:
+                md = datos["metadata"]
+                nb_meta[cuaderno] = (datos.get("title") or cuaderno, fecha(md.get("createTime")),
+                                     fecha(md.get("lastViewed")) or fecha(md.get("createTime")))
+                continue
+            if cuaderno and tipo == "texto" and "chat history" in nombre.lower():
+                nb_chats.append((cuaderno, nombre, datos))
+                continue
+            if cuaderno and tipo == "json":
+                if nombre.lower().endswith("metadata.json"):
+                    continue                        # datos internos de cada fuente: no aportan texto
+                poner_doc("NotebookLM", cuaderno, f"[NotebookLM] {descodificar_google(os.path.basename(nombre))}",
+                          "\n".join(json_a_texto(datos)), None)
+                continue
         productos[prod] += 1
         en_keep = normalizar(prod) == "keep"
         en_gemini = "gemini" in normalizar(nombre) or "bard" in normalizar(nombre)
@@ -1502,6 +1673,9 @@ def procesar_takeout(entradas, opts, reg, convs, poner_doc):
                                   "\n".join(l for _, l in ls), ls[0][0])
                 continue
             if es_nota_keep(datos):
+                if gemini_desde_keep(datos, convs):
+                    ESTAD["keep_notas_de_gemini"] += 1
+                    continue
                 notas.append(nota_keep(datos))
                 continue
             texto = "\n".join(json_a_texto(datos))
@@ -1522,8 +1696,29 @@ def procesar_takeout(entradas, opts, reg, convs, poner_doc):
         if not texto.strip():
             ESTAD["takeout_vacio:" + os.path.basename(nombre)] += 1
             continue
-        poner_doc("Google", prod, f"[{prod}] {os.path.basename(nombre)}", texto, None,
-                  "keep" if en_keep else "gemini" if en_gemini else "takeout", nombre)
+        vis = descodificar_google(os.path.basename(nombre))
+        if cuaderno:
+            poner_doc("NotebookLM", cuaderno, f"[Fuente de NotebookLM] {vis}", texto, None, "takeout", nombre)
+        else:
+            poner_doc("Google", prod, f"[{prod}] {vis}", texto, None,
+                      "keep" if en_keep else "gemini" if en_gemini else "takeout", nombre)
+
+    # NotebookLM: el historial viene con lo más nuevo arriba y cada respuesta ANTES de su pregunta
+    for cuaderno, nombre, h in nb_chats:
+        bloques = re.split(r"(?m)^(USER|MODEL):\s*", h)
+        msgs_nb = []
+        for k in range(1, len(bloques) - 1, 2):
+            txt = html_a_texto(bloques[k + 1])
+            if txt.strip():
+                msgs_nb.append(("user" if bloques[k] == "USER" else "ai", txt))
+        msgs_nb.reverse()
+        titulo, creado, visto = nb_meta.get(cuaderno, (cuaderno, None, None))
+        inter, _ = agrupar([(r, t, visto or creado) for r, t in msgs_nb])
+        lista = [Intercambio("\n\n".join(x["p"]), "\n\n".join(x["r"]), x["f"]) for x in inter]
+        if lista:
+            convs.append(Conversacion(f"{titulo} (cuaderno de NotebookLM)", creado, visto, lista, "NotebookLM",
+                                      "NOTEBOOKLM"))
+    ESTAD["notebooklm_chats"] = len(nb_chats)
 
     # Gemini: conversaciones reconstruidas
     n_gem = 0
@@ -1747,25 +1942,66 @@ def parsear_markdown(nombre, texto, mtime=None):
 # Lectura de archivos (.json, .jsonl, .md, .zip, carpetas; partes de Claude)
 # ----------------------------------------------------------------------------
 CATEGORIAS_CLAUDE = ("conversations", "claude_code_cloud", "projects", "memories", "feedback", "light_metadata")
-RE_PARTE = re.compile(r"^([a-z][a-z_]*?)-(\d{3})(?:\s*\(\d+\))?\.zip$", re.I)
+RE_PARTE = re.compile(r"(conversations|claude_code_cloud|projects|memories|feedback|light_metadata)-(\d{3})"
+                      r"(?:\s*\(\d+\))?\.zip$", re.I)
 CARPETAS_DESCARGA = [os.path.expanduser("~/storage/downloads"),
                      os.path.expanduser("~/storage/shared/Download"), "/sdcard/Download"]
 
 
 def categoria_de(ruta):
-    m = RE_PARTE.match(os.path.basename(ruta))
+    m = RE_PARTE.search(os.path.basename(ruta))
     return m.group(1).lower() if m else None
+
+
+def prefijo_parte(ruta):
+    """Lo que va delante de la parte: '2026-11-11-11-30-02claude' en '2026-11-11-11-30-02claudeconversations-000.zip'."""
+    m = RE_PARTE.search(os.path.basename(ruta))
+    return os.path.basename(ruta)[:m.start()] if m else None
+
+
+IA_POR_NOMBRE = (("kimi", "Kimi"), ("moonshot", "Kimi"), ("lumo", "Lumo"), ("proton", "Lumo"),
+                 ("duck.ai", "Duck.ai"), ("duckai", "Duck.ai"), ("savedaichats", "Duck.ai"),
+                 ("deepseek", "DeepSeek"), ("chatgpt", "ChatGPT"), ("openai", "ChatGPT"),
+                 ("perplexity", "Perplexity"), ("euria", "Euria"), ("eunia", "Euria"), ("infomaniak", "Euria"),
+                 ("apertus", "Apertus"), ("myai", "MyAI"), ("my_ai", "MyAI"), ("copilot", "Copilot"),
+                 ("grok", "Grok"), ("qwen", "Qwen"), ("lechat", "Mistral"), ("notebooklm", "NotebookLM"),
+                 ("claude", "Claude"), ("gemini", "Gemini"), ("bard", "Gemini"), ("mistral", "Mistral"))
+# Palabras del nombre que no son el tema: articulo_lumo_suiza.txt -> tema «suiza»
+PALABRAS_NO_TEMA = {"articulo", "conversacion", "conversaciones", "chat", "chats", "ai", "ia", "txt", "transcripcion"}
 
 
 def etiqueta_por_nombre(ruta):
     n = normalizar(os.path.basename(ruta))
-    for clave, eti in (("kimi", "Kimi"), ("moonshot", "Kimi"), ("lumo", "Lumo"), ("proton", "Lumo"),
-                       ("duck.ai", "Duck.ai"), ("duckai", "Duck.ai"), ("savedaichats", "Duck.ai"),
-                       ("deepseek", "DeepSeek"), ("chatgpt", "ChatGPT"), ("openai", "ChatGPT"),
-                       ("claude", "Claude"), ("gemini", "Gemini"), ("mistral", "Mistral")):
+    for clave, eti in IA_POR_NOMBRE:
         if clave in n:
             return eti
-    return "Claude" if categoria_de(ruta) else None
+    if categoria_de(ruta):
+        return "Claude"
+    # Nombre libre: 2026-11-12-11-11-11_mia_tema.txt o ..._articulo_mia_tema.txt -> «Mia»
+    m = re.search(r"(?:^|[_\-])(?:articulo|conversacion|chat)_([a-z][a-z0-9.]{1,20})_", n)
+    return m.group(1).capitalize() if m else None
+
+
+def tema_de_nombre(ruta, ia=None):
+    """«2026-06-05articulo_lumo_oportunidadesDigitales.txt» -> «Oportunidades Digitales»."""
+    b = os.path.splitext(os.path.basename(ruta))[0]
+    b = re.sub(r"^[0-9a-f]{8}-(?=20\d\d)", "", b)                       # prefijo de las subidas a Claude
+    b = re.sub(r"^20\d\d-\d\d-\d\d(?:[-_ T]\d\d[-:]\d\d(?:[-:]\d\d)?)?[-_ ]?", "", b)
+    claves = {k for k, e in IA_POR_NOMBRE if ia and e == ia} | {normalizar(ia or "")}
+    trozos = []
+    for t in re.split(r"[_\s]+", b):
+        nt = normalizar(t)
+        if not t or nt in PALABRAS_NO_TEMA or nt in claves:
+            continue
+        for k in sorted(claves, key=len, reverse=True):
+            if k and nt.startswith(k) and len(nt) > len(k):     # «articuloLumo» o «lumoSuiza»
+                t = t[len(k):]
+                break
+        if normalizar(t) in PALABRAS_NO_TEMA:
+            continue
+        trozos.append(re.sub(r"(?<=[a-záéíóúñ])(?=[A-ZÁÉÍÓÚÑ])", " ", t))
+    tema = " ".join(trozos).strip(" -_")
+    return (tema[:1].upper() + tema[1:]) if tema else ""
 
 
 def parsear_json(nombre, b):
@@ -1800,11 +2036,13 @@ def entradas_de_bytes(nombre, b, eti, categoria, mtime=None):
     if categoria is None and re.search(r"(^|/)takeout/", bajo.replace("\\", "/")):
         categoria = "takeout"
     if bajo.endswith((".json", ".jsonl")):
-        if len(b) > 60_000_000:
-            ESTAD["json_demasiado_grande"] += 1
-            return []
+        if len(b) > 100_000_000:
+            print(GRIS(f"   leyendo {os.path.basename(nombre)} ({len(b) / 1048576:,.0f} MB), puede tardar..."), flush=True)
         try:
-            return [(eti, categoria, nombre, "json", parsear_json(nombre, b))]
+            datos = parsear_json(nombre, b)
+            if isinstance(datos, dict) and str(datos.get("herramienta", "")).startswith("duck.py"):
+                eti = "Duck.ai"           # exportación de "duck.py chats" (el nombre es solo la fecha)
+            return [(eti, categoria, nombre, "json", datos)]
         except (json.JSONDecodeError, UnicodeDecodeError):
             ESTAD["json_roto"] += 1
             return [(eti, categoria, nombre, "texto", b.decode("utf-8", "replace"))] if categoria else []
@@ -1840,7 +2078,8 @@ def leer_zip(origen, eti, categoria, prof=0):
                 continue
             bajo = n.lower()
             leible = bajo.endswith(EXT_TEXTO + (".ics", ".vcf", ".jsonl")) or "." not in os.path.basename(n)
-            if categoria and isinstance(origen, str) and (not leible or info.get(n, 0) > 20_000_000):
+            es_json = bajo.endswith((".json", ".jsonl"))
+            if categoria and isinstance(origen, str) and (not leible or (not es_json and info.get(n, 0) > 20_000_000)):
                 # Binario (imágenes, audio, PDF...) o texto enorme (mbox): solo se apunta; se lee al guardarlo
                 out.append((eti, categoria, n, "binref", (origen, n, info.get(n, 0))))
                 continue
@@ -1876,8 +2115,10 @@ def cargar(ruta):
             for f in sorted(fs):
                 p = os.path.join(base, f)
                 bajo = f.lower()
-                if not bajo.endswith((".zip", ".json", ".jsonl", ".md", ".markdown", ".txt")) or \
-                        RE_IGNORAR.search(f):
+                en_takeout = "/takeout/" in (p.replace("\\", "/").lower() + "/")
+                ext_ok = (".zip", ".json", ".jsonl", ".md", ".markdown", ".txt") + \
+                    ((".html", ".htm", ".csv", ".ics", ".vcf") if en_takeout else ())
+                if not bajo.endswith(ext_ok) or (RE_IGNORAR.search(f) and not en_takeout):
                     continue
                 if bajo.endswith(".zip"):
                     try:
@@ -1918,9 +2159,10 @@ def mas_reciente_por_parte(rutas):
     """De varias copias (p. ej. 'conversations-000(1).zip') se queda con la más reciente de cada parte."""
     elegidas = {}
     for r in rutas:
-        m = RE_PARTE.match(os.path.basename(r))
+        m = RE_PARTE.search(os.path.basename(r))
         clave = (m.group(1).lower(), m.group(2)) if m else r
-        if clave not in elegidas or os.path.getmtime(r) > os.path.getmtime(elegidas[clave]):
+        orden = lambda p: (prefijo_parte(p) or "", os.path.getmtime(p))
+        if clave not in elegidas or orden(r) > orden(elegidas[clave]):
             elegidas[clave] = r
     return [elegidas[k] for k in sorted(elegidas, key=str)]
 
@@ -1960,7 +2202,10 @@ def ampliar_con_partes(rutas):
     out = []
     for r in rutas:
         if categoria_de(r) and os.path.isfile(r):
-            out += partes_en(os.path.dirname(os.path.abspath(r)))
+            pre = prefijo_parte(r)
+            hermanas = [p for p in glob.glob(os.path.join(glob.escape(os.path.dirname(os.path.abspath(r))), "*.zip"))
+                        if categoria_de(p) and prefijo_parte(p) == pre]
+            out += mas_reciente_por_parte(hermanas)
         m = re.match(r"^(.*takeout-[0-9A-Za-z]+-\d+-)\d{3}\.zip$", os.path.basename(r), re.I)
         if m and os.path.isfile(r):
             out += sorted(glob.glob(os.path.join(glob.escape(os.path.dirname(os.path.abspath(r))),
@@ -1973,13 +2218,33 @@ def ampliar_con_partes(rutas):
             vistos.add(k)
             final.append(r)
     # Si hay varias copias de la misma parte, solo la más reciente
-    partes = mas_reciente_por_parte([r for r in final if categoria_de(r)])
+    pedidas = [r for r in final if categoria_de(r)]
+    # Si se piden partes de distintas copias (prefijos), se respetan todas; si no, la más reciente
+    if len({prefijo_parte(p) for p in pedidas}) > 1:
+        partes = pedidas
+    else:
+        partes = mas_reciente_por_parte(pedidas)
     return [r for r in final if not categoria_de(r)] + partes
 
 
 CARPETA_CONFIG = os.path.expanduser("~/buscarai")
 FUENTES = os.path.join(CARPETA_CONFIG, "fuentes.txt")
 FUENTES_DEFECTO = ["~/historial_ia", "~/duck/chats", "~/duck/txt"]
+
+
+def forma_guardada(x):
+    """Cómo se guarda una fuente: relativa si está junto a buscarai.py, con ~ si está en casa, si no absoluta.
+    Si no existe como ruta, se guarda tal cual (sirve como prefijo de nombre, p. ej. 2026-11-11-11-30-02)."""
+    p = os.path.expanduser(x)
+    if not os.path.exists(p):
+        return x
+    p = os.path.abspath(p)
+    if p == CARPETA_PROGRAMA or p.startswith(CARPETA_PROGRAMA.rstrip("/") + "/"):
+        return os.path.relpath(p, CARPETA_PROGRAMA)
+    casa = os.path.expanduser("~")
+    if p.startswith(casa.rstrip("/") + "/"):
+        return "~/" + os.path.relpath(p, casa)
+    return p
 
 
 def leer_fuentes(crear=True):
@@ -2011,10 +2276,48 @@ def guardar_fuentes(lista):
         fh.write("\n".join(cab + lista) + "\n")
 
 
+CARPETA_PROGRAMA = os.path.dirname(os.path.abspath(__file__))
+
+
+def resolver_ruta(f):
+    """'~/x' -> casa; 'x' (relativa) -> junto a buscarai.py; si no existe, se prueba como prefijo de nombre."""
+    p = os.path.expanduser(f)
+    if not os.path.isabs(p):
+        cand = os.path.join(CARPETA_PROGRAMA, p)
+        p = cand if os.path.exists(cand) or not os.path.exists(p) else os.path.abspath(p)
+    return p
+
+
+def expandir_prefijo(texto, carpetas=None):
+    """'2026-11-11-11-30-02' -> todos los archivos cuyo nombre empieza así (en la carpeta actual, la de
+    buscarai.py, Descargas y las carpetas de las fuentes)."""
+    base = os.path.basename(texto.rstrip("/"))
+    dirs = [os.path.dirname(os.path.expanduser(texto))] if os.path.dirname(texto) else []
+    dirs += [os.getcwd(), CARPETA_PROGRAMA] + CARPETAS_DESCARGA + (carpetas or [])
+    out, vistos = [], set()
+    for d in dirs:
+        d = os.path.abspath(os.path.expanduser(d)) if d else ""
+        if not d or d in vistos or not os.path.isdir(d):
+            continue
+        vistos.add(d)
+        for p in sorted(glob.glob(os.path.join(glob.escape(d), glob.escape(base) + "*"))):
+            if os.path.isfile(p) and p.lower().endswith((".zip", ".json", ".jsonl", ".md", ".txt")) \
+                    and not RE_IGNORAR.search(os.path.basename(p)):
+                out.append(p)
+        if out:
+            break
+    return out
+
+
 def rutas_de_fuentes():
     """Todas las fuentes guardadas que existen + la exportación de Claude que se encuentre sola."""
-    rutas = [os.path.expanduser(f) for f in leer_fuentes()]
-    rutas = [r for r in rutas if os.path.exists(r)]
+    rutas = []
+    for f in leer_fuentes():
+        p = resolver_ruta(f)
+        if os.path.exists(p):
+            rutas.append(p)
+        else:
+            rutas += expandir_prefijo(f)
     dentro = lambda p: any(os.path.abspath(p).startswith(os.path.abspath(r).rstrip("/") + "/") for r in rutas
                            if os.path.isdir(r))
     extra = [p for p in buscar_archivo_por_defecto() if not dentro(p)]
@@ -2403,6 +2706,400 @@ def carpeta_salida():
 # ----------------------------------------------------------------------------
 # Aplicación
 # ----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+# Búsqueda semántica (por significado) con una IA local ligera
+#   - llama.cpp (pkg install llama-cpp) + modelo multilingual-e5-small (~130 MB), o
+#   - Ollama con un modelo de "embeddings", si ya lo tienes.
+#   Sin IA disponible: búsqueda aproximada por relevancia (sin significado).
+# El índice es una base SQLite compartida: varias sesiones/paneles de tmux pueden buscar a la vez, y solo una
+# indexa en cada momento (las demás buscan en lo que ya esté indexado).
+# ----------------------------------------------------------------------------
+import fcntl
+import hashlib
+import math
+import sqlite3
+import struct
+import urllib.error
+import urllib.request
+
+DIR_SEM = os.path.join(CARPETA_CONFIG, "semantica")
+CFG_SEM = os.path.join(CARPETA_CONFIG, "semantica.json")
+MODELO_URL = ("https://huggingface.co/janusz-bit/multilingual-e5-small-gguf/resolve/main/"
+              "multilingual-e5-small-q8_0.gguf")
+MODELO_NOMBRE = "multilingual-e5-small-q8_0.gguf"
+CFG_SEM_DEFECTO = {
+    "motor": "auto",                     # auto | llamacpp | ollama | ninguno
+    "llamacpp_url": "http://127.0.0.1:8784",   # puerto libre según puertos.txt v6
+    "llamacpp_modelo": "~/buscarai/modelos/" + MODELO_NOMBRE,
+    "llamacpp_arrancar": True,           # arrancar llama-server solo si no está en marcha (compartido entre sesiones)
+    "llamacpp_hilos": 4,
+    "ollama_url": "http://127.0.0.1:11434",
+    "ollama_modelo": "",                 # vacío = el primer modelo de embeddings que tenga Ollama
+    "prefijo_consulta": "auto",          # auto = "query: " / "passage: " si el modelo es e5
+    "prefijo_texto": "auto",
+    "lote": 8,                           # textos por petición
+    "max_caracteres": "auto",            # tamaño de cada trozo: auto = 1200 (e5) o 450 (paraphrase, ~128 tokens)
+    "trozos_por_respuesta": "auto",      # máximo de trozos por respuesta: auto = 6 (e5) o 12 (paraphrase)
+    "resultados": 40,
+}
+PALABRAS_VACIAS = set("""a al algo como con de del el ella ellos en entre era es esa ese eso esta este esto fue ha han
+hay la las le les lo los mas me mi mis muy no nos o para pero por que se si sin sobre su sus te tu tus un una uno y ya yo
+the a an and or of to in on for is are was be it this that with as by at from i you he she we they not do does
+der die das und ist zu mit von den ein eine im""".split())
+
+
+def cfg_semantica():
+    os.makedirs(CARPETA_CONFIG, exist_ok=True)
+    cfg = dict(CFG_SEM_DEFECTO)
+    if os.path.exists(CFG_SEM):
+        try:
+            with open(CFG_SEM, encoding="utf-8") as fh:
+                cfg.update(json.load(fh))
+        except Exception as e:
+            print(AMAR(f"semantica.json ilegible ({e}); uso los valores por defecto."))
+    else:
+        with open(CFG_SEM, "w", encoding="utf-8") as fh:
+            json.dump(CFG_SEM_DEFECTO, fh, indent=2, ensure_ascii=False)
+    return cfg
+
+
+def http_json(url, datos=None, timeout=120):
+    req = urllib.request.Request(url, data=json.dumps(datos).encode() if datos is not None else None,
+                                 headers={"Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return json.loads(r.read().decode("utf-8") or "null")
+
+
+class Motor:
+    """Convierte textos en vectores (embeddings) con llama.cpp u Ollama."""
+
+    def __init__(self, cfg):
+        self.cfg, self.tipo, self.modelo, self.info = cfg, None, None, []
+
+    # -------- detección
+    def _llamacpp_vivo(self):
+        try:
+            r = http_json(self.cfg["llamacpp_url"].rstrip("/") + "/health", timeout=3)
+            return isinstance(r, dict) and r.get("status") in ("ok", None)
+        except Exception:
+            return False
+
+    def _ollama_modelos(self):
+        try:
+            r = http_json(self.cfg["ollama_url"].rstrip("/") + "/api/tags", timeout=3)
+            return [m.get("name", "") for m in (r or {}).get("models", [])]
+        except Exception:
+            return None
+
+    def _arrancar_llamacpp(self):
+        exe = shutil.which("llama-server")
+        modelo = os.path.expanduser(self.cfg["llamacpp_modelo"])
+        if not exe:
+            self.info.append("llama-server no está instalado (pkg install llama-cpp).")
+            return False
+        if not os.path.exists(modelo):
+            self.info.append(f"Falta el modelo {modelo} (python buscarai.py --semantica-instalar).")
+            return False
+        os.makedirs(DIR_SEM, exist_ok=True)
+        # Cerrojo: si dos sesiones de tmux arrancan a la vez, solo una lanza el servidor
+        with open(os.path.join(DIR_SEM, "arranque.lock"), "w") as lk:
+            fcntl.flock(lk, fcntl.LOCK_EX)
+            if self._llamacpp_vivo():
+                return True
+            puerto = self.cfg["llamacpp_url"].rstrip("/").rsplit(":", 1)[-1]
+            log = open(os.path.join(DIR_SEM, f"llama-server_{sello()}.log"), "w")
+            print(GRIS(f"Arrancando llama-server en el puerto {puerto} (se queda abierto para todas las sesiones)..."))
+            subprocess.Popen([exe, "-m", modelo, "--embeddings", "--pooling", "mean", "-c", "512", "-b", "512",
+                              "-ub", "512", "--host", "127.0.0.1", "--port", puerto,
+                              "-t", str(self.cfg.get("llamacpp_hilos", 4))],
+                             stdout=log, stderr=subprocess.STDOUT, stdin=subprocess.DEVNULL, start_new_session=True)
+            for _ in range(120):
+                time.sleep(0.5)
+                if self._llamacpp_vivo():
+                    return True
+        self.info.append("llama-server no respondió a tiempo; mira el último ~/buscarai/semantica/llama-server_*.log")
+        return False
+
+    def preparar(self):
+        m = self.cfg.get("motor", "auto")
+        if m in ("auto", "llamacpp"):
+            hay_modelo = os.path.exists(os.path.expanduser(self.cfg["llamacpp_modelo"]))
+            puede = shutil.which("llama-server") and hay_modelo
+            if m == "auto" and not puede and not self._llamacpp_vivo():
+                self.info.append("llama.cpp: " + ("no instalado" if not shutil.which("llama-server") else
+                                                  "falta el modelo " + self.cfg["llamacpp_modelo"]) + " (opcional)")
+            elif self._llamacpp_vivo() or (self.cfg.get("llamacpp_arrancar", True) and self._arrancar_llamacpp()):
+                self.tipo, self.modelo = "llamacpp", os.path.basename(os.path.expanduser(self.cfg["llamacpp_modelo"]))
+                return True
+        if m in ("auto", "ollama"):
+            mods = self._ollama_modelos()
+            if mods is None and shutil.which("ollama"):
+                os.makedirs(DIR_SEM, exist_ok=True)
+                with open(os.path.join(DIR_SEM, "arranque.lock"), "w") as lk:
+                    fcntl.flock(lk, fcntl.LOCK_EX)
+                    mods = self._ollama_modelos()
+                    if mods is None:
+                        print(GRIS("Arrancando Ollama (ollama serve; se queda abierto para todas las sesiones)..."))
+                        log = open(os.path.join(DIR_SEM, f"ollama_{sello()}.log"), "w")
+                        subprocess.Popen(["ollama", "serve"], stdout=log, stderr=subprocess.STDOUT,
+                                         stdin=subprocess.DEVNULL, start_new_session=True)
+                        for _ in range(60):
+                            time.sleep(0.5)
+                            mods = self._ollama_modelos()
+                            if mods is not None:
+                                break
+            if mods:
+                elegido = self.cfg.get("ollama_modelo") or next(
+                    (x for x in mods if re.search(r"embed|e5|minilm|bge|nomic|arctic|mxbai|paraphrase", x, re.I)), "")
+                if elegido:
+                    self.tipo, self.modelo = "ollama", elegido
+                    return True
+                self.info.append("Ollama está en marcha pero no tiene ningún modelo de embeddings "
+                                 "(p. ej.: ollama pull sam860/granite-embedding-multilingual:107m-Q8_0).")
+            elif mods is None and shutil.which("ollama"):
+                self.info.append("Ollama está instalado pero no está en marcha (ollama serve &).")
+        return False
+
+    def prefijos(self):
+        pc, pt = self.cfg.get("prefijo_consulta", "auto"), self.cfg.get("prefijo_texto", "auto")
+        e5 = "e5" in (self.modelo or "").lower()
+        return (("query: " if e5 else "") if pc == "auto" else pc), (("passage: " if e5 else "") if pt == "auto" else pt)
+
+    # -------- vectores
+    def vectores(self, textos):
+        if self.tipo == "ollama":
+            r = http_json(self.cfg["ollama_url"].rstrip("/") + "/api/embed", {"model": self.modelo, "input": textos}, 600)
+            vs = r.get("embeddings") or []
+        else:
+            r = http_json(self.cfg["llamacpp_url"].rstrip("/") + "/v1/embeddings", {"input": textos}, 600)
+            vs = [d["embedding"] for d in sorted(r.get("data", []), key=lambda d: d.get("index", 0))]
+        if len(vs) != len(textos):
+            raise RuntimeError(f"el motor devolvió {len(vs)} vectores para {len(textos)} textos")
+        return [normalizar_vec(v) for v in vs]
+
+
+def normalizar_vec(v):
+    n = math.sqrt(sum(x * x for x in v)) or 1.0
+    return [x / n for x in v]
+
+
+def empaquetar(v):
+    return struct.pack(f"{len(v)}e", *v)
+
+
+def desempaquetar(b):
+    return struct.unpack(f"{len(b) // 2}e", b)
+
+
+class Indice:
+    """Base SQLite con un vector por trozo de texto (clave = huella del texto). Compartida entre sesiones."""
+
+    def __init__(self, modelo):
+        os.makedirs(DIR_SEM, exist_ok=True)
+        self.ruta = os.path.join(DIR_SEM, "indice_" + re.sub(r"[^\w.-]+", "_", modelo) + ".db")
+        self.db = sqlite3.connect(self.ruta, timeout=120)
+        self.db.execute("PRAGMA journal_mode=WAL")
+        self.db.execute("PRAGMA busy_timeout=120000")
+        self.db.execute("CREATE TABLE IF NOT EXISTS v(h TEXT PRIMARY KEY, vec BLOB)")
+        self.db.commit()
+
+    def tiene(self, hs):
+        out = set()
+        hs = list(hs)
+        for i in range(0, len(hs), 500):
+            trozo = hs[i:i + 500]
+            out |= {r[0] for r in self.db.execute(
+                f"SELECT h FROM v WHERE h IN ({','.join('?' * len(trozo))})", trozo)}
+        return out
+
+    def cargar(self, hs):
+        out = {}
+        hs = list(hs)
+        for i in range(0, len(hs), 500):
+            trozo = hs[i:i + 500]
+            for h, b in self.db.execute(f"SELECT h, vec FROM v WHERE h IN ({','.join('?' * len(trozo))})", trozo):
+                out[h] = desempaquetar(b)
+        return out
+
+    def guardar(self, pares):
+        self.db.executemany("INSERT OR REPLACE INTO v(h, vec) VALUES(?, ?)", [(h, empaquetar(v)) for h, v in pares])
+        self.db.commit()
+
+
+def trocear(texto, maximo):
+    """Parte un texto en trozos de como mucho `maximo` caracteres, por párrafos y frases."""
+    texto = re.sub(r"[ \t]+", " ", texto or "").strip()
+    if len(texto) <= maximo:
+        return [texto] if texto else []
+    out, actual = [], ""
+    for parte in re.split(r"(?<=[.!?\n])\s+", texto):
+        while len(parte) > maximo:
+            if actual:
+                out.append(actual)
+                actual = ""
+            out.append(parte[:maximo])
+            parte = parte[maximo:]
+        if len(actual) + len(parte) + 1 > maximo:
+            out.append(actual)
+            actual = parte
+        else:
+            actual = (actual + " " + parte).strip()
+    if actual:
+        out.append(actual)
+    return out
+
+
+def tam_trozos(cfg, modelo):
+    """Modelos de frases cortas (paraphrase-multilingual, MiniLM: ~128 tokens) necesitan trozos más pequeños."""
+    corto = bool(re.search(r"paraphrase|minilm|mpnet|labse", modelo or "", re.I))
+    mx = cfg.get("max_caracteres", "auto")
+    tpr = cfg.get("trozos_por_respuesta", "auto")
+    mx = (450 if corto else 1200) if mx in ("auto", "", None) else int(mx)
+    tpr = (12 if corto else 6) if tpr in ("auto", "", None) else int(tpr)
+    return mx, tpr
+
+
+def trozos_de(convs, cfg, prefijo_texto, modelo):
+    """[(huella, texto_para_el_modelo, ci, ei, texto_visible)] de todas las conversaciones cargadas."""
+    out = []
+    mx, tpr = tam_trozos(cfg, modelo)
+    for ci, cv in enumerate(convs):
+        for ei, ex in enumerate(cv.inter):
+            p = RE_RECORDATORIO.sub("", ex.preg.texto).strip()
+            piezas = []
+            if p:
+                piezas.append(p[:mx])
+            cab = ("P: " + p[:min(250, mx // 4)] + "\nR: ") if p else ""
+            for t in trocear(ex.resp.texto, mx - len(cab))[:tpr]:
+                piezas.append(cab + t)
+            for t in piezas:
+                h = hashlib.sha1((modelo + "\0" + prefijo_texto + t).encode("utf-8", "replace")).hexdigest()[:24]
+                out.append((h, prefijo_texto + t, ci, ei, t))
+    return out
+
+
+def tokens_lexicos(t):
+    return [w[:6] for w in re.findall(r"\w{3,}", normalizar(t)) if w not in PALABRAS_VACIAS]
+
+
+def busqueda_aproximada(convs, consulta, n):
+    """Sin IA: relevancia BM25 sobre raíces de palabras (no entiende sinónimos, pero ordena por relevancia)."""
+    q = set(tokens_lexicos(consulta))
+    if not q:
+        return []
+    docs, df = [], Counter()
+    for ci, cv in enumerate(convs):
+        for ei, ex in enumerate(cv.inter):
+            tk = Counter(tokens_lexicos(ex.preg.texto + " " + ex.resp.texto[:20000]))
+            docs.append((ci, ei, tk, sum(tk.values())))
+            for w in q & set(tk):
+                df[w] += 1
+    N = len(docs) or 1
+    media = sum(d[3] for d in docs) / N or 1
+    res = []
+    for ci, ei, tk, L in docs:
+        s = 0.0
+        for w in q:
+            f = tk.get(w, 0)
+            if f:
+                idf = math.log(1 + (N - df[w] + 0.5) / (df[w] + 0.5))
+                s += idf * f * 2.2 / (f + 1.2 * (0.25 + 0.75 * L / media))
+        if s > 0:
+            res.append((s, ci, ei))
+    res.sort(reverse=True)
+    return res[:n]
+
+
+def diagnostico_semantica():
+    cfg = cfg_semantica()
+    m = Motor(cfg)
+    lin = [f"DIAGNÓSTICO BÚSQUEDA SEMÁNTICA buscarai.py {VERSION} · {datetime.now():%Y-%m-%d %H:%M:%S}", ""]
+    lin.append(f"Configuración: {CFG_SEM}")
+    for k, v in cfg.items():
+        lin.append(f"  {k}: {v}")
+    lin.append("")
+    for exe in ("llama-server", "llama-embedding", "llama-cli", "ollama"):
+        lin.append(f"  {exe}: {shutil.which(exe) or 'no instalado'}")
+    modelo = os.path.expanduser(cfg["llamacpp_modelo"])
+    lin.append(f"  modelo GGUF: {modelo} -> {'%.0f MB' % (os.path.getsize(modelo) / 1048576) if os.path.exists(modelo) else 'no existe'}")
+    lin.append(f"  llama-server en marcha ({cfg['llamacpp_url']}): {'sí' if m._llamacpp_vivo() else 'no'}")
+    mods = m._ollama_modelos()
+    lin.append(f"  Ollama ({cfg['ollama_url']}): {'no responde' if mods is None else ', '.join(mods) or 'sin modelos'}")
+    try:
+        libre = shutil.disk_usage(os.path.expanduser("~")).free / 1048576
+        lin.append(f"  espacio libre en casa: {libre:,.0f} MB")
+    except OSError:
+        pass
+    for f in sorted(glob.glob(os.path.join(DIR_SEM, "indice_*.db"))):
+        try:
+            n = sqlite3.connect(f, timeout=5).execute("SELECT count(*) FROM v").fetchone()[0]
+        except Exception as e:
+            n = f"error {e}"
+        lin.append(f"  índice {os.path.basename(f)}: {n} trozos, {os.path.getsize(f) / 1048576:,.1f} MB")
+    ok = m.preparar()
+    lin.append("")
+    lin.append(f"Motor elegido: {m.tipo} · modelo {m.modelo}" if ok else "Motor elegido: NINGUNO (se usará la búsqueda aproximada)")
+    lin += ["  " + x for x in m.info]
+    if ok:
+        try:
+            t0 = time.time()
+            v = m.vectores([m.prefijos()[0] + "prueba de funcionamiento"])
+            lin.append(f"  prueba: vector de {len(v[0])} dimensiones en {time.time() - t0:.2f} s")
+        except Exception as e:
+            lin.append(f"  prueba FALLIDA: {e}")
+    p = os.path.join(carpeta_salida(), f"buscarai_semantica_diag_{sello()}.txt")
+    with open(p, "w", encoding="utf-8") as fh:
+        fh.write("\n".join(lin) + "\n")
+    print("\n".join(lin))
+    print(VERDE(f"\nGuardado en: {p}"))
+
+
+def instalar_semantica():
+    """Instala llama.cpp (pkg) y descarga el modelo multilingüe ligero (~130 MB)."""
+    cfg = cfg_semantica()
+    m = Motor(cfg)
+    mods = m._ollama_modelos() or []
+    emb = [x for x in mods if re.search(r"embed|e5|minilm|bge|nomic|arctic|mxbai|paraphrase", x, re.I)]
+    if emb and preguntar(f"Ya tienes Ollama con {emb[0]}: no hace falta instalar nada. "
+                         "¿Instalar igualmente llama.cpp + e5-small (~130 MB, más rápido)? (s/N) ").lower() not in ("s", "si", "sí"):
+        print(VERDE("Nada que instalar. Prueba:  python buscarai.py --semantica-diag"))
+        return
+    if not shutil.which("llama-server"):
+        print("Instalando llama.cpp con pkg (necesita internet)...")
+        r = subprocess.run(["pkg", "install", "-y", "llama-cpp"])
+        if r.returncode != 0 or not shutil.which("llama-server"):
+            print(ROJO("No se pudo instalar llama-cpp. Prueba a mano: pkg update && pkg install llama-cpp"))
+            return
+    destino = os.path.expanduser(cfg["llamacpp_modelo"])
+    if os.path.exists(destino) and os.path.getsize(destino) > 50_000_000:
+        print(VERDE(f"El modelo ya está: {destino}"))
+    else:
+        libre = shutil.disk_usage(os.path.expanduser("~")).free / 1048576
+        if libre < 250:
+            print(ROJO(f"Solo hay {libre:.0f} MB libres; hacen falta unos 250 MB (modelo + índice)."))
+            return
+        os.makedirs(os.path.dirname(destino), exist_ok=True)
+        tmp = destino + ".parcial"
+        print(f"Descargando {MODELO_NOMBRE} (~130 MB) a {destino} ...")
+        try:
+            with urllib.request.urlopen(MODELO_URL, timeout=60) as r, open(tmp, "wb") as fh:
+                total, hecho = int(r.headers.get("Content-Length") or 0), 0
+                while True:
+                    b = r.read(1 << 20)
+                    if not b:
+                        break
+                    fh.write(b)
+                    hecho += len(b)
+                    print(f"\r   {hecho / 1048576:,.0f} / {total / 1048576:,.0f} MB", end="", flush=True)
+            os.replace(tmp, destino)
+            print()
+        except Exception as e:
+            print(ROJO(f"\nNo se pudo descargar: {e}"))
+            print(f"Descárgalo con Firefox desde:\n  {MODELO_URL}\ny muévelo a {destino}")
+            return
+    print(VERDE("Listo. Prueba:  python buscarai.py --semantica-diag"))
+
+
 class App:
     def __init__(self, rutas, opts):
         self.rutas = rutas
@@ -2419,6 +3116,10 @@ class App:
             print(AMAR("Aviso: " + av))
         self.pats, self.consulta, self.res, self.pos = [], "", [], -1
         self.filtro_ia = None          # None = todas las IA; si no, conjunto de fuentes
+        self.sem_info = {}             # (ci, ei) -> (puntuación, trozo) en búsquedas semánticas
+        self.sem_consulta = ""
+        self._sem = None               # (cfg, motor|None, índice|None)
+        self._vecs = {}                # caché de vectores en memoria (array 'f')
 
     def varias_fuentes(self):
         return len({cv.fuente for cv in self.convs}) > 1
@@ -2430,8 +3131,12 @@ class App:
     def spans(self, parte):
         out = []
         for p in self.pats:
-            out.extend(m.span() for m in p.finditer(parte.norm))
+            out.extend(m.span() for m in p.finditer(self.campo(parte)))
         return sorted(out)
+
+    def campo(self, parte):
+        """Texto en el que se busca: original (--exacto) o sin mayúsculas ni tildes."""
+        return parte.texto if self.opts.exacto else parte.norm
 
     def fuentes_presentes(self):
         return Counter(cv.fuente for cv in self.convs)
@@ -2460,7 +3165,8 @@ class App:
             sel = {f for f in self.fuentes_presentes() if any(p in normalizar(f) for p in pedidas)}
             self.filtro_ia = None if any(p in ("todas", "todo", "all") for p in pedidas) else (sel or None)
             consulta = (consulta[:m.start()] + " " + consulta[m.end():]).strip()
-        terminos = parsear_consulta(consulta)
+        self.sem_info = {}
+        terminos = parsear_consulta(consulta, self.opts.exacto, self.opts.frase)
         if not terminos:
             return False
         self.pats = [compilar(t, self.opts.palabra) for t in terminos]
@@ -2473,7 +3179,7 @@ class App:
                 hallados, n = set(), 0
                 for ti, p in enumerate(self.pats):
                     for parte in (ex.preg, ex.resp):
-                        k = sum(1 for _ in p.finditer(parte.norm))
+                        k = sum(1 for _ in p.finditer(self.campo(parte)))
                         if k:
                             hallados.add(ti)
                             n += k
@@ -2560,6 +3266,14 @@ class App:
                 ex = cv.inter[ei]
                 lineas.append("")
                 lineas.append(f"{AMAR(f'[{k + 1}]')} {fmt_fecha(ex.fecha)} · {self.etiqueta(cv)}{CIAN(cv.titulo)}")
+                if self.sem_info:
+                    punt, trozo = self.sem_info.get((ci, ei), (n, None))
+                    medida = f"similitud {punt:.2f}" if self._sem and self._sem[1] else f"relevancia {punt:.1f}"
+                    lineas.append(GRIS(f"     pregunta {ei + 1}/{len(cv.inter)} · {medida}"))
+                    muestra = trozo or (ex.preg.texto.strip() + "\n" + ex.resp.texto.strip())
+                    for l in [x for x in muestra.split("\n") if x.strip()][:5]:
+                        lineas.append("     " + (l[:240] + "…" if len(l) > 240 else l))
+                    continue
                 lineas.append(GRIS(f"     pregunta {ei + 1}/{len(cv.inter)} · {n} coincidencia(s)"))
                 for etq, parte in (("TÚ", ex.preg), (cv.voz, ex.resp)):
                     sp = self.spans(parte)
@@ -2589,7 +3303,10 @@ class App:
                 pag = max(0, pag - 1)
             elif r.lower() == "i":
                 self.filtro_ia = self.elegir_ia()
-                self.buscar(self.consulta)
+                if self.sem_info:
+                    self.busqueda_semantica(self.sem_consulta, preguntar_indexar=False)
+                else:
+                    self.buscar(self.consulta)
                 if not self.res:
                     print(AMAR(f"Sin resultados en {self.texto_filtro_ia()}."))
                     return "b"
@@ -2836,7 +3553,7 @@ class App:
             print(separador("Fuentes (se cargan siempre que abres buscarai.py sin indicar archivos)", VERDE))
             print(GRIS(f"Archivo: {FUENTES}"))
             for i, f in enumerate(lista, 1):
-                p = os.path.expanduser(f)
+                p = resolver_ruta(f)
                 estado = VERDE("ok") if os.path.exists(p) else ROJO("no existe")
                 print(f" {i:>2}) {f}  {estado}")
             print(GRIS("Cargado ahora: " + ", ".join(f"{k} {v}" for k, v in self.fuentes_presentes().most_common())))
@@ -2845,7 +3562,8 @@ class App:
             if r.lower() == "a":
                 nueva = preguntar("Carpeta o archivo (p. ej. ~/storage/downloads/lumo): ").strip()
                 if nueva and nueva.lower() != "q":
-                    if not os.path.exists(os.path.expanduser(nueva)):
+                    nueva = forma_guardada(nueva)
+                    if not os.path.exists(resolver_ruta(nueva)) and not expandir_prefijo(nueva):
                         print(AMAR("Ojo: ahora mismo no existe; se añade igualmente."))
                     guardar_fuentes(lista + [nueva])
                     cambiado = True
@@ -2970,7 +3688,7 @@ class App:
                 lineas.append(separador("contenido"))
                 sp = []
                 if self.pats:
-                    nt = normalizar(texto)
+                    nt = texto if self.opts.exacto else normalizar(texto)
                     for p in self.pats:
                         sp += [m.span() for m in p.finditer(nt)]
                 lineas += self.render_parte(Parte(texto), sorted(sp))
@@ -3006,6 +3724,7 @@ class App:
             print(f" 6) Mostrar texto de adjuntos dentro de la pregunta: {NEG('sí' if o.adjuntos else 'no')}")
             print(f" 7) Incluir ramas editadas (Claude): {NEG('sí' if o.todas_ramas else 'no')}")
             print(f" 8) Detalles técnicos (resultados de herramientas, lecturas): {NEG('sí' if o.detalles else 'no')}")
+            print(f" 9) Respetar mayúsculas y tildes al buscar: {NEG('sí' if o.exacto else 'no')}")
             print(" 0) Volver")
             r = preguntar("> ")
             rehacer = False
@@ -3027,6 +3746,8 @@ class App:
                 o.todas_ramas, rehacer = not o.todas_ramas, True
             elif r == "8":
                 o.detalles, rehacer = not o.detalles, True
+            elif r == "9":
+                o.exacto = not o.exacto
             elif r in ("0", "q", ""):
                 if self.consulta:
                     self.buscar(self.consulta)
@@ -3035,6 +3756,144 @@ class App:
                 print(GRIS("Reconstruyendo índice..."))
                 self.convs, self.reg = construir(self.entradas, o)
                 self.res, self.pos = [], -1
+
+
+    # ---------------- búsqueda semántica ----------------
+    def preparar_semantica(self):
+        if self._sem is None:
+            cfg = cfg_semantica()
+            m = Motor(cfg)
+            if m.preparar():
+                self._sem = (cfg, m, Indice(m.modelo))
+            else:
+                self._sem = (cfg, None, None)
+                print(AMAR("No hay IA local para la búsqueda semántica; uso la búsqueda aproximada (por relevancia)."))
+                for x in m.info:
+                    print(GRIS("  " + x))
+                print(GRIS("  Para activarla: python buscarai.py --semantica-instalar   (ver manual, apartado 7b)"))
+        return self._sem
+
+    def indexar(self, interactivo=True):
+        """Calcula los vectores que faltan. Devuelve True si el índice queda completo."""
+        cfg, m, ind = self.preparar_semantica()
+        if not m:
+            return False
+        trozos = trozos_de(self.convs, cfg, m.prefijos()[1], m.modelo)
+        unicos = {t[0]: t for t in trozos}
+        hechos = ind.tiene(unicos)
+        faltan = [t for h, t in unicos.items() if h not in hechos]
+        if not faltan:
+            print(VERDE(f"Índice completo: {len(unicos)} trozos."))
+            return True
+        lk = open(os.path.join(DIR_SEM, "indexando.lock"), "w")
+        try:
+            fcntl.flock(lk, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except BlockingIOError:
+            print(AMAR("Otra sesión está indexando ahora mismo; esta no indexa (usa lo que ya esté hecho)."))
+            lk.close()
+            return False
+        try:
+            hechos = ind.tiene(unicos)               # otra sesión puede haber avanzado mientras tanto
+            faltan = [t for h, t in unicos.items() if h not in hechos]
+            lote, t0, hechos_ahora, fallos = max(1, int(cfg.get("lote", 8))), time.time(), 0, 0
+            print(f"Indexando {len(faltan)} trozos con {m.tipo} ({m.modelo}). Ctrl+C para parar: lo hecho se guarda.")
+            for i in range(0, len(faltan), lote):
+                grupo = faltan[i:i + lote]
+                try:
+                    vs = m.vectores([t[1] for t in grupo])
+                    ind.guardar([(t[0], v) for t, v in zip(grupo, vs)])
+                except KeyboardInterrupt:
+                    raise
+                except Exception:
+                    for t in grupo:                  # de uno en uno, recortando si es demasiado largo
+                        try:
+                            v = m.vectores([t[1][:len(t[1]) // 2]])[0]
+                            ind.guardar([(t[0], v)])
+                        except KeyboardInterrupt:
+                            raise
+                        except Exception:
+                            fallos += 1
+                hechos_ahora += len(grupo)
+                vel = hechos_ahora / max(0.1, time.time() - t0)
+                resto = (len(faltan) - hechos_ahora) / max(vel, 0.01)
+                print(f"\r   {hechos_ahora}/{len(faltan)} · {vel:.1f} trozos/s · quedan ~{resto / 60:.0f} min   ",
+                      end="", flush=True)
+            print()
+            if fallos:
+                print(AMAR(f"{fallos} trozo(s) no se pudieron indexar (se omiten)."))
+            return True
+        except KeyboardInterrupt:
+            print(AMAR("\nIndexación parada; lo hecho queda guardado y se continúa la próxima vez."))
+            return False
+        finally:
+            fcntl.flock(lk, fcntl.LOCK_UN)
+            lk.close()
+
+    def busqueda_semantica(self, consulta, preguntar_indexar=True):
+        consulta = consulta.strip()
+        if not consulta:
+            return False
+        cfg, m, ind = self.preparar_semantica()
+        self.pats, self.sem_consulta = [], consulta
+        self.consulta = "≈ " + consulta
+        convs_ok = lambda ci: not self.filtro_ia or self.convs[ci].fuente in self.filtro_ia
+        n = int(cfg.get("resultados", 40))
+        if not m:
+            res = busqueda_aproximada(self.convs, consulta, n * 3)
+            res = [(s, ci, ei) for s, ci, ei in res if convs_ok(ci)][:n]
+            self.sem_info = {(ci, ei): (s, None) for s, ci, ei in res}
+            self.res, self.pos = [(ci, ei, s) for s, ci, ei in res], -1
+            return True
+        trozos = trozos_de(self.convs, cfg, m.prefijos()[1], m.modelo)
+        unicos = {t[0] for t in trozos}
+        hechos = ind.tiene(unicos)
+        if len(hechos) < len(unicos):
+            faltan = len(unicos) - len(hechos)
+            print(AMAR(f"Faltan {faltan} de {len(unicos)} trozos por indexar (la primera vez tarda; luego solo lo nuevo)."))
+            r = preguntar("i: indexar ahora · Enter: buscar solo en lo ya indexado · q: cancelar > ").lower() \
+                if preguntar_indexar else ""
+            if r == "q":
+                return False
+            if r == "i":
+                self.indexar()
+                hechos = ind.tiene(unicos)
+        if not hechos:
+            print(AMAR("Aún no hay nada indexado: indexa primero (tecla i, o python buscarai.py --indexar)."))
+            return False
+        pendientes = [h for h in hechos if h not in self._vecs]
+        for h, v in ind.cargar(pendientes).items():
+            self._vecs[h] = array.array("f", v)
+        q = array.array("f", m.vectores([m.prefijos()[0] + consulta])[0])
+        mejor = {}
+        for h, _, ci, ei, visible in trozos:
+            v = self._vecs.get(h)
+            if v is None or not convs_ok(ci):
+                continue
+            s = sum(a * b for a, b in zip(q, v))
+            if s > mejor.get((ci, ei), (-2, None))[0]:
+                mejor[(ci, ei)] = (s, visible)
+        orden = sorted(mejor.items(), key=lambda kv: kv[1][0], reverse=True)[:n]
+        self.sem_info = dict(orden)
+        self.res, self.pos = [(ci, ei, s) for (ci, ei), (s, _) in orden], -1
+        if len(hechos) < len(unicos):
+            print(GRIS(f"(búsqueda en {len(hechos)} de {len(unicos)} trozos indexados)"))
+        return True
+
+    def ciclo_semantica(self, consulta=None):
+        while True:
+            if consulta is None:
+                print()
+                print(GRIS("Escribe lo que buscas con tus palabras (una idea, una pregunta...); "
+                           "se ordena por parecido de significado."))
+                consulta = preguntar(NEG(f"Búsqueda semántica en {self.texto_filtro_ia()} (Enter = volver): "))
+                if consulta in ("", "q"):
+                    return
+            print(GRIS("Buscando por significado..."))
+            if not self.busqueda_semantica(consulta):
+                return
+            if self.vista_resultados() == "q":
+                return
+            consulta = None
 
     # ---------------- menú principal ----------------
     def ciclo_busqueda(self, consulta=None):
@@ -3075,6 +3934,7 @@ class App:
             print(" 7) Extraer todos los archivos a una carpeta")
             print(" 8) Generar diagnóstico para Claude")
             print(" 9) Fuentes: carpetas y archivos que se cargan siempre")
+            print(" s) Búsqueda semántica (por significado, con IA local)")
             print(" i) Elegir IA (para buscar y para la lista)")
             print(" 0) Salir")
             r = preguntar(NEG("> (o escribe directamente lo que buscas) "))
@@ -3106,6 +3966,8 @@ class App:
                     self.recargar(rutas_de_fuentes())
             elif r.lower() == "i":
                 self.filtro_ia = self.elegir_ia()
+            elif r.lower() == "s":
+                self.ciclo_semantica()
             elif r:
                 self.ciclo_busqueda(r)
 
@@ -3121,7 +3983,11 @@ def main():
     ap.add_argument("archivos", nargs="*",
                     help="partes de Claude (conversations-000.zip...), manifest-....json, carpeta claude_export_..., "
                          "conversations.json, .zip de otras IA, .jsonl, .md/.txt (uno o varios)")
-    ap.add_argument("-b", "--buscar", help="texto a buscar nada más arrancar")
+    ap.add_argument("-b", "--buscar", help="texto a buscar nada más arrancar (palabras sueltas: deben aparecer todas)")
+    ap.add_argument("-f", "--frase", metavar="TEXTO",
+                    help='busca exactamente esa frase, con las palabras juntas y en ese orden: -f "quieres que"')
+    ap.add_argument("-e", "--exacto", action="store_true",
+                    help="respetar mayúsculas y tildes (por defecto da igual: Quieres = quieres = QUIERES)")
     ap.add_argument("-d", "--descargar", nargs="?", const="", metavar="MANIFEST",
                     help="descarga con Firefox todas las partes del índice de Claude y las mueve a esta carpeta "
                          "(sin MANIFEST usa el manifest-*.json más reciente)")
@@ -3133,6 +3999,13 @@ def main():
     ap.add_argument("--anadir", nargs="+", metavar="RUTA", help="añade carpetas/archivos a las fuentes guardadas")
     ap.add_argument("--quitar", nargs="+", metavar="RUTA_O_N", help="quita fuentes (por ruta o por número)")
     ap.add_argument("--ia", help="limitar a estas IA, p. ej. --ia claude,lumo")
+    ap.add_argument("-s", "--semantica", metavar="TEXTO", help="búsqueda semántica (por significado) nada más arrancar")
+    ap.add_argument("--indexar", action="store_true",
+                    help="prepara el índice semántico de todo lo cargado y sale (ideal en otro panel de tmux)")
+    ap.add_argument("--semantica-diag", action="store_true",
+                    help="comprueba qué IA local hay para la búsqueda semántica y guarda un diagnóstico")
+    ap.add_argument("--semantica-instalar", action="store_true",
+                    help="instala llama.cpp (pkg) y descarga el modelo multilingüe ligero (~130 MB)")
     ap.add_argument("-u", "--ultima", action="store_true",
                     help="muestra la última conversación del historial y sale")
     ap.add_argument("-x", "--extraer", nargs="?", const="buscarai_archivos", metavar="CARPETA",
@@ -3157,6 +4030,13 @@ def main():
     if a.sin_color:
         COLOR = False
 
+    if a.semantica_diag:
+        diagnostico_semantica()
+        return
+    if a.semantica_instalar:
+        instalar_semantica()
+        return
+
     if a.descargar is not None:
         manif = a.descargar or buscar_manifiesto_reciente()
         if not manif or not os.path.isfile(manif):
@@ -3174,7 +4054,7 @@ def main():
     if a.anadir or a.quitar or a.fuentes:
         lista = leer_fuentes()
         for x in a.anadir or []:
-            x = os.path.abspath(os.path.expanduser(x)) if os.path.exists(os.path.expanduser(x)) else x
+            x = forma_guardada(x)
             if x not in lista:
                 lista.append(x)
         quitar = set()
@@ -3182,17 +4062,29 @@ def main():
             if x.isdigit() and 0 < int(x) <= len(lista):
                 quitar.add(lista[int(x) - 1])
             else:
-                quitar |= {f for f in lista if os.path.expanduser(f).rstrip("/") ==
-                           os.path.abspath(os.path.expanduser(x)).rstrip("/") or f == x}
+                quitar |= {f for f in lista if resolver_ruta(f).rstrip("/") ==
+                           os.path.abspath(os.path.expanduser(x)).rstrip("/") or f == x or f == forma_guardada(x)}
         lista = [f for f in lista if f not in quitar]
         if a.anadir or a.quitar:
             guardar_fuentes(lista)
         print(f"Fuentes ({FUENTES}):")
         for i, f in enumerate(lista, 1):
-            print(f"  {i:>2}) {f}  {'ok' if os.path.exists(os.path.expanduser(f)) else 'NO EXISTE'}")
+            p = resolver_ruta(f)
+            estado = "ok" if os.path.exists(p) else (f"prefijo: {len(expandir_prefijo(f))} archivo(s)"
+                                                     if expandir_prefijo(f) else "NO EXISTE")
+            print(f"  {i:>2}) {f}  {estado}")
         return
 
-    rutas = a.archivos or rutas_de_fuentes()
+    rutas = []
+    for r in a.archivos or []:
+        if os.path.exists(r):
+            rutas.append(r)
+        else:
+            ex = expandir_prefijo(r, [resolver_ruta(f) for f in leer_fuentes(crear=False)])
+            if ex:
+                print(GRIS(f"«{r}»: {len(ex)} archivo(s) que empiezan así"))
+            rutas += ex or [r]
+    rutas = rutas or rutas_de_fuentes()
     faltan = [r for r in rutas if not os.path.exists(r)]
 
     # Índice (manifest) de Claude: usar las partes ya descargadas o explicar qué hacer
@@ -3227,6 +4119,9 @@ def main():
 
     a.modo = "o" if a.cualquiera else "y"
     a.recientes = not a.antiguas
+    texto_frase, a.frase = a.frase, False
+    if texto_frase:
+        a.buscar = '"' + texto_frase.replace('"', "") + '"'
     app = App(rutas, a)
     if a.ia:
         pedidas = [normalizar(x) for x in a.ia.split(",") if x]
@@ -3246,7 +4141,12 @@ def main():
         for l in app.lineas_ultima()[0]:
             print(l)
         return
-    if a.buscar:
+    if a.indexar:
+        app.indexar(interactivo=False)
+        return
+    if a.semantica:
+        app.ciclo_semantica(a.semantica)
+    elif a.buscar:
         app.ciclo_busqueda(a.buscar)
     app.principal()
     print("Hasta luego.")

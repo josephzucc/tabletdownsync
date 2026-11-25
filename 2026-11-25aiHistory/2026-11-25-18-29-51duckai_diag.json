@@ -1,0 +1,383 @@
+{
+  "fecha": "2026-11-25 18:29:51",
+  "version_duck": "1.2",
+  "origenes": [
+    {
+      "url": "https://duck.ai/",
+      "origen": "https://duck.ai",
+      "ok": true,
+      "error": null,
+      "localStorage_savedAIChats": 23,
+      "campos_chat": [
+        "chatId",
+        "lastEdit",
+        "messages",
+        "metadata",
+        "model",
+        "pinned",
+        "title"
+      ],
+      "localStorage": [
+        {
+          "clave": "duckaiPinnedChatsOnboardingDismissed",
+          "tam": 4
+        },
+        {
+          "clave": "duckaiRetentionBrowserPromo",
+          "tam": 83
+        },
+        {
+          "clave": "preferredDuckaiModel",
+          "tam": 5
+        },
+        {
+          "clave": "duckaiStreamsTestVersion",
+          "tam": 5
+        },
+        {
+          "clave": "duckaiFileUploadDisclaimerShown",
+          "tam": 4
+        },
+        {
+          "clave": "origin_conversions",
+          "tam": 26
+        },
+        {
+          "clave": "duckaiReasoningMode",
+          "tam": 11
+        },
+        {
+          "clave": "aichatPromoDismissal",
+          "tam": 473
+        },
+        {
+          "clave": "duckaiResponseFeedbackSeen",
+          "tam": 4
+        },
+        {
+          "clave": "duckaiStreamsTestCredentials",
+          "tam": 2258
+        },
+        {
+          "clave": "duckaiChatLimitIncreaseSeen",
+          "tam": 4
+        },
+        {
+          "clave": "duckaiLastVisitDate",
+          "tam": 10
+        },
+        {
+          "clave": "duckaiSyncVersion",
+          "tam": 5
+        },
+        {
+          "clave": "duckaiHasAgreedToTerms",
+          "tam": 4
+        },
+        {
+          "clave": "isRecentChatsOn",
+          "tam": 3
+        },
+        {
+          "clave": "duckaiReasoningUsed",
+          "tam": 4
+        },
+        {
+          "clave": "savedAIChats",
+          "tam": 85054
+        },
+        {
+          "clave": "duckaiSyncLastModifiedOnRemote",
+          "tam": 20
+        },
+        {
+          "clave": "duckaiSyncRetryQueue",
+          "tam": 2
+        },
+        {
+          "clave": "duckaiApproxLocationPermitted",
+          "tam": 4
+        },
+        {
+          "clave": "duckaiChatStorageAlertDismissedBucket",
+          "tam": 1
+        },
+        {
+          "clave": "aiChatPromptSuggestions",
+          "tam": 24
+        },
+        {
+          "clave": "timeLastSubmittedFeedback",
+          "tam": 24
+        },
+        {
+          "clave": "duckaiModelLeavingSoonDismissed",
+          "tam": 45
+        },
+        {
+          "clave": "duckaiExportChatSyncPromptDontAskAgain",
+          "tam": 4
+        }
+      ],
+      "indexedDB_error": null,
+      "indexedDB": [
+        {
+          "base": "savedAIChatData",
+          "almacen": "chat-images",
+          "n": 8,
+          "copiado": false,
+          "chats_reconocidos": 0,
+          "forma": null,
+          "aviso": null,
+          "error": null
+        },
+        {
+          "base": "savedAIChatData",
+          "almacen": "pre-canonical-chats",
+          "n": 0,
+          "copiado": true,
+          "chats_reconocidos": 0,
+          "forma": null,
+          "aviso": null,
+          "error": null
+        },
+        {
+          "base": "savedAIChatData",
+          "almacen": "saved-chats",
+          "n": 101,
+          "copiado": true,
+          "chats_reconocidos": 100,
+          "forma": "{title:string, model:string, messages:array(44)[{createdAt:Date, content:string, role:string, messageId:string, generationTimestamp:number}], chatId:string, lastEdit:Date, lastEditType:string, pinned:boolean, fileRefs:array(0)[], reasoningMode:string, syncUploadState:string, syncLastModified:Date, revision:string, clientLastModifiedHlc:string, pendingSyncFetch:boolean}",
+          "aviso": null,
+          "error": null
+        },
+        {
+          "base": "savedAIChatData",
+          "almacen": "sync-credentials",
+          "n": 4,
+          "copiado": false,
+          "chats_reconocidos": 0,
+          "forma": null,
+          "aviso": null,
+          "error": null
+        },
+        {
+          "base": "savedAIChatData",
+          "almacen": "sync-state",
+          "n": 1,
+          "copiado": false,
+          "chats_reconocidos": 0,
+          "forma": null,
+          "aviso": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "url": "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1",
+      "origen": "https://duck.ai",
+      "ok": true,
+      "error": null,
+      "localStorage_savedAIChats": 23,
+      "campos_chat": [
+        "chatId",
+        "lastEdit",
+        "messages",
+        "metadata",
+        "model",
+        "pinned",
+        "title"
+      ],
+      "localStorage": [
+        {
+          "clave": "duckaiPinnedChatsOnboardingDismissed",
+          "tam": 4
+        },
+        {
+          "clave": "duckaiRetentionBrowserPromo",
+          "tam": 83
+        },
+        {
+          "clave": "preferredDuckaiModel",
+          "tam": 5
+        },
+        {
+          "clave": "duckaiStreamsTestVersion",
+          "tam": 5
+        },
+        {
+          "clave": "duckaiFileUploadDisclaimerShown",
+          "tam": 4
+        },
+        {
+          "clave": "origin_conversions",
+          "tam": 26
+        },
+        {
+          "clave": "duckaiReasoningMode",
+          "tam": 11
+        },
+        {
+          "clave": "aichatPromoDismissal",
+          "tam": 473
+        },
+        {
+          "clave": "duckaiResponseFeedbackSeen",
+          "tam": 4
+        },
+        {
+          "clave": "duckaiStreamsTestCredentials",
+          "tam": 2258
+        },
+        {
+          "clave": "duckaiChatLimitIncreaseSeen",
+          "tam": 4
+        },
+        {
+          "clave": "duckaiLastVisitDate",
+          "tam": 10
+        },
+        {
+          "clave": "duckaiSyncVersion",
+          "tam": 5
+        },
+        {
+          "clave": "duckaiHasAgreedToTerms",
+          "tam": 4
+        },
+        {
+          "clave": "isRecentChatsOn",
+          "tam": 3
+        },
+        {
+          "clave": "duckaiReasoningUsed",
+          "tam": 4
+        },
+        {
+          "clave": "savedAIChats",
+          "tam": 85054
+        },
+        {
+          "clave": "duckaiSyncLastModifiedOnRemote",
+          "tam": 20
+        },
+        {
+          "clave": "duckaiSyncRetryQueue",
+          "tam": 2
+        },
+        {
+          "clave": "duckaiApproxLocationPermitted",
+          "tam": 4
+        },
+        {
+          "clave": "duckaiChatStorageAlertDismissedBucket",
+          "tam": 1
+        },
+        {
+          "clave": "aiChatPromptSuggestions",
+          "tam": 24
+        },
+        {
+          "clave": "timeLastSubmittedFeedback",
+          "tam": 24
+        },
+        {
+          "clave": "duckaiModelLeavingSoonDismissed",
+          "tam": 45
+        },
+        {
+          "clave": "duckaiExportChatSyncPromptDontAskAgain",
+          "tam": 4
+        }
+      ],
+      "indexedDB_error": null,
+      "indexedDB": [
+        {
+          "base": "savedAIChatData",
+          "almacen": "chat-images",
+          "n": 8,
+          "copiado": false,
+          "chats_reconocidos": 0,
+          "forma": null,
+          "aviso": null,
+          "error": null
+        },
+        {
+          "base": "savedAIChatData",
+          "almacen": "pre-canonical-chats",
+          "n": 0,
+          "copiado": true,
+          "chats_reconocidos": 0,
+          "forma": null,
+          "aviso": null,
+          "error": null
+        },
+        {
+          "base": "savedAIChatData",
+          "almacen": "saved-chats",
+          "n": 101,
+          "copiado": true,
+          "chats_reconocidos": 100,
+          "forma": "{title:string, model:string, messages:array(44)[{createdAt:Date, content:string, role:string, messageId:string, generationTimestamp:number}], chatId:string, lastEdit:Date, lastEditType:string, pinned:boolean, fileRefs:array(0)[], reasoningMode:string, syncUploadState:string, syncLastModified:Date, revision:string, clientLastModifiedHlc:string, pendingSyncFetch:boolean}",
+          "aviso": null,
+          "error": null
+        },
+        {
+          "base": "savedAIChatData",
+          "almacen": "sync-credentials",
+          "n": 4,
+          "copiado": false,
+          "chats_reconocidos": 0,
+          "forma": null,
+          "aviso": null,
+          "error": null
+        },
+        {
+          "base": "savedAIChatData",
+          "almacen": "sync-state",
+          "n": 1,
+          "copiado": false,
+          "chats_reconocidos": 0,
+          "forma": null,
+          "aviso": null,
+          "error": null
+        }
+      ]
+    }
+  ],
+  "total_chats": 123,
+  "de_localStorage": 23,
+  "de_indexedDB": 100,
+  "campos_chat_indexedDB": [
+    "chatId",
+    "clientLastModifiedHlc",
+    "conversationLimitPercentage",
+    "fileRefs",
+    "lastEdit",
+    "lastEditType",
+    "messages",
+    "metadata",
+    "model",
+    "parentRevision",
+    "pendingSyncFetch",
+    "pinned",
+    "reasoningMode",
+    "revision",
+    "syncLastModified",
+    "syncUploadState",
+    "title"
+  ],
+  "campos_mensaje": [
+    "content",
+    "createdAt",
+    "generationTimestamp",
+    "messageId",
+    "model",
+    "origin",
+    "parts",
+    "reasoningDurationMs",
+    "reasoningMode",
+    "role",
+    "status"
+  ]
+}

@@ -1,20 +1,22 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-duck.py v1.0 - Busca en DuckDuckGo y usa Duck.ai desde Termux, manejando Mozilla Firefox
+duck.py v1.2 - Busca en DuckDuckGo y usa Duck.ai desde Termux, manejando Mozilla Firefox
 (Android) mediante la extensión "Duck Bridge" (duck.xpi).  Solo librería estándar.
 
   duck.py buscar "texto" [--pais es|ninguno|fr,de,it] [--periodo mes] [--paginas 3]
   duck.py ia "pregunta" [--web si|no|auto]
+  duck.py chats [--origen auto|duckai|ddg|ambos] [--destino CARPETA] [--descargas]
   duck.py ver | historial | local TEXTO | abrir N | estado | ai-diag | shell
 Manual: duckManualBono.txt
 """
-import argparse, json, os, re, shlex, sqlite3, subprocess, sys, textwrap, threading, time, unicodedata, uuid
+import argparse, atexit, glob, json, shutil, os, re, shlex, sqlite3, subprocess, sys, textwrap, threading, time, unicodedata, uuid
 from datetime import date, datetime, timedelta
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import quote_plus
 
-VERSION = "1.0"
+VERSION = "1.2"
+CARPETA_PROGRAMA = os.path.dirname(os.path.abspath(__file__))   # aquí se guardan los chats exportados
 HOME = os.environ.get("DUCK_HOME") or os.path.join(os.path.expanduser("~"), "duck")
 DB = os.path.join(HOME, "duck.db")
 LOG = os.path.join(HOME, "duck.log")
@@ -49,6 +51,22 @@ def log(msg, show=False):
             with open(LOG, "a", encoding="utf-8") as f: f.write(line + "\n")
         except Exception: pass
         if show: print(msg, flush=True)
+
+def sello():
+    return datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
+
+def rotar_log():
+    """Al terminar, duck.log pasa a logs/duck_AAAA-MM-DD-HH-MM-SS.log (fecha/hora de su última escritura)."""
+    try:
+        if os.path.exists(LOG) and os.path.getsize(LOG):
+            d = os.path.join(HOME, "logs"); os.makedirs(d, exist_ok=True)
+            st = datetime.fromtimestamp(os.path.getmtime(LOG)).strftime("%Y-%m-%d-%H-%M-%S")
+            dst = os.path.join(d, f"duck_{st}.log"); k = 2
+            while os.path.exists(dst):
+                dst = os.path.join(d, f"duck_{st}_{k}.log"); k += 1
+            os.replace(LOG, dst)
+    except Exception: pass
+atexit.register(rotar_log)
 
 def load_cfg():
     os.makedirs(HOME, exist_ok=True)
@@ -393,7 +411,7 @@ def cmd_ia(a, cfg, diag=False):
     if not res: return
     if diag:
         print(json.dumps(res.get("web_interruptor"), ensure_ascii=False, indent=2))
-        fn = os.path.join(HOME, f"ai_diag_{datetime.now():%Y%m%d_%H%M%S}.json")
+        fn = os.path.join(HOME, f"ai_diag_{sello()}.json")
         json.dump(res, open(fn, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
         print("Diagnóstico completo guardado en", fn, "(envíaselo a Claude si falla el interruptor web)"); return
     if res.get("error") and not res.get("respuesta"):
@@ -427,6 +445,134 @@ def cmd_ia_ver(a, cfg):
     if not r: print("No hay consultas a Duck.ai guardadas."); return
     print(f"Duck.ai {r['id']} ({r['ts']}) modelo {r['modelo']} web_usada={bool(r['web_usada'])}\n\nPREGUNTA: {r['prompt']}\n\n{r['respuesta']}\n")
     for i, f in enumerate(json.loads(r["fuentes"] or "[]"), 1): print(f"{i:>3}. {f['titulo']}\n     {f['url']}")
+
+# ------------------------------------------------------------------ exportar chats de Duck.ai
+URL_DUCKAI = "https://duck.ai/"
+URL_DDG_CHAT = "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1"
+
+def lista_chats(sc):
+    """savedAIChats puede ser {"chats":[...]} o directamente una lista."""
+    if isinstance(sc, dict):
+        for k in ("chats", "savedChats", "conversations"):
+            if isinstance(sc.get(k), list): return sc[k]
+    return sc if isinstance(sc, list) else []
+
+def id_chat(c, i):
+    return str(c.get("chatId") or c.get("id") or c.get("uuid") or f"{c.get('title','')}|{i}")
+
+def chats_de_idb(datos):
+    """Convierte lo guardado en el almacén IndexedDB 'saved-chats' de Duck.ai en chats {chatId, title, messages...}."""
+    out = []
+    for it in datos if isinstance(datos, list) else []:
+        x = it
+        if isinstance(x, str):
+            try: x = json.loads(x)
+            except Exception: continue
+        if not isinstance(x, dict): continue
+        if not isinstance(x.get("messages"), list):
+            for k in ("chat", "value", "data", "savedChat", "conversation"):
+                v = x.get(k)
+                if isinstance(v, str):
+                    try: v = json.loads(v)
+                    except Exception: v = None
+                if isinstance(v, dict) and isinstance(v.get("messages"), list):
+                    x = {**{kk: vv for kk, vv in x.items() if kk != k}, **v}; break
+        if isinstance(x.get("messages"), list): out.append(x)
+    return out
+
+def fecha_chat(c):
+    v = c.get("lastEdit") or c.get("updatedAt") or c.get("createdAt") or ""
+    if isinstance(v, (int, float)) and v > 0:
+        v = datetime.fromtimestamp(v / 1000 if v > 1e11 else v).strftime("%Y-%m-%dT%H:%M:%S")
+    return str(v)[:19].replace("T", " ")
+
+RE_EXPORT = re.compile(r"^\d{4}-\d\d-\d\d-\d\d-\d\d-\d\d\.json$")
+
+def cmd_chats(a, cfg):
+    origen = norm(a.origen or "auto")
+    urls = {"duckai": [URL_DUCKAI], "ddg": [URL_DDG_CHAT]}.get(origen, [URL_DUCKAI, URL_DDG_CHAT])
+    job = {"type": "export_chats", "urls": urls, "parar_si_hay": origen == "auto", "espera_ms": 2500,
+           "max_bytes": 80 * 1024 * 1024, "close_tab": cfg.get("cerrar_pestana", False)}
+    print(f"Exportando los chats de Duck.ai guardados en Firefox ({', '.join(urls)})...", flush=True)
+    res = run_job(job, cfg, limite=300)
+    if not res: return
+    if res.get("error"): print("Error de la extensión:", res["error"])
+    porid, origenes = {}, []
+    cuenta = {"localStorage": 0, "indexedDB": 0}
+    diag = {"fecha": now(), "version_duck": VERSION, "origenes": []}
+
+    def meter(c, i, de):
+        k = id_chat(c, i)
+        prev = porid.get(k)
+        if prev is None or (fecha_chat(c), len(c.get("messages") or [])) > (fecha_chat(prev), len(prev.get("messages") or [])):
+            porid[k] = c
+        if prev is None: cuenta[de] += 1
+
+    for o in res.get("origenes", []):
+        sc = o.get("savedAIChats")
+        lc = lista_chats(sc)
+        for i, c in enumerate(lc):
+            if isinstance(c, dict): meter(c, i, "localStorage")
+        idb = o.get("idb") or {}
+        alm_diag = []
+        for b in idb.get("bases") or []:
+            for st in b.get("almacenes") or []:
+                reconocidos = chats_de_idb(st.get("datos"))
+                for i, c in enumerate(reconocidos): meter(c, i, "indexedDB")
+                alm_diag.append({"base": b.get("nombre"), "almacen": st.get("nombre"), "n": st.get("n"),
+                                 "copiado": st.get("datos") is not None, "chats_reconocidos": len(reconocidos),
+                                 "forma": st.get("forma"), "aviso": st.get("aviso"), "error": st.get("error")})
+        if lc or any(x["chats_reconocidos"] for x in alm_diag): origenes.append(o.get("origen") or o.get("url_pedida"))
+        diag["origenes"].append({
+            "url": o.get("url_pedida"), "origen": o.get("origen"), "ok": o.get("ok"), "error": o.get("error"),
+            "localStorage_savedAIChats": len(lc),
+            "campos_chat": sorted({k for c in lc[:50] if isinstance(c, dict) for k in c}),
+            "localStorage": o.get("claves"), "indexedDB_error": idb.get("error"), "indexedDB": alm_diag})
+    chats = sorted(porid.values(), key=fecha_chat, reverse=True)
+    carpeta = os.path.expanduser(a.destino) if a.destino else CARPETA_PROGRAMA
+    os.makedirs(carpeta, exist_ok=True)
+    st = sello()
+    fdiag = os.path.join(carpeta, f"{st}duckai_diag.json")
+    diag["total_chats"] = len(chats); diag["de_localStorage"] = cuenta["localStorage"]; diag["de_indexedDB"] = cuenta["indexedDB"]
+    diag["campos_chat_indexedDB"] = sorted({k for c in chats[:80] for k in c})
+    diag["campos_mensaje"] = sorted({k for c in chats[:80] for m in (c.get("messages") or [])[:20] if isinstance(m, dict) for k in m})
+    json.dump(diag, open(fdiag, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    if not chats:
+        print("\nNo he encontrado chats guardados en Firefox.")
+        print("  - ¿Usas Duck.ai en ESTE Firefox con el historial activado (Ajustes de Duck.ai > historial de chats)?")
+        print("  - Firefox borra estos datos si limpias datos de navegación o usas pestañas privadas.")
+        print(f"Diagnóstico (sin el texto de tus chats): {fdiag}  -> envíaselo a Claude.")
+        log(f"chats: 0 chats; diagnóstico {fdiag}"); return
+    # comparar con la exportación anterior (en esta carpeta o en la antigua ~/duck/chats)
+    previos = sorted([p for p in glob.glob(os.path.join(glob.escape(carpeta), "*.json")) if RE_EXPORT.match(os.path.basename(p))],
+                     key=os.path.basename)
+    previos = previos or sorted(glob.glob(os.path.join(HOME, "chats", "duckai_chats_*.json")))
+    antes = {}
+    if previos:
+        try:
+            for i, c in enumerate(lista_chats(json.load(open(previos[-1], encoding="utf-8")))):
+                if isinstance(c, dict): antes[id_chat(c, i)] = len(c.get("messages") or [])
+        except Exception: pass
+    salida = {"exportado": datetime.now().astimezone().isoformat(), "herramienta": f"duck.py {VERSION}",
+              "origenes": origenes, "chats": chats}
+    fn = os.path.join(carpeta, f"{st}.json")
+    json.dump(salida, open(fn, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    ids = [id_chat(c, i) for i, c in enumerate(chats)]
+    nuevos = [c for k, c in zip(ids, chats) if k not in antes]
+    cambiados = [c for k, c in zip(ids, chats) if k in antes and len(c.get("messages") or []) != antes[k]]
+    print(f"\n{len(chats)} chats exportados ({cuenta['indexedDB']} del almacén actual de Duck.ai, "
+          f"{cuenta['localStorage']} del almacén antiguo)" +
+          (f"; {len(nuevos)} nuevos y {len(cambiados)} con mensajes nuevos desde la exportación anterior" if previos else "") + ":")
+    for c in chats[:15]:
+        print(f"  {fecha_chat(c)[:16]:<16}  {textwrap.shorten(str(c.get('title') or '(sin título)'), 60):<60}  {len(c.get('messages') or []):>3} mensajes  {c.get('model') or ''}")
+    if len(chats) > 15: print(f"  ... y {len(chats) - 15} más")
+    print(f"\nGuardado: {fn}\nDiagnóstico: {fdiag}")
+    if a.descargas:
+        for d in (os.path.expanduser("~/storage/downloads"), os.path.expanduser("~/storage/shared/Download")):
+            if os.path.isdir(d) and os.path.abspath(d) != os.path.abspath(carpeta):
+                shutil.copy2(fn, d); print(f"Copia en Descargas: {os.path.join(d, os.path.basename(fn))}"); break
+    print("Para buscar en ellos:  python buscarai.py " + fn)
+    log(f"chats: {len(chats)} exportados en {fn}")
 
 # ------------------------------------------------------------------ estado / paises
 def cmd_estado(a, cfg):
@@ -471,6 +617,10 @@ def build_parser():
     i = sp.add_parser("ia", help="preguntar a Duck.ai"); i.add_argument("pregunta", nargs="+"); i.add_argument("--web", default="si", help="si (defecto, la activa) | no | auto (no toca)")
     iv = sp.add_parser("ia-ver"); iv.add_argument("id", nargs="?", type=int)
     d = sp.add_parser("ai-diag", help="volcar el menú de Herramientas de Duck.ai"); d.add_argument("--web", default="auto")
+    ch = sp.add_parser("chats", aliases=["ia-exportar"], help="exportar a JSON los chats de Duck.ai guardados en Firefox")
+    ch.add_argument("--origen", default="auto", help="auto (duck.ai y, si no hay chats, duckduckgo.com) | duckai | ddg | ambos")
+    ch.add_argument("--destino", help="carpeta donde guardar (defecto: la carpeta de duck.py)")
+    ch.add_argument("--descargas", action="store_true", help="copiar también el JSON a Descargas")
     sp.add_parser("estado"); sp.add_parser("paises"); sp.add_parser("shell")
     return p
 
@@ -485,6 +635,7 @@ def dispatch(a, cfg):
     if c == "ia": return cmd_ia(a, cfg)
     if c == "ia-ver": return cmd_ia_ver(a, cfg)
     if c == "ai-diag": return cmd_ia(a, cfg, diag=True)
+    if c in ("chats", "ia-exportar"): return cmd_chats(a, cfg)
     if c == "estado": return cmd_estado(a, cfg)
     if c == "paises": return cmd_paises(a, cfg)
 
@@ -493,6 +644,7 @@ SHELL_HELP = """Comandos (como en la línea de órdenes, sin 'duck.py'):
   mas [N]         cargar N páginas más de la última búsqueda (misma pestaña de Firefox)
   ver [ID]  historial  local TEXTO  abrir N|URL  abrir-busqueda
   ia PREGUNTA [--web si|no|auto]   ia-ver [ID]   ai-diag
+  chats [--origen auto|duckai|ddg|ambos] [--descargas]   exportar los chats de Duck.ai
   estado   ayuda   salir"""
 def cmd_shell(p, cfg):
     print("duck.py shell. 'ayuda' para ver comandos, 'salir' para terminar.")

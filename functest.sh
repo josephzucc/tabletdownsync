@@ -11,8 +11,8 @@ lsi () { shopt -s nocaseglob;find . -maxdepth 1 -type f -iname "*${1}*.*" 2>/dev
 openurl () { if (( $# == 1 ));then am start -a android.intent.action.VIEW -d "${1}";else echo "No has especificado url";fi; }
 enviow () ( if (( $# == 2 ));then nro=${1};text="${2}";text2=$(python3 -c "import urllib.parse, sys; print(urllib.parse.quote(sys.stdin.read()))" < ${text});url="https://wa.me/${nro}?text=${text2}";am start -a android.intent.action.VIEW -d "${url}";else echo "No ha especificado nro y texto";fi; )
 dpwait () { if (( $# == 2 ));then ( m=${1};ejemp="${2}";if (( $# == 3 ));then cuenta="${3}";else cuenta="madrid";fi;t=$((m*60));sig=$(date -d +${m}minutes +"%Y-%m-%d-%H-%M");echo "Pedir ${ejemp} en ${sig}";sleep $t;wait;dp ${ejemp} ${cuenta};termux-dialog confirm -t "PEDIR $ejemp" -i "${ejemp} pedido"; ) & fi }
-fd () { if (( $# > 0 ));then l=" | head -n ${1}";busq="*${2}*";else l="";busq="*";fi;ex="find . -maxdepth 1 -type d -iname \"${busq}\" 2>/dev/null | sort -r${l}";eval "$ex"; }
-fdt () { gn;if (( $# > 0 ));then l=" | head -n ${1}";busq="${today}*${2}*";else l="";busq="${today}*";fi;ex="find . -maxdepth 1 -type d -iname \"${busq}\" 2>/dev/null | sort -r${l}";eval "$ex"; }
+fd () { if (( $# > 0 ));then l=" | head -n ${1}";busq="*${2}*";else l="";busq="*";fi;ex="find . -maxdepth 1 -type f -iname \"${busq}\" 2>/dev/null | sort -r${l}";eval "$ex"; }
+fdt () { gn;if (( $# > 0 ));then l=" | head -n ${1}";busq="${today}*${2}*";else l="";busq="${today}*";fi;ex="find . -maxdepth 1 -type f -iname \"${busq}\" 2>/dev/null | sort -r${l}";eval "$ex"; }
 ff () { if (( $# > 0 ));then l=" | head -n ${1}";busq="*${2}";else l="";busq="*.*";fi;ex="find . -maxdepth 1 -type f -iname \"${busq}\" 2>/dev/null | sort -r${l}";eval "$ex"; }
 od () {
   busq="";l="";

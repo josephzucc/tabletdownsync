@@ -32,7 +32,7 @@ dre | while read -r line;do
              y2=$(echo $y | sed "s/m//g" );
              # crear bbdd con items que se tiene que ir actualizando, y ahi poner campo ultimo aviso, sigte aviso
              # avisar con termux-dialog confirm -t "ALERTA" -i "Ejemplar El Pais a pedir en prestamo en 15 minutos";
-             if (( y2 > 7 ));then y3=$(( y2 - 5 ));ex2="${ex2}dpwait ${y3} \"${item}\" \"${acc}\";";else dp "${item}" "${acc}";fi;
+             if (( y2 > 7 ));then y3=$(( y2 - 5 ));ex2="${ex2}dpwait ${y3} \"${item}\" \"${acc}\";";else ex2="${ex2}dp \"${item}\" \"${acc}\";";fi;
              sig=$(date -d +${y}inutes +"%H:%M");estado="ANTES ${sig}";
            else y="${txt:86:9}";y=$(echo "$y" | sed "s/[[:space:]]*$//g" );
            fi;
