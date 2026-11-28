@@ -2,7 +2,7 @@
 delhome () { if (( $# > 0 ));then echo "$1" | sed "s/\/data\/data\/com.termux\/files\/home\///g";elif [[ ! -t 0 ]];then txt=$(cat);echo "$txt" | sed "s/\/data\/data\/com.termux\/files\/home\///g";fi;}
 [[ "$functest" == "" ]] && echo "functest verif" && export functest=$(realpath -- "${BASH_SOURCE[0]}") && echo "functest;${functest}" >>${histvar} && echo -e "\tfunctest\t\t$(delhome $functest)";
 
-sea1 () { case $# in 1) busq=${1};base=".";; 2) busq=${1};base=${2};;esac;ex="find ${base} -type f -iname \"*${busq}*\" 2>/dev/null | sort -r ";echo "command: $ex";eval "$ex"; }
+sea1 () { local opt;OPTIND=1;while getopts "h" opt; do case "$opt" in h) getv="a_value=$OPTARG";echo -e "help sea1\nBusca Archivos en .\nTermino1: texto a buscar\nTermino2 (opcional): Carpeta a buscar";return 0;;esac;done;shift "$((OPTIND - 1))";case $# in 1) busq=${1};base=".";; 2) busq=${1};base=${2};;esac;ex="find ${base} -type f -iname \"*${busq}*\" 2>/dev/null | sort -r ";echo "command: $ex";eval "$ex"; }
 dest1 () { gn;if (( $# == 1 ));then d="${now}${1}";else d="${now}log.log";fi; }
 seemasters () { find $ds -type f -iname "*maestro*" -printf "%f\n" 2>/dev/null | grep -v -i -E "(pedir|A4)" | sort -r;  }
 seemasters2 () { find $ds -type f -iname "*maestro*" 2>/dev/null | grep -v -i -E "(pedir|A4)" | sort -r;  }
@@ -219,9 +219,7 @@ mailgetid () {
   #                                        ver-pdf -cabecera y descargar -adjuntos -si-existe sobrescribir
   #!/usr/bin/env bash
 
-while getopts ":a:d:b:" opt; do
-  case "$opt" in
-    a) a_value=$OPTARG ;;
+while getopts ":a:d:b:" opt; do case "$opt" in a) a_value=$OPTARG ;;
     d) d_value=$OPTARG ;;
     b) b_value=$OPTARG ;;
     :)
