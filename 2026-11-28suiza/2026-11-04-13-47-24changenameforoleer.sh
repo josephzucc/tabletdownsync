@@ -1,0 +1,1 @@
+getd () { while read -r file;do q=${#file};q=$((q-23));d=$(echo ${file:0: ${q}} | sed "s/_$/\.txt/g" | sed "s/_\.txt/\.txt/g" );eval "mv $file ${file: -23:19}${d}";done };ls -t foroleer_swissforum*.txt | getd

@@ -1,0 +1,372 @@
+VERSION = "3.2.0"
+import glob, hashlib, argparse, sqlite3, zipfile, email, email.policy, re, json, base64, unicodedata, csv, sys
+from pathlib import Path
+from urllib.parse import urlparse, parse_qs
+from datetime import datetime
+from email.utils import parsedate_to_datetime
+CANTONS='AG AI AR BE BL BS FR GE GL GR JU LU NE NW OW SG SH SO SZ TG TI UR VD VS ZG ZH'.split()
+def norm(s): return ''.join(c for c in unicodedata.normalize('NFKD',s or '').casefold() if not unicodedata.combining(c))
+def db(path):
+ c=sqlite3.connect(path); c.row_factory=sqlite3.Row; c.create_function('norm',1,norm); c.execute('pragma foreign_keys=on'); c.executescript('''CREATE TABLE IF NOT EXISTS correos(id TEXT PRIMARY KEY, fecha TEXT, asunto TEXT, archivo TEXT, cuerpo TEXT);
+ CREATE TABLE IF NOT EXISTS publicaciones(id TEXT PRIMARY KEY, proyecto TEXT, tipo TEXT, categoria TEXT, titulo TEXT, organismo TEXT, lugar_ejecucion TEXT, cp_postal TEXT, localidad_ejecucion TEXT, canton_ejecucion TEXT, municipio_organismo TEXT, canton_organismo TEXT, fundamento_origen TEXT, plazo TEXT, url TEXT, uuid_proyecto TEXT, uuid_lote TEXT, cpv TEXT, texto_original TEXT);
+ CREATE TABLE IF NOT EXISTS fuentes(publicacion TEXT REFERENCES publicaciones(id), correo TEXT REFERENCES correos(id), PRIMARY KEY(publicacion,correo));
+ CREATE INDEX IF NOT EXISTS idx_proyecto ON publicaciones(proyecto); CREATE INDEX IF NOT EXISTS idx_canton ON publicaciones(canton_ejecucion);'''); migrate(c); return c
+
+def origin(org):
+ # Only explicit names, not the place of performance.
+ names={'zurich':'ZH','aargau':'AG','thurgau':'TG','luzern':'LU','bern':'BE','vaud':'VD','genève':'GE','geneve':'GE','schaffhausen':'SH','basel-landschaft':'BL','freiburg':'FR','neuchateloise':'NE'}
+ o=norm(org); canton=None; municipio=None; why=None
+ for name,code in names.items():
+  if re.search(r'\b(?:kanton(?:spolizei)?|etat de|canton de|informatik|amt fur informatik)\s+'+re.escape(norm(name))+r'\b',o): canton=code; why='Nombre explícito del organismo'; break
+ m=re.search(r'^(?:Einwohnergemeinde|Gemeindeverwaltung|Gemeinde|Stadt|Ville de)\s+([^,]+)',org or '',re.I)
+ if m:
+  municipio=re.split(r'\s+(?:Liegenschaften|–|-)\s*',m[1])[0].strip(); why='Nombre explícito del organismo'; canton=canton or {'luzern':'LU','biel':'BE','lausanne':'VD','interlaken':'BE','zumikon':'ZH','kirchdorf':None,'birsfelden':'BL'}.get(norm(municipio))
+ return municipio,canton,why
+
+def ingest(c, name, data):
+ m=email.message_from_bytes(data,policy=email.policy.default); p=m.get_body(('plain',));
+ if not p: raise ValueError('Sin cuerpo text/plain: '+name)
+ s=p.get_content(); mid=str(m.get('Message-ID') or hashlib.sha256(data).hexdigest()); date=parsedate_to_datetime(str(m['Date'])).isoformat(); c.execute('INSERT OR IGNORE INTO correos VALUES(?,?,?,?,?)',(mid,date,str(m['Subject']),name,s))
+ blocks=re.findall(r'<(https://www\.simap\.ch/[^>]+)>\s*\n\s*-\s*([^\n]+#\d+-\d+[^\n]*)\n(.*?)(?=\n\s*<https://|\n\[Ende Abschnitt|\Z)',s,re.S)
+ expected=len(re.findall(r'^\s*- .*#\d+-\d+',s,re.M))
+ if len(blocks)!=expected or not blocks: raise ValueError(f'{name}: {len(blocks)} bloques, {expected} esperados')
+ for url,head,body in blocks:
+  h=re.fullmatch(r'(.*?)\s+#(\d+-\d+)(?:\s*\|\s*(.*))?',head.strip()); tipo,id,cat=h.groups(); fields={}; title=[]
+  for line in body.splitlines():
+   line=line.strip()
+   if line.startswith('>'): title.append(line[1:].strip())
+   elif line.startswith('- ') and ':' in line: k,v=line[2:].split(':',1); fields[k]=v.strip()
+  org=fields.get('Auftraggeber'); place=fields.get('Ort der Auftragserfüllung'); postal=local=canton=None
+  loc=re.fullmatch(r'(\d{4}),\s*(.*),\s*([A-Z]{2})',place or '')
+  if loc: postal,local,canton=loc.groups(); canton=canton if canton in CANTONS else None
+  mun,co,why=origin(org); deadline=fields.get('Einreichefrist'); deadline=datetime.strptime(deadline,'%d.%m.%Y %H:%M').isoformat(' ') if deadline else None
+  ctx=parse_qs(urlparse(url).query)['context'][0]; ctx=json.loads(base64.urlsafe_b64decode(ctx+'='*(-len(ctx)%4))); cpv='; '.join(re.findall(r'\b\d{8}(?:-\d)?\b',fields.get('CPV',''))) or None
+  vals=(id,id.split('-')[0],tipo,cat,' '.join(title),org,place,postal,local,canton,mun,co,why,deadline,url,ctx.get('projectId'),ctx.get('lotId'),cpv,head+'\n'+body.strip())
+  c.execute('INSERT OR IGNORE INTO publicaciones(id,proyecto,tipo,categoria,titulo,organismo,lugar_ejecucion,cp_postal,localidad_ejecucion,canton_ejecucion,municipio_organismo,canton_organismo,fundamento_origen,plazo,url,uuid_proyecto,uuid_lote,cpv,texto_original) VALUES('+','.join('?'*len(vals))+')',vals); c.execute('INSERT OR IGNORE INTO fuentes VALUES(?,?)',(id,mid))
+ return len(blocks)
+
+def main():
+ a=argparse.ArgumentParser(description='Gestión local de publicaciones SIMAP'); a.add_argument('--version', action='version', version='SIMAP '+VERSION); a.add_argument('--db',default=str(Path(__file__).resolve().parent/'simap.sqlite')); sub=a.add_subparsers(dest='cmd',required=True)
+ i=sub.add_parser('importar',help='Importar EML o ZIP'); i.add_argument('archivos',nargs='*'); i.add_argument('--carpeta',default=str(Path(__file__).resolve().parent)); i.add_argument('--recursivo',action='store_true'); i.add_argument('--listar',action='store_true')
+ b=sub.add_parser('buscar'); b.add_argument('palabras',nargs='*'); b.add_argument('--canton'); b.add_argument('--municipio'); b.add_argument('--organismo'); b.add_argument('--tipo'); b.add_argument('--cpv'); b.add_argument('--csv'); b.add_argument('--origen',action='store_true'); b.add_argument('--detalle',action='store_true'); sub.add_parser('estadisticas'); e=sub.add_parser('enriquecer'); e.add_argument('--id',action='append'); e.add_argument('--limite',type=int,default=50); e.add_argument('--pausa',type=float,default=1); e.add_argument('--forzar',action='store_true'); e.add_argument('--reintentar',action='store_true'); i.add_argument('--enriquecer',action='store_true'); b.add_argument('--adjudicatario'); b.add_argument('--estado-api'); b.add_argument('--id'); b.add_argument('--or',dest='anyword',action='store_true');
+ for name in ('auditoria','errores','reprocesar','reparar','organismos','empresas','oportunidades','renovaciones','clasificar','mercado','informe'): sub.add_parser(name)
+ for name in ('investigar','documentos','historial','cpv','importes','colaboradores','contactos','exportar','evidencias'):
+  x=sub.add_parser(name); x.add_argument('--id'); x.add_argument('--canton'); x.add_argument('--limite',type=int,default=0); x.add_argument('--csv'); x.add_argument('--archivo'); x.add_argument('--carpeta')
+ args=a.parse_args()
+ if args.cmd=='importar':
+  root=Path(args.carpeta).expanduser(); paths=set(); errors=0
+  if not root.is_dir(): a.error('Carpeta inexistente: '+str(root))
+  for pattern in args.archivos or ['*.eml']:
+   p=Path(pattern).expanduser()
+   if p.is_file(): matches=[p]
+   else:
+    pat=str(p if p.is_absolute() else root/p)
+    if args.recursivo and not p.is_absolute() and p.parent==Path('.'): pat=str(root/'**'/p)
+    matches=[Path(x) for x in glob.glob(pat,recursive=args.recursivo)]
+   valid=[x.resolve() for x in matches if x.is_file() and x.suffix.lower() in ('.eml','.zip')]
+   if not valid: print('Sin coincidencias: '+pattern,file=sys.stderr); errors+=1
+   paths.update(valid)
+  if args.listar:
+   for p in sorted(paths): print(p)
+   return int(bool(errors))
+  c=db(args.db); before=c.execute('select count(*) from publicaciones').fetchone()[0]; ok=0
+  def one(name,data):
+   nonlocal ok,errors
+   try:
+    with c: count=ingest(c,name,data)
+    print(f'{name}: {count} publicaciones procesadas'); ok+=1
+   except Exception as e: print(f'ERROR {name}: {e}',file=sys.stderr); errors+=1
+  for f in sorted(paths):
+   try:
+    if f.suffix.lower()=='.zip':
+     with zipfile.ZipFile(f) as z:
+      for n in z.namelist():
+       if n.lower().endswith('.eml'): one(n,z.read(n))
+    else: one(f.name,f.read_bytes())
+   except Exception as e: print(f'ERROR {f}: {e}',file=sys.stderr); errors+=1
+  after=c.execute('select count(*) from publicaciones').fetchone()[0]; print(f'Correos procesados: {ok}; errores: {errors}; nuevas publicaciones: {after-before}; total: {after}'); 
+  if args.enriquecer and not errors: errors += enrich(c, None, 50, 1, False, False)
+  c.close(); return int(bool(errors))
+ c=db(args.db)
+ if args.cmd in ('investigar','documentos','historial','cpv','importes','colaboradores','contactos','exportar','evidencias'):
+  try: return advanced(c,args)
+  finally: c.close()
+ if args.cmd=='enriquecer':
+  try: return enrich(c,args.id,args.limite,args.pausa,args.forzar,args.reintentar)
+  finally: c.close()
+ if args.cmd in ('auditoria','errores','reprocesar','reparar','organismos','empresas','oportunidades','renovaciones','clasificar','mercado','informe'):
+  try: return local_command(c,args.cmd)
+  finally: c.close()
+ if args.cmd=='estadisticas':
+  for r in c.execute("select coalesce(estado_api,'pendiente'),count(*) from publicaciones group by estado_api"): print('API',*r)
+  for t in ['correos','publicaciones','fuentes']: print(t,c.execute('select count(*) from '+t).fetchone()[0])
+  for r in c.execute('select tipo,count(*) from publicaciones group by tipo'): print(*r)
+ else:
+  q='SELECT * FROM publicaciones WHERE 1=1'; params=[]
+  if args.id: q+=' AND id=?'; params.append(args.id)
+  clauses=[]
+  for word in args.palabras:
+   clauses.append(" AND instr(norm(titulo||' '||coalesce(organismo,'')||' '||coalesce(texto_original,'')||' '||coalesce(descripcion,'')||' '||coalesce(adjudicatarios,'')),?)>0"); params.append(norm(word))
+  if clauses: q+=' AND ('+(' OR ' if args.anyword else ' AND ').join(x.removeprefix(' AND ') for x in clauses)+')'
+  for col,val in [('canton_organismo' if args.origen else 'canton_ejecucion',args.canton),('municipio_organismo' if args.origen else 'localidad_ejecucion',args.municipio),('organismo',args.organismo),('tipo',args.tipo),('cpv',args.cpv),('adjudicatarios',args.adjudicatario),('estado_api',args.estado_api)]:
+   if val: q+=' AND instr(norm('+col+'),?)>0'; params.append(norm(val))
+  cur=c.execute(q+' ORDER BY id DESC',params); rows=cur.fetchall()
+  if args.csv:
+   with open(args.csv,'w',encoding='utf-8-sig',newline='') as f:
+    w=csv.writer(f); w.writerow([d[0] for d in cur.description]); w.writerows(rows)
+  else:
+   for r in rows: print(f"#{r['id']} | {r['tipo']} | {r['titulo']}\n  {r['organismo']} | {r['lugar_ejecucion'] or '—'} | plazo: {r['plazo'] or '—'}\n  {r['url']}\n")
+  if args.detalle and not args.csv:
+   for r in rows: print('\n'.join(f'{k}: {r[k] or "—"}' for k in r.keys()),'\n')
+  print(f'{len(rows)} resultados',file=sys.stderr)
+
+import time, urllib.request, urllib.error, uuid
+API='https://www.simap.ch/api'
+EXTRA=['descripcion','adjudicatarios','importes','duracion','json_api','fecha_api','estado_api','error_api','url_api','id_api']
+def migrate(c):
+ existing={r[1] for r in c.execute('pragma table_info(publicaciones)')}
+ for key in EXTRA:
+  if key not in existing: c.execute('alter table publicaciones add column '+key+' TEXT')
+ for key in ('organismo_api','organismo_id','ciudad_organismo','direccion_organismo','destinatario','fecha_publicacion','tipo_api','subcontratacion','clasificacion'):
+  if key not in existing: c.execute('alter table publicaciones add column '+key+' TEXT')
+ c.execute('CREATE TABLE IF NOT EXISTS api_archivo (huella TEXT PRIMARY KEY, referencia TEXT, proyecto TEXT, json TEXT, fecha TEXT, url TEXT)')
+ c.commit()
+def walk(x):
+ if isinstance(x,dict):
+  yield x
+  for v in x.values(): yield from walk(v)
+ elif isinstance(x,list):
+  for v in x: yield from walk(v)
+def dump(x): return json.dumps(x,ensure_ascii=False)
+from html.parser import HTMLParser
+class Plain(HTMLParser):
+ def __init__(self): super().__init__(); self.parts=[]
+ def handle_data(self,x): self.parts.append(x)
+ def handle_starttag(self,tag,attrs):
+  if tag in ('p','br','li','div'): self.parts.append('\n')
+def txt(v):
+ if isinstance(v,dict): return '\n'.join(dict.fromkeys(txt(x) for x in v.values() if x))
+ if not isinstance(v,str): return ''
+ p=Plain(); p.feed(v); return ''.join(p.parts).strip()
+def extract(data):
+ p=data.get('procurement') or {}; base=data.get('base') or {}; dec=data.get('decision') or {}; cpv=[]
+ for obj in (p,base):
+  for k in ('cpvCode','additionalCpvCodes','cpvCodes','mainCpvCode'):
+   for v in walk(obj.get(k)):
+    if re.fullmatch(r'\d{8}(?:-\d)?',str(v.get('code',''))): cpv.append(v['code'])
+ desc='\n'.join(dict.fromkeys(txt(p.get(k)) for k in ('orderDescription','projectOrderDescription','description') if txt(p.get(k))))
+ winners=[]; prices=[]
+ if base.get('type') in ('award','direct_award'):
+  for w in dec.get('vendors') or []:
+   name=txt(w.get('vendorName')); price=w.get('price') or {}
+   if name: winners.append(name)
+   if isinstance(price,dict) and isinstance(price.get('price'),(int,float)): prices.append({'empresa':name,'precio':price,'nota':w.get('note')})
+  r=dec.get('totalPriceRange') or {}
+  if r.get('range') is not None: prices.append({'totalPriceRange':r})
+ duration={k:p[k] for k in ('contractPeriod','contractDays','canContractBeExtended','canContractBeExtendedNote','options','optionsNote','executionPeriod','executionDays','executionNote') if p.get(k) is not None and (not isinstance(p[k],dict) or any(p[k].values()))}
+ if not any(k in duration for k in ('contractPeriod','contractDays','executionPeriod','executionDays','executionNote')): duration={}
+ return ('; '.join(dict.fromkeys(cpv)) or None,desc or None,'; '.join(dict.fromkeys(winners)) or None,dump(prices) if prices else None,dump(duration) if duration else None)
+def archive(c,data,fecha=None,url=None):
+ raw=dump(data); base=data.get('base') or {}; c.execute('INSERT OR IGNORE INTO api_archivo VALUES(?,?,?,?,?,?)',(hashlib.sha256(raw.encode()).hexdigest(),base.get('publicationNumber'),base.get('projectId'),raw,fecha,url))
+def apply(c,ref,data,fecha=None,url=None):
+ base=data['base']; row=c.execute('select * from publicaciones where id=?',(ref,)).fetchone()
+ if not row or not matches(data,ref) or base.get('projectId')!=row['uuid_proyecto']: raise ValueError('Identidad no coincide')
+ info=data.get('project-info') or {}; office=info.get('procOfficeAddress') or {}; recipient=info.get('procurementRecipientAddress') or {}; canton=office.get('cantonId'); canton=canton if canton in CANTONS else None
+ cpv,desc,winners,prices,duration=extract(data)
+ c.execute("""UPDATE publicaciones SET cpv=?,descripcion=?,adjudicatarios=?,importes=?,duracion=?,json_api=?,fecha_api=?,estado_api='ok',error_api=NULL,url_api=?,id_api=?,organismo_api=?,organismo_id=?,ciudad_organismo=?,direccion_organismo=?,destinatario=?,fecha_publicacion=?,tipo_api=?,subcontratacion=?,canton_organismo=coalesce(?,canton_organismo),fundamento_origen=case when ? is not null then 'API: dirección del comprador' else fundamento_origen end WHERE id=?""",(cpv,desc,winners,prices,duration,dump(data),fecha or datetime.now().astimezone().isoformat(),url,base.get('id'),txt(office.get('name')) or None,base.get('procOfficeId'),txt(office.get('city')) or None,dump(office),dump(recipient),base.get('publicationDate'),base.get('type'),(data.get('terms') or {}).get('subContractorAllowed'),canton,canton,ref))
+def get_json(path,pause):
+ time.sleep(max(1,pause)); req=urllib.request.Request(API+path,headers={'Accept':'application/json','User-Agent':'SIMAP-local-research/3.0'})
+ with urllib.request.urlopen(req,timeout=30) as resp:
+  if not resp.geturl().startswith(API+'/'): raise ValueError('Redireccion fuera de API')
+  raw=resp.read(20_000_001)
+  if len(raw)>20_000_000: raise ValueError('Respuesta demasiado grande')
+ return json.loads(raw)
+def candidates(data):
+ for o in walk(data):
+  for k in ('publicationId','currentPublicationId','latestPublicationId','newestPublicationId','referencingPubId'):
+   if isinstance(o.get(k),str):
+    try: yield str(uuid.UUID(o[k]))
+    except ValueError: pass
+  if ('publicationNumber' in o or 'pubType' in o) and isinstance(o.get('id'),str):
+   try: yield str(uuid.UUID(o['id']))
+   except ValueError: pass
+def matches(data,ref): return str((data.get('base') or {}).get('publicationNumber','')).strip().lstrip('#')==ref
+def enrich(c,ids,limit,pause,force,retry):
+ if limit<0 or pause<1: raise SystemExit('Limite >= 0; pausa >= 1 segundo')
+ q='select * from publicaciones where 1=1'; args=[]
+ if ids: q+=' and id in ('+','.join('?' for _ in ids)+')'; args+=ids
+ if not force: q+=" and (estado_api is null"+(" or estado_api='error'" if retry else '')+")"
+ q+=' order by id'; rows=c.execute(q,args).fetchall(); rows=rows[:limit] if limit else rows
+ errors=0; headers={}; histories={}
+ for r in rows:
+  try:
+   project=str(uuid.UUID(r['uuid_proyecto'])); lot=str(uuid.UUID(r['uuid_lote'])) if r['uuid_lote'] else None
+   if project not in headers: headers[project]=get_json('/publications/v2/project/'+project+'/project-header',pause)
+   candidates_all=list(dict.fromkeys(candidates(headers[project]))); found=None
+   for pid in candidates_all:
+    key=(pid,lot)
+    if key not in histories:
+     try: histories[key]=get_json('/publications/v1/publication/'+pid+'/past-publications'+('?lotId='+lot if lot else ''),pause)
+     except urllib.error.HTTPError as exc:
+      if exc.code not in (400,404): raise
+      histories[key]=[]
+    queue=list(dict.fromkeys([pid]+list(candidates(histories[key])))); seen=set()
+    for cid in queue:
+     if cid in seen: continue
+     seen.add(cid)
+     path='/publications/v1/project/'+project+'/publication-details/'+cid
+     try: data=get_json(path,pause)
+     except urllib.error.HTTPError as exc:
+      if exc.code in (400,404): continue
+      raise
+     queue.extend(x for x in candidates(data) if x not in seen and x not in queue)
+     with c: archive(c,data,datetime.now().astimezone().isoformat(),API+path)
+     if matches(data,r['id']) and data['base'].get('projectId')==project: found=(cid,path,data); break
+    if found: break
+   if not found: raise ValueError('No se pudo verificar la referencia exacta; no se asignan datos de otra publicacion')
+   cid,path,data=found
+   with c: apply(c,r['id'],data,url=API+path)
+   print(r['id'],'API ok',flush=True)
+  except Exception as exc:
+   errors+=1
+   with c: c.execute("update publicaciones set estado_api='error',error_api=? where id=?",(str(exc),r['id']))
+   print(r['id'],str(exc),file=sys.stderr,flush=True)
+   if isinstance(exc,urllib.error.HTTPError) and exc.code in (401,403,429,503): break
+ return int(bool(errors))
+
+def repair(c):
+ with c:
+  rows=c.execute('select * from publicaciones where json_api is not null').fetchall()
+  for r in rows: archive(c,json.loads(r['json_api']),r['fecha_api'],r['url_api'])
+  for r in rows:
+   d=json.loads(r['json_api'])
+   if not matches(d,r['id']) or d['base'].get('projectId')!=r['uuid_proyecto']:
+    c.execute("UPDATE publicaciones SET cpv=NULL,descripcion=NULL,adjudicatarios=NULL,importes=NULL,duracion=NULL,json_api=NULL,fecha_api=NULL,url_api=NULL,id_api=NULL,estado_api='error',error_api='Referencia incorrecta; JSON conservado en api_archivo' WHERE id=?",(r['id'],))
+  for r in c.execute('select * from api_archivo order by fecha').fetchall():
+   target=c.execute('select uuid_proyecto from publicaciones where id=?',(r['referencia'],)).fetchone()
+   if target and target[0]==r['proyecto']: apply(c,r['referencia'],json.loads(r['json']),r['fecha'],r['url'])
+ print('Reprocesamiento terminado; JSON originales conservados.')
+ return local_command(c,'auditoria')
+GROUPS={'legacy':r'legacy|altsystem|modernis|ablösung|vb6|visual basic|\bvba\b|microsoft access','migracion':r'migrat|migraz|umstellung','soberania':r'open.source|libreoffice|opendesk|souverän|souverain|software libre','desarrollo':r'softwareentwicklung|fachapplikation|fachanwendung|individualsoftware|développement logiciel|\.net\b|sql server|postgresql','seguridad':r'cyber|informationssicherheit|datenschutz|sécurité informatique','ia':r'künstliche intelligenz|artificial intelligence|intelligence artificielle|automatisierung|\brag\b'}
+def local_command(c,cmd):
+ if cmd in ('reparar','reprocesar'): return repair(c)
+ if cmd=='auditoria':
+  print('Integridad:',c.execute('pragma integrity_check').fetchone()[0]); print('Referencias incorrectas:',sum(not matches(json.loads(r[1]),r[0]) for r in c.execute('select id,json_api from publicaciones where json_api is not null')))
+  for k in ('cpv','descripcion','adjudicatarios','importes','duracion','json_api','organismo_api','canton_organismo'): print(k,c.execute('select count(*) from publicaciones where nullif(trim('+k+"),'') is not null").fetchone()[0])
+ elif cmd=='errores':
+  for r in c.execute("select id,tipo,error_api from publicaciones where estado_api='error'"): print(*r,sep=' | ')
+ elif cmd=='organismos':
+  for r in c.execute("select coalesce(organismo_id,organismo),min(coalesce(organismo_api,organismo)),count(distinct proyecto) n from publicaciones group by 1 order by n desc"): print(*r,sep=' | ')
+ elif cmd=='empresas':
+  from collections import defaultdict
+  firms=defaultdict(set); names={}
+  for r in c.execute("select proyecto,json_api from publicaciones where estado_api='ok' and tipo_api in ('award','direct_award')"):
+   for w in (json.loads(r[1]).get('decision') or {}).get('vendors') or []:
+    name=txt(w.get('vendorName')); key=w.get('vendorId') or norm(name)
+    if name: firms[key].add(r[0]); names[key]=name
+  for k,v in sorted(firms.items(),key=lambda x:-len(x[1])): print(names[k],len(v),sep=' | ')
+ elif cmd=='clasificar':
+  with c:
+   for r in c.execute('select id,titulo,descripcion from publicaciones').fetchall():
+    tags=[k for k,v in GROUPS.items() if re.search(v,(r[1] or '')+' '+(r[2] or ''),re.I)]; c.execute('update publicaciones set clasificacion=? where id=?',('; '.join(tags),r[0]))
+  print('Clasificación heurística terminada')
+ elif cmd=='oportunidades':
+  local_command(c,'clasificar')
+  for r in c.execute("select id,titulo,plazo,clasificacion,url from publicaciones where tipo like '%Ausschreibung%' and plazo>=datetime('now') and clasificacion<>'' order by plazo"): print(*r,sep=' | ')
+ elif cmd=='renovaciones':
+  for r in c.execute("select id,titulo,duracion from publicaciones where duracion is not null"): print(*r,sep=' | ')
+ elif cmd=='mercado':
+  for r in c.execute('select tipo,count(*),count(distinct proyecto) from publicaciones group by tipo'): print(*r,sep=' | ')
+ elif cmd=='informe':
+  for name in ('auditoria','mercado','organismos','empresas','oportunidades'): print('===',name,'==='); local_command(c,name)
+ return 0
+
+
+# Análisis local, sin peticiones web.
+TECH={
+ 'office_legacy':r'\b(?:vb6|visual basic(?: 6(?:\.0)?)?|vba|microsoft access|ms access|access datenbank|accdb|mdb|xlsm|docm|excel makro|word makro|office 20(?:03|07|10|13|16|19)|libreoffice|opendesk)\b',
+ 'dotnet':r'(?<!\w)\.net\b|\b(?:asp\.net|vb\.net|webforms|wcf|sql server|winforms|c#|dotnet)\b',
+ 'legacy':r'altsystem|altanwendung|ablösung|abloesung|modernisier|modernisation|obsolescen|bestandssystem|end.of.life|legacy|replatform|refactor|applicazioni legacy|système existant|systeme existant',
+ 'migration':r'migrat|migraz|datenübernahme|datenuebernahme|portierung|umstellung|reprise des données',
+ 'office':r'microsoft office|microsoft 365|\bm365\b|office 365|sharepoint|excel|libreoffice|openoffice|bureautique',
+ 'app':r'fachapplikation|fachanwendung|individualsoftware|softwareentwicklung|application métier|application metier|développement logiciel|applikationsentwicklung|anwendungsentwicklung',
+ 'open':r'open.source|souverän|souverain|libreoffice|opendesk|offene standards|logiciel libre',
+ 'dependency':r'herstellerabhängig|anbieterwechsel|vendor.lock.in|wechselkosten|systemwissen|quellcode|source code|proprietär|propriétaire|spezifische fach'}
+def verified(r):
+ try:
+  d=json.loads(r['json_api'] or '{}'); return d if matches(d,r['id']) and d['base'].get('projectId')==r['uuid_proyecto'] else {}
+ except (ValueError,TypeError,KeyError): return {}
+def technical(r,d):
+ fields={'titulo':r['titulo'] or ''}
+ for section,keys in {'procurement':('orderDescription','projectOrderDescription','executionNote','optionsNote','canContractBeExtendedNote'),'decision':('awardDecisionJustification','awardDecisionNote','totalPriceSelectionNote'),'terms':tuple(k for k in (d.get('terms') or {}) if k not in ('termsOfBusiness','remediesNotice')),'criteria':()}.items():
+  obj=d.get(section) or {}
+  if isinstance(obj,dict):
+   for k in keys:
+    v=txt(obj.get(k));
+    if v: fields[section+'.'+k]=v
+ for section in ('lots','criteria'):
+  for obj in walk(d.get(section)):
+   for k,v in obj.items():
+    if k in ('description','orderDescription','title','name','criterionDescription','note') and txt(v): fields[section+'.'+k+'#'+str(len(fields))]=txt(v)
+ hits=[]
+ for field,value in fields.items():
+  for tag,pattern in TECH.items():
+   m=re.search(pattern,value,re.I)
+   if m: hits.append((tag,field,' '.join(value[max(0,m.start()-95):m.end()+130].split())))
+ return hits
+
+def advanced(c,a):
+ import csv, collections, hashlib
+ rows=list(c.execute('select * from publicaciones order by fecha_publicacion,id'))
+ if a.canton: rows=[r for r in rows if (r['canton_organismo'] or '').upper()==a.canton.upper()]
+ if a.id:
+  seeds=[r for r in rows if r['id']==a.id or r['proyecto']==a.id or r['uuid_proyecto']==a.id]
+  if not seeds: raise SystemExit('Referencia no encontrada')
+  projects={r['uuid_proyecto'] for r in seeds}; rows=[r for r in rows if r['uuid_proyecto'] in projects]
+ def emit(header,items):
+  items=list(items); items=items[:a.limite] if a.limite>0 else items
+  if a.csv:
+   with open(a.csv,'w',encoding='utf-8',newline='') as f: w=csv.writer(f);w.writerow(header);w.writerows(items)
+  else:
+   print(' | '.join(header));
+   for item in items: print(' | '.join(str(x or '').replace('\n',' ') for x in item))
+ if a.cmd=='evidencias':
+  if not a.id or not a.carpeta: raise SystemExit('Usa --id REFERENCIA --carpeta DIRECTORIO')
+  import subprocess
+  root=Path(a.carpeta); out=[]
+  for f in sorted(root.rglob('*')):
+   if not f.is_file(): continue
+   try:
+    if f.suffix.lower() in ('.txt','.md','.csv'): content=f.read_text(errors='replace')
+    elif f.suffix.lower()=='.pdf': content=subprocess.run(['pdftotext','-layout',str(f),'-'],capture_output=True,check=True,timeout=90).stdout.decode(errors='replace')
+    elif f.suffix.lower() in ('.docx','.xlsx','.pptx','.odt','.ods'):
+     import xml.etree.ElementTree as ET
+     with zipfile.ZipFile(f) as z: content='\n'.join(' '.join(ET.fromstring(z.read(n)).itertext()) for n in z.namelist() if n.endswith('.xml') and (n.startswith(('word/','xl/','ppt/')) or n=='content.xml'))
+    else: continue
+    for tag,pat in TECH.items():
+     for m in list(re.finditer(pat,content,re.I))[:20]: out.append((a.id,str(f),tag,' '.join(content[max(0,m.start()-100):m.end()+130].split())))
+   except Exception as e: print(str(f)+': '+str(e),file=sys.stderr)
+  emit(('referencia_declarada','archivo','tema','fragmento'),out);return 0
+ out=[]; counts=collections.defaultdict(set); names={}
+ for r in rows:
+  d=verified(r); project=r['uuid_proyecto'] or r['proyecto']; office=(d.get('project-info') or {}).get('procOfficeAddress') or {}; dec=d.get('decision') or {}; hits=technical(r,d) if a.cmd in ('investigar','documentos','colaboradores','exportar') else []; tags={h[0] for h in hits}
+  score=sum({'office_legacy':10,'dotnet':6,'legacy':4,'migration':3,'office':3,'app':2,'open':3,'dependency':2}[t] for t in tags)
+  if a.cmd=='investigar' and hits:
+   for tag,field,fragment in hits: out.append((score,r['id'],r['titulo'],r['canton_organismo'],tag,field,fragment,r['url']))
+  if a.cmd=='documentos' and d.get('hasProjectDocuments') is True: out.append((score,r['id'],r['titulo'],r['canton_organismo'],r['url'],'; '.join(sorted(tags))))
+  if a.cmd=='historial': out.append((project,r['id'],r['fecha_publicacion'],r['tipo_api'] or r['tipo'],r['titulo'],r['plazo'],r['url']))
+  if a.cmd=='cpv':
+   for code in (r['cpv'] or '').split('; '):
+    if d and code: counts[code].add(project)
+  if a.cmd=='contactos' and office: out.append((r['id'],txt(office.get('name')),office.get('cantonId'),txt(office.get('city')),office.get('email'),office.get('phone'),txt(office.get('url'))))
+  if a.cmd in ('importes','colaboradores') and d.get('base',{}).get('type') in ('award','direct_award'):
+   for v in dec.get('vendors') or []:
+    name=txt(v.get('vendorName')); price=v.get('price') or {}; key=v.get('vendorId') or norm(name)
+    if a.cmd=='importes': out.append((project,r['id'],r['uuid_lote'],name,price.get('price'),price.get('currency'),price.get('vatType'),dec.get('awardDecisionDate'),r['tipo_api']))
+    elif name and score: counts[key].add(project);names[key]=name
+  if a.cmd=='exportar': out.append((r['id'],project,r['titulo'],r['tipo_api'],r['canton_organismo'],r['descripcion'],r['adjudicatarios'],r['url'],score))
+ if a.cmd in ('investigar','documentos'): out.sort(key=lambda x:-x[0])
+ if a.cmd in ('cpv','colaboradores'): out=[(names.get(k,k),len(v)) for k,v in sorted(counts.items(),key=lambda x:-len(x[1]))]
+ headers={'investigar':'puntos referencia titulo canton tema campo evidencia url','documentos':'puntos referencia titulo canton url temas','historial':'proyecto referencia fecha tipo titulo plazo url','cpv':'cpv proyectos','contactos':'referencia organismo canton ciudad email telefono web','importes':'proyecto referencia lote empresa importe moneda iva fecha tipo','colaboradores':'empresa proyectos_con_indicios','exportar':'referencia proyecto titulo tipo canton descripcion empresa url puntos'}
+ emit(headers[a.cmd].split(),out); return 0
+if __name__=='__main__': sys.exit(main())
